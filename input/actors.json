@@ -1,0 +1,712 @@
+[
+  {
+    "username": "M.Kapadia92",
+    "name": "Mo Kapadia",
+    "age": 27,
+    "picture": "0.jpg",
+    "gender": "Male",
+    "bio": "Foodie %uD83C%uDF72, photographer %uD83D%uDCF7, traveller %u2708%uFE0F, (aspiring) restaurant critic.",
+    "location": "New York, NY",
+    "class": "cohort"
+  },
+  {
+    "username": "SnakeCharmer",
+    "name": "Bao",
+    "age": 23,
+    "picture": "139.jpg",
+    "gender": "Male",
+    "bio": "love to travel and eat!",
+    "location": "my heart is in Houston",
+    "class": "normal"
+  },
+  {
+    "username": "livelaughlove",
+    "name": "Elizabeth Newman",
+    "age": 35,
+    "picture": "150.jpg",
+    "gender": "Female",
+    "bio": "love my husband, kids, and creative cooking... oh, and don't forget the wine!",
+    "location": "",
+    "class": "normal"
+  },
+  {
+    "username": "bblueberryy",
+    "name": "Emma Hanson",
+    "age": 26,
+    "picture": "155.jpg",
+    "gender": "Female",
+    "bio": "living the vegan life since 2002! Ask me about my fav plant-based recipes!",
+    "location": "Jefferson City, MO",
+    "class": "bully"
+  },
+  {
+    "username": "ancho-n-cayenne",
+    "name": "Yalonda Carter",
+    "age": 31,
+    "picture": "165.jpg",
+    "gender": "Female",
+    "bio": "The spice of life... is spice! %uD83C%uDF36%uFE0F%uD83C%uDF36%uFE0F",
+    "location": "Baltimore, MD",
+    "class": "cohort"
+  },
+  {
+    "username": "john73",
+    "name": "John",
+    "age": 31,
+    "picture": "23.jpg",
+    "gender": "Male",
+    "bio": "I love my kids, my wife, and my '73 mustang.",
+    "location": "Seattle, WA",
+    "class": "normal"
+  },
+  {
+    "username": "coachmatthews",
+    "name": "Eva Matthews",
+    "age": 32,
+    "picture": "37.jpg",
+    "gender": "Female",
+    "bio": "Mom, foodie, gymnastics coach. Nutrition is strength!",
+    "location": "Boston, MA",
+    "class": "cohort"
+  },
+  {
+    "username": "NoahM1121",
+    "name": "Noah Marshall",
+    "age": 28,
+    "picture": "genericphoto3.png",
+    "gender": "Male",
+    "bio": "breakfast all day",
+    "location": "PA",
+    "class": "normal"
+  },
+  {
+    "username": "MannyDL34",
+    "name": "Manuel De Leon",
+    "age": 30,
+    "picture": "6.jpg",
+    "gender": "Male",
+    "bio": "gotta eat em all",
+    "location": "",
+    "class": "normal"
+  },
+  {
+    "username": "sweetpea",
+    "name": "Ananya",
+    "age": 25,
+    "picture": "8.jpg",
+    "gender": "Female",
+    "bio": "the best thing in life is seeing my mom's face when I cook for *her* for a change",
+    "location": "San Francisco, CA",
+    "class": "normal"
+  },
+  {
+    "username": "mateoV",
+    "name": "Mateo",
+    "age": 40,
+    "picture": "genericphoto4.png",
+    "gender": "Male",
+    "bio": "burgers beer &baseball",
+    "location": "My house & mturk",
+    "class": "normal"
+  },
+  {
+    "username": "artisanalways",
+    "name": "Riya",
+    "age": 27,
+    "picture": "image-12.png",
+    "gender": "Female",
+    "bio": "artisan mugs and artisan hugs",
+    "location": "North Hempstead, NY",
+    "class": "normal"
+  },
+  {
+    "username": "Jcole9",
+    "name": "jcole",
+    "age": 48,
+    "picture": "image-120.png",
+    "gender": "Male",
+    "bio": "Sharing Momma's Carolina BBQ with the world.",
+    "location": "Charlotte",
+    "class": "normal"
+  },
+  {
+    "username": "_aikira_",
+    "name": "Aikira Walker",
+    "age": 21,
+    "picture": "image-13.png",
+    "gender": "Female",
+    "bio": "~~friends, food & sunshine~~",
+    "location": "",
+    "class": "normal"
+  },
+  {
+    "username": "fusionfeast",
+    "name": "Max Cho",
+    "age": 23,
+    "picture": "image-14.png",
+    "gender": "Male",
+    "bio": "Korean-Mexican fusion, inside and out.",
+    "location": "NJ",
+    "class": "normal"
+  },
+  {
+    "username": "lee.alexa",
+    "name": "Alexa Lee",
+    "age": 25,
+    "picture": "image-15.png",
+    "gender": "Female",
+    "bio": "blogger, dreamer, traveller, chef",
+    "location": "Plano, TX",
+    "class": "cohort"
+  },
+  {
+    "username": "ria_camiii",
+    "name": "Valeria Camilo",
+    "age": 28,
+    "picture": "image-18.png",
+    "gender": "Female",
+    "bio": "a smile is never the wrong decision",
+    "location": "Wichita, KA",
+    "class": "normal"
+  },
+  {
+    "username": "caffeinated",
+    "name": "Tiana Brown",
+    "age": 34,
+    "picture": "image-23.png",
+    "gender": "Female",
+    "bio": "still trying to make the perfect #cappucino",
+    "location": "",
+    "class": "normal"
+  },
+  {
+    "username": "earthpulse",
+    "name": "Sophia P.",
+    "age": 27,
+    "picture": "image-29.png",
+    "gender": "Female",
+    "bio": "**food**photos**earth-friendly fashion**",
+    "location": "Jersey City, NJ",
+    "class": "normal"
+  },
+  {
+    "username": "casssssssssie",
+    "name": "Cassie Reed",
+    "age": 24,
+    "picture": "image-31.png",
+    "gender": "Female",
+    "bio": "Adulting is hard so I'm taking pics to prove to myself that I can do it!",
+    "location": "White Plains, NY",
+    "class": "vicitim"
+  },
+  {
+    "username": "breethebaker",
+    "name": "Breanne Carman-Hines",
+    "age": 27,
+    "picture": "image-41.png",
+    "gender": "Female",
+    "bio": "sweet baking, savory baking... if the oven's on, I'm in.",
+    "location": "Salt Lake City, UT",
+    "class": "normal"
+  },
+  {
+    "username": "kittycatbakes",
+    "name": "KittyCatBakes",
+    "age": 29,
+    "picture": "image-45.png",
+    "gender": "Female",
+    "bio": "beginning traveller, amateur knitter, intermediate baker",
+    "location": "",
+    "class": "normal"
+  },
+  {
+    "username": "localewis",
+    "name": "Remy Lewis",
+    "age": 25,
+    "picture": "male-33.jpg",
+    "gender": "Male",
+    "bio": "The coolest locavore bartender in the West.",
+    "location": "Lincoln, NE",
+    "class": "cohort"
+  },
+  {
+    "username": "jupiterpride",
+    "name": "Jamie Taggart",
+    "age": 26,
+    "picture": "image-51.png",
+    "gender": "Male",
+    "bio": "eating whatever and having a blast in Jupiter, FL!",
+    "location": "Jupiter, FL",
+    "class": "normal"
+  },
+  {
+    "username": "breathe_in",
+    "name": "Aimee Lin",
+    "age": 23,
+    "picture": "image-7.png",
+    "gender": "Female",
+    "bio": "meditation & clean eating (& the occasional martini) make the world go round",
+    "location": "Atlanta, GA",
+    "class": "normal"
+  },
+  {
+    "username": "jackrussellmom",
+    "name": "Karen Laretti",
+    "age": 33,
+    "picture": "image-8.png",
+    "gender": "Female",
+    "bio": "love my jack russels %uD83D%uDC36 %u2764%uFE0F",
+    "location": "Chula Vista, CA",
+    "class": "normal"
+  },
+  {
+    "username": "lavenderrrrrr",
+    "name": "Sofia",
+    "age": 38,
+    "picture": "image-8.png",
+    "gender": "Female",
+    "bio": "semi-pro food photographer %uD83D%uDCF7",
+    "location": "Maui, HI",
+    "class": "normal"
+  },
+  {
+    "username": "tastyrobot",
+    "name": "TastyHae",
+    "age": 24,
+    "picture": "image-80.png",
+    "gender": "Female",
+    "bio": "i'd say that fast food is my guilty pleasure, but I don't actually feel guilty about it.",
+    "location": "Pittsburgh, PA",
+    "class": "normal"
+  },
+  {
+    "username": "wiz_khaleesi",
+    "name": "Wiz Khaleesi",
+    "age": 25,
+    "picture": "image-89.png",
+    "gender": "Female",
+    "bio": "%uD83D%uDD25%uD83D%uDD25%uD83D%uDD25",
+    "location": "",
+    "class": "normal"
+  },
+  {
+    "username": "cavsforever",
+    "name": "Hiran",
+    "age": 37,
+    "picture": "image-94.png",
+    "gender": "Male",
+    "bio": "#1 CAVS FAN",
+    "location": "Cleveland, OH",
+    "class": "normal"
+  },
+  {
+    "username": "tacoguy",
+    "name": "Santiago Coros",
+    "age": 28,
+    "picture": "male-78.jpg",
+    "gender": "Male",
+    "bio": "real life: grad student in physics. dream life: taco truck owner",
+    "location": "your moms house",
+    "class": "normal"
+  },
+  {
+    "username": "Ataylor",
+    "name": "Ataylor",
+    "age": 42,
+    "picture": "image-92.png",
+    "gender": "Male",
+    "bio": "Sending prayers & blessings for your life journey.",
+    "location": "Arlington, VA",
+    "class": "normal"
+  },
+  {
+    "username": "Sue_S",
+    "name": "Sue Shaw",
+    "age": 45,
+    "picture": "genericphoto6.png",
+    "gender": "Female",
+    "bio": "one day at a time",
+    "location": "Boise, ID",
+    "class": "normal"
+  },
+  {
+    "username": "karenM",
+    "name": "Karen M.",
+    "age": 39,
+    "picture": "female-76.jpg",
+    "gender": "Female",
+    "bio": "trust in the Lord",
+    "location": "CA",
+    "class": "normal"
+  },
+  {
+    "username": "jake_turk",
+    "name": "Jake T.",
+    "age": 30,
+    "picture": "jaket.jpeg",
+    "gender": "Male",
+    "bio": "insert witty bio here",
+    "location": "NY",
+    "class": "normal"
+  },
+  {
+    "username": "snowbird",
+    "name": "Jake Owens",
+    "age": 32,
+    "picture": "1.jpg",
+    "gender": "Male",
+    "bio": "eat + sleep + tear it up",
+    "location": "Burlington, VT",
+    "class": "normal"
+  },
+  {
+    "username": "youngcunningham",
+    "name": "Michael Cunningham",
+    "age": 22,
+    "picture": "3.jpg",
+    "gender": "Male",
+    "bio": "football is life. UT Nutrition Program '18.",
+    "location": "TN",
+    "class": "normal"
+  },
+  {
+    "username": "generic-joe",
+    "name": "Joe G.",
+    "age": 25,
+    "picture": "",
+    "gender": "Male",
+    "bio": "I'm generic!",
+    "location": "Ithaca, NY",
+    "class": "highread"
+  },
+  {
+    "username": "Smitty12",
+    "name": "Dennis Smith",
+    "age": 24,
+    "picture": "11.jpg",
+    "gender": "Male",
+    "bio": "Lover of all things Boston",
+    "location": "Boston, MA",
+    "class": "normal"
+  },
+  {
+    "username": "hockeymom101",
+    "name": "Tracey Green",
+    "age": 37,
+    "picture": "15.png",
+    "gender": "Female",
+    "bio": "proud mom of two amazing boys!",
+    "location": "Hanover, NH",
+    "class": "normal"
+  },
+  {
+    "username": "SamTHEMAN",
+    "name": "Sam Kaldis",
+    "age": 20,
+    "picture": "16.jpg",
+    "gender": "Male",
+    "bio": "UC '20      Just looking for good friends, good food and good times",
+    "location": "Green Bay, WI",
+    "class": "normal"
+  },
+  {
+    "username": "Marcymaniac",
+    "name": "Marcel Bauld",
+    "age": 21,
+    "picture": "13.png",
+    "gender": "Male",
+    "bio": "Keep on Rocking in the free world",
+    "location": "Fargo, ND",
+    "class": "normal"
+  },
+  {
+    "username": "HP743",
+    "name": "Heather",
+    "age": 25,
+    "picture": "bot1.png",
+    "gender": "Female",
+    "bio": "Master Chef and Steering Wheel Karaoke Enthusiast",
+    "location": "",
+    "class": "normal"
+  },
+  {
+    "username": "southerngirlCel",
+    "name": "Celia McCarron",
+    "age": 21,
+    "picture": "bot43.jpg",
+    "gender": "Female",
+    "bio": "",
+    "location": "Scottsdale, AR",
+    "class": "normal"
+  },
+  {
+    "username": "BossmanRy",
+    "name": "Ryan Haiskenen",
+    "age": 35,
+    "picture": "12.jpg",
+    "gender": "Male",
+    "bio": "what do you call a nosy pepper? .....Jalepeno Business",
+    "location": "Chicago",
+    "class": "normal"
+  },
+  {
+    "username": "TomM41",
+    "name": "Tom Mallott",
+    "age": 45,
+    "picture": "14.jpg",
+    "gender": "Male",
+    "bio": "Business Professional. Husband. Father.",
+    "location": "Florida",
+    "class": "normal"
+  },
+  {
+    "username": "BeardedMatt",
+    "name": "Matthew McConville",
+    "age": 33,
+    "picture": "Bot-Sp18.1.jpg",
+    "gender": "Male",
+    "bio": "Eating all the ribs with my blue eyes.  BBQ side options: mac n' cheese + beans",
+    "location": "Home @TX",
+    "class": "normal"
+  },
+  {
+    "username": "MedicalRyan",
+    "name": "Ryan Loves TACO",
+    "age": 28,
+    "picture": "Bot-Sp18.2.jpg",
+    "gender": "Male",
+    "bio": "MD Student at UCLA. TACOS %uD83C%uDF2E TACOS %uD83C%uDF2E TACOS %uD83C%uDF2E TACOS %uD83C%uDF2E TACOS %uD83C%uDF2E",
+    "location": "West coast, best coast",
+    "class": "normal"
+  },
+  {
+    "username": "Lisa181818",
+    "name": "Lisa",
+    "age": 38,
+    "picture": "Bot-Sp18.3.jpg",
+    "gender": "Female",
+    "bio": "Health-convious mama in Kentucky. %uD83D%uDEAB GMO %uD83C%uDF31 Natural Food",
+    "location": "Proud Red State--KY",
+    "class": "normal"
+  },
+  {
+    "username": "this_jack",
+    "name": "Jack Boy",
+    "age": 26,
+    "picture": "Bot-Sp18.4.jpg",
+    "gender": "Male",
+    "bio": "%uD83D%uDE02 It's a car air freshner that I stick into my nose.",
+    "location": "New York, NY",
+    "class": "normal"
+  },
+  {
+    "username": "PatelS",
+    "name": "Shristi Patel",
+    "age": 25,
+    "picture": "Bot-Sp18.5.jpg",
+    "gender": "Female",
+    "bio": "Not your every day Indian girl who loves butter chicken.",
+    "location": "Wakanda or Hogwarts",
+    "class": "normal"
+  },
+  {
+    "username": "DonDonDonna",
+    "name": "DonnaHAMMERSMITH",
+    "age": 30,
+    "picture": "Bot-Sp18.6.jpg",
+    "gender": "Female",
+    "bio": "RN at Mercy Hospital. %uD83D%uDE0B Open Relationship with @MikeN%uD83D%uDCCD Fort Smith, AR",
+    "location": "Fort Smith, AR",
+    "class": "normal"
+  },
+  {
+    "username": "EmmaSmith0214",
+    "name": "Emma Smith",
+    "age": 33,
+    "picture": "Bot-Sp18.7.jpg",
+    "gender": "Female",
+    "bio": "%uD83D%uDCF1 Social Media Specialist. Corgi mama. Buffalo Wings Supporter. <3 WNY",
+    "location": "Online 24/7",
+    "class": "normal"
+  },
+  {
+    "username": "B.Mike",
+    "name": "Mike B.",
+    "age": 33,
+    "picture": "Bot-Sp18.8.jpg",
+    "gender": "Male",
+    "bio": "Journey to a healthier life. Blink gym is my home. #RunFatBoyRun",
+    "location": "Scottland -> Brooklyn, NY",
+    "class": "normal"
+  },
+  {
+    "username": "mariaann",
+    "name": "mariaann",
+    "age": 38,
+    "picture": "Bot-Sp18.12.JPG",
+    "gender": "Female",
+    "bio": "Proud hispanic",
+    "location": "Santa Fe!!!",
+    "class": "normal"
+  },
+  {
+    "username": "thisisalfie1998",
+    "name": "thisisalfie1999",
+    "age": 20,
+    "picture": "Bot-Sp18.16.jpg",
+    "gender": "Male",
+    "bio": "HDA '15 --> UChi '19 Go bears!!!",
+    "location": "Chicago",
+    "class": "normal"
+  },
+  {
+    "username": "KatieeeM",
+    "name": "KatieeeM",
+    "age": 25,
+    "picture": "Bot-Sp18.9.JPG",
+    "gender": "Female",
+    "bio": "May the (food) force be with you always",
+    "location": "Tatooine",
+    "class": "normal"
+  },
+  {
+    "username": "TimBJenkins",
+    "name": "Dad Jenkins",
+    "age": 42,
+    "picture": "Bot-Sp18.14.jpg",
+    "gender": "Male",
+    "bio": "Husband of a strong businesswoman and father of a beautiful ballerina",
+    "location": "",
+    "class": "normal"
+  },
+  {
+    "username": "jiruletheworld",
+    "name": "Jin Ying",
+    "age": 23,
+    "picture": "Bot-SP18.22.png",
+    "gender": "Male",
+    "bio": "Workout %uD83C%uDFCB, Travel %u2708, Eat %uD83C%uDF74",
+    "location": "",
+    "class": "normal"
+  },
+  {
+    "username": "ayoitsayo",
+    "name": "Maui Ayo",
+    "age": 26,
+    "picture": "Bot-SP18.23.png",
+    "gender": "Male",
+    "bio": "What's up, guys! Let me see some goodies ova here.",
+    "location": "Honolulu, HI",
+    "class": "normal"
+  },
+  {
+    "username": "sweetietooth",
+    "name": "Wendy",
+    "age": 42,
+    "picture": "Bot-SP18.17.png",
+    "gender": "Female",
+    "bio": "I have a constant sweet tooth, so I like anything from the bakery, like cupcakes, cookies.",
+    "location": "Champaign, IL",
+    "class": "normal"
+  },
+  {
+    "username": "dana84",
+    "name": "Dana Cox",
+    "age": 34,
+    "picture": "Bot-SP18.18.png",
+    "gender": "Female",
+    "bio": "It's me, Dana.",
+    "location": "Ann Arbor, MI",
+    "class": "normal"
+  },
+  {
+    "username": "lucyinurdreams",
+    "name": "Lucy Gregory",
+    "age": 28,
+    "picture": "Bot-SP18.21.png",
+    "gender": "Female",
+    "bio": "Cooking is like painting. Like colors, there are only so many flavors - it's how you combine them that sets you apart.",
+    "location": "NYC",
+    "class": "normal"
+  },
+  {
+    "username": "chefricky",
+    "name": "Ricky Hopkins",
+    "age": 41,
+    "picture": "Bot-SP18.20.png",
+    "gender": "Male",
+    "bio": "The simplest things in life give me the most pleasure: cooking a good meal, enjoying my friends.",
+    "location": "Texas",
+    "class": "normal"
+  },
+  {
+    "username": "clayton.myers",
+    "name": "clayton.myers",
+    "age": 25,
+    "picture": "genericphoto5.png",
+    "gender": "Male",
+    "bio": "The most dangerous drinking game is seeing how long I can go without coffee.",
+    "location": "Pinehurst, NC",
+    "class": "normal"
+  },
+  {
+    "username": "aleeboi",
+    "name": "Alex Lee",
+    "age": 35,
+    "picture": "Bot-SP18.24.png",
+    "gender": "Male",
+    "bio": "Food makes me happy. I want to share the happiness with you!",
+    "location": "Sunny Los Anageles",
+    "class": "normal"
+  },
+  {
+    "username": "mewranda",
+    "name": "mewranda",
+    "age": 22,
+    "picture": "genericphoto1.png",
+    "gender": "Female",
+    "bio": "Cat & Food & Love",
+    "location": "Home with 6 cats",
+    "class": "normal"
+  },
+  {
+    "username": "masterchefterry",
+    "name": "masterchefterry",
+    "age": 32,
+    "picture": "Bot-Sp18.13.JPG",
+    "gender": "Male",
+    "bio": "I'm a chef with a side job as lawyer",
+    "location": "Washington, DC",
+    "class": "normal"
+  },
+  {
+    "username": "gwenfromtheblock",
+    "name": "GwenfromtheBlock",
+    "age": 28,
+    "picture": "person 2.jpeg",
+    "gender": "Female",
+    "bio": "Traveller %u2708%uFE0F%uD83D%uDE83%uD83D%uDE98",
+    "location": "Nashville",
+    "class": "normal"
+  },
+  {
+    "username": "fgonzalez",
+    "name": "MomFiona",
+    "age": 45,
+    "picture": "genericphoto2.png",
+    "gender": "Female",
+    "bio": "",
+    "location": "austin texas",
+    "class": "normal"
+  },
+  {
+    "username": "VitaBOCA",
+    "name": "VitaBOCA",
+    "age": 25,
+    "picture": "VitaBOCA.png",
+    "gender": "Female",
+    "bio": "%u2714Fat Loss Never Tasted So Good.\n%u2714Reduces Cravings.\n%u2714Enhances Mood\n%u2714Enhances Definition & Leanness.\n%u2714All Day, Smooth Energy.",
+    "location": "New York, NY",
+    "class": "normal"
+  }
+]

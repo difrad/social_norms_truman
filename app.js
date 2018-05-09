@@ -83,7 +83,7 @@ const app = express();
 mongoose.Promise = global.Promise;
 
 //mongoose.connect(process.env.MONGODB_URI || process.env.MONGOLAB_URI);
-mongoose.connect(process.env.PRO_MONGODB_URI || process.env.PRO_MONGOLAB_URI);
+mongoose.connect(process.env.MONGOLAB_TEST || process.env.PRO_MONGOLAB_URI, { useMongoClient: true });
 mongoose.connection.on('error', (err) => {
   console.error(err);
   console.log('%s MongoDB connection error. Please make sure MongoDB is running.', chalk.red('✗'));
@@ -151,7 +151,7 @@ app.use(session({
   },
   secret: process.env.SESSION_SECRET,
   store: new MongoStore({
-    url: process.env.PRO_MONGODB_URI || process.env.PRO_MONGOLAB_URI,
+    url: process.env.MONGOLAB_TEST || process.env.PRO_MONGOLAB_URI,
     autoReconnect: true,
     clear_interval: 3600
   })
@@ -250,6 +250,11 @@ app.get('/completed', passportConfig.isAuthenticated, userController.userTestRes
 
 app.get('/notifications', passportConfig.isAuthenticated, notificationController.getNotifications);
 
+app.get('/test_comment', function (req, res) {
+  res.render('test', {
+    title: 'Test Comments'
+  });
+});
 
 app.get('/login', userController.getLogin);
 app.post('/login', userController.postLogin);

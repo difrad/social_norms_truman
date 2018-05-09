@@ -167,8 +167,9 @@ exports.postSignup = (req, res, next) => {
   }
 
   //random assignment of experimental group
-  var result = ['no:no', 'no:low', 'no:high', 'ui:no', 'ui:low', 'ui:high'][Math.floor(Math.random() * 6)]
+  var result = ['no:no:no', 'no:low:no', 'no:high:no','yes:no:no', 'yes:low:no', 'yes:high:no','no:no:yes', 'no:low:yes', 'no:high:yes','yes:no:yes', 'yes:low:yes', 'yes:high:yes'][Math.floor(Math.random() * 12)]
   var resultArray = result.split(':');
+  //[0] is Social Transparency, [1] is Profile Perspective Taking, [2] Comment Prompt
   const user = new User({
     email: req.body.email,
     password: req.body.password,
@@ -176,8 +177,11 @@ exports.postSignup = (req, res, next) => {
     username: req.body.username,
     group: result,
     active: true,
-    ui: resultArray[0], //ui or no
-    notify: resultArray[1], //no, low or high
+    ui: 'no', //ui or no
+    notify: "no", //no, low or high
+    transparency: resultArray[0],
+    profile_perspective: resultArray[1],
+    comment_prompt: resultArray[2],
     lastNotifyVisit : Date.now()
   });
 

@@ -26,6 +26,10 @@ const userSchema = new mongoose.Schema({
   ui: String,    //just UI type (no or ui)
   notify: String, //notification type (no, low or high)
 
+  transparency: String,    //just UI type (no or yes)
+  profile_perspective: String, //notification type (no, low or high)
+  comment_prompt: String, //notification type (no or yes)
+
   tokens: Array,
 
   blocked: [String],
@@ -71,6 +75,7 @@ const userSchema = new mongoose.Schema({
 
   feedAction: [new Schema({
         post: {type: Schema.ObjectId, ref: 'Script'},
+        //add in object to see which comments were linked and flagged
         postClass: String,
         rereadTimes: Number, //number of times post has been viewed by user
         startTime: Number, //always the newest startTime (full date in ms)
@@ -78,7 +83,15 @@ const userSchema = new mongoose.Schema({
         readTime : [Number],
         flagTime  : [Number],
         likeTime  : [Number],
-        replyTime  : [Number]
+        replyTime  : [Number],
+        
+        comments: [new Schema({
+          comment: {type: Schema.ObjectId},
+          liked: {type: Boolean, default: false},
+          flagged: {type: Boolean, default: false},
+          flagTime  : [Number],
+          likeTime  : [Number]
+          })]
     }, {_id: true})],
 
   profile: {

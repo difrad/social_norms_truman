@@ -40,10 +40,15 @@ $(window).on("load", function() {
   //get add new reply post modal to show
   $('.reply.button').click(function () {
     
-    let postID = $(this).closest( ".ui.fluid.card.dim" ).attr( "postID" );
-    $('#replyInput').attr("value", postID);
+    let parent = $(this).closest( ".ui.fluid.card.dim" );
+    let postID = parent.attr( "postID" );
 
-    $(' .ui.small.reply.modal').modal('show');
+    parent.find( "input.newcomment" ).focus();
+
+    //$('input[name=firstName]').focus();
+    //$('#replyInput').attr("value", postID);
+
+    //$(' .ui.small.reply.modal').modal('show');
 });
 
   //get add new feed post modal to work
@@ -282,6 +287,41 @@ $('.right.floated.time.meta, .date').each(function() {
 
   });
 
+  //a.like.comment
+  $('a.like.comment')
+  .on('click', function() {
+
+    //if already liked, unlike if pressed
+    if ( $( this ).hasClass( "red" ) ) {
+        console.log("***********UNLIKE: post");
+        //Un read Like Button
+        $( this ).removeClass("red");
+
+        var comment = $(this).parents( ".comment" );
+        comment.find( "i.heart.icon" ).removeClass("red");
+
+        var label = comment.find( "span.num" );
+        label.html(function(i, val) { return val*1-1 });
+    }
+    //since not red, this button press is a LIKE action
+    else{
+      $(this).addClass("red");
+      var comment = $(this).parents( ".comment" );
+      comment.find( "i.heart.icon" ).addClass("red");
+
+      var label = comment.find( "span.num" );
+      label.html(function(i, val) { return val*1+1 });
+
+      var postID = $(this).closest( ".ui.fluid.card.dim" ).attr( "postID" );
+      var commentID = comment.attr("commentID")
+      var like = Date.now();
+      console.log("#########COMMENT LIKE:  PostID"+postID+", Comment ID"+commentID+" at time "+like);
+      $.post( "/feed", { postID: postID, commentID: commentID, like: like, _csrf : $('meta[name="csrf-token"]').attr('content') } );
+
+    }
+
+  });
+
   //this is the FLAG button
   $('.flag.button')
   .on('click', function() {
@@ -323,6 +363,16 @@ $('.right.floated.time.meta, .date').each(function() {
   });
 
 
+//////TESTING
+setTimeout(function() {
+  //.ui.fluid.card.test
+    $('.ui.fluid.card.test .content.read')
+      .transition({
+        animation: 'fade down',
+        duration   : '1.5s',
+      });
+      }.bind(this), 1500);
+
   //Dimm cards as user scrolls - send Post to update DB on timing of events .image
   //$('.ui.fluid.card.dim') img.post $('.ui.fluid.card.dim .image'
   $('img.post')
@@ -344,24 +394,20 @@ $('.right.floated.time.meta, .date').each(function() {
         console.log(":::::Now passing onBottomPassed:::::");
         var parent = $(this).parents(".ui.fluid.card.dim");
 
-        //As Long as Dimmer is not Active and We have a UI condistion - Dimm screen and send Post READ event
-        if (!(parent.dimmer('is active')) && (parent.attr( "ui" )=='ui'))
+        //As Post is not READ and We have a transparency condistion - Show Read Conent and send Post READ event
+        if ((!(parent.attr( "state" )=='read')) && (parent.attr( "transparency" )=='yes'))
         {
-          console.log("::::UI passing::::DIMMING NOW::::::::");
+          console.log("::::UI passing::::Adding Seen Box Now::::::::");
 
           var postID = parent.attr( "postID" );
           var read = Date.now();
-          //actual dim the element
-          parent.find(".ui.inverted.read.dimmer").dimmer({
-                   closable: false
-                  })
-                  .dimmer('show');
-          //some weird reason this dimmer will be closable if not "dimmed" twice
-          parent.find(".ui.inverted.read.dimmer").dimmer({
-                   closable: false
-                  })
-                  .dimmer('show');
-          //send post to server to update DB that we have now read this
+
+          //actual show the element
+           parent.find('.content.read')
+            .transition({
+              animation: 'fade down',
+              duration   : '1.5s',
+            });
           console.log("::::UI passing::::SENDING POST TO DB::::::::");
           $.post( "/feed", { postID: postID, read: read, _csrf : $('meta[name="csrf-token"]').attr('content') } );
 
@@ -372,7 +418,7 @@ $('.right.floated.time.meta, .date').each(function() {
         //else if ((parent.attr( "ui" )=='no') && (parent.attr( "state" )=='unread'))
 
         //Need to get all "read" and "start" times in non-UI case (as all other times rests on it)
-        else if ((parent.attr( "ui" )=='no'))
+        else if ((parent.attr( "transparency" )=='no'))
         {
           console.log("::::NO UI passing:::");
           //console.log("::::first time reading -> UNREAD:::");
@@ -388,7 +434,7 @@ $('.right.floated.time.meta, .date').each(function() {
 
         //UI and DIMMED READ, which does not count as a READ
         else
-          {console.log("::::passing::::Already dimmed - do nothing - UI is now "+parent.attr( "ui" ));}
+          {console.log("::::passing::::Already dimmed - do nothing - transparency is now "+parent.attr( "transparency" ));}
 
       },
 
@@ -397,28 +443,12 @@ $('.right.floated.time.meta, .date').each(function() {
         console.log("@@@@@@@ Now Seen @@@@@@@@@");
         var parent = $(this).parents(".ui.fluid.card.dim");
         
-        //Post is not DIMMED (SO WE CAN SEE IT) - and We are in UI condistion - POST START EVENT to DB
-        if (!(parent.dimmer('is active')) && (parent.attr( "ui" )=='ui'))
-        {
+        
           var postID = parent.attr( "postID" );
           var start = Date.now();
           console.log("@@@@@@@ UI!!!! @@@@@@SENDING TO DB@@@@@@START POST UI has seen post "+postID+" at time "+start);
 
           $.post( "/feed", { postID: postID, start: start, _csrf : $('meta[name="csrf-token"]').attr('content') } );
-          
-        }
-        //if not UI, we still need to Update DB with new START time
-        //else if ((parent.attr( "ui" )=='no')&& (parent.attr( "state" )=='unread'))
-        else if ((parent.attr( "ui" )=='no'))
-        {
-          var postID = parent.attr( "postID" );
-          var start = Date.now();
-          console.log("@@@@@@@ NO UI!!!! @@@@@@START@@@@@@START@@@@@@@ POST has seen post "+postID+" at time "+start)
-          $.post( "/feed", { postID: postID, start: start, _csrf : $('meta[name="csrf-token"]').attr('content') } );
-        }
-
-        else
-          {console.log("@@@@@@@ Now Seen @@@@@@@@@  START Already dimmed - do nothing - OR NO UI");}
 
         }
   })

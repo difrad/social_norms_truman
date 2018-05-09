@@ -12,6 +12,7 @@ var mongoose = require('mongoose');
 var fs = require('fs')
 
 
+/*
 var highUsers = require('./highusers.json');
 var actors1 = require('./actorsv1.json');
 var posts1 = require('./postsv1.json');
@@ -19,6 +20,11 @@ var post_reply1 = require('./post_replyv1.json');
 var actorReply = require('./actorReply.json');
 var notify = require('./notify.json');
 var dd = require('./upload_post_replyv1.json');
+*/
+
+var actors_list = require('./input/actors.json');
+var posts_list = require('./input/posts.json');
+var comment_list = require('./input/comments.json');
 
 dotenv.load({ path: '.env' });
 
@@ -27,7 +33,7 @@ var MongoClient = require('mongodb').MongoClient
 
 
 //var connection = mongo.connect('mongodb://127.0.0.1/test');
-mongoose.connect(process.env.PRO_MONGODB_URI || process.env.PRO_MONGOLAB_URI);
+mongoose.connect(process.env.MONGOLAB_TEST);
 var db = mongoose.connection;
 mongoose.connection.on('error', (err) => {
   console.error(err);
@@ -41,10 +47,23 @@ String.prototype.capitalize = function() {
     return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
+function insert_order(element, array) {
+  array.push(element);
+  array.sort(function(a, b) {
+    return a.time - b.time;
+  });
+  return array;
+}
+
 function timeStringToNum (v) {
   var timeParts = v.split(":");
-  return parseInt(((timeParts[0] * (60000 * 60)) + (timeParts[1] * 60000)), 10);
-}
+  if (timeParts[0] =="-0")
+    return -1*parseInt(((timeParts[0] * (60000 * 60)) + (timeParts[1] * 60000)), 10);
+  else if (timeParts[0].startsWith('-'))
+    return parseInt( ((timeParts[0] * (60000 * 60)) + (-1*(timeParts[1] * 60000))), 10);
+  else
+    return parseInt(((timeParts[0] * (60000 * 60)) + (timeParts[1] * 60000)), 10);
+};
 
 function getLikes() {
   var notRandomNumbers = [1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 5, 6];
@@ -269,50 +288,206 @@ function actorNotifyCreate(new_notify) {
   });
 
 };
-/*
-for (var i = 0, len = actors1.length; i < len; i++) {
-  
-      console.log("@@@Looking at "+actors1[i].username);
-      ActorCreate(actors1[i]);
 
-}
-/*
-for (var i = 0, len = highUsers.results.length; i < len; i++) {
-  
-      highActorCreate(highUsers.results[i]);
+
+function createActorInstances() {
+  async.each(actors_list, function(actor_raw, callback) {
+
+    actordetail = {};
+    actordetail.profile = {};
+
+    actordetail.profile.name = actor_raw.name
+    actordetail.profile.gender = actor_raw.gender;
+    actordetail.profile.location = actor_raw.location;
+    actordetail.profile.picture = actor_raw.picture;
+    actordetail.profile.bio = actor_raw.bio;
+    actordetail.profile.age = actor_raw.age;
+    actordetail.class = actor_raw.class;
+    actordetail.username = actor_raw.username;
+    
+    var actor = new Actor(actordetail);
+         
+    actor.save(function (err) {
+      if (err) {
+        console.log("Something went wrong!!!");
+        return -1;
+      }
+      console.log('New Actor: ' + actor.username);
+      callback();
+    });
+
+    },
+    function(err){
+      //return response
+      console.log("All DONE!!!")
+    }
+  );
 }
 
-for (var i = 0, len = notify.length; i < len; i++) {
-      
-      NotifyCreate(notify[i]);
-}
-for (var i = 0, len = posts1.length; i < len; i++) {
-      
-      PostCreate(posts1[i]);
-}
-for (var i = 0, len = post_reply1.length; i < len; i++) {
-      
-      PostReplyCreate(post_reply1[i]);
+function createPostInstances() {
+  async.each(posts_list, function(new_post, callback) {
+
+    Actor.findOne({ username: new_post.actor}, (err, act) => {
+        //if (err) { console.log(err); return next(err); }
+        console.log("start post for: "+new_post.id);
+
+        if(act)
+        {
+          console.log('Looking up Actor username is : ' + act.username); 
+          var postdetail = new Object();
+
+          //postdetail.module = new_post.module;
+          postdetail.body = new_post.body
+
+          //only for likes posts
+          postdetail.post_id = new_post.id;
+
+          postdetail.class = new_post.class;
+          postdetail.picture = new_post.picture;
+          postdetail.likes = getLikes();
+          //postdetail.likes = getLikes();
+          postdetail.lowread = getReads(6,20);
+          postdetail.highread = getReads(145,203);
+          postdetail.actor = act;
+          postdetail.time = timeStringToNum(new_post.time);
+
+          //console.log('Looking up Actor: ' + act.username); 
+          //console.log(mongoose.Types.ObjectId.isValid(postdetail.actor.$oid));
+          //console.log(postdetail);
+          
+          var script = new Script(postdetail);
+
+          script.save(function (err) {
+          if (err) {
+            console.log("Something went wrong in Saving POST!!!");
+            console.log(err);
+             callback(err);
+          }
+          console.log('Saved New Post: ' + script.id);
+          callback();
+        });
+      }//if ACT
+
+      else
+      {
+        //Else no ACTOR Found
+        console.log("No Actor Found!!!");
+        callback();
+      }
+      console.log("BOTTOM OF SAVE");
+
+      });
+    },
+      function(err){
+        if (err) {
+          console.log("END IS WRONG!!!");
+          console.log(err);
+          callback(err);
+        }
+        //return response
+        console.log("All DONE WITH POSTS!!!")
+        //mongoose.connection.close();
+      }
+  );
 }
 
-for (var i = 0, len = dd.length; i < len; i++) {
-      
-      PostReplyCreateFinal(dd[i]);
-}
-for (var i = 0, len = actorReply.length; i < len; i++) {
-      
-      actorNotifyCreate(actorReply[i]);
-}
-for (var i = 0, len = actorReply.length; i < len; i++) {
-      
-      actorNotifyCreate(actorReply[i]);
-}
-*/
+//replies_list
+function createPostRepliesInstances() {
+  async.each(comment_list, function(new_replies, callback) {
 
-for (var i = 0, len = dd.length; i < len; i++) {
-      
-      PostReplyCreateFinal(dd[i]);
+    console.log("start REPLY for: "+new_replies.id);
+    Actor.findOne({ username: new_replies.actor}, (err, act) => {
+
+      if(act)
+      {
+          Script.findOne({ post_id: new_replies.reply}, function(err, pr){
+
+            if(pr){    
+        
+              console.log('Looking up Actor ID is : ' + act._id); 
+              console.log('Looking up OP POST ID is : ' + pr._id); 
+              var comment_detail = new Object();
+              //postdetail.actor = {};
+              comment_detail.body = new_replies.body
+              comment_detail.commentID = new_replies.id;
+              comment_detail.class = new_replies.class;
+              console.log('Time is : ' + new_replies.time); 
+              comment_detail.time = timeStringToNum(new_replies.time);
+              comment_detail.likes = getLikes();
+              comment_detail.actor = act;
+
+              pr.comments = insert_order(comment_detail, pr.comments);
+              
+
+              console.log('Looking up Actor: ' + act.username); 
+              
+              
+              //var script = new Script(postdetail);
+
+              pr.save(function (err) {
+              if (err) {
+                console.log("Something went wrong in Saving COMMENT!!!");
+                console.log(err);
+                callback(err);
+              }
+              console.log('Added new Comment to Post: ' + pr.id);
+              callback();
+            });
+            }// if PR
+
+            else
+            {
+              //Else no ACTOR Found
+              console.log("No POST Found!!!");
+              callback();
+            }
+          });//Script.findOne
+      }//if ACT
+
+      else
+      {
+        //Else no ACTOR Found
+        console.log("No Actor Found!!!");
+        callback();
+      }
+      console.log("BOTTOM OF SAVE");
+
+      });
+    },
+      function(err){
+        if (err) {
+          console.log("END IS WRONG!!!");
+          console.log(err);
+           callback(err);
+        }
+        //return response
+        console.log("All DONE WITH REPLIES/Comments!!!")
+        //mongoose.connection.close();
+      }
+  );
 }
+
+
+/*async.series([
+    createPostInstances,
+    createPostRepliesInstances
+],
+// Optional callback
+function(err, results) {
+    if (err) {
+        console.log('FINAL ERR: '+err);
+    }
+    else {
+        console.log('ALL DONE - Close now');
+        
+    }
+    // All done, disconnect from database
+    mongoose.connection.close();
+});*/
+
+//createPostInstances()
+createPostRepliesInstances()
+
 
 //PostReplyCreate(posts1[0]);
 //PostCreate(posts1[1]);
@@ -323,4 +498,4 @@ console.log('After Lookup:');
 
 
     //All done, disconnect from database
-    mongoose.connection.close();
+    //mongoose.connection.close();
