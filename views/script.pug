@@ -221,29 +221,30 @@ block content
             .content
               .ui.comments
                 each comment in val.comments
-                  .comment(commentID=comment.id)
-                    a.avatar(href='/user/'+comment.actor.username)
-                      img(src='/profile_pictures/'+comment.actor.profile.picture)
-                    .content
-                      a.author(href='/user/'+comment.actor.username)=comment.actor.profile.name
-                      .metadata
-                        span.date=(user.createdAt.getTime() + comment.time)
-                        .rating
+                  if (user.createdAt.getTime() + comment.time) < Date.now()
+                    .comment(commentID=comment.id)
+                      a.avatar(href='/user/'+comment.actor.username)
+                        img(src='/profile_pictures/'+comment.actor.profile.picture)
+                      .content
+                        a.author(href='/user/'+comment.actor.username)=comment.actor.profile.name
+                        .metadata
+                          span.date=(user.createdAt.getTime() + comment.time)
+                          .rating
+                            if comment.liked
+                              i.red.heart.icon
+                              span=comment.likes
+                              | Likes 
+                            else
+                              i.heart.icon
+                              span.num=comment.likes
+                              |  Likes
+                        .text=comment.body
+                        .actions
                           if comment.liked
-                            i.red.heart.icon
-                            span=comment.likes
-                            | Likes 
+                            a.red.like.comment Like
                           else
-                            i.heart.icon
-                            span.num=comment.likes
-                            |  Likes
-                      .text=comment.body
-                      .actions
-                        if comment.liked
-                          a.red.like.comment Like
-                        else
-                          a.like.comment Like
-                        a.flag.comment Flag
+                            a.like.comment Like
+                          a.flag.comment Flag
           .extra.content
             if user.comment_prompt
               .description(style="text-align:center;background:#E8E8E8")="How is "+val.actor.profile.name+" Feeling?"
