@@ -111,6 +111,30 @@ exports.getScript = (req, res) => {
               if (Array.isArray(script_feed[0].comments) && script_feed[0].comments.length) {
                 
                 //iterate over all comments in post - add likes, flag, etc
+                for (var i = 0; i < script_feed[0].comments.length; i++) {
+                    //Do something
+                    var commentIndex = _.findIndex(user.feedAction[feedIndex].comments, function(o) { return o.comment == script_feed[0].comments[i].id; });
+
+                    //If user action on Comment in Script Post
+                    if(commentIndex!=-1)
+                    {
+
+                      //Action is a like (user liked this comment in this post)
+                      if (user.feedAction[feedIndex].comments[commentIndex].liked)
+                      { 
+                        script_feed[0].comments[i].liked = true;
+                        script_feed[0].comments[i].likes++;
+                        //console.log("Post %o has been LIKED", script_feed[0].id);
+                      }
+
+                      //Action is a FLAG (user Flaged this comment in this post)
+                      if (user.feedAction[feedIndex].comments[commentIndex].flagged)
+                      { 
+                        script_feed[0].comments.splice(i,1);
+                      }
+                    }
+
+                }
 
               }
 
