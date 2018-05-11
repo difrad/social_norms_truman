@@ -194,7 +194,7 @@ block content
               img.ui.avatar.image(src='/profile_pictures/'+val.actor.profile.picture)
               span=val.actor.profile.name
           .image
-            img.post(src=val.picture)
+            img.post(src="/post_pictures/"+val.picture)
             //-img(src='/picture.svg', data-src=val.picture)
           .content
             .description=val.body
