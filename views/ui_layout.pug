@@ -110,7 +110,9 @@ html
       .actions
         input.ui.green.button(type='submit', name="foo", value='Submit', form='postform')
 
-    script(src='/js/lib/jquery-3.1.1.min.js')
+    //-script(src='/js/lib/jquery-3.1.1.min.js')
+    script(src='https://code.jquery.com/jquery-3.3.1.min.js', integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=', crossorigin='anonymous')
+
     script(src='/js/lib/humanized_time_span.js')
     script(src='/js/lib/lazyload.transpiled.min.js')
     //script(src='/js/lib/bootstrap.min.js') humanized_time_span.js

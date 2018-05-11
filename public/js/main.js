@@ -380,6 +380,7 @@ setTimeout(function() {
     once       : false,
     continuous : false,
     observeChanges: true,
+    //throttle:100,
     offset: 65,
     
     /*
