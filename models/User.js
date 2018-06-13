@@ -42,6 +42,17 @@ const userSchema = new mongoose.Schema({
     body: {type: String, default: '', trim: true}, //body of post or reply
     picture: String, //picture for post
 
+    //Comments for User Made Posts
+    comments: [new Schema({
+      //class: String, //Bully, Marginal, normal, etc
+      actor: {type: Schema.ObjectId, ref: 'Actor'},
+      body: {type: String, default: '', trim: true}, //body of post or reply
+      commentID: Number, //ID of the comment
+      time: Number,//millisecons
+      new_comment: {type: Boolean, default: false}, //is new comment
+      likes: Number
+      }, { versionKey: false })],
+
     replyID: Number, //use this for User Replies
     reply: {type: Schema.ObjectId, ref: 'Script'}, //Actor Post reply is to =>
 
@@ -86,13 +97,20 @@ const userSchema = new mongoose.Schema({
         replyTime  : [Number],
         
         comments: [new Schema({
-          comment: {type: Schema.ObjectId},
-          liked: {type: Boolean, default: false},
-          flagged: {type: Boolean, default: false},
-          flagTime  : [Number],
-          likeTime  : [Number]
+          comment: {type: Schema.ObjectId},//ID Reference for Script post comment
+          liked: {type: Boolean, default: false}, //is liked?
+          flagged: {type: Boolean, default: false},//is Flagged?
+          flagTime  : [Number], //array of flag times
+          likeTime  : [Number], //array of like times
+
+          new_comment: {type: Boolean, default: false}, //is new comment
+          new_comment_id: Number,//ID for comment
+          comment_body: String, //Original Body of User Post
+          absTime: Date,
+          commentTime: {type: Number},
+          time: {type: Number}
           })]
-    }, {_id: true})],
+    }, {_id: true, versionKey: false })],
 
   profile: {
     name: String,

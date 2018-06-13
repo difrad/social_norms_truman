@@ -6,6 +6,7 @@ console.log('This script is running!!!!');
 var async = require('async')
 var Actor = require('./models/Actor.js');
 var Script = require('./models/Script.js');
+var Notification = require('./models/Notification.js');
 const _ = require('lodash');
 const dotenv = require('dotenv');
 var mongoose = require('mongoose');
@@ -25,6 +26,9 @@ var dd = require('./upload_post_replyv1.json');
 var actors_list = require('./input/actors.json');
 var posts_list = require('./input/posts.json');
 var comment_list = require('./input/comments.json');
+
+var replies_list = require('./input/replies.json');
+var notifications_list = require('./input/notifications.json');
 
 dotenv.load({ path: '.env' });
 
@@ -224,6 +228,7 @@ function PostReplyCreate(new_post) {
 
 };
 
+/*
 function NotifyCreate(new_notify) {
   
   Actor.findOne({ username: new_notify.actor}, (err, act) => {
@@ -263,8 +268,9 @@ function NotifyCreate(new_notify) {
 
   });
 
-};
+};*/
 
+/*
 function actorNotifyCreate(new_notify) {
   
   Actor.findOne({ username: new_notify.actor}, (err, act) => {
@@ -287,7 +293,7 @@ function actorNotifyCreate(new_notify) {
 
   });
 
-};
+};*/
 
 
 function createActorInstances() {
@@ -391,6 +397,112 @@ function createPostInstances() {
   );
 }
 
+function NotifyCreate() {
+  
+  async.each(notifications_list, function(new_notify, callback) {
+
+    Actor.findOne({ username: new_notify.actor}, (err, act) => {
+      if (err) { console.log(err); return next(err); }
+
+      console.log('Looking up Actor ID is : ' + act._id); 
+      var notifydetail = new Object();
+
+      if (new_notify.userPost >= 0 && !(new_notify.userPost === ""))
+      {
+        notifydetail.userPost = new_notify.userPost;
+        console.log('User Post is : ' + notifydetail.userPost);
+      }
+
+      else if (new_notify.userReply >= 0 && !(new_notify.userReply === ""))
+      {
+        notifydetail.userReply = new_notify.userReply;
+        console.log('User Reply is : ' + notifydetail.userReply);
+      }
+
+      else if (new_notify.actorReply >= 0 && !(new_notify.actorReply === ""))
+      {
+        notifydetail.actorReply = new_notify.actorReply;
+        console.log('Actor Reply is : ' + notifydetail.actorReply);
+      }
+
+      notifydetail.actor = act;
+      notifydetail.notificationType = new_notify.type;
+      notifydetail.time = timeStringToNum(new_notify.time);
+
+      var notify = new Notification(notifydetail);
+
+      notify.save(function (err) {
+          if (err) {
+            console.log("Something went wrong in Saving Notify!!!");
+            console.log(err);
+             callback(err);
+          }
+          console.log('Saved New Notification: ' + notify.id);
+          callback();
+        });   
+
+    });
+
+  },
+    function(err){
+      if (err) {
+        console.log("END Of NOTIFICATION IS WRONG!!!");
+        console.log(err);
+         callback(err);
+      }
+      //return response
+      console.log("All DONE WITH Notifications!!!")
+      //mongoose.connection.close();
+    }
+  );
+
+};
+
+
+
+function actorNotifyCreate() {
+
+  async.each(replies_list, function(new_notify, callback) {
+    Actor.findOne({ username: new_notify.actor}, (err, act) => {
+      if (err) { console.log(err); return next(err); }
+
+      console.log('Looking up Actor ID is : ' + act._id); 
+      var notifydetail = new Object();
+      notifydetail.userPost = new_notify.userPostId;
+      notifydetail.actor = act;
+      notifydetail.notificationType = 'reply';
+      notifydetail.replyBody = new_notify.body;
+      notifydetail.time = timeStringToNum(new_notify.time);
+
+      var notify = new Notification(notifydetail);
+
+      notify.save(function (err) {
+          if (err) {
+            console.log("Something went wrong in Saving Notify!!!");
+            console.log(err);
+             callback(err);
+          }
+          console.log('Saved New User Reply - Notification: ' + notify.id);
+          callback();
+        });   
+
+    });
+
+  },
+    function(err){
+      if (err) {
+        console.log("END Of ACTOR NOTIFICATION IS WRONG!!!");
+        console.log(err);
+         callback(err);
+      }
+      //return response
+      console.log("All DONE WITH ACTOR REPLIES!!!")
+      //mongoose.connection.close();
+    }
+  );
+
+};
+
 //replies_list
 function createPostRepliesInstances() {
   async.each(comment_list, function(new_replies, callback) {
@@ -486,7 +598,9 @@ function(err, results) {
 });*/
 
 //createPostInstances()
-createPostRepliesInstances()
+//createPostRepliesInstances()
+//actorNotifyCreate();
+NotifyCreate();
 
 
 //PostReplyCreate(posts1[0]);

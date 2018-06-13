@@ -113,6 +113,9 @@ exports.getNotifications = (req, res) => {
                   //find element in our final data structure
                   let notifyIndex = _.findIndex(final_notify, function(o) { return o.key == readKey; });
 
+                  //transparency is new user.notify
+                  //Does all transparency have high read???
+
                   //this does not exist yet, so create it
                   if (notifyIndex == -1)
                   {
@@ -135,6 +138,7 @@ exports.getNotifications = (req, res) => {
                   else
                   {
                     
+                    //if cohort actor, shift ahead of the line (to be seen first)
                     if (notification_feed[i].actor.class == "cohort")
                       {
                         final_notify[notifyIndex].actors.unshift(notification_feed[i].actor);

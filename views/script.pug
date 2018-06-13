@@ -46,133 +46,112 @@ block content
         -else if (val.reply) {u_class = "userReply"}
         -else {u_class = "userPost"}
         .ui.fluid.card(postID=val.id, ui=user.ui, notify=user.notify, type=u_class, u_postID=val.replyID || val.postID || val.actorReplyID)
-          if val.reply
-            //- if post is a reply post -  add the post and populate the reply as well
-            .content
-              .right.floated.time.meta= (user.createdAt.getTime() + val.relativeTime)
-              |
-              a.ui.avatar.image(href='/me')
-                if user.profile.picture
-                  img(src='/user_post/'+user.profile.picture)
-                else
-                  img(src=user.gravatar(60))
-              a(href='/me')
-                span=user.profile.name || user.email || user.id
-            .content
-              .description(style="font-size:130%")=val.body
-            .extra.content
-              .ui.fluid.card
-                .content
-                  .right.floated.time.meta= (user.createdAt.getTime() + val.reply.time)
-                  |
-                  a(href='/user/'+val.reply.actor.username)   
-                    img.ui.avatar.image(src='/profile_pictures/'+val.reply.actor.profile.picture)
-                    span=val.reply.actor.profile.name
-                .content
-                  if val.reply.picture
-                    img.post.ui.left.floated.small.image(src=val.reply.picture)
-                  p=val.reply.body
-            .three.ui.bottom.attached.icon.buttons
-              //-.ui.reply.button(tabindex='0')
-              .ui.button(tabindex='0')
-                i.reply.icon
-                |  Reply
-              //-.ui.flag.button(tabindex='0')
-              .ui.button(tabindex='0')
-                i.flag.icon
-                |  Flag
-              if val.like
-                //-.ui.red.like.button
-                .ui.red.button
-                  i.heart.icon
-                  |  Like
-              else
-                //-.ui.like.button
-                .ui.button
-                  i.heart.icon
-                  |  Like
-
-          //- This is a actor reply to a user post
-          else if val.actorAuthor
-            .content
-              .right.floated.time.meta= (user.createdAt.getTime() + val.relativeTime)
-              |
-              a(href='/user/'+val.actorAuthor.username)
-                img.ui.avatar.image(src='/profile_pictures/'+val.actorAuthor.profile.picture)
-                span=val.actorAuthor.profile.name
-            .content
-              .description(style="font-size:130%")=val.body
-            .extra.content
-              .ui.fluid.card
-                .content
-                  .right.floated.time.meta= (user.createdAt.getTime() + val.actorReplyORelativeTime)
-                  |
-                  a.ui.avatar.image(href='/me')
-                    if user.profile.picture
-                      img(src='/user_post/'+user.profile.picture)
-                    else
-                      img(src=user.gravatar(60))
-                  a(href='/me')
-                    span=user.profile.name || user.email || user.id
-                .content
-                  if val.actorReplyOPicture
-                    img.post.ui.left.floated.small.image(src='/user_post/'+val.actorReplyOPicture)
-                  p=val.actorReplyOBody
-            .three.ui.bottom.attached.icon.buttons
-              //-.ui.reply.button(tabindex='0')
-              .ui.button(tabindex='0')
-                i.reply.icon
-                |  Reply
-              //-.ui.flag.button(tabindex='0')
-              .ui.button(tabindex='0')
-                i.flag.icon
-                |  Flag
-              if val.like
-                //-.ui.red.like.button
-                .ui.red.button
-                  i.heart.icon
-                  |  Like
-              else
-                //-.ui.like.button
-                .ui.button
-                  i.heart.icon
-                  |  Like
-
+          
           //- This is a User made post
-          else
-            .content
-              .right.floated.time.meta= (user.createdAt.getTime() + val.relativeTime)
-              |  
-              a.ui.avatar.image(href='/me')
-                if user.profile.picture
-                  img(src='/user_post/'+user.profile.picture)
-                else
-                  img(src=user.gravatar(60))
-              a(href='/me')
-                span=user.profile.name || user.email || user.id
-            .image
-              img(src='/user_post/'+val.picture)
-            .content
-              .description=val.body
-            .three.ui.bottom.attached.icon.buttons
-              //-.ui.reply.button(tabindex='0')
-              .ui.button(tabindex='0')
-                i.reply.icon
-                |  Reply
-              //-.ui.flag.button(tabindex='0')
-              .ui.button(tabindex='0')
-                i.flag.icon
-                |  Flag
-              if val.like
-                //-.ui.red.like.button
-                .ui.red.button
-                  i.heart.icon
-                  |  Like
+          .content
+            .right.floated.time.meta= (user.createdAt.getTime() + val.relativeTime)
+            |  
+            a.ui.avatar.image(href='/me')
+              if user.profile.picture
+                img(src='/user_post/'+user.profile.picture)
               else
-                //-.ui.like.button
-                .ui.button
-                  i.heart.icon
-                  |  Like
+                img(src=user.gravatar(60))
+            a(href='/me')
+              span=user.profile.name || user.email || user.id
+          .image
+            img(src='/user_post/'+val.picture)
+          .content
+            .description=val.body
+          .three.ui.bottom.attached.icon.buttons
+            //-.ui.reply.button(tabindex='0')
+            .ui.button(tabindex='0')
+              i.reply.icon
+              |  Reply
+            //-.ui.flag.button(tabindex='0')
+            .ui.button(tabindex='0')
+              i.flag.icon
+              |  Flag
+            if val.like
+              //-.ui.red.like.button
+              .ui.red.button
+                i.heart.icon
+                |  Like
+            else
+              //-.ui.like.button
+              .ui.button
+                i.heart.icon
+                |  Like
+          if val.comments
+            .content
+              .ui.comments
+                each comment in val.comments
+                  //-IF this comment is USER made, do this
+                  if (user.createdAt.getTime() + comment.time) < Date.now()
+                    if comment.new_comment
+                      -console.log("New COMMENT AREA");
+                      .comment(commentID=comment.new_comment_id)
+                        a.avatar.image(href='/me')
+                          if user.profile.picture
+                            img(src='/user_post/'+user.profile.picture)
+                          else
+                            img(src=user.gravatar(60))
+                        .content
+                          a.author(href='/me')=user.profile.name || user.username || user.id
+                          .metadata
+                            span.date=(user.createdAt.getTime() + comment.time)
+                            .rating
+                              i.heart.icon
+                              span.num=0
+                              |  Likes
+                          .text=comment.body
+                          .actions
+                            a.like.comment Like
+                            a.flag.comment Flag
+                    //- Else this is a normal comment from the script
+                    else
+                      .comment(commentID=comment.id)
+                        a.avatar(href='/user/'+comment.actor.username)
+                          img(src='/profile_pictures/'+comment.actor.profile.picture)
+                        .content
+                          a.author(href='/user/'+comment.actor.username)=comment.actor.profile.name
+                          .metadata
+                            span.date=(user.createdAt.getTime() + comment.time)
+                            .rating
+                              if comment.liked
+                                i.red.heart.icon
+                                span=comment.likes
+                                | Likes 
+                              else
+                                i.heart.icon
+                                span.num=comment.likes
+                                |  Likes
+                          .text=comment.body
+                          .actions
+                            if comment.liked
+                              a.red.like.comment Like
+                            else
+                              a.like.comment Like
+                            a.flag.comment Flag
+          .extra.content
+            if user.comment_prompt
+              .description(style="text-align:center;background:#E8E8E8")="How is "+val.actor.profile.name+" Feeling?"
+              .ui.fluid.left.labeled.right.icon.input
+                .ui.label            
+                  if user.profile.picture
+                    img.ui.avatar.image(src='/user_post/'+user.profile.picture, name=user.profile.name || user.username || user.id)
+                  else
+                    img.ui.avatar.image(src=user.gravatar(60), name=user.profile.name || user.username || user.id)
+                input.newcomment(type='text', placeholder='Write to '+val.actor.profile.name)
+                i.big.send.link.icon
+            else
+              .ui.fluid.left.labeled.right.icon.input
+                .ui.label
+                  if user.profile.picture
+                    img.ui.avatar.image(src='/user_post/'+user.profile.picture, name=user.profile.name || user.username || user.id)
+                  else
+                    img.ui.avatar.image(src=user.gravatar(60), name=user.profile.name || user.username || user.id)            
+                input.newcomment(type='text', placeholder='Write a comment')
+                i.big.send.link.icon
 
       //-THIS is for posts by Actors, not the USER
       else
@@ -221,48 +200,71 @@ block content
             .content
               .ui.comments
                 each comment in val.comments
+                  //-IF this comment is USER made, do this
                   if (user.createdAt.getTime() + comment.time) < Date.now()
-                    .comment(commentID=comment.id)
-                      a.avatar(href='/user/'+comment.actor.username)
-                        img(src='/profile_pictures/'+comment.actor.profile.picture)
-                      .content
-                        a.author(href='/user/'+comment.actor.username)=comment.actor.profile.name
-                        .metadata
-                          span.date=(user.createdAt.getTime() + comment.time)
-                          .rating
-                            if comment.liked
-                              i.red.heart.icon
-                              span=comment.likes
-                              | Likes 
-                            else
-                              i.heart.icon
-                              span.num=comment.likes
-                              |  Likes
-                        .text=comment.body
-                        .actions
-                          if comment.liked
-                            a.red.like.comment Like
+                    if comment.new_comment
+                      -console.log("New COMMENT AREA");
+                      .comment(commentID=comment.new_comment_id)
+                        a.avatar.image(href='/me')
+                          if user.profile.picture
+                            img(src='/user_post/'+user.profile.picture)
                           else
+                            img(src=user.gravatar(60))
+                        .content
+                          a.author(href='/me')=user.profile.name || user.username || user.id
+                          .metadata
+                            span.date=(user.createdAt.getTime() + comment.time)
+                            .rating
+                              i.heart.icon
+                              span.num=0
+                              |  Likes
+                          .text=comment.body
+                          .actions
                             a.like.comment Like
-                          a.flag.comment Flag
+                            a.flag.comment Flag
+                    //- Else this is a normal comment from the script
+                    else
+                      .comment(commentID=comment.id)
+                        a.avatar(href='/user/'+comment.actor.username)
+                          img(src='/profile_pictures/'+comment.actor.profile.picture)
+                        .content
+                          a.author(href='/user/'+comment.actor.username)=comment.actor.profile.name
+                          .metadata
+                            span.date=(user.createdAt.getTime() + comment.time)
+                            .rating
+                              if comment.liked
+                                i.red.heart.icon
+                                span=comment.likes
+                                | Likes 
+                              else
+                                i.heart.icon
+                                span.num=comment.likes
+                                |  Likes
+                          .text=comment.body
+                          .actions
+                            if comment.liked
+                              a.red.like.comment Like
+                            else
+                              a.like.comment Like
+                            a.flag.comment Flag
           .extra.content
             if user.comment_prompt
               .description(style="text-align:center;background:#E8E8E8")="How is "+val.actor.profile.name+" Feeling?"
-              #newcomment.ui.fluid.left.labeled.right.icon.input
+              .ui.fluid.left.labeled.right.icon.input
                 .ui.label            
                   if user.profile.picture
-                    img.ui.avatar.image(src='/user_post/'+user.profile.picture)
+                    img.ui.avatar.image(src='/user_post/'+user.profile.picture, name=user.profile.name || user.username || user.id)
                   else
-                    img.ui.avatar.image(src=user.gravatar(60))
+                    img.ui.avatar.image(src=user.gravatar(60), name=user.profile.name || user.username || user.id)
                 input.newcomment(type='text', placeholder='Write to '+val.actor.profile.name)
                 i.big.send.link.icon
             else
-              #newcomment.ui.fluid.left.labeled.right.icon.input
+              .ui.fluid.left.labeled.right.icon.input
                 .ui.label
                   if user.profile.picture
-                    img.ui.avatar.image(src='/user_post/'+user.profile.picture)
+                    img.ui.avatar.image(src='/user_post/'+user.profile.picture, name=user.profile.name || user.username || user.id)
                   else
-                    img.ui.avatar.image(src=user.gravatar(60))            
+                    img.ui.avatar.image(src=user.gravatar(60), name=user.profile.name || user.username || user.id)            
                 input.newcomment(type='text', placeholder='Write a comment')
                 i.big.send.link.icon
           if user.transparency == "yes"

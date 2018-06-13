@@ -180,6 +180,40 @@ $('.right.floated.time.meta, .date').each(function() {
     window.location.href='/account';
   });
 
+
+  ////////////////////
+$("input.newcomment").keyup(function(event) {
+    //i.big.send.link.icon
+    //$(this).siblings( "i.big.send.link.icon")
+    if (event.keyCode === 13) {
+        $(this).siblings( "i.big.send.link.icon").click();
+    }
+});
+
+$("i.big.send.link.icon").click(function() {
+  var text = $(this).siblings( "input.newcomment").val();
+  var card = $(this).parents( ".ui.fluid.card" );
+  var comments = card.find( ".ui.comments" )
+  if (text.trim() !== '')
+  {
+    console.log(text)
+    var date = Date.now();
+    var ava = $(this).siblings('.ui.label').find('img.ui.avatar.image');
+    var ava_img = ava.attr( "src" );
+    var ava_name = ava.attr( "name" );
+    var postID = card.attr( "postID" );
+
+    var mess = '<div class="comment"> <a class="avatar"> <img src="'+ava_img+'"> </a> <div class="content"> <a class="author">'+ava_name+'</a> <div class="metadata"> <span class="date">'+humanized_time_span(date)+'</span> <i class="heart icon"></i> 0 Likes </div> <div class="text">'+text+'</div> <div class="actions"> <a class="reply">Reply</a> <a class="like">Like</a> <a class="flag">Flag</a> </div> </div> </div>';   
+    $(this).siblings( "input.newcomment").val('');
+    comments.append(mess);
+    console.log("#########COMMENT LIKE:  PostID: "+postID+", new_comment time is "+date+" and text is "+text);
+    $.post( "/feed", { postID: postID, new_comment: date, comment_text: text, _csrf : $('meta[name="csrf-token"]').attr('content') } );
+
+  }
+});
+  ///////////////////
+
+
   //this is the REPORT User button
   $('button.ui.button.report')
   .on('click', function() {
@@ -313,12 +347,28 @@ $('.right.floated.time.meta, .date').each(function() {
       label.html(function(i, val) { return val*1+1 });
 
       var postID = $(this).closest( ".ui.fluid.card.dim" ).attr( "postID" );
-      var commentID = comment.attr("commentID")
+      var commentID = comment.attr("commentID");
       var like = Date.now();
       console.log("#########COMMENT LIKE:  PostID"+postID+", Comment ID"+commentID+" at time "+like);
       $.post( "/feed", { postID: postID, commentID: commentID, like: like, _csrf : $('meta[name="csrf-token"]').attr('content') } );
 
     }
+
+  });
+
+  //<h2 style="background-color:black;color:white">Black background-color and white text color</h2>
+  //<div class="comment" style="background-color:black;color:white">The admins will review this comment further. We are sorry you had this experience.</div>
+  //this is the FLAG button
+  $('a.flag.comment')
+  .on('click', function() {
+
+    var comment = $(this).parents( ".comment" );
+    var postID = $(this).closest( ".ui.fluid.card.dim" ).attr( "postID" );
+    var commentID = comment.attr("commentID");
+    comment.replaceWith( '<div class="comment" style="background-color:black;color:white"><h5 class="ui inverted header"><span>The admins will review this post further. We are sorry you had this experience.</span></h5></div>' );
+    var flag = Date.now();
+    console.log("#########COMMENT FLAG:  PostID"+postID+", Comment ID"+commentID+" at time "+flag);
+    $.post( "/feed", { postID: postID, commentID: commentID, flag: flag, _csrf : $('meta[name="csrf-token"]').attr('content') } );
 
   });
 

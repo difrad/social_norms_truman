@@ -24,6 +24,7 @@ const scriptSchema = new mongoose.Schema({
     body: {type: String, default: '', trim: true}, //body of post or reply
     commentID: Number, //ID of the comment
     time: Number,//millisecons
+    new_comment: {type: Boolean, default: false}, //is new comment
     likes: Number
     }, { versionKey: false })]
   
