@@ -50,7 +50,11 @@ $(window).on("load", function() {
     $(".description.mod_body").text(body);
     $("span.mod_name").text(pro_name);
     //span.mod_name
-    $(".ui.small.modal.pro").modal('show')
+    $(".ui.small.modal.pro").modal('show');
+    var parent = $(this).parents(".profile_card");    
+    var postID = parent.attr( "postID" );
+    var picture = Date.now();
+    $.post( "/pro_feed", { postID: postID, picture: picture, _csrf : $('meta[name="csrf-token"]').attr('content') } );
     });
 
   //get add new reply post modal to show
@@ -447,7 +451,7 @@ setTimeout(function() {
 
   //Dimm cards as user scrolls - send Post to update DB on timing of events .image
   //$('.ui.fluid.card.dim') img.post $('.ui.fluid.card.dim .image'
-  $('img.post')
+  $('img.post, .content.pro')
   .visibility({
     once       : false,
     continuous : false,
@@ -465,7 +469,7 @@ setTimeout(function() {
     //onBottomVisibleReverse:function(calculations) { onBottomPassed
       onBottomPassed:function(calculations) {
         console.log(":::::Now passing onBottomPassed:::::");
-        var parent = $(this).parents(".ui.fluid.card.dim");
+        var parent = $(this).parents(".ui.fluid.card.dim, .profile_card");
 
         //As Post is not READ and We have a transparency condistion - Show Read Conent and send Post READ event
         if ((!(parent.attr( "state" )=='read')) && (parent.attr( "transparency" )=='yes'))
@@ -506,8 +510,11 @@ setTimeout(function() {
           //parent.attr( "state" , "read");
 
           //send post to server to update DB that we have now read this
-          console.log("::::NO UI :::::READ::::SENDING POST TO DB::::::::");
-          $.post( "/feed", { postID: postID, read: read, _csrf : $('meta[name="csrf-token"]').attr('content') } );
+          console.log("::::NO UI :::::READ::::SENDING POST TO DB:::::::POST:"+postID+" at time "+read);
+          if (parent.attr( "profile" )=="yes")
+            $.post( "/pro_feed", { postID: postID, read: read, _csrf : $('meta[name="csrf-token"]').attr('content') } );
+          else
+            $.post( "/feed", { postID: postID, read: read, _csrf : $('meta[name="csrf-token"]').attr('content') } );
         }
 
         //UI and DIMMED READ, which does not count as a READ
@@ -519,13 +526,14 @@ setTimeout(function() {
     ////POST IS NOW Visiable - START EVENT
     onBottomVisible:function(calculations) {
         console.log("@@@@@@@ Now Seen @@@@@@@@@");
-        var parent = $(this).parents(".ui.fluid.card.dim");
+        var parent = $(this).parents(".ui.fluid.card.dim, .profile_card");
         
-        
-          var postID = parent.attr( "postID" );
-          var start = Date.now();
-          console.log("@@@@@@@ UI!!!! @@@@@@SENDING TO DB@@@@@@START POST UI has seen post "+postID+" at time "+start);
-
+        var postID = parent.attr( "postID" );
+        var start = Date.now();
+        console.log("@@@@@@@ UI!!!! @@@@@@SENDING TO DB@@@@@@START POST UI has seen post "+postID+" at time "+start);
+        if (parent.attr( "profile" )=="yes")
+          $.post( "/pro_feed", { postID: postID, start: start, _csrf : $('meta[name="csrf-token"]').attr('content') } );
+        else
           $.post( "/feed", { postID: postID, start: start, _csrf : $('meta[name="csrf-token"]').attr('content') } );
 
         }

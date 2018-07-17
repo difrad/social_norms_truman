@@ -606,7 +606,7 @@ exports.newPost = (req, res) => {
 
 /**
  * POST /feed/
- * Update user's feed posts Actions.
+ * Update user's profie feed posts Actions.
  */
 exports.postUpdateFeedAction = (req, res, next) => {
 
@@ -833,3 +833,114 @@ exports.postUpdateFeedAction = (req, res, next) => {
     });
   });
 };
+
+/**
+ * POST /pro_feed/
+ * Update user's profile feed posts Actions.
+ */
+exports.postUpdateProFeedAction = (req, res, next) => {
+
+  User.findById(req.user.id, (err, user) => {
+    //somehow user does not exist here
+    if (err) { return next(err); }
+
+    console.log("@@@@@@@@@@@ TOP profile is  ", req.body.postID);
+
+    //find the object from the right post in feed 
+    var feedIndex = _.findIndex(user.profile_feed, function(o) { return o.profile == req.body.postID; });
+
+    console.log("index is  ", feedIndex);
+
+    if(feedIndex==-1)
+    {
+      //Profile does not exist yet in User DB, so we have to add it now
+      console.log("$$$$$Making new profile_feed Object! at post ", req.body.postID);
+      var cat = new Object();
+      cat.profile = req.body.postID;
+      if(!(req.body.start))
+        {
+          console.log("!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!No start");
+        }
+      cat.startTime = req.body.start;
+      cat.rereadTimes = 0;
+      //add new post into feedAction
+      user.profile_feed.push(cat);
+
+    }
+    else
+    {
+      //we found the right post, and feedIndex is the right index for it
+      console.log("##### FOUND post "+req.body.postID+" at index "+ feedIndex);
+
+      //update to new StartTime
+      if (req.body.start && (req.body.start > user.profile_feed[feedIndex].startTime))
+      { 
+        
+        user.profile_feed[feedIndex].startTime = req.body.start;
+        user.profile_feed[feedIndex].rereadTimes++;
+
+      }
+
+      //array of readTimes is empty and we have a new READ event
+      else if ((!user.profile_feed[feedIndex].readTime)&&req.body.read && (req.body.read > user.profile_feed[feedIndex].startTime))
+      { 
+        let read = req.body.read - user.profile_feed[feedIndex].startTime
+        //console.log("!!!!!New FIRST READ Time: ", read);
+        user.profile_feed[feedIndex].readTime = [read];
+        //console.log("!!!!!adding FIRST READ time [0] now which is  ", user.feedAction[feedIndex].readTime[0]);
+      }
+
+      //Already have a readTime Array, New READ event, need to add this to readTime array
+      else if ((user.profile_feed[feedIndex].readTime)&&req.body.read && (req.body.read > user.profile_feed[feedIndex].startTime))
+      { 
+        let read = req.body.read - user.profile_feed[feedIndex].startTime
+        //console.log("%%%%%Add new Read Time: ", read);
+        user.profile_feed[feedIndex].readTime.push(read);
+      }
+
+      //array of picture_clicks is empty and we have a new (first) picture_clicks event
+      else if ((!user.profile_feed[feedIndex].picture_clicks)&&req.body.picture && (req.body.picture > user.profile_feed[feedIndex].startTime))
+      { 
+        let picture = req.body.picture - user.profile_feed[feedIndex].startTime
+        console.log("!!!!!New FIRST picture Time: ", picture);
+        user.profile_feed[feedIndex].picture_clicks = [picture];
+        console.log("!!!!!adding FIRST picture time [0] now which is  ", user.profile_feed[feedIndex].picture_clicks[0]);
+      }
+
+      //Already have a picture_clicks Array, New PICTURE event, need to add this to picture_clicks array
+      else if ((user.profile_feed[feedIndex].picture_clicks)&&req.body.picture && (req.body.picture > user.profile_feed[feedIndex].startTime))
+      { 
+        let picture = req.body.picture - user.profile_feed[feedIndex].startTime
+        console.log("%%%%%Add new PICTURE Time: ", picture);
+        user.profile_feed[feedIndex].picture_clicks.push(picture);
+      }
+
+      else
+      {
+        console.log("Got a POST that did not fit anything. Possible Error.")
+      }
+
+       //console.log("####### END OF ELSE post at index "+ feedIndex);
+
+    }//else 
+
+    //console.log("@@@@@@@@@@@ ABOUT TO SAVE TO DB on Post ", req.body.postID);
+    user.save((err) => {
+      if (err) {
+        if (err.code === 11000) {
+          req.flash('errors', { msg: 'Something in profile_feed went crazy. You should never see this.' });
+
+          return res.redirect('/');
+        }
+        console.log(err);
+        return next(err);
+      }
+      //req.flash('success', { msg: 'Profile information has been updated.' });
+      //res.redirect('/account');
+      //console.log("@@@@@@@@@@@ SAVED TO DB!!!!!!!!! ");
+      res.send({result:"success"});
+    });
+  });
+};
+
+

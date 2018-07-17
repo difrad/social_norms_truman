@@ -91,6 +91,14 @@ const userSchema = new mongoose.Schema({
     actorName: String
     })],
 
+  profile_feed: [new Schema({
+    profile: String,
+    startTime: Number, //always the newest startTime (full date in ms)
+    rereadTimes: Number,
+    readTime : [Number],
+    picture_clicks : [Number],
+    })],
+
   feedAction: [new Schema({
         post: {type: Schema.ObjectId, ref: 'Script'},
         //add in object to see which comments were linked and flagged

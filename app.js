@@ -294,6 +294,7 @@ app.get('/bell', passportConfig.isAuthenticated, userController.checkBell);
 //getScript
 app.get('/feed', passportConfig.isAuthenticated, scriptController.getScript);
 app.post('/feed', passportConfig.isAuthenticated, scriptController.postUpdateFeedAction);
+app.post('/pro_feed', passportConfig.isAuthenticated, scriptController.postUpdateProFeedAction);
 
 /**
  * API examples routes.
