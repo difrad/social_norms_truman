@@ -5,7 +5,7 @@
     "age": 27,
     "picture": "0.jpg",
     "gender": "Male",
-    "bio": "Foodie %uD83C%uDF72, photographer %uD83D%uDCF7, traveller %u2708%uFE0F, (aspiring) restaurant critic.",
+    "bio": "Foodie 🍲, photographer 📷, traveller ✈️, (aspiring) restaurant critic.",
     "location": "New York, NY",
     "class": "cohort"
   },
@@ -45,7 +45,7 @@
     "age": 31,
     "picture": "165.jpg",
     "gender": "Female",
-    "bio": "The spice of life... is spice! %uD83C%uDF36%uFE0F%uD83C%uDF36%uFE0F",
+    "bio": "The spice of life... is spice! 🌶️🌶️",
     "location": "Baltimore, MD",
     "class": "cohort"
   },
@@ -255,7 +255,7 @@
     "age": 33,
     "picture": "image-8.png",
     "gender": "Female",
-    "bio": "love my jack russels %uD83D%uDC36 %u2764%uFE0F",
+    "bio": "love my jack russels 🐶 ❤️",
     "location": "Chula Vista, CA",
     "class": "normal"
   },
@@ -265,7 +265,7 @@
     "age": 38,
     "picture": "image-8.png",
     "gender": "Female",
-    "bio": "semi-pro food photographer %uD83D%uDCF7",
+    "bio": "semi-pro food photographer 📷",
     "location": "Maui, HI",
     "class": "normal"
   },
@@ -285,7 +285,7 @@
     "age": 25,
     "picture": "image-89.png",
     "gender": "Female",
-    "bio": "%uD83D%uDD25%uD83D%uDD25%uD83D%uDD25",
+    "bio": "🔥🔥🔥",
     "location": "",
     "class": "normal"
   },
@@ -475,7 +475,7 @@
     "age": 28,
     "picture": "Bot-Sp18.2.jpg",
     "gender": "Male",
-    "bio": "MD Student at UCLA. TACOS %uD83C%uDF2E TACOS %uD83C%uDF2E TACOS %uD83C%uDF2E TACOS %uD83C%uDF2E TACOS %uD83C%uDF2E",
+    "bio": "MD Student at UCLA. TACOS 🌮 TACOS 🌮 TACOS 🌮 TACOS 🌮 TACOS 🌮",
     "location": "West coast, best coast",
     "class": "normal"
   },
@@ -485,7 +485,7 @@
     "age": 38,
     "picture": "Bot-Sp18.3.jpg",
     "gender": "Female",
-    "bio": "Health-convious mama in Kentucky. %uD83D%uDEAB GMO %uD83C%uDF31 Natural Food",
+    "bio": "Health-convious mama in Kentucky. 🚫 GMO 🌱 Natural Food",
     "location": "Proud Red State--KY",
     "class": "normal"
   },
@@ -495,7 +495,7 @@
     "age": 26,
     "picture": "Bot-Sp18.4.jpg",
     "gender": "Male",
-    "bio": "%uD83D%uDE02 It's a car air freshner that I stick into my nose.",
+    "bio": "😂 It's a car air freshner that I stick into my nose.",
     "location": "New York, NY",
     "class": "normal"
   },
@@ -515,7 +515,7 @@
     "age": 30,
     "picture": "Bot-Sp18.6.jpg",
     "gender": "Female",
-    "bio": "RN at Mercy Hospital. %uD83D%uDE0B Open Relationship with @MikeN%uD83D%uDCCD Fort Smith, AR",
+    "bio": "RN at Mercy Hospital. 😋 Open Relationship with @MikeN📍 Fort Smith, AR",
     "location": "Fort Smith, AR",
     "class": "normal"
   },
@@ -525,7 +525,7 @@
     "age": 33,
     "picture": "Bot-Sp18.7.jpg",
     "gender": "Female",
-    "bio": "%uD83D%uDCF1 Social Media Specialist. Corgi mama. Buffalo Wings Supporter. <3 WNY",
+    "bio": "📱 Social Media Specialist. Corgi mama. Buffalo Wings Supporter. <3 WNY",
     "location": "Online 24/7",
     "class": "normal"
   },
@@ -545,7 +545,7 @@
     "age": 38,
     "picture": "Bot-Sp18.12.JPG",
     "gender": "Female",
-    "bio": "Proud hispanic",
+    "bio": "",
     "location": "Santa Fe!!!",
     "class": "normal"
   },
@@ -585,7 +585,7 @@
     "age": 23,
     "picture": "Bot-SP18.22.png",
     "gender": "Male",
-    "bio": "Workout %uD83C%uDFCB, Travel %u2708, Eat %uD83C%uDF74",
+    "bio": "Workout 🏋, Travel ✈, Eat 🍴",
     "location": "",
     "class": "normal"
   },
@@ -685,7 +685,7 @@
     "age": 28,
     "picture": "person 2.jpeg",
     "gender": "Female",
-    "bio": "Traveller %u2708%uFE0F%uD83D%uDE83%uD83D%uDE98",
+    "bio": "Traveller ✈️🚃🚘",
     "location": "Nashville",
     "class": "normal"
   },
@@ -705,7 +705,7 @@
     "age": 25,
     "picture": "VitaBOCA.png",
     "gender": "Female",
-    "bio": "%u2714Fat Loss Never Tasted So Good.\n%u2714Reduces Cravings.\n%u2714Enhances Mood\n%u2714Enhances Definition & Leanness.\n%u2714All Day, Smooth Energy.",
+    "bio": "✔Fat Loss Never Tasted So Good.\n✔Reduces Cravings.\n✔Enhances Mood\n✔Enhances Definition & Leanness.\n✔All Day, Smooth Energy.",
     "location": "New York, NY",
     "class": "normal"
   }

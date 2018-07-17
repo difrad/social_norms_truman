@@ -526,13 +526,15 @@ function createPostRepliesInstances() {
 
               //add bullying to top level post
               if(new_replies.class == "bullying")
+              {
                 pr.class = "bullying";
+              }
 
               console.log('Time is : ' + new_replies.time); 
               comment_detail.time = timeStringToNum(new_replies.time);
               comment_detail.likes = getLikes();
               comment_detail.actor = act;
-
+              console.log('NEW Time is : ' + comment_detail.time);
               pr.comments = insert_order(comment_detail, pr.comments);
               
 
@@ -544,6 +546,9 @@ function createPostRepliesInstances() {
               pr.save(function (err) {
               if (err) {
                 console.log("Something went wrong in Saving COMMENT!!!");
+                console.log('Looking up Actor: ' + act.username); 
+                console.log('Time is : ' + new_replies.time); 
+                console.log('NEW Time is : ' + comment_detail.time);
                 console.log(err);
                 callback(err);
               }
@@ -602,6 +607,7 @@ function(err, results) {
     mongoose.connection.close();
 });*/
 
+//createActorInstances()
 //createPostInstances()
 //createPostRepliesInstances()
 //actorNotifyCreate();
