@@ -166,7 +166,7 @@ block content
                     img.ui.avatar.image(src='/user_post/'+user.profile.picture, name=user.profile.name || user.username || user.id)
                   else
                     img.ui.avatar.image(src=user.gravatar(60), name=user.profile.name || user.username || user.id)
-                input.newcomment(type='text', placeholder='Write to '+user.profile.name || user.username || user.id)
+                input.newcomment(type='text', placeholder='Write a Comment')
                 i.big.send.link.icon
             else
               .ui.fluid.left.labeled.right.icon.input
@@ -175,7 +175,7 @@ block content
                     img.ui.avatar.image(src='/user_post/'+user.profile.picture, name=user.profile.name || user.username || user.id)
                   else
                     img.ui.avatar.image(src=user.gravatar(60), name=user.profile.name || user.username || user.id)            
-                input.newcomment(type='text', placeholder='Write a comment')
+                input.newcomment(type='text', placeholder='Write a Comment')
                 i.big.send.link.icon
 
       //-THIS is for posts by Actors, not the USER
@@ -298,7 +298,7 @@ block content
                     img.ui.avatar.image(src='/user_post/'+user.profile.picture, name=user.profile.name || user.username || user.id)
                   else
                     img.ui.avatar.image(src=user.gravatar(60), name=user.profile.name || user.username || user.id)
-                input.newcomment(type='text', placeholder='Write to '+val.actor.profile.name)
+                input.newcomment(type='text', placeholder='Write a Comment')
                 i.big.send.link.icon
             else
               .ui.fluid.left.labeled.right.icon.input
@@ -307,23 +307,8 @@ block content
                     img.ui.avatar.image(src='/user_post/'+user.profile.picture, name=user.profile.name || user.username || user.id)
                   else
                     img.ui.avatar.image(src=user.gravatar(60), name=user.profile.name || user.username || user.id)            
-                input.newcomment(type='text', placeholder='Write a comment')
+                input.newcomment(type='text', placeholder='Write a Comment')
                 i.big.send.link.icon
-          //-if user.transparency == "yes"
-            //-if val.read
-              .content.read(style="text-align:center;background:#b5bfce;")
-                p="You've read this!"
-                a(href='/user/'+val.actor.username)
-                  img.ui.avatar.image(src='/profile_pictures/'+val.actor.profile.picture)
-                  span=val.actor.profile.name
-                |  has been notified.
-            //-else
-              .content.read(style="text-align:center;background:#b5bfce;display: none;")
-                p="You've read this!"
-                a(href='/user/'+val.actor.username)
-                  img.ui.avatar.image(src='/profile_pictures/'+val.actor.profile.picture)
-                  span=val.actor.profile.name
-                |  has been notified.
 
     .ui.fluid.card
       .content
