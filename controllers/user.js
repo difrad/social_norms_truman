@@ -167,7 +167,7 @@ exports.postSignup = (req, res, next) => {
   }
 
   //random assignment of experimental group
-  var result = ['no:no:no', 'no:low:no', 'no:high:no','yes:no:no', 'yes:low:no', 'yes:high:no','no:no:yes', 'no:low:yes', 'no:high:yes','yes:no:yes', 'yes:low:yes', 'yes:high:yes'][Math.floor(Math.random() * 12)]
+  var result = ['no:no:no', 'no:yes:no','yes:no:no', 'yes:yes:no','no:no:yes', 'no:yes:yes', 'yes:no:yes', 'yes:yes:yes'][Math.floor(Math.random() * 8)]
   var resultArray = result.split(':');
   //[0] is Social Transparency, [1] is Profile Perspective Taking, [2] Comment Prompt
   const user = new User({
@@ -178,10 +178,10 @@ exports.postSignup = (req, res, next) => {
     group: result,
     active: true,
     ui: 'no', //ui or no
-    notify: "no", //no, low or high
-    transparency: resultArray[0],
-    profile_perspective: resultArray[1],
-    comment_prompt: resultArray[2],
+    notify: "no", //no, low or high (not used anymore)
+    transparency: resultArray[0], //yes or no
+    profile_perspective: resultArray[1], //yes or no
+    comment_prompt: resultArray[2], //yes or no
     lastNotifyVisit : Date.now()
   });
 
@@ -555,7 +555,7 @@ var sendFinalEmail = function(user){
       text: `Hey ${u_name},\n\n
       Thank you so much for participating in our study!\n
       Your participation has been a huge help in beta testing our app.
-      You have one last task to finish the study, and that is to take the final survey here at https://cornell.qualtrics.com/jfe/form/SV_8eukV6K9MLA5Au9\n\n
+      You have one last task to finish the study, and that is to take the final survey here at https://cornell.qualtrics.com/jfe/form/SV_3rqJCz1DifIybjf\n\n
       Thanks again for all your help and participation!\n
       Keep Eating, Snapping and Loving!\n 
       🍴📷.❤️ Team
@@ -679,6 +679,7 @@ exports.userTestResults = (req, res) => {
           if (!users[i].completed)
           {
 
+            /*
             //check logs
             var day = [0,0,0];
             for (var j = users[i].log.length - 1; j >= 0; j--) {
@@ -710,7 +711,8 @@ exports.userTestResults = (req, res) => {
           
             console.log("@@@@@@@@days are d1:"+day[0]+" d2:"+day[1]+" d3:"+day[2]);
             //Logged in at least twice a day, and posted at least 3 times
-            if (day[0] >=2 && day[1] >=2 && day[2] >=2 && users[i].numPosts >= 2)
+            */
+            if (users[i].study_days[0] >=2 && users[i].study_days[1] >=2 && users[i].study_days[2] >=2 && users[i].numPosts >= 2)
             {
               users[i].completed = true;
               users[i].save((err) => {

@@ -523,6 +523,11 @@ function createPostRepliesInstances() {
               comment_detail.body = new_replies.body
               comment_detail.commentID = new_replies.id;
               comment_detail.class = new_replies.class;
+
+              //add bullying to top level post
+              if(new_replies.class == "bullying")
+                pr.class = "bullying";
+
               console.log('Time is : ' + new_replies.time); 
               comment_detail.time = timeStringToNum(new_replies.time);
               comment_detail.likes = getLikes();

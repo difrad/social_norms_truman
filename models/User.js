@@ -35,6 +35,13 @@ const userSchema = new mongoose.Schema({
   blocked: [String],
   reported: [String],
 
+  test: {type: Number, default: 0}, 
+
+  study_days: {
+      type: [Number],
+      default: [0, 0, 0]
+    },
+
   posts: [new Schema({
     type: String, //post, reply, actorReply
 
@@ -42,7 +49,7 @@ const userSchema = new mongoose.Schema({
     body: {type: String, default: '', trim: true}, //body of post or reply
     picture: String, //picture for post
 
-    //Comments for User Made Posts
+    //Actor Comments for User Made Posts
     comments: [new Schema({
       //class: String, //Bully, Marginal, normal, etc
       actor: {type: Schema.ObjectId, ref: 'Actor'},

@@ -37,6 +37,22 @@ $(window).on("load", function() {
   $('.ui.checkbox')
   .checkbox();
 
+  //profile manipulation image to profile
+  $('.column.profile').click(function () {
+    let body = $(this).attr("body");
+    let image = $(this).find('img.ui.fluid.image').attr("src")
+    let pro_link = $('a.pro_name_link').attr("href");
+    let pro_picture = $('img.ui.centered.tiny.circular.image.pro_name_image').attr("src");
+    let pro_name = $('span.pro_name').text();
+    $("a.mod_pro_name_link").attr('href', pro_link);
+    $("img.ui.avatar.image.mod_pro").attr('src', pro_picture);
+    $("img.post.mod_photo").attr('src', image);
+    $(".description.mod_body").text(body);
+    $("span.mod_name").text(pro_name);
+    //span.mod_name
+    $(".ui.small.modal.pro").modal('show')
+    });
+
   //get add new reply post modal to show
   $('.reply.button').click(function () {
     
@@ -166,6 +182,12 @@ $('.right.floated.time.meta, .date').each(function() {
   $('.ui.big.green.labeled.icon.button.info')
   .on('click', function() {
     window.location.href='/'; //maybe go to tour site???
+  });
+
+  //Profile explaination Page
+  $('.ui.big.green.labeled.icon.button.profile')
+  .on('click', function() {
+    window.location.href='/profile_info'; //maybe go to tour site???
   });
 
   //More info Skip Button
@@ -431,7 +453,7 @@ setTimeout(function() {
     continuous : false,
     observeChanges: true,
     //throttle:100,
-    offset: 65,
+    offset: 250,
     
     /*
     onTopVisibleReverse:function(calculations) {
@@ -454,11 +476,16 @@ setTimeout(function() {
           var read = Date.now();
 
           //actual show the element
-           parent.find('.content.read')
+          
+           parent.find('.read')
             .transition({
-              animation: 'fade down',
+              animation: 'fade',
               duration   : '1.5s',
             });
+          //$('img.post').visibility('refresh')
+          //<div style="text-align:center;background:#b5bfce" class="content read"> <p>You've read this!</p><a href="/user/"><img src="/profile_pictures/" class="ui avatar image"><span>cat</span></a> has been notified.</div>
+          //parent.append( '<div style="text-align:center;background:#b5bfce" class="content read"> <p>You have read this!</p><a href="/user/'+parent.attr( "actor_un" )+'"><img src="/profile_pictures/'+parent.attr( "actor_pic" )+'" class="ui avatar image"><span>'+parent.attr( "actor_name" )+'</span></a> has been notified.</div>' );
+          parent.attr( "state", "read" );
           console.log("::::UI passing::::SENDING POST TO DB::::::::");
           $.post( "/feed", { postID: postID, read: read, _csrf : $('meta[name="csrf-token"]').attr('content') } );
 

@@ -6,38 +6,40 @@ block content
   .computer.only.tablet.only.four.wide.column 
   #content.eight.wide.computer.ten.wide.tablet.sixteen.wide.mobile.column
 
-    .ui.raised.fluid.card.test(postID="88")
-      h3.ui.center.aligned.header(style="background:#42c8f4;")
-        span='Meet'
+    .ui.raised.fluid.card.profile_card
+      //-h3.ui.center.aligned.header(style="background:#42c8f4;") 
+        //-checkered5.png bluecheckered contain cover
+      .content(style="background-image: url('/public/checkered6.png');background-size: cover;")
+        //-h3.ui.center.aligned.header(style="background-image: url('/public/checkered6.png');background-size: cover;")
+        .center.aligned
+          a.pro_name_link(href='/user/NoahM1121')
+            img.ui.centered.small.circular.image.pro_name_image(src='/user_post/5af0aee42c477b0e9db79556msrd75jedd2_png')
+      .content(style="white-space:nowrap;")
+        span(style="font-size:150%;font-weight: bold;")="What's on "
+        a.pro_name_link(href='/user/NoahM1121')
+          span(style="font-size:150%;font-weight: bold;").pro_name="Tom's"
+        span(style="font-size:150%;font-weight: bold;")=" plate? "
         br
-        a(href='/user/NoahM1121')
-          img.ui.centered.tiny.circular.image(src='/profile_pictures/4.jpg')
-        span='Noah Marshall'
-      span(style="text-align:center;font-size:130%;")="Here are some of Noah's recents posts"
+        span(style="white-space:normal;")="Kate, we care about helping you connect with others. Browse through Tom's posts. Imagine how Tom feels and what is going on in his life."
+
       //-.content(style="text-align:center;")
         span="Here are some of Noah's recents posts"
-      .content
+      .content()
         .ui.three.column.grid.pro
-          .column
-            //-.ui.segment
+          .column.profile(body="this is a test!!!", time=9000)
             img.ui.fluid.image(src="/post_pictures/"+'IMG_20160625_113114.jpg')
-            //-.ui.segment
-          .column
+          .column.profile(body="OK I see this now!!!")
             img.ui.fluid.image(src="/post_pictures/"+'IMG_20170415_095155.jpg')
-          .column
-            //-.ui.segment
+          .column.profile(body="WHAT WHAT!!!")
             img.ui.fluid.image(src="/post_pictures/"+'IMG_4266.JPG')
-            //-.ui.segment
-          .column
+          .column.profile(body="OMG ()()()()()()()()(!!!")
             img.ui.fluid.image(src="/post_pictures/"+'IMG_20170305_133410.jpg')
-          .column
-            //-.ui.segment
+          .column.profile(body="HAHAHA but really WTF!!!")
             img.ui.fluid.image(src="/post_pictures/"+'IMG_20170519_184216.jpg')
-            //-.ui.segment
-          .column
+          .column.profile(body="Last one")
             img.ui.fluid.image(src="/post_pictures/"+'vegan6.jpg')
-      .content(style="text-align:center;font-size:130%")
-        span="Think about Noah and his life through these posts"
+      
+
       
 
         //-.ui.small.images
@@ -45,6 +47,38 @@ block content
           img(src='IMG_4266.JPG')
           img(src='IMG_20170519_184216.jpg')
           img(src='IMG_20170415_095155.jpg')
+    
+    .ui.small.modal.pro
+      .image.content
+        .ui.fluid.card.dim
+          //- Normal Base Post
+          .content
+            .right.floated.time.meta= "2 Days Ago"
+            //-.right.floated.time.meta= (user.createdAt.getTime() + val.time)
+            |  
+            a.mod_pro_name_link(href='/user/NoahM1121')
+              img.ui.avatar.image.mod_pro(src='/profile_pictures/4.jpg')
+              span.mod_name="Noah Marshall"
+          .image
+            img.post.mod_photo(src="/post_pictures/"+'IMG_20160625_113114.jpg')
+            //-img(src='/picture.svg', data-src=val.picture)
+          .content
+            .description.mod_body="Totes my Goats"
+          .three.ui.bottom.attached.icon.buttons
+            .ui.reply.button(tabindex='0')
+              i.reply.icon
+              |  Reply
+            .ui.flag.button(tabindex='0')
+              i.flag.icon
+              |  Flag
+            .ui.labeled.button(tabindex='0')
+              .ui.like.button
+                i.heart.icon
+                |  Like
+              a.ui.basic.red.left.pointing.label.count=5
+                p
+                p
+                p
 
     .ui.fluid.card.test(postID="3")
       .content

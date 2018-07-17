@@ -242,6 +242,12 @@ app.get('/info', passportConfig.isAuthenticated, function (req, res) {
   });
 });
 
+app.get('/profile_info', passportConfig.isAuthenticated, function (req, res) {
+  res.render('profile_info', {
+    title: 'Profile Introductions'
+  });
+});
+
 
 //User's Page
 app.get('/me', passportConfig.isAuthenticated, userController.getMe);

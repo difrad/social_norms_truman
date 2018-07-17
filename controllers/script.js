@@ -3,6 +3,130 @@ const User = require('../models/User');
 const Notification = require('../models/Notification');
 const _ = require('lodash');
 
+const profile_posts = 
+[ 
+
+{
+  username:"sweetietooth",
+  name:"Wendy",
+  pronoun:"her",
+  pro_image:"Bot-SP18.17.png",
+  posts: [
+    {
+      picture:"180320-7.jpg",
+      body:"My husband got me the best cupcakes ever!",
+      time:"2 Days Ago"
+    },
+    {
+      picture:"180320-9.jpg",
+      body:"Dark melty chocolate chunks 🍫 Have you tried the Dark Chocolate Chunk?",
+      time:"2 Days Ago"
+    },
+    {
+      picture:"180320-12.jpg",
+      body:"Dang....that’s one sweet peachy looking cupcake 🍑 ",
+      time:"3 Days Ago"
+    },
+    {
+      picture:"180320-13.jpg",
+      body:"These pastries from my hotel were the best thingsever!",
+      time:"3 Days Ago"
+    },
+    {
+      picture:"180320-8.jpg",
+      body:"What A Time, To Be Alive!!! Home barbecue on the way 💗❤💗",
+      time:"3 Days Ago"
+    },
+    {
+      picture:"180320-10.jpg",
+      body:"Is it really a trip to the South without a stop at Waffle House? 📷",
+      time:"4 Days Ago"
+    }
+  ]
+},
+
+{
+  username:"southerngirlCel",
+  name:"Celia",
+  pronoun:"her",
+  pro_image:"bot43.jpg",
+  posts: [
+    {
+      picture:"ebpost75.png",
+      body:"Steak on my birthday! so lucky to have such great friends to share my special day with :):)",
+      time:"2 Days Ago"
+    },
+    {
+      picture:"ebpost76.jpg",
+      body:"And the bday festivities continue!! My nana always makes the best food, there’s just always way too much!!!",
+      time:"2 Days Ago"
+    },
+    {
+      picture:"ebpost77.jpg",
+      body:"croissants like these are why I love trips to the bakeries :) they make for a great phot shoot too",
+      time:"3 Days Ago"
+    },
+    {
+      picture:"ebpost78.jpg",
+      body:"been trying to eat clean the last few weeks, but my sweet tooth couldn’t resist…",
+      time:"3 Days Ago"
+    },
+    {
+      picture:"ebpost79.jpg",
+      body:"Steve’s in heaven! I don’t blame him, how good does that look ??!",
+      time:"3 Days Ago"
+    },
+    {
+      picture:"ebpost80.jpg",
+      body:"another day, another trip to the bakery…",
+      time:"4 Days Ago"
+    }
+  ]
+},
+
+
+
+{
+  username:"MedicalRyan",
+  name:"Ryan",
+  pronoun:"his",
+  pro_image:"Bot-Sp18.2.jpg",
+  posts: [
+    {
+      picture:"180320-1.png",
+      body:"Cheap taco is also good taco.",
+      time:"2 Days Ago"
+    },
+    {
+      picture:"180320-2.png",
+      body:"Personally prefer American cheese for my tacos, but this new place around my house is decent.",
+      time:"2 Days Ago"
+    },
+    {
+      picture:"180320-3.png",
+      body:"Home-made salsa by mama.",
+      time:"3 Days Ago"
+    },
+    {
+      picture:"180320-4.png",
+      body:"Amazing!",
+      time:"3 Days Ago"
+    },
+    {
+      picture:"180320-5.png",
+      body:"Seafood taco. Miss my lobster taco in NYC.",
+      time:"3 Days Ago"
+    },
+    {
+      picture:"180320-6.png",
+      body:"Guac should never be extra. ",
+      time:"4 Days Ago"
+    }
+  ]
+}
+
+]
+
 
 /**
  * GET /
@@ -20,11 +144,13 @@ exports.getScript = (req, res) => {
   var user_ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
   var userAgent = req.headers['user-agent']; 
 
+  var bully_post;
+  var bully_count = 0;
+
 
 
   console.log("time_diff  is now "+time_diff);
   console.log("time_limit  is now "+time_limit);
-
   
   User.findById(req.user.id)
   .populate({ 
@@ -39,6 +165,10 @@ exports.getScript = (req, res) => {
        path: 'posts.actorAuthor',
        model: 'Actor'
     })
+  .populate({ 
+       path: 'posts.comments.actor',
+       model: 'Actor'
+    })
   .exec(function (err, user) {
   //User.findById(req.user.id, (err, user) => {
 
@@ -51,6 +181,45 @@ exports.getScript = (req, res) => {
     }
 
     user.logUser(time_now, userAgent, user_ip);
+
+    //what day in the study are we in???
+  var one_day = 86400000;
+  var current_day;
+
+
+  user.test = user.test + 1;
+  
+  //day one
+  if (time_diff <= one_day)
+  {
+    current_day = 0;
+    //add one to current day user.study_days[current_day]
+    user.study_days[0] = user.study_days[0] + 1;
+    user.study_days.set(0, user.study_days[0] + 1)
+    console.log("!!!DAY1 is now "+ user.study_days[0]);
+  }
+  //day two
+  else if ((time_diff > one_day) && (time_diff <= (one_day *2))) 
+  {
+    current_day = 1;
+    user.study_days.set(1, user.study_days[1] + 1)
+    console.log("!!!DAY2 is now "+ user.study_days[1]);
+  }
+  //day 3
+  else if ((time_diff >(one_day *2)) && (time_diff <= (one_day *3)))
+  {
+    current_day = 2;
+    user.study_days.set(2, user.study_days[2] + 1)
+    console.log("!!!DAY3 is now "+ user.study_days[2]);
+  }
+  else 
+  {
+    current_day = -1;
+    console.log("@@@@@@@@@@_NO_DAY");
+  }
+
+  
+  
 
     Script.find()
       .where('time').lte(time_diff).gte(time_limit)
@@ -110,7 +279,7 @@ exports.getScript = (req, res) => {
               if (Array.isArray(user.feedAction[feedIndex].comments) && user.feedAction[feedIndex].comments) 
               {
 
-                console.log("WE HAVE AN COMMENTS!!!!!");
+                console.log("WE HAVE COMMENTS!!!!!");
                 //iterate over all comments in post - add likes, flag, etc
                 for (var i = 0; i < user.feedAction[feedIndex].comments.length; i++) {
                   //i is now user.feedAction[feedIndex].comments index
@@ -174,7 +343,7 @@ exports.getScript = (req, res) => {
                         //Action is a FLAG (user Flaged this comment in this post)
                         if (user.feedAction[feedIndex].comments[i].flagged)
                         { 
-                          console.log("Commenr %o has been LIKED", user.feedAction[feedIndex].comments[i].id);
+                          console.log("Comment %o has been LIKED", user.feedAction[feedIndex].comments[i].id);
                           script_feed[0].comments.splice(commentIndex,1);
                         }
                       }
@@ -217,6 +386,14 @@ exports.getScript = (req, res) => {
                 script_feed.splice(0,1);
               }
 
+              //if bully post && firt viewing of the day
+              else if ( script_feed[0].class == "bullying" && user.study_days[current_day] == 1 && bully_count == 0)
+              {
+                bully_post = script_feed[0];
+                bully_count = 1;
+                script_feed.splice(0,1);
+              }
+
               else
               {
                 //console.log("Post is NOT FLAGGED, ADDED TO FINAL FEED");
@@ -233,6 +410,15 @@ exports.getScript = (req, res) => {
               {
                 script_feed.splice(0,1);
               }
+
+              //if bully post && firt viewing of the day
+              else if ( script_feed[0].class == "bullying" && user.study_days[current_day] == 1 && bully_count == 0)
+              {
+                bully_post = script_feed[0];
+                bully_count = 1;
+                script_feed.splice(0,1);
+              }
+
               else
               {
                 finalfeed.push(script_feed[0]);
@@ -242,6 +428,26 @@ exports.getScript = (req, res) => {
             }//else in while loop
       }//while loop
 
+      
+
+      if (user.study_days[current_day] == 1 && bully_post)
+      {
+        var bully_index = Math.floor(Math.random() * 5) + 1 
+        finalfeed.splice(bully_index, 0, bully_post);
+        console.log("@@@@@@@@@@ Pushed a Bully Post to index "+bully_index);
+      }
+
+      if (user.profile_perspective == 'yes')
+      {
+        if (current_day != -1)
+          profile_card = profile_posts[current_day];
+        else 
+          profile_card = -1;
+      }
+      else
+        profile_card = -1;
+
+
       user.save((err) => {
         if (err) {
           return next(err);
@@ -250,7 +456,7 @@ exports.getScript = (req, res) => {
       });
 
       console.log("Script Size is now: "+finalfeed.length);
-      res.render('script', { script: finalfeed });
+      res.render('script', { script: finalfeed, profile_card:profile_card });
 
       });//end of Script.find()
 
@@ -307,7 +513,7 @@ exports.newPost = (req, res) => {
       console.log("numActorReplies is "+user.numActorReplies);
     }
 
-
+    //This is a new post - not comment or reply
     if (req.file)
     {
       post.picture = req.file.filename;
@@ -317,9 +523,8 @@ exports.newPost = (req, res) => {
       post.type = "user_post";
       post.comments = [];
       
-      
 
-      //Now we find any Actor Replies that go along with it
+      //Now we find any Actor Replies (Comments) that go along with it
       Notification.find()
         .where('userPost').equals(post.postID)
         .where('notificationType').equals('reply')

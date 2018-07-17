@@ -64,11 +64,11 @@ exports.getActor = (req, res, next) => {
     .where('time').lte(time_diff)
     .sort('-time')
     .populate('actor')
-    .populate({ 
-     path: 'reply',
-     populate: {
-       path: 'actor',
-       model: 'Actor'
+      .populate({ 
+       path: 'comments.actor',
+       populate: {
+         path: 'actor',
+         model: 'Actor'
        } 
     })
     .exec(function (err, script_feed) {

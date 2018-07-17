@@ -34,6 +34,7 @@ exports.getNotifications = (req, res) => {
   .exec(function (err, user) {
 
     //This is the actual array of Posts from User
+    //does not have COMMENTS in it yet - maybe have no likes or reads on USER made Comments
     var user_posts = user.getPosts();
 
     //Log our visit to Notifications
@@ -59,9 +60,11 @@ exports.getNotifications = (req, res) => {
       userPost: Number, //which user post this action is for (0,1,2....n)
       userReply: Number, //for replys from User
       actorReply: Number,
+
+      CHANGED: TOOK OUT userReply (no longer in system)
       */
       console.log("RECORD IS NOW: numPost - "+user.numPosts+"| numReplies - "+user.numPosts+"| numActorReplies - "+user.numActorReplies);
-      Notification.find({ $or: [ { userPost: { $lte: user.numPosts } }, { userReply: { $lte: user.numReplies } }, { actorReply: { $lte: user.numActorReplies } } ] })
+      Notification.find({ $or: [ { userPost: { $lte: user.numPosts } }, { actorReply: { $lte: user.numActorReplies } } ] })
         .populate('actor')
         .exec(function (err, notification_feed) {
           if (err) { return next(err); }
@@ -105,8 +108,9 @@ exports.getNotifications = (req, res) => {
               if(notification_feed[i].time <= time_diff)
               { 
                 console.log("USER POST Time is Now READY!!!!");
-                //do stuff for notification (low) read junks
-                if ((notification_feed[i].notificationType == "read") && (notification_feed[i].actor.class != "high_read") && (user.notify != "no"))
+
+                //do stuff for notification read junks (there is no low or high anymore)
+                if ((notification_feed[i].notificationType == "read") && (user.notify != "no"))
                 {
                   var readKey = "read_"+ userPostID;
 
@@ -152,41 +156,6 @@ exports.getNotifications = (req, res) => {
                     { final_notify[notifyIndex].time = user_post.absTime + notification_feed[i].time;}
                   }
                 }//end of READ
-
-                 //do stuff for notification (high) read junks
-                else if ((notification_feed[i].notificationType == "read") && (notification_feed[i].actor.class == "high_read") && (user.notify == "high"))
-                {
-                  var readKey = "read_"+ userPostID;
-
-                  //find element in our final data structure
-                  let notifyIndex = _.findIndex(final_notify, function(o) { return o.key == readKey; });
-
-                  //this does not exist yet, so create it
-                  if (notifyIndex == -1)
-                  {
-                    let read_tmp = {};
-                    read_tmp.key = readKey;
-                    read_tmp.action = 'read';
-                    read_tmp.postID = userPostID;
-                    read_tmp.body = user_post.body;
-                    read_tmp.picture = user_post.picture;
-                    read_tmp.time = Date.parse(user_post.absTime) + notification_feed[i].time;
-                    console.log("TIME  is");
-                    console.log(read_tmp.time)
-                    read_tmp.actors = [];
-                    read_tmp.actors.push(notification_feed[i].actor);
-
-                    final_notify.push(read_tmp);
-                  }
-
-                  //find element and add actor/update time
-                  else
-                  {
-                    final_notify[notifyIndex].actors.push(notification_feed[i].actor);
-                    if ((user_post.absTime + notification_feed[i].time) > final_notify[notifyIndex].time)
-                    { final_notify[notifyIndex].time = user_post.absTime + notification_feed[i].time;}
-                  }
-                }//end of high READ
 
                 //do stuff for notification LIKE 
                 else if (notification_feed[i].notificationType == "like")
@@ -250,12 +219,13 @@ exports.getNotifications = (req, res) => {
             ###################################################################
             All things reference a User Reply (read like, etc)
             ###################################################################
-            */
+            
             else if (notification_feed[i].userReply >= 0)
             {
 
               var userReplyID = notification_feed[i].userReply;
 
+              //If in future, want this to work on COMMENTS, need to change this function
               var user_reply = user.getUserReplyByID(userReplyID);
               console.log("USER REPLY NOTIFICATION");
               console.log("########Notification is UserReplyID "+notification_feed[i].userReply);
@@ -398,7 +368,7 @@ exports.getNotifications = (req, res) => {
             ###################################################################
             All things reference an Actor Reply (read, like, etc)
             ###################################################################
-            */
+            
             else if (notification_feed[i].actorReply >= 0)
             {
 
@@ -541,6 +511,7 @@ exports.getNotifications = (req, res) => {
               }//Time Diff
 
             }//Actor Reply
+            */
 
 
             //not post, reply or actor reply
