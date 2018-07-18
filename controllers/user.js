@@ -52,6 +52,7 @@ if (req.user) {
               {
 
                 var userPostID = notification_feed[i].userPost;
+                //this can cause issues if not found - should check on later
                 var user_post = user.getUserPostByID(userPostID);
                 var time_diff = Date.now() - user_post.absTime;
                 if (user.lastNotifyVisit)

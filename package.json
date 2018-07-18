@@ -1,10 +1,10 @@
 {
-  "name": "truman",
+  "name": "truman_esl_empathy",
   "version": "1.0.0",
-  "description": "A fake social network",
+  "description": "Empathy experiment on cyberbullying using Truman Platform",
   "repository": {
     "type": "git",
-    "url": "https://github.com/difrad/truman.git"
+    "url": "https://github.com/difrad/truman_esl_empathy"
   },
   "author": "Dominic DiFranzo",
   "license": "MIT",

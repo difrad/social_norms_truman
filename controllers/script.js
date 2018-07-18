@@ -487,6 +487,7 @@ exports.newPost = (req, res) => {
    // console.log(lastFive +" just called to create a new post");
     //console.log("OG file name is "+req.file.originalname);
     //console.log("Actual file name is "+req.file.filename);
+    console.log("###########NEW POST###########");
     console.log("Text Body of Post is "+req.body.body);
 
     var post = new Object();
@@ -516,6 +517,7 @@ exports.newPost = (req, res) => {
     //This is a new post - not comment or reply
     if (req.file)
     {
+      console.log("Text PICTURE of Post is "+req.file.filename);
       post.picture = req.file.filename;
 
       user.numPosts = user.numPosts + 1;
@@ -537,7 +539,7 @@ exports.newPost = (req, res) => {
             //we have a actor reply that goes with this userPost
             //add them to the posts array
 
-            console.log("@@@@@@@We have Actor Comments to add");
+            console.log("@@@@@@@We have Actor Comments to add: "+actor_replies.length);
             for (var i = 0, len = actor_replies.length; i < len; i++) {
               var tmp_actor_reply = new Object();
 
@@ -554,14 +556,17 @@ exports.newPost = (req, res) => {
               //add to posts
               post.comments.push(tmp_actor_reply);
 
-              console.log("numPost is now "+user.numPosts);
-              user.posts.unshift(post);
-              console.log("CREATING NEW POST!!!");
+              
 
             }
 
+            
           }//end of IF
 
+          console.log("numPost is now "+user.numPosts);
+          user.posts.unshift(post);
+          console.log("CREATING NEW POST!!!");
+          
           user.save((err) => {
             if (err) {
               return next(err);

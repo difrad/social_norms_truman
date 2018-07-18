@@ -222,6 +222,16 @@ $("i.big.send.link.icon").click(function() {
   var text = $(this).siblings( "input.newcomment").val();
   var card = $(this).parents( ".ui.fluid.card" );
   var comments = card.find( ".ui.comments" )
+  //no comments area - add it
+  console.log("Comments is now "+comments.length)
+  if( !comments.length )
+  {
+    //.three.ui.bottom.attached.icon.buttons
+    console.log("Adding new Comments sections")
+    var buttons = card.find( ".three.ui.bottom.attached.icon.buttons" )
+    buttons.after( '<div class="content"><div class="ui comments"></div>' );
+    var comments = card.find( ".ui.comments" )
+  }
   if (text.trim() !== '')
   {
     console.log(text)
