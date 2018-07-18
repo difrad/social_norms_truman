@@ -148,7 +148,7 @@ exports.getScript = (req, res) => {
   var bully_count = 0;
 
 
-
+  console.log("$#$#$#$#$#$#$START GET SCRIPT$#$#$$#$#$#$#$#$#$#$#$#$#");
   console.log("time_diff  is now "+time_diff);
   console.log("time_limit  is now "+time_limit);
   
@@ -183,7 +183,7 @@ exports.getScript = (req, res) => {
     user.logUser(time_now, userAgent, user_ip);
 
     //what day in the study are we in???
-  var one_day = 86400000;
+  var one_day = 86400000; //303,695,677 259,200,000
   var current_day;
 
 
@@ -206,7 +206,7 @@ exports.getScript = (req, res) => {
     console.log("!!!DAY2 is now "+ user.study_days[1]);
   }
   //day 3
-  else if ((time_diff >(one_day *2)) && (time_diff <= (one_day *3)))
+  else if ((time_diff >(one_day *2)))
   {
     current_day = 2;
     user.study_days.set(2, user.study_days[2] + 1)

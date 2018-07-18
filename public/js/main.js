@@ -40,6 +40,7 @@ $(window).on("load", function() {
   //profile manipulation image to profile
   $('.column.profile').click(function () {
     let body = $(this).attr("body");
+    let time = $(this).attr("time");
     let image = $(this).find('img.ui.fluid.image').attr("src")
     let pro_link = $('a.pro_name_link').attr("href");
     let pro_picture = $('img.ui.centered.tiny.circular.image.pro_name_image').attr("src");
@@ -48,6 +49,7 @@ $(window).on("load", function() {
     $("img.ui.avatar.image.mod_pro").attr('src', pro_picture);
     $("img.post.mod_photo").attr('src', image);
     $(".description.mod_body").text(body);
+    $(".right.floated.meta.pro_time").text(time);
     $("span.mod_name").text(pro_name);
     //span.mod_name
     $(".ui.small.modal.pro").modal('show');
