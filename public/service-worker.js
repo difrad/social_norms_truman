@@ -3,7 +3,7 @@ self.addEventListener('install', function(event) {
     caches.open('v1').then(function(cache) {
       return cache.addAll([
         '/public/',
-        '/public/main.js',
+        '/public/js/main.js',
       ]);
     })
   );
@@ -27,7 +27,7 @@ self.addEventListener('fetch', function(event) {
         });
         return response;
       }).catch(function () {
-        return caches.match('/sw-test/gallery/myLittleVader.jpg');
+        return caches.match('/public/logo.svg');
       });
     }
   }));

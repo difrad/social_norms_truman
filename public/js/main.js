@@ -43,7 +43,7 @@ $(window).on("load", function() {
     let time = $(this).attr("time");
     let image = $(this).find('img.ui.fluid.image').attr("src")
     let pro_link = $('a.pro_name_link').attr("href");
-    let pro_picture = $('img.ui.centered.tiny.circular.image.pro_name_image').attr("src");
+    let pro_picture = $('img.ui.centered.small.circular.image.pro_name_image').attr("src");
     let pro_name = $('span.pro_name').text();
     $("a.mod_pro_name_link").attr('href', pro_link);
     $("img.ui.avatar.image.mod_pro").attr('src', pro_picture);
