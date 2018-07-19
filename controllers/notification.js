@@ -64,7 +64,8 @@ exports.getNotifications = (req, res) => {
       CHANGED: TOOK OUT userReply (no longer in system)
       */
       console.log("RECORD IS NOW: numPost - "+user.numPosts+"| numReplies - "+user.numPosts+"| numActorReplies - "+user.numActorReplies);
-      Notification.find({ $or: [ { userPost: { $lte: user.numPosts } }, { actorReply: { $lte: user.numActorReplies } } ] })
+      //Notification.find({ $or: [ { userPost: { $lte: user.numPosts } }, { actorReply: { $lte: user.numActorReplies } } ] })
+      Notification.find({ $or: [ { userPost: { $lte: user.numPosts } } ] })
         .populate('actor')
         .exec(function (err, notification_feed) {
           if (err) { return next(err); }

@@ -68,7 +68,11 @@ if (req.user) {
 
                 if(notification_feed[i].time <= time_diff && notification_feed[i].time > past_diff)
                 {
-                  return res.send({result:true});
+                  
+                  if ((notification_feed[i].notificationType == "read") && (user.transparency != "no"))
+                    return res.send({result:true});
+                  if (notification_feed[i].notificationType != "read")
+                    return res.send({result:true});
                 }
 
               }//UserPost

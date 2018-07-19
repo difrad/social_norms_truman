@@ -75,7 +75,9 @@ $(window).on("load", function() {
 
   //get add new feed post modal to work
   $("#newpost, a.item.newpost").click(function () {
-    $(' .ui.small.post.modal').modal('show');
+    //$(' .ui.small.post.modal').modal('show'); 
+    //tiny
+    $(' .ui.tiny.post.modal').modal('show'); 
 });
 
   //new post validator (picture and text can not be empty)
