@@ -27,7 +27,8 @@ if (req.user) {
 
     var user = req.user;
 
-    Notification.find({ $or: [ { userPost: user.numPosts  }, { userReply: user.numReplies }, { actorReply: user.numActorReplies } ] })
+    Notification.find({ $or: [ { userPost: user.numPosts  }, { actorReply: user.numActorReplies } ] })
+    //Notification.find({ $or: [ { userPost: { $lte: user.numPosts } }, { actorReply: { $lte: user.numActorReplies } } ] })
         .populate('actor')
         .exec(function (err, notification_feed) {
 
