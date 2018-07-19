@@ -10,7 +10,7 @@ block content
         else
           img(src=user.gravatar(60))
       .content
-        a.header= user.profile.name || user.email || user.id
+        a.header(href='/me')= user.profile.name || user.email || user.id
         .meta="@"+user.username
         .description=user.profile.bio
         .description
