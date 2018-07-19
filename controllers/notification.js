@@ -110,7 +110,7 @@ exports.getNotifications = (req, res) => {
                 console.log("USER POST Time is Now READY!!!!");
 
                 //do stuff for notification read junks (there is no low or high anymore)
-                if ((notification_feed[i].notificationType == "read") && (user.notify != "no"))
+                if ((notification_feed[i].notificationType == "read") && (user.transparency != "no"))
                 {
                   var readKey = "read_"+ userPostID;
 
