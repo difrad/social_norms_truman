@@ -295,6 +295,11 @@ $("i.big.send.link.icon").click(function() {
 
 });
 
+  $('.ui.home.inverted.button')
+    .on('click', function() {
+      window.location.href='/';
+    });
+
   //this is the Block User button
   $('button.ui.button.block')
   .on('click', function() {
