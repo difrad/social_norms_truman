@@ -83,7 +83,8 @@ const app = express();
 mongoose.Promise = global.Promise;
 
 //mongoose.connect(process.env.MONGODB_URI || process.env.MONGOLAB_URI);
-mongoose.connect(process.env.MONGOLAB_TEST || process.env.PRO_MONGOLAB_URI, { useMongoClient: true });
+//mongoose.connect(process.env.MONGOLAB_TEST || process.env.PRO_MONGOLAB_URI, { useMongoClient: true });
+mongoose.connect(process.env.MONGOLAB_TEST || process.env.PRO_MONGOLAB_URI);
 mongoose.connection.on('error', (err) => {
   console.error(err);
   console.log('%s MongoDB connection error. Please make sure MongoDB is running.', chalk.red('✗'));
@@ -295,6 +296,7 @@ app.get('/bell', passportConfig.isAuthenticated, userController.checkBell);
 app.get('/feed', passportConfig.isAuthenticated, scriptController.getScript);
 app.post('/feed', passportConfig.isAuthenticated, scriptController.postUpdateFeedAction);
 app.post('/pro_feed', passportConfig.isAuthenticated, scriptController.postUpdateProFeedAction);
+app.post('/userPost_feed', passportConfig.isAuthenticated, scriptController.postUpdateUserPostFeedAction);
 
 /**
  * API examples routes.

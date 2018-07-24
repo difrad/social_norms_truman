@@ -132,7 +132,7 @@ const profile_posts =
  * GET /
  * List of Script posts for Feed
 */
-exports.getScript = (req, res) => {
+exports.getScript = (req, res, next) => {
 
   //req.user.createdAt
   var time_now = Date.now();
@@ -450,6 +450,7 @@ exports.getScript = (req, res) => {
 
       user.save((err) => {
         if (err) {
+          console.log("ERROR IN USER SAVE IS "+err);
           return next(err);
         }
         //req.flash('success', { msg: 'Profile information has been updated.' });
@@ -566,7 +567,7 @@ exports.newPost = (req, res) => {
           console.log("numPost is now "+user.numPosts);
           user.posts.unshift(post);
           console.log("CREATING NEW POST!!!");
-          
+
           user.save((err) => {
             if (err) {
               return next(err);
@@ -624,7 +625,7 @@ exports.postUpdateFeedAction = (req, res, next) => {
     //find the object from the right post in feed 
     var feedIndex = _.findIndex(user.feedAction, function(o) { return o.post == req.body.postID; });
 
-    //console.log("index is  ", feedIndex);
+    console.log("index is  ", feedIndex);
 
     if(feedIndex==-1)
     {
@@ -650,6 +651,7 @@ exports.postUpdateFeedAction = (req, res, next) => {
       //create a new Comment
       if(req.body.new_comment)
       {
+         
           var cat = new Object();
           cat.new_comment = true;
           user.numReplies = user.numReplies + 1;
@@ -659,6 +661,8 @@ exports.postUpdateFeedAction = (req, res, next) => {
           console.log("DATE Time is: "+req.body.new_comment);
           cat.commentTime = req.body.new_comment - user.feedAction[feedIndex].startTime;
           console.log("Comment Time is: "+cat.commentTime);
+
+          //create a new cat.comment id for USER replies here to do actions on them. Empty now
 
           cat.absTime = Date.now();
           cat.time = cat.absTime - user.createdAt;
@@ -718,7 +722,7 @@ exports.postUpdateFeedAction = (req, res, next) => {
           
         }
 
-      }
+      }//end of all comment junk
 
       //not a comment - its a post action
       else
@@ -842,6 +846,7 @@ exports.postUpdateFeedAction = (req, res, next) => {
 /**
  * POST /pro_feed/
  * Update user's profile feed posts Actions.
+ getUserPostByID
  */
 exports.postUpdateProFeedAction = (req, res, next) => {
 
@@ -948,4 +953,110 @@ exports.postUpdateProFeedAction = (req, res, next) => {
   });
 };
 
+/**
+ * POST /userPost_feed/
+ * Update user's POST feed Actions.
+ */
+exports.postUpdateUserPostFeedAction = (req, res, next) => {
+
+  User.findById(req.user.id, (err, user) => {
+    //somehow user does not exist here
+    if (err) { return next(err); }
+
+    console.log("@@@@@@@@@@@ TOP profile is  ", req.body.postID);
+
+    //find the object from the right post in feed 
+    var feedIndex = _.findIndex(user.posts, function(o) { return o.postID == req.body.postID; });
+
+    console.log("User Posts index is  ", feedIndex);
+
+    if(feedIndex==-1)
+    {
+      //User Post does  not exist yet, This is an error
+      console.log("$$$$$ERROR: Can not find User POST ID: ", req.body.postID);
+
+    }
+
+   //create a new Comment
+    else if(req.body.new_comment)
+    {
+        var cat = new Object();
+        cat.new_comment = true;
+        user.numReplies = user.numReplies + 1;
+        cat.commentID = 900 + user.numReplies; //this is so it doesn't get mixed with actor comments
+        cat.body = req.body.comment_text;
+        cat.isUser = true;
+        cat.absTime = Date.now();
+        cat.time = cat.absTime - user.createdAt;
+        user.posts[feedIndex].comments.push(cat);
+        console.log("$#$#$#$#$#$$New  USER COMMENT Time: ", cat.time);
+    }
+
+    //Are we doing anything with a comment?
+    else if(req.body.commentID)
+    {
+      var commentIndex = _.findIndex(user.posts[feedIndex].comments, function(o) { return o.commentID == req.body.commentID; });
+
+      //no comment in this post-actions yet
+      if(commentIndex==-1)
+      {
+        console.log("!!!!!!Error: Can not find Comment for some reason!");
+      }
+
+      //LIKE A COMMENT
+      else if(req.body.like)
+      {
+
+        user.posts[feedIndex].comments[commentIndex].liked = user.posts[feedIndex].comments[commentIndex].liked ? false : true;        
+      }
+
+      //FLAG A COMMENT
+      else if(req.body.flag)
+      {
+        user.posts[feedIndex].comments[commentIndex].flagged = user.posts[feedIndex].comments[commentIndex].flagged ? false : true; 
+      }
+
+    }//end of all comment junk
+
+    else
+    {
+      //we found the right post, and feedIndex is the right index for it
+      console.log("##### FOUND post "+req.body.postID+" at index "+ feedIndex);
+
+
+        //array of likeTime is empty and we have a new (first) LIKE event
+        if (req.body.like)
+        { 
+          
+          console.log("!!!!!!User Post LIKE was: ", user.posts[feedIndex].liked);
+          user.posts[feedIndex].liked = user.posts[feedIndex].liked ? false : true;
+          console.log("!!!!!!User Post LIKE is now: ", user.posts[feedIndex].liked);
+        }
+
+
+      else
+      {
+        console.log("Got a POST that did not fit anything. Possible Error.")
+      }
+
+    }//else 
+
+    //console.log("@@@@@@@@@@@ ABOUT TO SAVE TO DB on Post ", req.body.postID);
+    user.save((err) => {
+      if (err) {
+        if (err.code === 11000) {
+          req.flash('errors', { msg: 'Something in profile_feed went crazy. You should never see this.' });
+
+          return res.redirect('/');
+        }
+        console.log(err);
+        return next(err);
+      }
+      //req.flash('success', { msg: 'Profile information has been updated.' });
+      //res.redirect('/account');
+      //console.log("@@@@@@@@@@@ SAVED TO DB!!!!!!!!! ");
+      res.send({result:"success"});
+    });
+  });
+}
 

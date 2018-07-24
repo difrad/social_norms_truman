@@ -48,6 +48,7 @@ const userSchema = new mongoose.Schema({
     postID: Number,  //number for this post (1,2,3...) reply get -1 maybe should change to a String ID system
     body: {type: String, default: '', trim: true}, //body of post or reply
     picture: String, //picture for post
+    liked: {type: Boolean, default: false}, //has the user liked it?
 
     //Actor Comments for User Made Posts
     comments: [new Schema({
@@ -56,7 +57,11 @@ const userSchema = new mongoose.Schema({
       body: {type: String, default: '', trim: true}, //body of post or reply
       commentID: Number, //ID of the comment
       time: Number,//millisecons
+      absTime: Number,//millisecons
       new_comment: {type: Boolean, default: false}, //is new comment
+      isUser: {type: Boolean, default: false}, //is this a comment on own post
+      liked: {type: Boolean, default: false}, //has the user liked it?
+      flagged: {type: Boolean, default: false},//is Flagged?
       likes: Number
       }, { versionKey: false })],
 

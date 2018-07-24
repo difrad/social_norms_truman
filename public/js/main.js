@@ -247,7 +247,11 @@ $("i.big.send.link.icon").click(function() {
     $(this).siblings( "input.newcomment").val('');
     comments.append(mess);
     console.log("######### NEW COMMENTS:  PostID: "+postID+", new_comment time is "+date+" and text is "+text);
-    $.post( "/feed", { postID: postID, new_comment: date, comment_text: text, _csrf : $('meta[name="csrf-token"]').attr('content') } );
+   
+    if (card.attr( "type" )=='userPost')
+      $.post( "/userPost_feed", { postID: postID, new_comment: date, comment_text: text, _csrf : $('meta[name="csrf-token"]').attr('content') } );
+    else
+      $.post( "/feed", { postID: postID, new_comment: date, comment_text: text, _csrf : $('meta[name="csrf-token"]').attr('content') } );
 
   }
 });
@@ -355,7 +359,11 @@ $("i.big.send.link.icon").click(function() {
       var postID = $(this).closest( ".ui.fluid.card.dim" ).attr( "postID" );
       var like = Date.now();
       console.log("***********LIKE: post "+postID+" at time "+like);
-      $.post( "/feed", { postID: postID, like: like, _csrf : $('meta[name="csrf-token"]').attr('content') } );
+
+      if (card.attr( "type" )=='userPost')
+        $.post( "/userPost_feed", { postID: postID, like: like, _csrf : $('meta[name="csrf-token"]').attr('content') } );
+      else
+        $.post( "/feed", { postID: postID, like: like, _csrf : $('meta[name="csrf-token"]').attr('content') } );
 
     }
 
@@ -390,7 +398,11 @@ $("i.big.send.link.icon").click(function() {
       var commentID = comment.attr("commentID");
       var like = Date.now();
       console.log("#########COMMENT LIKE:  PostID"+postID+", Comment ID"+commentID+" at time "+like);
-      $.post( "/feed", { postID: postID, commentID: commentID, like: like, _csrf : $('meta[name="csrf-token"]').attr('content') } );
+
+      if (card.attr( "type" )=='userPost')
+        $.post( "/userPost_feed", { postID: postID, commentID: commentID, like: like, _csrf : $('meta[name="csrf-token"]').attr('content') } );
+      else
+        $.post( "/feed", { postID: postID, commentID: commentID, like: like, _csrf : $('meta[name="csrf-token"]').attr('content') } );
 
     }
 
@@ -408,7 +420,11 @@ $("i.big.send.link.icon").click(function() {
     comment.replaceWith( '<div class="comment" style="background-color:black;color:white"><h5 class="ui inverted header"><span>The admins will review this post further. We are sorry you had this experience.</span></h5></div>' );
     var flag = Date.now();
     console.log("#########COMMENT FLAG:  PostID"+postID+", Comment ID"+commentID+" at time "+flag);
-    $.post( "/feed", { postID: postID, commentID: commentID, flag: flag, _csrf : $('meta[name="csrf-token"]').attr('content') } );
+
+    if (card.attr( "type" )=='userPost')
+      $.post( "/userPost_feed", { postID: postID, commentID: commentID, flag: flag, _csrf : $('meta[name="csrf-token"]').attr('content') } );
+    else
+      $.post( "/feed", { postID: postID, commentID: commentID, flag: flag, _csrf : $('meta[name="csrf-token"]').attr('content') } );
 
   });
 
@@ -472,12 +488,6 @@ setTimeout(function() {
     observeChanges: true,
     //throttle:100,
     offset: 250,
-    
-    /*
-    onTopVisibleReverse:function(calculations) {
-      console.log(":::::Now passing onTopVisibleReverse:::::");
-    },*/
-
     
     //USER HAS NOW READ THE POST (READ EVENT) 
     //onBottomVisibleReverse:function(calculations) { onBottomPassed

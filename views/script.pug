@@ -70,7 +70,7 @@ block content
         -if (val.actorAuthor) {u_class = "actorReply"}
         -else if (val.reply) {u_class = "userReply"}
         -else {u_class = "userPost"}
-        .ui.fluid.card(postID=val.id, ui=user.ui, notify=user.notify, type=u_class, u_postID=val.replyID || val.postID || val.actorReplyID)
+        .ui.fluid.card(u_postID=val.id, ui=user.ui, notify=user.notify, type=u_class, postID=val.replyID || val.postID || val.actorReplyID)
           
           //- This is a User made post
           .content
@@ -125,12 +125,20 @@ block content
                           .metadata
                             span.date=(user.createdAt.getTime() + comment.time)
                             .rating
-                              i.heart.icon
-                              span.num=0
-                              |  Likes
+                              if comment.liked
+                                i.red.heart.icon
+                                span=comment.likes
+                                | Likes 
+                              else
+                                i.heart.icon
+                                span.num=comment.likes
+                                |  Likes
                           .text=comment.body
                           .actions
-                            a.like.comment Like
+                            if comment.liked
+                              a.red.like.comment Like
+                            else
+                              a.like.comment Like
                             a.flag.comment Flag
                     //- Else this is a normal comment from the script
                     else
