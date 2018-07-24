@@ -281,6 +281,14 @@ exports.getMe = (req, res) => {
          model: 'Actor'
        } 
     })
+  .populate({ 
+       path: 'posts.actorAuthor',
+       model: 'Actor'
+    })
+  .populate({ 
+       path: 'posts.comments.actor',
+       model: 'Actor'
+    })
   .exec(function (err, user) {
     if (err) { return next(err); }
 

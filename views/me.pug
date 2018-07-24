@@ -103,3 +103,83 @@ block content
                 .ui.button
                   i.heart.icon
                   |  Like
+          if val.comments.length > 0
+            .content
+              .ui.comments
+                each comment in val.comments
+                  //-IF this comment is USER made, do this
+                  if (user.createdAt.getTime() + comment.time) < Date.now()
+                    if !comment.flagged
+                      if comment.new_comment
+                        -console.log("New COMMENT AREA");
+                        .comment(commentID=comment.commentID)
+                          a.avatar.image(href='/me')
+                            if user.profile.picture
+                              img(src='/user_post/'+user.profile.picture)
+                            else
+                              img(src=user.gravatar(60))
+                          .content
+                            a.author(href='/me')=user.profile.name || user.username || user.id
+                            .metadata
+                              span.date=(user.createdAt.getTime() + comment.time)
+                              .rating
+                                if comment.liked
+                                  i.red.heart.icon
+                                  span=comment.likes
+                                  | Likes 
+                                else
+                                  i.heart.icon
+                                  span.num=comment.likes
+                                  |  Likes
+                            .text=comment.body
+                            .actions
+                              if comment.liked
+                                a.red.like.comment Like
+                              else
+                                a.like.comment Like
+                              a.flag.comment Flag
+                      //- Else this is a normal comment from the script
+                      else
+                        .comment(commentID=comment.commentID)
+                          a.avatar(href='/user/'+comment.actor.username)
+                            img(src='/profile_pictures/'+comment.actor.profile.picture)
+                          .content
+                            a.author(href='/user/'+comment.actor.username)=comment.actor.profile.name
+                            .metadata
+                              span.date=(user.createdAt.getTime() + comment.time)
+                              .rating
+                                if comment.liked
+                                  i.red.heart.icon
+                                  span=comment.likes
+                                  | Likes 
+                                else
+                                  i.heart.icon
+                                  span.num=comment.likes
+                                  |  Likes
+                            .text=comment.body
+                            .actions
+                              if comment.liked
+                                a.red.like.comment Like
+                              else
+                                a.like.comment Like
+                              a.flag.comment Flag
+          .extra.content
+            if user.comment_prompt
+              .description(style="text-align:center;background:#E8E8E8")="How is "+(user.profile.name || user.username || user.id)+" Feeling?"
+              .ui.fluid.left.labeled.right.icon.input
+                .ui.label            
+                  if user.profile.picture
+                    img.ui.avatar.image(src='/user_post/'+user.profile.picture, name=user.profile.name || user.username || user.id)
+                  else
+                    img.ui.avatar.image(src=user.gravatar(60), name=user.profile.name || user.username || user.id)
+                input.newcomment(type='text', placeholder='Write a Comment')
+                i.big.send.link.icon
+            else
+              .ui.fluid.left.labeled.right.icon.input
+                .ui.label
+                  if user.profile.picture
+                    img.ui.avatar.image(src='/user_post/'+user.profile.picture, name=user.profile.name || user.username || user.id)
+                  else
+                    img.ui.avatar.image(src=user.gravatar(60), name=user.profile.name || user.username || user.id)            
+                input.newcomment(type='text', placeholder='Write a Comment')
+                i.big.send.link.icon
