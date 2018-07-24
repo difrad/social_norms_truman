@@ -89,7 +89,7 @@ block content
               .ui.comments
                 each comment in val.comments
                   //-IF this comment is USER made, do this
-                  if (user.createdAt.getTime() + comment.time) < Date.now()
+                  if ((user.createdAt.getTime() + comment.time) < Date.now() && (!comment.flagged))
                     if comment.new_comment
                       -console.log("New COMMENT AREA");
                       .comment(commentID=comment.new_comment_id)
