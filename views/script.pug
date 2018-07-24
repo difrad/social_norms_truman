@@ -70,7 +70,7 @@ block content
         -if (val.actorAuthor) {u_class = "actorReply"}
         -else if (val.reply) {u_class = "userReply"}
         -else {u_class = "userPost"}
-        .ui.fluid.card(u_postID=val.id, ui=user.ui, notify=user.notify, type=u_class, postID=val.replyID || val.postID || val.actorReplyID)
+        .ui.fluid.card(u_postID=val.id, ui=user.ui, notify=user.notify, type=u_class, postID=val.postID)
           
           //- This is a User made post
           .content
