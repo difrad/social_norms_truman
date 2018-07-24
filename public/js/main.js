@@ -62,7 +62,7 @@ $(window).on("load", function() {
   //get add new reply post modal to show
   $('.reply.button').click(function () {
     
-    let parent = $(this).closest( ".ui.fluid.card.dim" );
+    let parent = $(this).closest( ".ui.fluid.card" );
     let postID = parent.attr( "postID" );
 
     parent.find( "input.newcomment" ).focus();
@@ -360,7 +360,7 @@ $("i.big.send.link.icon").click(function() {
       var like = Date.now();
       console.log("***********LIKE: post "+postID+" at time "+like);
 
-      if (card.attr( "type" )=='userPost')
+      if ($(this).closest( ".ui.fluid.card" ).attr( "type" )=='userPost')
         $.post( "/userPost_feed", { postID: postID, like: like, _csrf : $('meta[name="csrf-token"]').attr('content') } );
       else
         $.post( "/feed", { postID: postID, like: like, _csrf : $('meta[name="csrf-token"]').attr('content') } );
@@ -394,12 +394,12 @@ $("i.big.send.link.icon").click(function() {
       var label = comment.find( "span.num" );
       label.html(function(i, val) { return val*1+1 });
 
-      var postID = $(this).closest( ".ui.fluid.card.dim" ).attr( "postID" );
+      var postID = $(this).closest( ".ui.fluid.card" ).attr( "postID" );
       var commentID = comment.attr("commentID");
       var like = Date.now();
-      console.log("#########COMMENT LIKE:  PostID"+postID+", Comment ID"+commentID+" at time "+like);
+      console.log("#########COMMENT LIKE:  PostID: "+postID+", Comment ID: "+commentID+" at time "+like);
 
-      if (card.attr( "type" )=='userPost')
+      if ($(this).closest( ".ui.fluid.card" ).attr( "type" )=='userPost')
         $.post( "/userPost_feed", { postID: postID, commentID: commentID, like: like, _csrf : $('meta[name="csrf-token"]').attr('content') } );
       else
         $.post( "/feed", { postID: postID, commentID: commentID, like: like, _csrf : $('meta[name="csrf-token"]').attr('content') } );
@@ -415,13 +415,14 @@ $("i.big.send.link.icon").click(function() {
   .on('click', function() {
 
     var comment = $(this).parents( ".comment" );
-    var postID = $(this).closest( ".ui.fluid.card.dim" ).attr( "postID" );
+    var postID = $(this).closest( ".ui.fluid.card" ).attr( "postID" );
+    var typeID = $(this).closest( ".ui.fluid.card" ).attr( "type" );
     var commentID = comment.attr("commentID");
     comment.replaceWith( '<div class="comment" style="background-color:black;color:white"><h5 class="ui inverted header"><span>The admins will review this post further. We are sorry you had this experience.</span></h5></div>' );
     var flag = Date.now();
-    console.log("#########COMMENT FLAG:  PostID"+postID+", Comment ID"+commentID+" at time "+flag);
+    console.log("#########COMMENT FLAG:  PostID: "+postID+", Comment ID: "+commentID+"  TYPE is "+typeID+" at time "+flag);
 
-    if (card.attr( "type" )=='userPost')
+    if (typeID=='userPost')
       $.post( "/userPost_feed", { postID: postID, commentID: commentID, flag: flag, _csrf : $('meta[name="csrf-token"]').attr('content') } );
     else
       $.post( "/feed", { postID: postID, commentID: commentID, flag: flag, _csrf : $('meta[name="csrf-token"]').attr('content') } );

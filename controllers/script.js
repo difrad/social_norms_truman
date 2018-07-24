@@ -625,7 +625,7 @@ exports.postUpdateFeedAction = (req, res, next) => {
     //find the object from the right post in feed 
     var feedIndex = _.findIndex(user.feedAction, function(o) { return o.post == req.body.postID; });
 
-    console.log("index is  ", feedIndex);
+    console.log("@@@ USER index is  ", feedIndex);
 
     if(feedIndex==-1)
     {
@@ -963,7 +963,7 @@ exports.postUpdateUserPostFeedAction = (req, res, next) => {
     //somehow user does not exist here
     if (err) { return next(err); }
 
-    console.log("@@@@@@@@@@@ TOP profile is  ", req.body.postID);
+    console.log("@@@@@@@@@@@ TOP USER profile is  ", req.body.postID);
 
     //find the object from the right post in feed 
     var feedIndex = _.findIndex(user.posts, function(o) { return o.postID == req.body.postID; });
@@ -1007,13 +1007,17 @@ exports.postUpdateUserPostFeedAction = (req, res, next) => {
       else if(req.body.like)
       {
 
+        console.log("%^%^%^%^%^%User Post comments LIKE was: ", user.posts[feedIndex].comments[commentIndex].liked);
         user.posts[feedIndex].comments[commentIndex].liked = user.posts[feedIndex].comments[commentIndex].liked ? false : true;        
+        console.log("^&^&^&^&^&User Post comments LIKE was: ", user.posts[feedIndex].comments[commentIndex].liked);
       }
 
       //FLAG A COMMENT
       else if(req.body.flag)
       {
-        user.posts[feedIndex].comments[commentIndex].flagged = user.posts[feedIndex].comments[commentIndex].flagged ? false : true; 
+        console.log("%^%^%^%^%^%User Post comments FLAG was: ", user.posts[feedIndex].comments[commentIndex].flagged);
+        user.posts[feedIndex].comments[commentIndex].flagged = user.posts[feedIndex].comments[commentIndex].flagged ? false : true;
+        console.log("%^%^%^%^%^%User Post comments FLAG was: ", user.posts[feedIndex].comments[commentIndex].flagged);
       }
 
     }//end of all comment junk

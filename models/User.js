@@ -60,7 +60,7 @@ const userSchema = new mongoose.Schema({
       absTime: Number,//millisecons
       new_comment: {type: Boolean, default: false}, //is new comment
       isUser: {type: Boolean, default: false}, //is this a comment on own post
-      liked: {type: Boolean, default: false}, //has the user liked it?
+      liked: {type: Boolean, default: false}, //has the user liked it? 
       flagged: {type: Boolean, default: false},//is Flagged?
       likes: Number
       }, { versionKey: false })],
