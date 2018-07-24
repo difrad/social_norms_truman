@@ -361,7 +361,7 @@ $("i.big.send.link.icon").click(function() {
       $(this).addClass("red");
       var label = $(this).next("a.ui.basic.red.left.pointing.label.count");
       label.html(function(i, val) { return val*1+1 });
-      var postID = $(this).closest( ".ui.fluid.card.dim" ).attr( "postID" );
+      var postID = $(this).closest( ".ui.fluid.card" ).attr( "postID" );
       var like = Date.now();
       console.log("***********LIKE: post "+postID+" at time "+like);
 

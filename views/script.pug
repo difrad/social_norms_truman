@@ -87,15 +87,11 @@ block content
             img(src='/user_post/'+val.picture)
           .content
             .description=val.body
-          .three.ui.bottom.attached.icon.buttons
+          .two.ui.bottom.attached.icon.buttons
             .ui.reply.button(tabindex='0')
               i.reply.icon
               |  Reply
-            //-.ui.flag.button(tabindex='0')
-            .ui.button(tabindex='0')
-              i.flag.icon
-              |  Flag
-            if val.like
+            if val.liked
               .ui.red.like.button
                 i.heart.icon
                 |  Like
