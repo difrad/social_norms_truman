@@ -260,6 +260,7 @@ User.find()
         mlm.AveReadTime = 0;
         mlm.TotalNumberRead = 0;
         mlm.TotalNonBullyPostRead = 0;
+        mlm.BullyPostStartReadTimes = 0;
         var bullyLikes = 0;
         var bullyReplies = 0;
         var bullyReads = 0;
@@ -271,6 +272,7 @@ User.find()
         var bullyVictumReadTimes = 0;
         var bullyVictumFlag = 0;
         var bullyFlag = 0;
+
         
         //per feedAction
         for (var k = users[i].feedAction.length - 1; k >= 0; k--) 
@@ -289,6 +291,11 @@ User.find()
             if(users[i].feedAction[k].replyTime[0])
             {
               bullyVictumReplies++;
+            }
+
+            if(users[i].feedAction[k].startTime)
+            {
+              mlm.BullyPostStartReadTimes++;
             }
 
             if(users[i].feedAction[k].liked)
@@ -435,6 +442,26 @@ User.find()
           mlm.reportIssue = "";
         }
 
+        //per profile_feed
+        mlm.ProfileIntroPictureClicks = 0
+        mlm.ProfileIntroReads = 0
+        for (var ll = users[i].profile_feed.length - 1; ll >= 0; ll--) 
+        { 
+          console.log("@@@@PROFILE INTRO has "+users[i].profile_feed[ll].rereadTimes);
+          if (users[i].profile_feed[ll].picture_clicks.length > 0)
+          {
+            mlm.ProfileIntroPictureClicks = mlm.ProfileIntroPictureClicks + users[i].profile_feed[ll].picture_clicks.length;
+          }
+
+          //rereadTimes
+            mlm.ProfileIntroReads = mlm.ProfileIntroReads + users[i].profile_feed[ll].rereadTimes + 1;
+        }
+
+        mlm.AVGProfileIntroPictureClicks = mlm.ProfileIntroPictureClicks/users[i].profile_feed.length
+        mlm.AVGProfileIntroReads = mlm.ProfileIntroReads/users[i].profile_feed.length
+
+
+
         //per bully post 1-4
         for (var n = 0; n < bully_messages.length; n++) 
         {  
@@ -452,6 +479,17 @@ User.find()
             temp_mlm.BullyingPost  = n + 1;
             console.log(":"+temp_mlm.BullyingPost+" IF FI mlm Bully message");
             
+            //startTime
+            //last read time
+            if(users[i].feedAction[feedIndex].startTime)
+            {
+              temp_mlm.BullyPostStartREADTime = users[i].feedAction[feedIndex].startTime;
+            }
+            else 
+            {
+              temp_mlm.BullyPostStartREADTime = -1;
+            }
+
             //last read time
             if(users[i].feedAction[feedIndex].readTime[0])
             {
@@ -544,6 +582,8 @@ User.find()
             temp_mlm.BullyingPost  = n + 1;
             //console.log(":"+temp_mlm.BullyingPost+" ELSE temp_mlm Bully message");
             
+             temp_mlm.BullyPostStartREADTime = 0;
+
             temp_mlm.BullyPostLastReadTime = 0;
             temp_mlm.BullyPostAverageReadTime = 0;
             temp_mlm.BullyPostNumOfReadTimes = 0;
