@@ -52,10 +52,20 @@ $(window).on("load", function() {
     $(".right.floated.meta.pro_time").text(time);
     $("span.mod_name").text(pro_name);
     //span.mod_name
-    $(".ui.small.modal.pro").modal('show');
+    $(".ui.small.modal.pro")
+      .modal({
+        closable  : true,
+        onHidden    : function(){
+          console.log("Refresh now");
+          window.location.reload();
+        }
+      })
+      .modal('show')
+    ;
     var parent = $(this).parents(".profile_card");    
     var postID = parent.attr( "postID" );
     var picture = Date.now();
+    //$('img.post, .content.pro').visibility('refresh')
     $.post( "/pro_feed", { postID: postID, picture: picture, _csrf : $('meta[name="csrf-token"]').attr('content') } );
     });
 
@@ -516,7 +526,7 @@ setTimeout(function() {
               animation: 'fade',
               duration   : '1.5s',
             });
-          //$('img.post').visibility('refresh')
+          //$('img.post').visibility('refresh')  $('img.post, .content.pro').visibility('refresh')
           //<div style="text-align:center;background:#b5bfce" class="content read"> <p>You've read this!</p><a href="/user/"><img src="/profile_pictures/" class="ui avatar image"><span>cat</span></a> has been notified.</div>
           //parent.append( '<div style="text-align:center;background:#b5bfce" class="content read"> <p>You have read this!</p><a href="/user/'+parent.attr( "actor_un" )+'"><img src="/profile_pictures/'+parent.attr( "actor_pic" )+'" class="ui avatar image"><span>'+parent.attr( "actor_name" )+'</span></a> has been notified.</div>' );
           parent.attr( "state", "read" );

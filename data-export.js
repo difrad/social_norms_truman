@@ -462,8 +462,8 @@ User.find()
             else 
             {
               temp_mlm.BullyPostLastReadTime = -1;
-              temp_mlm.BullyPostAverageReadTime = 0
-              temp_mlm.BullyPostNumOfReadTimes = 0
+              temp_mlm.BullyPostAverageReadTime = -1;
+              temp_mlm.BullyPostNumOfReadTimes = -1;
             }
 
             if(users[i].feedAction[feedIndex].flagTime[0])
