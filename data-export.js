@@ -20,7 +20,7 @@ var csvWriter = require('csv-write-stream');
 var mlm_writer = csvWriter();
 //var s_writer = csvWriter();
 var summary_writer = csvWriter();
-
+//5b4e271396208a40eb2aca3c
 var bully_messages = ["5b4e271396208a40eb2aca3c",
 "5b4e271396208a40eb2aca43",
 "5b4e271396208a40eb2aca4b",
@@ -279,13 +279,13 @@ User.find()
         {
           //is a bully Victim message
           //if(users[i].feedAction[k].post.id == bully_messages[0] || users[i].feedAction[k].post.id == bully_messages[1] || users[i].feedAction[k].post.id == bully_messages[2]||users[i].feedAction[k].post.id == bully_messages[3])
-          //console.log("Look up action ID: "+users[i].feedAction[k].id);
-          //console.log("Look up action POST : "+users[i].feedAction[k].post);
+          console.log("Look up action ID: "+users[i].feedAction[k].id);
+          console.log("Look up action POST : "+users[i].feedAction[k].post);
           
           //console.log(util.inspect(users[i].feedAction[k], false, null))
 
 
-          if(users[i].feedAction[k].post.id == bully_messages[0] || users[i].feedAction[k].post.id == bully_messages[1] || users[i].feedAction[k].post.id == bully_messages[2]||users[i].feedAction[k].post.id == bully_messages[3])   
+          if(users[i].feedAction[k].post != null && (users[i].feedAction[k].post.id == bully_messages[0] || users[i].feedAction[k].post.id == bully_messages[1] || users[i].feedAction[k].post.id == bully_messages[2]||users[i].feedAction[k].post.id == bully_messages[3]))   
           {
             console.log("FOUND BULLY ACTION")
             if(users[i].feedAction[k].replyTime[0])
