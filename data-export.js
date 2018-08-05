@@ -280,10 +280,13 @@ User.find()
           //is a bully Victim message
           //if(users[i].feedAction[k].post.id == bully_messages[0] || users[i].feedAction[k].post.id == bully_messages[1] || users[i].feedAction[k].post.id == bully_messages[2]||users[i].feedAction[k].post.id == bully_messages[3])
           console.log("Look up action ID: "+users[i].feedAction[k].id);
-          console.log("Look up action POST : "+users[i].feedAction[k].post);
+          //console.log("Look up action POST : "+users[i].feedAction[k].post);
           
           //console.log(util.inspect(users[i].feedAction[k], false, null))
-
+          if(users[i].feedAction[k].post == null)
+          {
+            console.log("@$@$@$@$@ action ID NOT FOUND: "+users[i].feedAction[k].id);
+          }
 
           if(users[i].feedAction[k].post != null && (users[i].feedAction[k].post.id == bully_messages[0] || users[i].feedAction[k].post.id == bully_messages[1] || users[i].feedAction[k].post.id == bully_messages[2]||users[i].feedAction[k].post.id == bully_messages[3]))   
           {
@@ -346,7 +349,7 @@ User.find()
           else 
           {
             //Victim stats
-            if (users[i].feedAction[k].post.actor.id == victim)
+            if (users[i].feedAction[k].post != null && users[i].feedAction[k].post.actor.id == victim)
             {
               if(users[i].feedAction[k].replyTime[0])
               {
@@ -360,7 +363,7 @@ User.find()
             }
 
             //bully stats
-            if (users[i].feedAction[k].post.actor.id == bully)
+            if (users[i].feedAction[k].post != null && users[i].feedAction[k].post.actor.id == bully)
             {
               if(users[i].feedAction[k].replyTime[0])
               {
