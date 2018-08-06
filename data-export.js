@@ -450,6 +450,7 @@ User.find()
         mlm.ProfileIntroPictureClicks = 0;
         mlm.ProfileIntroReads = 0;
         mlm.ProfileIntro_AveReadTime = 0;
+        mlm.ProfileIntro_ReadTime = 0;
         for (var ll = users[i].profile_feed.length - 1; ll >= 0; ll--) 
         { 
           console.log("@@@@PROFILE INTRO has "+users[i].profile_feed[ll].rereadTimes);
@@ -460,7 +461,10 @@ User.find()
 
           //rereadTimes
           mlm.ProfileIntroReads = mlm.ProfileIntroReads + users[i].profile_feed[ll].rereadTimes + 1;
-          mlm.ProfileIntro_ReadTime += users[i].profile_feed[ll].readTime.sum() / users[i].profile_feed[ll].readTime.length;
+          if (users[i].profile_feed[ll].readTime.length > 0)
+            mlm.ProfileIntro_ReadTime += users[i].profile_feed[ll].readTime.sum() / users[i].profile_feed[ll].readTime.length;
+          else
+            mlm.ProfileIntro_ReadTime = 0 + mlm.ProfileIntro_ReadTime;
         }
 
         mlm.AVGProfileIntroPictureClicks = mlm.ProfileIntroPictureClicks/users[i].profile_feed.length
