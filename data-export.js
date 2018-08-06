@@ -475,7 +475,7 @@ User.find()
 
           
 
-          var feedIndex = _.findIndex(users[i].feedAction, function(o) { return o.post.id == bully_messages[n]; });
+          var feedIndex = _.findIndex(users[i].feedAction, function(o) { if (o.post != null) {return o.post.id == bully_messages[n];} });
 
           if(feedIndex!=-1)
           {
