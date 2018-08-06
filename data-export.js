@@ -554,7 +554,7 @@ User.find()
             temp_mlm.BULLY_Reply = 0;
             temp_mlm.BULLY_ReplyTime = 0;
             temp_mlm.BULLY_commentMessage = "";
-            
+            //cats and changes
             //check bully comments
             for (var cc =users[i].feedAction[feedIndex].comments.length;cc >= 0; cc--)
             { 
