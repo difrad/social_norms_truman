@@ -279,7 +279,7 @@ User.find()
         {
           //is a bully Victim message
           //if(users[i].feedAction[k].post.id == bully_messages[0] || users[i].feedAction[k].post.id == bully_messages[1] || users[i].feedAction[k].post.id == bully_messages[2]||users[i].feedAction[k].post.id == bully_messages[3])
-          console.log("Look up action ID: "+users[i].feedAction[k].id);
+          //console.log("Look up action ID: "+users[i].feedAction[k].id);
           //console.log("Look up action POST : "+users[i].feedAction[k].post);
           
           //console.log(util.inspect(users[i].feedAction[k], false, null))
