@@ -611,18 +611,19 @@ User.find()
             temp_mlm.BullyPostAverageReadTime = 0;
             temp_mlm.BullyPostNumOfReadTimes = 0;
 
-            temp_mlm.VictimPostFlag = 0;
-            temp_mlm.VictimPostFlagTime = 0;
-            temp_mlm.VictimPostLike = 0;
-            temp_mlm.VictimPostLikeTime = 0;
+            temp_mlm.BULLY_VictimPostFlag = 0;
+            temp_mlm.BULLY_VictimPostFlagTime = 0;
+            temp_mlm.BULLY_VictimPostLike = 0;
+            temp_mlm.BULLY_VictimPostLikeTime = 0;
 
 
-            temp_mlm.Flag = 0;
-            temp_mlm.FlagTime = 0;
-            temp_mlm.Like = 0;
-            temp_mlm.LikeTime = 0;
-            temp_mlm.Reply = 0;
-            temp_mlm.ReplyTime = 0;
+            temp_mlm.BULLY_Flag = 0;
+            temp_mlm.BULLY_FlagTime = 0;
+            temp_mlm.BULLY_Like = 0;
+            temp_mlm.BULLY_LikeTime = 0;
+            temp_mlm.BULLY_Reply = 0;
+            temp_mlm.BULLY_ReplyTime = 0;
+            temp_mlm.BULLY_commentMessage = "";
 
             mlm_array.push(temp_mlm);
             /*
