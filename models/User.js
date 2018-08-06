@@ -109,7 +109,7 @@ const userSchema = new mongoose.Schema({
         //add in object to see which comments were linked and flagged
         postClass: String,
         rereadTimes: Number, //number of times post has been viewed by user
-        startTime: Number, //always the newest startTime (full date in ms)
+        startTime: {type: Number, default: 0}, //always the newest startTime (full date in ms)
         liked: {type: Boolean, default: false},
         readTime : [Number],
         flagTime  : [Number],

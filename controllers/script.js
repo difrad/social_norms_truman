@@ -635,9 +635,9 @@ exports.postUpdateFeedAction = (req, res, next) => {
       cat.post = req.body.postID;
       if(!(req.body.start))
         {
-          //console.log("!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!No start");
+          console.log("!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!No start");
         }
-      cat.startTime = req.body.start;
+      cat.startTime = req.body.start || 0;
       cat.rereadTimes = 0;
       //add new post into feedAction
       user.feedAction.push(cat);
