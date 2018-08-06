@@ -539,22 +539,22 @@ User.find()
               temp_mlm.BULLY_VictimPostLikeTime = 0;
             }
 
+            /*
             if (users[i].feedAction[feedIndex].comments.length > 1)
               temp_mlm.BULLY_Reply = users[i].feedAction[feedIndex].comments.length - 1;
             else
               temp_mlm.BULLY_Reply = 0;
+            */
 
-            if (users[i].feedAction[feedIndex].comments.length == 0)
-            {
-              temp_mlm.BULLY_Flag = 0;
-              temp_mlm.BULLY_FlagTime = 0;
-              temp_mlm.BULLY_Like = 0;
-              temp_mlm.BULLY_LikeTime = 0;
-              temp_mlm.BULLY_Reply = 0;
-              temp_mlm.BULLY_ReplyTime = 0;
-              temp_mlm.BULLY_commentMessage = "";
-            }
-
+            
+            temp_mlm.BULLY_Flag = 0;
+            temp_mlm.BULLY_FlagTime = 0;
+            temp_mlm.BULLY_Like = 0;
+            temp_mlm.BULLY_LikeTime = 0;
+            temp_mlm.BULLY_Reply = 0;
+            temp_mlm.BULLY_ReplyTime = 0;
+            temp_mlm.BULLY_commentMessage = "";
+            
             //check bully comments
             for (var cc =users[i].feedAction[feedIndex].comments.length;cc >= 0; cc--)
             { 
@@ -593,6 +593,9 @@ User.find()
               { 
                 //is empty, but user message
                 console.log("NOT BULLY COMMENT - USER COMMENT IN VIC POST");
+                temp_mlm.BULLY_Reply++;
+                temp_mlm.BULLY_ReplyTime = users[i].feedAction[feedIndex].comments[cc].time;
+
                 if (!temp_mlm.commentMessage)
                   temp_mlm.BULLY_commentMessage = users[i].feedAction[feedIndex].comments[cc].comment_body;
                 else
