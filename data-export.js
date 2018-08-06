@@ -544,6 +544,17 @@ User.find()
             else
               temp_mlm.BULLY_Reply = 0;
 
+            if (users[i].feedAction[feedIndex].comments.length == 0)
+            {
+              temp_mlm.BULLY_Flag = 0;
+              temp_mlm.BULLY_FlagTime = 0;
+              temp_mlm.BULLY_Like = 0;
+              temp_mlm.BULLY_LikeTime = 0;
+              temp_mlm.BULLY_Reply = 0;
+              temp_mlm.BULLY_ReplyTime = 0;
+              temp_mlm.BULLY_commentMessage = "";
+            }
+
             //check bully comments
             for (var cc =users[i].feedAction[feedIndex].comments.length;cc >= 0; cc--)
             { 
