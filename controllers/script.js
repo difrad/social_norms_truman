@@ -667,6 +667,8 @@ exports.postUpdateFeedAction = (req, res, next) => {
           cat.absTime = Date.now();
           cat.time = cat.absTime - user.createdAt;
           user.feedAction[feedIndex].comments.push(cat);
+          user.feedAction[feedIndex].replyTime = [cat.time];
+        
           console.log("$#$#$#$#$#$$New  USER COMMENT Time: ", cat.commentTime);
       }
 

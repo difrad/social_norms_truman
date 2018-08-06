@@ -253,24 +253,24 @@ User.find()
         //per feedAction
         mlm.VictimNoBullyReplies = 0;
         mlm.VictimNoBullyLikes = 0;
-        mlm.BullyNoBullyReplies = 0;
-        mlm.BullyNoBullyLikes = 0;
+        mlm.GEN_BullyNoBullyReplies = 0;
+        mlm.GEN_BullyNoBullyLikes = 0;
         mlm.GeneralLikeNumber = 0;
         mlm.GeneralFlagNumber = 0;
         mlm.AveReadTime = 0;
         mlm.TotalNumberRead = 0;
         mlm.TotalNonBullyPostRead = 0;
-        mlm.BullyPostStartReadTimes = 0;
+        mlm.BULLY_PostStartReadTimes = 0;
         var bullyLikes = 0;
         var bullyReplies = 0;
-        var bullyReads = 0;
+        //var bullyReads = 0;
         var bullyReadTimes = 0;
         var bullyVictumFlag = 0;
         var bullyVictumLikes = 0;
         var bullyVictumReplies = 0;
         var bullyVictumReads = 0;
         var bullyVictumReadTimes = 0;
-        var bullyVictumFlag = 0;
+        //var bullyVictumFlag = 0;
         var bullyFlag = 0;
 
         
@@ -298,7 +298,7 @@ User.find()
 
             if(users[i].feedAction[k].startTime)
             {
-              mlm.BullyPostStartReadTimes++;
+              mlm.BULLY_PostStartReadTimes++;
             }
 
             if(users[i].feedAction[k].liked)
@@ -324,7 +324,7 @@ User.find()
               //if (users[i].feedAction[k].comments[cc] && users[i].feedAction[k].comments[cc].hasOwnProperty("comment"))
               if (users[i].feedAction[k].comments[cc] && !users[i].feedAction[k].comments[cc].new_comment)
               { 
-                console.log("COUNT AVG LIKES/FLAG")
+                console.log("BULLY _ COUNT AVG LIKES/FLAG")
                 //liked bully comment
                 if(users[i].feedAction[k].comments[cc].liked)
                 {
@@ -367,12 +367,12 @@ User.find()
             {
               if(users[i].feedAction[k].replyTime[0])
               {
-                mlm.BullyNoBullyReplies++;
+                mlm.GEN_BullyNoBullyReplies++;
               }
 
               if(users[i].feedAction[k].liked)
               {
-                mlm.BullyNoBullyLikes++;
+                mlm.GEN_BullyNoBullyLikes++;
               }
             }
 
@@ -407,17 +407,18 @@ User.find()
         mlm.GeneralReplyNumber = users[i].numReplies + 1;
         mlm.GeneralPostNumber = users[i].numPosts + 1;
 
-        mlm.TotalCyberBullyLikes = bullyLikes;
-        mlm.TotalCyberBullyReplies = bullyReplies;
-        mlm.TotalCyerBullyReads =  bullyReads;
-        mlm.TotalCyberBullyReadTimes = bullyReadTimes;
-        mlm.TotalCyberBullyVictumPostFlag = bullyVictumFlag;
-        mlm.TotalCyberBullyVicPostLikes =  bullyVictumLikes;
-        mlm.TotalCyberBullyVicPostReplies =  bullyVictumReplies;
-        mlm.TotalCyberBullyVicPostReads = bullyVictumReads;
-        mlm.TotalCyberBullyVicPostReadsTimes =  bullyVictumReadTimes;
-        mlm.TotalCyberBullyVicPostFlag = bullyVictumFlag = 0;
-        mlm.TotalCyerBullyFlag =  bullyFlag;
+        mlm.BULLY_TotalCyberBullyLikes = bullyLikes;
+        mlm.BULLY_TotalCyberBullyReplies = bullyReplies;
+        mlm.BULLY_TotalCyerBullyFlag =  bullyFlag;
+        //mlm.BULLY_TotalCyerBullyReads =  bullyReads;
+        //mlm.BULLY_TotalCyberBullyReadTimes = bullyReadTimes;
+        mlm.BULLY_TotalCyberBullyVictumPostFlag = bullyVictumFlag;
+        mlm.BULLY_TotalCyberBullyVicPostLikes =  bullyVictumLikes;
+        mlm.BULLY_TotalCyberBullyVicPostReplies =  bullyVictumReplies;
+        mlm.BULLY_TotalCyberBullyVicPostReads = bullyVictumReads;
+        mlm.BULLY_AVG_CyberBullyVicPostReadsTimes =  bullyVictumReadTimes;
+        //mlm.BULLY_TotalCyberBullyVicPostFlag = bullyVictumFlag = 0;
+        
 
         if (users[i].blocked.includes(bully_name))
         {
@@ -654,8 +655,8 @@ User.find()
 
       sur.VictimNoBullyReplies = mlm.VictimNoBullyReplies;
       sur.VictimNoBullyLikes = mlm.VictimNoBullyLikes;
-      sur.BullyNoBullyReplies = mlm.BullyNoBullyReplies + bullyReplies;
-      sur.BullyNoBullyLikes = mlm.BullyNoBullyLikes + bullyLikes;
+      sur.GEN_BullyNoBullyReplies = mlm.GEN_BullyNoBullyReplies + bullyReplies;
+      sur.GEN_BullyNoBullyLikes = mlm.GEN_BullyNoBullyLikes + bullyLikes;
       sur.GeneralLikeNumber = mlm.GeneralLikeNumber + bullyLikes;
       sur.GeneralFlagNumber = mlm.GeneralFlagNumber + bullyFlag;
       sur.GeneralReplyNumber = mlm.GeneralReplyNumber + bullyReplies;
