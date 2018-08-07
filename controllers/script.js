@@ -292,23 +292,6 @@ exports.getScript = (req, res, next) => {
                       console.log(JSON.stringify(user.feedAction[feedIndex].comments[i]))
                       //script_feed[0].comments.push(user.feedAction[feedIndex].comments[i]);
 
-                      /*
-                      new_comment: {type: Boolean, default: false}, //is new comment
-                      new_comment_id: Number,//ID for comment
-                      comment_body: String, //Original Body of User Post
-                      absTime: Date,
-                      commentTime: {type: Number},
-                      time: {type: Number}
-
-                      class: String, //Bully, Marginal, normal, etc
-                      actor: {type: Schema.ObjectId, ref: 'Actor'},
-                      body: {type: String, default: '', trim: true}, //body of post or reply
-                      commentID: Number, //ID of the comment
-                      time: Number,//millisecons
-                      new_comment: {type: Boolean, default: false}, //is new comment
-                      likes: Number
-                      */
-
                       var cat = new Object();
                       cat.body = user.feedAction[feedIndex].comments[i].comment_body;
                       cat.new_comment = user.feedAction[feedIndex].comments[i].new_comment;
@@ -359,6 +342,11 @@ exports.getScript = (req, res, next) => {
                 script_feed[0].state = 'read';
                 //console.log("Post: %o has been READ", script_feed[0].id);
               }
+              else 
+              {
+                script_feed[0].read = false;
+                //script_feed[0].state = 'read';
+              }
 
               if (user.feedAction[feedIndex].liked)
               { 
@@ -387,8 +375,9 @@ exports.getScript = (req, res, next) => {
               }
 
               //if bully post && firt viewing of the day
-              else if ( script_feed[0].class == "bullying" && user.study_days[current_day] == 1 && bully_count == 0)
+              else if ( script_feed[0].class == "bullying" && user.study_days[current_day] > 0 && bully_count == 0 && !script_feed[0].read)
               {
+                console.log("!@!@!@!@!Found a bully post and will push it");
                 bully_post = script_feed[0];
                 bully_count = 1;
                 script_feed.splice(0,1);
@@ -412,8 +401,9 @@ exports.getScript = (req, res, next) => {
               }
 
               //if bully post && firt viewing of the day
-              else if ( script_feed[0].class == "bullying" && user.study_days[current_day] == 1 && bully_count == 0)
+              else if ( script_feed[0].class == "bullying" && user.study_days[current_day] > 0 && bully_count == 0)
               {
+                console.log("%$%$%$%$%$%$%$Found a bully post and will push it ^2");
                 bully_post = script_feed[0];
                 bully_count = 1;
                 script_feed.splice(0,1);
@@ -430,9 +420,9 @@ exports.getScript = (req, res, next) => {
 
       
 
-      if (user.study_days[current_day] == 1 && bully_post)
+      if (user.study_days[current_day] > 0 && bully_post)
       {
-        var bully_index = Math.floor(Math.random() * 5) + 1 
+        var bully_index = Math.floor(Math.random() * 4) + 1 
         finalfeed.splice(bully_index, 0, bully_post);
         console.log("@@@@@@@@@@ Pushed a Bully Post to index "+bully_index);
       }

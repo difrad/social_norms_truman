@@ -129,7 +129,7 @@ const userSchema = new mongoose.Schema({
           absTime: Date,
           commentTime: {type: Number},
           time: {type: Number}
-          })]
+          },{_id: true, versionKey: false })]
     }, {_id: true, versionKey: false })],
 
   profile: {
