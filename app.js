@@ -110,15 +110,45 @@ var j = schedule.scheduleJob(rule, function(){
 
 /****
 **CRON JOBS 
-**Check if users are still active
+**Check if users are still active 12 and 20
 */
-var rule = new schedule.RecurrenceRule();
-rule.hour = 4;
-rule.minute = 30;
+var rule1 = new schedule.RecurrenceRule();
+rule1.hour = 4;
+rule1.minute = 30;
  
-var j = schedule.scheduleJob(rule, function(){
+var j = schedule.scheduleJob(rule1, function(){
   console.log('@@@@@@######@@@@@@@@#########@@@@@@@@@@@@########');
   console.log('@@@@@@######@@@@@@@@Checking if Users are active!!!!!');
+  console.log('@@@@@@######@@@@@@@@#########@@@@@@@@@@@@########');
+  userController.stillActive();
+}); 
+
+/****
+**CRON JOBS 
+**Check if users are still active 12 and 20
+*/
+var rule2 = new schedule.RecurrenceRule();
+rule2.hour = 12;
+rule2.minute = 30;
+ 
+var j2 = schedule.scheduleJob(rule2, function(){
+  console.log('@@@@@@######@@@@@@@@#########@@@@@@@@@@@@########');
+  console.log('@@@@@@######@@@@@@@@2222Checking if Users are active2222!!!!!');
+  console.log('@@@@@@######@@@@@@@@#########@@@@@@@@@@@@########');
+  userController.stillActive();
+}); 
+
+/****
+**CRON JOBS 
+**Check if users are still active 12 and 20
+*/
+var rule3 = new schedule.RecurrenceRule();
+rule3.hour = 20;
+rule3.minute = 30;
+ 
+var j3 = schedule.scheduleJob(rule3, function(){
+  console.log('@@@@@@######@@@@@@@@#########@@@@@@@@@@@@########');
+  console.log('@@@@@@######@@@@@@@@3333Checking if Users are active 3333!!!!!');
   console.log('@@@@@@######@@@@@@@@#########@@@@@@@@@@@@########');
   userController.stillActive();
 }); 
