@@ -107,86 +107,86 @@ User.find()
         sums.StartDate = users[i].createdAt;
 
         console.log("In User "+ users[i].email);
-        console.log("In User Number "+ i);
+        //console.log("In User Number "+ i);
 
         //UI - transparency
         if (users[i].transparency == 'yes')
         {
           mlm.transparency = 1;
-          //sur.ViewNotification = 1;
+          sums.transparency = 1;
         }
         else
         {
           mlm.transparency = 0;
-          //sur.ViewNotification = 0;
+          sums.transparency = 0;
         }
 
         //profile_perspective
         if (users[i].profile_perspective == 'yes')
         {
           mlm.profile_perspective = 1;
-          //sur.HighBystanders = 2;
+          sums.profile_perspective = 1;
         }
         else
         {
           mlm.profile_perspective = 0;
-          //sur.HighBystanders = 0;
+          sums.profile_perspective = 0;
         }
 
         //comment_prompt
         if (users[i].comment_prompt == 'yes')
         {
           mlm.comment_prompt = 1;
-          //sur.HighBystanders = 2;
+          sums.comment_prompt = 1;
         }
         else
         {
           mlm.comment_prompt = 0;
-          //sur.HighBystanders = 0;
+          sums.comment_prompt = 0;
         }
 
         if (users[i].profile.name)
         {
           mlm.ProfileName = 1;
-          //sur.ProfileName = 1;
+          sums.ProfileName = 1;
         }
         else
         {
           mlm.ProfileName = 0;
-          //sur.ProfileName = 0;
+          sums.ProfileName = 0;
         }
 
         if (users[i].profile.location)
         {
           mlm.ProfileLocation = 1;
-          //sur.ProfileLocation = 1;
+          sums.ProfileLocation = 1;
         }
         else
         {
           mlm.ProfileLocation = 0;
-          //sur.ProfileLocation = 0;
+          sums.ProfileLocation = 0;
         }
 
         if (users[i].profile.bio)
         {
           mlm.ProfileBio = 1;
-          //sur.ProfileBio = 1;
+          sums.ProfileBio = 1;
         }
         else
         {
           mlm.ProfileBio = 0;
-          //sur.ProfileBio = 0;
+          sums.ProfileBio = 0;
         }
 
         if (users[i].profile.picture)
         {
           mlm.ProfilePicture = 1;
-          //sur.ProfilePicture = 1;
+          sums.ProfilePicture = 1;
         }
         else
         {
           mlm.ProfilePicture = 0;
-          //sur.ProfilePicture = 0;
+          sums.ProfilePicture = 0;
         }
 
         var parser = new UAParser();
@@ -250,6 +250,17 @@ User.find()
           //sur.CompletedStudy = 0;
         }
 
+        if (users[i].study_days.length > 0)
+        {
+          mlm.DayOneVists = users[i].study_days[0];
+          mlm.DayTwoVists = users[i].study_days[1];
+          mlm.DayThreeVists = users[i].study_days[2];
+
+          sums.DayOneVists = users[i].study_days[0];
+          sums.DayTwoVists = users[i].study_days[1];
+          sums.DayThreeVists = users[i].study_days[2];
+        }
+
         //per feedAction
         mlm.VictimNoBullyReplies = 0;
         mlm.VictimNoBullyLikes = 0;
@@ -285,12 +296,12 @@ User.find()
           //console.log(util.inspect(users[i].feedAction[k], false, null))
           if(users[i].feedAction[k].post == null)
           {
-            console.log("@$@$@$@$@ action ID NOT FOUND: "+users[i].feedAction[k].id);
+            //console.log("@$@$@$@$@ action ID NOT FOUND: "+users[i].feedAction[k].id);
           }
 
           if(users[i].feedAction[k].post != null && (users[i].feedAction[k].post.id == bully_messages[0] || users[i].feedAction[k].post.id == bully_messages[1] || users[i].feedAction[k].post.id == bully_messages[2]||users[i].feedAction[k].post.id == bully_messages[3]))   
           {
-            console.log("FOUND BULLY ACTION")
+            //console.log("FOUND BULLY ACTION")
             if(users[i].feedAction[k].replyTime[0])
             {
               bullyVictumReplies++;
@@ -324,7 +335,7 @@ User.find()
               //if (users[i].feedAction[k].comments[cc] && users[i].feedAction[k].comments[cc].hasOwnProperty("comment"))
               if (users[i].feedAction[k].comments[cc] && !users[i].feedAction[k].comments[cc].new_comment)
               { 
-                console.log("BULLY _ COUNT AVG LIKES/FLAG")
+                //console.log("BULLY _ COUNT AVG LIKES/FLAG")
                 //liked bully comment
                 if(users[i].feedAction[k].comments[cc].liked)
                 {
@@ -453,7 +464,7 @@ User.find()
         mlm.ProfileIntro_ReadTime = 0;
         for (var ll = users[i].profile_feed.length - 1; ll >= 0; ll--) 
         { 
-          console.log("@@@@PROFILE INTRO has "+users[i].profile_feed[ll].rereadTimes);
+          //console.log("@@@@PROFILE INTRO has "+users[i].profile_feed[ll].rereadTimes);
           if (users[i].profile_feed[ll].picture_clicks.length > 0)
           {
             mlm.ProfileIntroPictureClicks = mlm.ProfileIntroPictureClicks + users[i].profile_feed[ll].picture_clicks.length;
@@ -488,7 +499,7 @@ User.find()
           if(feedIndex!=-1)
           {
             temp_mlm.BullyingPost  = n + 1;
-            console.log(":::::"+temp_mlm.BullyingPost+" IF FI mlm Bully message");
+            //console.log(":::::"+temp_mlm.BullyingPost+" IF FI mlm Bully message");
             
             //startTime
             //last read time
@@ -561,11 +572,11 @@ User.find()
               //IF THIS IS THE BULLY COMMENT
               if (users[i].feedAction[feedIndex].comments[cc] && !users[i].feedAction[feedIndex].comments[cc].new_comment)
               { 
-                console.log("WE have a BULLY comment action MLM");
+                //console.log("WE have a BULLY comment action MLM");
                 //liked bully comment
                 if(users[i].feedAction[feedIndex].comments[cc].liked)
                 {
-                  console.log("LIKE");
+                  //console.log("LIKE");
                   temp_mlm.BULLY_Like = 1;
                   temp_mlm.BULLY_LikeTime = users[i].feedAction[feedIndex].comments[cc].likeTime[0];
                 }
@@ -577,7 +588,7 @@ User.find()
                 //flagged bully comment
                 if(users[i].feedAction[feedIndex].comments[cc].flagTime[0])
                 {
-                  console.log("FLAG");
+                  //console.log("FLAG");
                   temp_mlm.BULLY_Flag = 1;
                   temp_mlm.BULLY_FlagTime = users[i].feedAction[feedIndex].comments[cc].flagTime[0];;
                 }
@@ -592,7 +603,7 @@ User.find()
               else if(users[i].feedAction[feedIndex].comments[cc] && users[i].feedAction[feedIndex].comments[cc].new_comment)
               { 
                 //is empty, but user message
-                console.log("NOT BULLY COMMENT - USER COMMENT IN VIC POST");
+                //console.log("NOT BULLY COMMENT - USER COMMENT IN VIC POST");
                 temp_mlm.BULLY_Reply++;
                 temp_mlm.BULLY_ReplyTime = users[i].feedAction[feedIndex].comments[cc].time;
 
