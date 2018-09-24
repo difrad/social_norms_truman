@@ -173,7 +173,8 @@ exports.postSignup = (req, res, next) => {
   }
 
   //random assignment of experimental group
-  var result = ['no:no:no', 'no:yes:no','yes:no:no', 'yes:yes:no','no:no:yes', 'no:yes:yes', 'yes:no:yes', 'yes:yes:yes'][Math.floor(Math.random() * 8)]
+  //var result = ['no:no:no', 'no:yes:no','yes:no:no', 'yes:yes:no','no:no:yes', 'no:yes:yes', 'yes:no:yes', 'yes:yes:yes'][Math.floor(Math.random() * 8)]
+  var result = ['no:no', 'no:yes','yes:no', 'yes:yes'][Math.floor(Math.random() * 4)]
   var resultArray = result.split(':');
   //[0] is Social Transparency, [1] is Profile Perspective Taking, [2] Comment Prompt
   const user = new User({
@@ -186,8 +187,8 @@ exports.postSignup = (req, res, next) => {
     ui: 'no', //ui or no
     notify: "no", //no, low or high (not used anymore)
     transparency: resultArray[0], //yes or no
-    profile_perspective: resultArray[1], //yes or no
-    comment_prompt: resultArray[2], //yes or no
+    profile_perspective: "no", //yes or no
+    comment_prompt: resultArray[1], //yes or no
     lastNotifyVisit : Date.now()
   });
 

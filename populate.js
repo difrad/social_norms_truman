@@ -23,9 +23,11 @@ var notify = require('./notify.json');
 var dd = require('./upload_post_replyv1.json');
 */
 
-var actors_list = require('./input/actors.json');
+//var actors_list = require('./input/actors.json');
+var actors_list = require('./input/troll_user.json');
 var posts_list = require('./input/posts.json');
-var comment_list = require('./input/comments.json');
+//var comment_list = require('./input/comments.json');
+var comment_list = require('./input/troll_reply.json');
 
 var replies_list = require('./input/replies.json');
 var notifications_list = require('./input/notifications.json');
@@ -609,9 +611,9 @@ function(err, results) {
 
 //createActorInstances()
 //createPostInstances()
-//createPostRepliesInstances()
+createPostRepliesInstances()
 //actorNotifyCreate();
-NotifyCreate();
+//NotifyCreate();
 
 
 //PostReplyCreate(posts1[0]);

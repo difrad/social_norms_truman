@@ -38,7 +38,7 @@ block content
       input(type='text', placeholder='Share your meal')
       i.big.photo.link.icon
 
-    if profile_card != -1
+    // if profile_card != -1
       .ui.raised.fluid.card.profile_card(postID=profile_card.username, transparency='no', profile="yes") 
         //-h3.ui.center.aligned.header(style="background-image: url('/public/checkered4.png');background-size: contain;")
           br
@@ -160,7 +160,7 @@ block content
                                 a.like.comment Like
                               a.flag.comment Flag
           .extra.content
-            if user.comment_prompt
+            if user.comment_prompt == "yes"
               .description(style="text-align:center;background:#E8E8E8")="How is "+(user.profile.name || user.username || user.id)+" Feeling?"
               .ui.fluid.left.labeled.right.icon.input
                 .ui.label            
@@ -292,7 +292,7 @@ block content
                               a.like.comment Like
                             a.flag.comment Flag
           .extra.content
-            if user.comment_prompt
+            if user.comment_prompt == "yes"
               .description(style="text-align:center;background:#E8E8E8")="How is "+val.actor.profile.name+" Feeling?"
               .ui.fluid.left.labeled.right.icon.input
                 .ui.label            
