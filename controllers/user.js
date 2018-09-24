@@ -570,7 +570,7 @@ var sendFinalEmail = function(user){
       text: `Hey ${u_name},\n\n
       Thank you so much for participating in our study!\n
       Your participation has been a huge help in beta testing our app.
-      You have one last task to finish the study, and that is to take the final survey here at https://cornell.qualtrics.com/jfe/form/SV_3rqJCz1DifIybjf\n\n
+      You have one last task to finish the study, and that is to take the final survey here at  https://cornell.qualtrics.com/jfe/form/SV_9BUHxhFPE5BiQpT\n\n
       Thanks again for all your help and participation!\n
       Keep Eating, Snapping and Loving!\n 
       🍴📷.❤️ Team
