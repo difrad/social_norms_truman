@@ -136,7 +136,7 @@ block content
                               a.like.comment Like
                             a.flag.comment Flag
           .extra.content
-            if user.comment_prompt
+            if user.comment_prompt == "yes"
               .description(style="text-align:center;background:#E8E8E8")="How is "+val.actor.profile.name+" Feeling?"
               .ui.fluid.left.labeled.right.icon.input
                 .ui.label            
