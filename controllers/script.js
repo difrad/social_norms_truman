@@ -375,6 +375,7 @@ exports.getScript = (req, res, next) => {
               }
 
               //if bully post && firt viewing of the day
+              //&& ((req.user.createdAt + script_feed[0].comments[0].time) < time_now))
               else if ( script_feed[0].class == "bullying" && user.study_days[current_day] > 0 && bully_count == 0 && !script_feed[0].read)
               {
                 //console.log("!@!@!@!@!Found a bully post and will push it");

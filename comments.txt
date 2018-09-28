@@ -1,0 +1,3853 @@
+This script is running!!!!
+start REPLY for: 0
+After Lookup:
+BoTTom REPLY for: 0
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924d
+Looking up OP POST ID is : 5babe282a57c83bc6708a54f
+Time is : -21:02
+NEW Time is : -75720000
+Comment0 on Post 115 Length before: 0
+Comment0 on Post 115 Length After: 1
+Looking up Actor: casssssssssie
+Added new Comment to Post: 5babe282a57c83bc6708a54f
+start REPLY for: 1
+BoTTom REPLY for: 1
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923a
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d9
+Time is : -23:15
+NEW Time is : -83700000
+Comment1 on Post 106 Length before: 0
+Comment1 on Post 106 Length After: 1
+Looking up Actor: M.Kapadia92
+Added new Comment to Post: 5babe282a57c83bc6708a5d9
+start REPLY for: 2
+BoTTom REPLY for: 2
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9250
+Looking up OP POST ID is : 5babe282a57c83bc6708a54a
+Time is : -17:16
+NEW Time is : -62160000
+Comment2 on Post 90 Length before: 0
+Comment2 on Post 90 Length After: 1
+Looking up Actor: localewis
+Added new Comment to Post: 5babe282a57c83bc6708a54a
+start REPLY for: 3
+BoTTom REPLY for: 3
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923c
+Looking up OP POST ID is : 5babe282a57c83bc6708a5ff
+Time is : -13:45
+NEW Time is : -49500000
+Comment3 on Post 69 Length before: 0
+Comment3 on Post 69 Length After: 1
+Looking up Actor: livelaughlove
+Added new Comment to Post: 5babe282a57c83bc6708a5ff
+start REPLY for: 4
+BoTTom REPLY for: 4
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924d
+Looking up OP POST ID is : 5babe282a57c83bc6708a5ff
+Time is : -14:47
+NEW Time is : -53220000
+Comment4 on Post 69 Length before: 1
+Comment4 on Post 69 Length After: 2
+Looking up Actor: casssssssssie
+Added new Comment to Post: 5babe282a57c83bc6708a5ff
+start REPLY for: 5
+BoTTom REPLY for: 5
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923d
+Looking up OP POST ID is : 5babe282a57c83bc6708a60d
+Time is : -08:11
+NEW Time is : -29460000
+Comment5 on Post 139 Length before: 0
+Comment5 on Post 139 Length After: 1
+Looking up Actor: bblueberryy
+Added new Comment to Post: 5babe282a57c83bc6708a60d
+start REPLY for: 6
+BoTTom REPLY for: 6
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9256
+Looking up OP POST ID is : 5babe282a57c83bc6708a525
+Time is : -03:59
+NEW Time is : -14340000
+Comment6 on Post 32 Length before: 0
+Comment6 on Post 32 Length After: 1
+Looking up Actor: wiz_khaleesi
+Added new Comment to Post: 5babe282a57c83bc6708a525
+start REPLY for: 7
+BoTTom REPLY for: 7
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924d
+Looking up OP POST ID is : 5babe282a57c83bc6708a5ab
+Time is : 00:02
+NEW Time is : 120000
+Comment7 on Post 107 Length before: 0
+Comment7 on Post 107 Length After: 1
+Looking up Actor: casssssssssie
+Added new Comment to Post: 5babe282a57c83bc6708a5ab
+start REPLY for: 8
+BoTTom REPLY for: 8
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924b
+Looking up OP POST ID is : 5babe282a57c83bc6708a557
+Time is : 00:20
+NEW Time is : 1200000
+Comment8 on Post 155 Length before: 0
+Comment8 on Post 155 Length After: 1
+Looking up Actor: caffeinated
+Added new Comment to Post: 5babe282a57c83bc6708a557
+start REPLY for: 9
+BoTTom REPLY for: 9
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9248
+Looking up OP POST ID is : 5babe282a57c83bc6708a54b
+Time is : 05:01
+NEW Time is : 18060000
+Comment9 on Post 95 Length before: 0
+Comment9 on Post 95 Length After: 1
+Looking up Actor: fusionfeast
+Added new Comment to Post: 5babe282a57c83bc6708a54b
+start REPLY for: 10
+BoTTom REPLY for: 10
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9254
+Looking up OP POST ID is : 5babe282a57c83bc6708a54b
+Time is : 03:30
+NEW Time is : 12600000
+Comment10 on Post 95 Length before: 1
+Comment10 on Post 95 Length After: 2
+Looking up Actor: lavenderrrrrr
+Added new Comment to Post: 5babe282a57c83bc6708a54b
+start REPLY for: 11
+BoTTom REPLY for: 11
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9243
+Looking up OP POST ID is : 5babe282a57c83bc6708a521
+Time is : 05:20
+NEW Time is : 19200000
+Comment11 on Post 13 Length before: 0
+Comment11 on Post 13 Length After: 1
+Looking up Actor: sweetpea
+Added new Comment to Post: 5babe282a57c83bc6708a521
+start REPLY for: 12
+BoTTom REPLY for: 12
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9250
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d1
+Time is : 10:24
+NEW Time is : 37440000
+Comment12 on Post 66 Length before: 0
+Comment12 on Post 66 Length After: 1
+Looking up Actor: localewis
+Added new Comment to Post: 5babe282a57c83bc6708a5d1
+start REPLY for: 13
+BoTTom REPLY for: 13
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9245
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d1
+Time is : 10:30
+NEW Time is : 37800000
+Comment13 on Post 66 Length before: 1
+Comment13 on Post 66 Length After: 2
+Looking up Actor: artisanalways
+Added new Comment to Post: 5babe282a57c83bc6708a5d1
+start REPLY for: 14
+BoTTom REPLY for: 14
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9252
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d1
+Time is : 10:44
+NEW Time is : 38640000
+Comment14 on Post 66 Length before: 2
+Comment14 on Post 66 Length After: 3
+Looking up Actor: breathe_in
+Added new Comment to Post: 5babe282a57c83bc6708a5d1
+start REPLY for: 15
+BoTTom REPLY for: 15
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9250
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b5
+Time is : 16:58
+NEW Time is : 61080000
+Comment15 on Post 157 Length before: 0
+Comment15 on Post 157 Length After: 1
+Looking up Actor: localewis
+Added new Comment to Post: 5babe282a57c83bc6708a5b5
+start REPLY for: 16
+BoTTom REPLY for: 16
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923f
+Looking up OP POST ID is : 5babe282a57c83bc6708a5dd
+Time is : 20:22
+NEW Time is : 73320000
+Comment16 on Post 126 Length before: 0
+Comment16 on Post 126 Length After: 1
+Looking up Actor: john73
+Added new Comment to Post: 5babe282a57c83bc6708a5dd
+start REPLY for: 17
+BoTTom REPLY for: 17
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924d
+Looking up OP POST ID is : 5babe282a57c83bc6708a5ad
+Time is : 22:16
+NEW Time is : 80160000
+Comment17 on Post 117 Length before: 0
+Comment17 on Post 117 Length After: 1
+Looking up Actor: casssssssssie
+Added new Comment to Post: 5babe282a57c83bc6708a5ad
+start REPLY for: 18
+BoTTom REPLY for: 18
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9257
+Looking up OP POST ID is : 5babe282a57c83bc6708a606
+Time is : 26:13
+NEW Time is : 94380000
+Comment18 on Post 104 Length before: 0
+Comment18 on Post 104 Length After: 1
+Looking up Actor: cavsforever
+Added new Comment to Post: 5babe282a57c83bc6708a606
+start REPLY for: 19
+BoTTom REPLY for: 19
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9249
+Looking up OP POST ID is : 5babe282a57c83bc6708a578
+Time is : 30:45
+NEW Time is : 110700000
+Comment19 on Post 83 Length before: 0
+Comment19 on Post 83 Length After: 1
+Looking up Actor: lee.alexa
+Added new Comment to Post: 5babe282a57c83bc6708a578
+start REPLY for: 20
+BoTTom REPLY for: 20
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923c
+Looking up OP POST ID is : 5babe282a57c83bc6708a578
+Time is : 30:50
+NEW Time is : 111000000
+Comment20 on Post 83 Length before: 1
+Comment20 on Post 83 Length After: 2
+Looking up Actor: livelaughlove
+Added new Comment to Post: 5babe282a57c83bc6708a578
+start REPLY for: 21
+BoTTom REPLY for: 21
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924e
+Looking up OP POST ID is : 5babe282a57c83bc6708a547
+Time is : 33:20
+NEW Time is : 120000000
+Comment21 on Post 75 Length before: 0
+Comment21 on Post 75 Length After: 1
+Looking up Actor: breethebaker
+Added new Comment to Post: 5babe282a57c83bc6708a547
+start REPLY for: 22
+BoTTom REPLY for: 22
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9241
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a3
+Time is : 34:30
+NEW Time is : 124200000
+Comment22 on Post 67 Length before: 0
+Comment22 on Post 67 Length After: 1
+Looking up Actor: NoahM1121
+Added new Comment to Post: 5babe282a57c83bc6708a5a3
+start REPLY for: 23
+BoTTom REPLY for: 23
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923a
+Looking up OP POST ID is : 5babe282a57c83bc6708a601
+Time is : 36:45
+NEW Time is : 132300000
+Comment23 on Post 79 Length before: 0
+Comment23 on Post 79 Length After: 1
+Looking up Actor: M.Kapadia92
+Added new Comment to Post: 5babe282a57c83bc6708a601
+start REPLY for: 24
+BoTTom REPLY for: 24
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924a
+Looking up OP POST ID is : 5babe282a57c83bc6708a601
+Time is : 37:04
+NEW Time is : 133440000
+Comment24 on Post 79 Length before: 1
+Comment24 on Post 79 Length After: 2
+Looking up Actor: ria_camiii
+Added new Comment to Post: 5babe282a57c83bc6708a601
+start REPLY for: 25
+BoTTom REPLY for: 25
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923d
+Looking up OP POST ID is : 5babe282a57c83bc6708a5e0
+Time is : 40:44
+NEW Time is : 146640000
+Comment25 on Post 141 Length before: 0
+Comment25 on Post 141 Length After: 1
+Looking up Actor: bblueberryy
+Added new Comment to Post: 5babe282a57c83bc6708a5e0
+start REPLY for: 26
+BoTTom REPLY for: 26
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9252
+Looking up OP POST ID is : 5babe282a57c83bc6708a553
+Time is : 42:30
+NEW Time is : 153000000
+Comment26 on Post 135 Length before: 0
+Comment26 on Post 135 Length After: 1
+Looking up Actor: breathe_in
+Added new Comment to Post: 5babe282a57c83bc6708a553
+start REPLY for: 27
+BoTTom REPLY for: 27
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9246
+Looking up OP POST ID is : 5babe282a57c83bc6708a5ae
+Time is : 45:20
+NEW Time is : 163200000
+Comment27 on Post 122 Length before: 0
+Comment27 on Post 122 Length After: 1
+Looking up Actor: Jcole9
+Added new Comment to Post: 5babe282a57c83bc6708a5ae
+start REPLY for: 28
+BoTTom REPLY for: 28
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924d
+Looking up OP POST ID is : 5babe282a57c83bc6708a607
+Time is : 48:05
+NEW Time is : 173100000
+Comment28 on Post 109 Length before: 0
+Comment28 on Post 109 Length After: 1
+Looking up Actor: casssssssssie
+Added new Comment to Post: 5babe282a57c83bc6708a607
+start REPLY for: 29
+BoTTom REPLY for: 29
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924d
+Looking up OP POST ID is : 5babe282a57c83bc6708a512
+Time is : 49:50
+NEW Time is : 179400000
+Comment29 on Post 8 Length before: 0
+Comment29 on Post 8 Length After: 1
+Looking up Actor: casssssssssie
+Added new Comment to Post: 5babe282a57c83bc6708a512
+start REPLY for: 30
+BoTTom REPLY for: 30
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9254
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d8
+Time is : 51:01
+NEW Time is : 183660000
+Comment30 on Post 101 Length before: 0
+Comment30 on Post 101 Length After: 1
+Looking up Actor: lavenderrrrrr
+Added new Comment to Post: 5babe282a57c83bc6708a5d8
+start REPLY for: 31
+BoTTom REPLY for: 31
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9248
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d8
+Time is : 52:10
+NEW Time is : 187800000
+Comment31 on Post 101 Length before: 1
+Comment31 on Post 101 Length After: 2
+Looking up Actor: fusionfeast
+Added new Comment to Post: 5babe282a57c83bc6708a5d8
+start REPLY for: 32
+BoTTom REPLY for: 32
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9243
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d8
+Time is : 53:30
+NEW Time is : 192600000
+Comment32 on Post 101 Length before: 2
+Comment32 on Post 101 Length After: 3
+Looking up Actor: sweetpea
+Added new Comment to Post: 5babe282a57c83bc6708a5d8
+start REPLY for: 33
+BoTTom REPLY for: 33
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924c
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d8
+Time is : 55:30
+NEW Time is : 199800000
+Comment33 on Post 101 Length before: 3
+Comment33 on Post 101 Length After: 4
+Looking up Actor: earthpulse
+Added new Comment to Post: 5babe282a57c83bc6708a5d8
+start REPLY for: 34
+BoTTom REPLY for: 34
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9255
+Looking up OP POST ID is : 5babe282a57c83bc6708a573
+Time is : 37:50
+NEW Time is : 136200000
+Comment34 on Post 58 Length before: 0
+Comment34 on Post 58 Length After: 1
+Looking up Actor: tastyrobot
+Added new Comment to Post: 5babe282a57c83bc6708a573
+start REPLY for: 35
+BoTTom REPLY for: 35
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923e
+Looking up OP POST ID is : 5babe282a57c83bc6708a540
+Time is : 59:30
+NEW Time is : 214200000
+Comment35 on Post 40 Length before: 0
+Comment35 on Post 40 Length After: 1
+Looking up Actor: ancho-n-cayenne
+Added new Comment to Post: 5babe282a57c83bc6708a540
+start REPLY for: 36
+BoTTom REPLY for: 36
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9251
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b6
+Time is : 65:05
+NEW Time is : 234300000
+Comment36 on Post 162 Length before: 0
+Comment36 on Post 162 Length After: 1
+Looking up Actor: jupiterpride
+Added new Comment to Post: 5babe282a57c83bc6708a5b6
+start REPLY for: 37
+BoTTom REPLY for: 37
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924d
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b0
+Time is : 67:35
+NEW Time is : 243300000
+Comment37 on Post 132 Length before: 0
+Comment37 on Post 132 Length After: 1
+Looking up Actor: casssssssssie
+Added new Comment to Post: 5babe282a57c83bc6708a5b0
+start REPLY for: 38
+BoTTom REPLY for: 38
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9242
+Looking up OP POST ID is : 5babe282a57c83bc6708a609
+Time is : 08:45
+NEW Time is : 31500000
+Comment38 on Post 119 Length before: 0
+Comment38 on Post 119 Length After: 1
+Looking up Actor: MannyDL34
+Added new Comment to Post: 5babe282a57c83bc6708a609
+start REPLY for: 39
+BoTTom REPLY for: 39
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9253
+Looking up OP POST ID is : 5babe282a57c83bc6708a52b
+Time is : 02:45
+NEW Time is : 9900000
+Comment39 on Post 11 Length before: 0
+Comment39 on Post 11 Length After: 1
+Looking up Actor: jackrussellmom
+Added new Comment to Post: 5babe282a57c83bc6708a52b
+start REPLY for: 40
+BoTTom REPLY for: 40
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923b
+Looking up OP POST ID is : 5babe282a57c83bc6708a519
+Time is : 10:18
+NEW Time is : 37080000
+Comment40 on Post 14 Length before: 0
+Comment40 on Post 14 Length After: 1
+Looking up Actor: SnakeCharmer
+Added new Comment to Post: 5babe282a57c83bc6708a519
+start REPLY for: 41
+BoTTom REPLY for: 41
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924f
+Looking up OP POST ID is : 5babe282a57c83bc6708a526
+Time is : 67:50
+NEW Time is : 244200000
+Comment41 on Post 37 Length before: 0
+Comment41 on Post 37 Length After: 1
+Looking up Actor: kittycatbakes
+Added new Comment to Post: 5babe282a57c83bc6708a526
+start REPLY for: 42
+BoTTom REPLY for: 42
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9256
+Looking up OP POST ID is : 5babe282a57c83bc6708a54f
+Time is : -20:01
+NEW Time is : -72060000
+Comment42 on Post 115 Length before: 1
+Comment42 on Post 115 Length After: 2
+Looking up Actor: wiz_khaleesi
+Added new Comment to Post: 5babe282a57c83bc6708a54f
+start REPLY for: 43
+BoTTom REPLY for: 43
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9254
+Looking up OP POST ID is : 5babe282a57c83bc6708a550
+Time is : 03:47
+NEW Time is : 13620000
+Comment43 on Post 120 Length before: 0
+Comment43 on Post 120 Length After: 1
+Looking up Actor: lavenderrrrrr
+Added new Comment to Post: 5babe282a57c83bc6708a550
+start REPLY for: 44
+BoTTom REPLY for: 44
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9250
+Looking up OP POST ID is : 5babe282a57c83bc6708a555
+Time is : 50:50
+NEW Time is : 183000000
+Comment44 on Post 145 Length before: 0
+Comment44 on Post 145 Length After: 1
+Looking up Actor: localewis
+Added new Comment to Post: 5babe282a57c83bc6708a555
+start REPLY for: 45
+BoTTom REPLY for: 45
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9245
+Looking up OP POST ID is : 5babe282a57c83bc6708a528
+Time is : 38:50
+NEW Time is : 139800000
+Comment45 on Post 47 Length before: 0
+Comment45 on Post 47 Length After: 1
+Looking up Actor: artisanalways
+Added new Comment to Post: 5babe282a57c83bc6708a528
+start REPLY for: 46
+BoTTom REPLY for: 46
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9240
+Looking up OP POST ID is : 5babe282a57c83bc6708a576
+Time is : -11:08
+NEW Time is : -40080000
+Comment46 on Post 73 Length before: 0
+Comment46 on Post 73 Length After: 1
+Looking up Actor: coachmatthews
+Added new Comment to Post: 5babe282a57c83bc6708a576
+start REPLY for: 47
+BoTTom REPLY for: 47
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9251
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a8
+Time is : 39:50
+NEW Time is : 143400000
+Comment47 on Post 92 Length before: 0
+Comment47 on Post 92 Length After: 1
+Looking up Actor: jupiterpride
+Added new Comment to Post: 5babe282a57c83bc6708a5a8
+start REPLY for: 48
+BoTTom REPLY for: 48
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9244
+Looking up OP POST ID is : 5babe282a57c83bc6708a577
+Time is : 17:35
+NEW Time is : 63300000
+Comment48 on Post 78 Length before: 0
+Comment48 on Post 78 Length After: 1
+Looking up Actor: mateoV
+Added new Comment to Post: 5babe282a57c83bc6708a577
+start REPLY for: 49
+BoTTom REPLY for: 49
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9247
+Looking up OP POST ID is : 5babe282a57c83bc6708a5df
+Time is : 66:40
+NEW Time is : 240000000
+Comment49 on Post 136 Length before: 0
+Comment49 on Post 136 Length After: 1
+Looking up Actor: _aikira_
+Added new Comment to Post: 5babe282a57c83bc6708a5df
+start REPLY for: 50
+BoTTom REPLY for: 50
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9240
+Looking up OP POST ID is : 5babe282a57c83bc6708a5fe
+Time is : 70:19
+NEW Time is : 253140000
+Comment50 on Post 64 Length before: 0
+Comment50 on Post 64 Length After: 1
+Looking up Actor: coachmatthews
+Added new Comment to Post: 5babe282a57c83bc6708a5fe
+start REPLY for: 51
+BoTTom REPLY for: 51
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9254
+Looking up OP POST ID is : 5babe282a57c83bc6708a610
+Time is : 04:00
+NEW Time is : 14400000
+Comment51 on Post 154 Length before: 0
+Comment51 on Post 154 Length After: 1
+Looking up Actor: lavenderrrrrr
+Added new Comment to Post: 5babe282a57c83bc6708a610
+start REPLY for: 52
+BoTTom REPLY for: 52
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9254
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d3
+Time is : 71:00
+NEW Time is : 255600000
+Comment52 on Post 76 Length before: 0
+Comment52 on Post 76 Length After: 1
+Looking up Actor: lavenderrrrrr
+Added new Comment to Post: 5babe282a57c83bc6708a5d3
+start REPLY for: 53
+BoTTom REPLY for: 53
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924c
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a7
+Time is : 06:00
+NEW Time is : 21600000
+Comment53 on Post 87 Length before: 0
+Comment53 on Post 87 Length After: 1
+Looking up Actor: earthpulse
+Added new Comment to Post: 5babe282a57c83bc6708a5a7
+start REPLY for: 54
+BoTTom REPLY for: 54
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9246
+Looking up OP POST ID is : 5babe282a57c83bc6708a5da
+Time is : -05:00
+NEW Time is : -18000000
+Comment54 on Post 111 Length before: 0
+Comment54 on Post 111 Length After: 1
+Looking up Actor: Jcole9
+Added new Comment to Post: 5babe282a57c83bc6708a5da
+start REPLY for: 55
+BoTTom REPLY for: 55
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9240
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b1
+Time is : 24:00
+NEW Time is : 86400000
+Comment55 on Post 137 Length before: 0
+Comment55 on Post 137 Length After: 1
+Looking up Actor: coachmatthews
+Added new Comment to Post: 5babe282a57c83bc6708a5b1
+start REPLY for: 56
+BoTTom REPLY for: 56
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923d
+Looking up OP POST ID is : 5babe282a57c83bc6708a527
+Time is : -12:00
+NEW Time is : -43200000
+Comment56 on Post 42 Length before: 0
+Comment56 on Post 42 Length After: 1
+Looking up Actor: bblueberryy
+Added new Comment to Post: 5babe282a57c83bc6708a527
+start REPLY for: 57
+BoTTom REPLY for: 57
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923d
+Looking up OP POST ID is : 5babe282a57c83bc6708a541
+Time is : 12:00
+NEW Time is : 43200000
+Comment57 on Post 45 Length before: 0
+Comment57 on Post 45 Length After: 1
+Looking up Actor: bblueberryy
+Added new Comment to Post: 5babe282a57c83bc6708a541
+start REPLY for: 58
+BoTTom REPLY for: 58
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923d
+Looking up OP POST ID is : 5babe282a57c83bc6708a520
+Time is : 26:30
+NEW Time is : 95400000
+Comment58 on Post 48 Length before: 0
+Comment58 on Post 48 Length After: 1
+Looking up Actor: bblueberryy
+Added new Comment to Post: 5babe282a57c83bc6708a520
+start REPLY for: 59
+BoTTom REPLY for: 59
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923d
+Looking up OP POST ID is : 5babe282a57c83bc6708a572
+Time is : 50:59
+NEW Time is : 183540000
+Comment59 on Post 53 Length before: 0
+Comment59 on Post 53 Length After: 1
+Looking up Actor: bblueberryy
+Added new Comment to Post: 5babe282a57c83bc6708a572
+start REPLY for: 60
+BoTTom REPLY for: 60
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9262
+Looking up OP POST ID is : 5babe282a57c83bc6708a511
+Time is : 33:22
+NEW Time is : 120120000
+Comment60 on Post 7 Length before: 0
+Comment60 on Post 7 Length After: 1
+Looking up Actor: SamTHEMAN
+Added new Comment to Post: 5babe282a57c83bc6708a511
+start REPLY for: 61
+BoTTom REPLY for: 61
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9262
+Looking up OP POST ID is : 5babe282a57c83bc6708a515
+Time is : 50:30
+NEW Time is : 181800000
+Comment61 on Post 15 Length before: 0
+Comment61 on Post 15 Length After: 1
+Looking up Actor: SamTHEMAN
+Added new Comment to Post: 5babe282a57c83bc6708a515
+start REPLY for: 62
+BoTTom REPLY for: 62
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9262
+Looking up OP POST ID is : 5babe282a57c83bc6708a5e5
+Time is : 22:34
+NEW Time is : 81240000
+Comment62 on Post 166 Length before: 0
+Comment62 on Post 166 Length After: 1
+Looking up Actor: SamTHEMAN
+Added new Comment to Post: 5babe282a57c83bc6708a5e5
+start REPLY for: 63
+BoTTom REPLY for: 63
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9262
+Looking up OP POST ID is : 5babe282a57c83bc6708a5da
+Time is : -2:13
+NEW Time is : -7980000
+Comment63 on Post 111 Length before: 1
+Comment63 on Post 111 Length After: 2
+Looking up Actor: SamTHEMAN
+Added new Comment to Post: 5babe282a57c83bc6708a5da
+start REPLY for: 64
+BoTTom REPLY for: 64
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9261
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d4
+Time is : 2:45
+NEW Time is : 9900000
+Comment64 on Post 81 Length before: 0
+Comment64 on Post 81 Length After: 1
+Looking up Actor: hockeymom101
+Added new Comment to Post: 5babe282a57c83bc6708a5d4
+start REPLY for: 65
+BoTTom REPLY for: 65
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9261
+Looking up OP POST ID is : 5babe282a57c83bc6708a542
+Time is : 70:15
+NEW Time is : 252900000
+Comment65 on Post 50 Length before: 0
+Comment65 on Post 50 Length After: 1
+Looking up Actor: hockeymom101
+Added new Comment to Post: 5babe282a57c83bc6708a542
+start REPLY for: 66
+BoTTom REPLY for: 66
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9261
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d3
+Time is : 68:02
+NEW Time is : 244920000
+Comment66 on Post 76 Length before: 1
+Comment66 on Post 76 Length After: 2
+Looking up Actor: hockeymom101
+Added new Comment to Post: 5babe282a57c83bc6708a5d3
+start REPLY for: 67
+BoTTom REPLY for: 67
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9261
+Looking up OP POST ID is : 5babe282a57c83bc6708a5aa
+Time is : 68:34
+NEW Time is : 246840000
+Comment67 on Post 102 Length before: 0
+Comment67 on Post 102 Length After: 1
+Looking up Actor: hockeymom101
+Added new Comment to Post: 5babe282a57c83bc6708a5aa
+start REPLY for: 68
+BoTTom REPLY for: 68
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9261
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d7
+Time is : 32:45
+NEW Time is : 117900000
+Comment68 on Post 96 Length before: 0
+Comment68 on Post 96 Length After: 1
+Looking up Actor: hockeymom101
+Added new Comment to Post: 5babe282a57c83bc6708a5d7
+start REPLY for: 69
+BoTTom REPLY for: 69
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9260
+Looking up OP POST ID is : 5babe282a57c83bc6708a55d
+Time is : 40:23
+NEW Time is : 145380000
+Comment69 on Post 185 Length before: 0
+Comment69 on Post 185 Length After: 1
+Looking up Actor: Smitty12
+Added new Comment to Post: 5babe282a57c83bc6708a55d
+start REPLY for: 70
+BoTTom REPLY for: 70
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9260
+Looking up OP POST ID is : 5babe282a57c83bc6708a5e3
+Time is : 26:44
+NEW Time is : 96240000
+Comment70 on Post 156 Length before: 0
+Comment70 on Post 156 Length After: 1
+Looking up Actor: Smitty12
+Added new Comment to Post: 5babe282a57c83bc6708a5e3
+start REPLY for: 71
+BoTTom REPLY for: 71
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9260
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b1
+Time is : 29:15
+NEW Time is : 105300000
+Comment71 on Post 137 Length before: 1
+Comment71 on Post 137 Length After: 2
+Looking up Actor: Smitty12
+Added new Comment to Post: 5babe282a57c83bc6708a5b1
+start REPLY for: 72
+BoTTom REPLY for: 72
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9260
+Looking up OP POST ID is : 5babe282a57c83bc6708a5ec
+Time is : 26:12
+NEW Time is : 94320000
+Comment72 on Post 201 Length before: 0
+Comment72 on Post 201 Length After: 1
+Looking up Actor: Smitty12
+Added new Comment to Post: 5babe282a57c83bc6708a5ec
+start REPLY for: 73
+BoTTom REPLY for: 73
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9265
+Looking up OP POST ID is : 5babe282a57c83bc6708a5e9
+Time is : 70:12
+NEW Time is : 252720000
+Comment73 on Post 186 Length before: 0
+Comment73 on Post 186 Length After: 1
+Looking up Actor: southerngirlCel
+Added new Comment to Post: 5babe282a57c83bc6708a5e9
+start REPLY for: 74
+BoTTom REPLY for: 74
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9265
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a9
+Time is : 58:07
+NEW Time is : 209220000
+Comment74 on Post 97 Length before: 0
+Comment74 on Post 97 Length After: 1
+Looking up Actor: southerngirlCel
+Added new Comment to Post: 5babe282a57c83bc6708a5a9
+start REPLY for: 75
+BoTTom REPLY for: 75
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9265
+Looking up OP POST ID is : 5babe282a57c83bc6708a57d
+Time is : 30:30
+NEW Time is : 109800000
+Comment75 on Post 108 Length before: 0
+Comment75 on Post 108 Length After: 1
+Looking up Actor: southerngirlCel
+Added new Comment to Post: 5babe282a57c83bc6708a57d
+start REPLY for: 76
+BoTTom REPLY for: 76
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9265
+Looking up OP POST ID is : 5babe282a57c83bc6708a50c
+Time is : 2:02
+NEW Time is : 7320000
+Comment76 on Post 1 Length before: 0
+Comment76 on Post 1 Length After: 1
+Looking up Actor: southerngirlCel
+Added new Comment to Post: 5babe282a57c83bc6708a50c
+start REPLY for: 77
+BoTTom REPLY for: 77
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9272
+Looking up OP POST ID is : 5babe282a57c83bc6708a618
+Time is : -11:28
+NEW Time is : -41280000
+Comment77 on Post 194 Length before: 0
+Comment77 on Post 194 Length After: 1
+Looking up Actor: KatieeeM
+Added new Comment to Post: 5babe282a57c83bc6708a618
+start REPLY for: 78
+BoTTom REPLY for: 78
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9271
+Looking up OP POST ID is : 5babe282a57c83bc6708a573
+Time is : 15:49
+NEW Time is : 56940000
+Comment78 on Post 58 Length before: 1
+Comment78 on Post 58 Length After: 2
+Looking up Actor: thisisalfie1998
+Added new Comment to Post: 5babe282a57c83bc6708a573
+start REPLY for: 79
+BoTTom REPLY for: 79
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9276
+Looking up OP POST ID is : 5babe282a57c83bc6708a569
+Time is : 5:42
+NEW Time is : 20520000
+Comment79 on Post 245 Length before: 0
+Comment79 on Post 245 Length After: 1
+Looking up Actor: sweetietooth
+Added new Comment to Post: 5babe282a57c83bc6708a569
+start REPLY for: 80
+BoTTom REPLY for: 80
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9276
+Looking up OP POST ID is : 5babe282a57c83bc6708a5f5
+Time is : 32:00
+NEW Time is : 115200000
+Comment80 on Post 246 Length before: 0
+Comment80 on Post 246 Length After: 1
+Looking up Actor: sweetietooth
+Added new Comment to Post: 5babe282a57c83bc6708a5f5
+start REPLY for: 81
+BoTTom REPLY for: 81
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9276
+Looking up OP POST ID is : 5babe282a57c83bc6708a5f7
+Time is : -8:23
+NEW Time is : -30180000
+Comment81 on Post 256 Length before: 0
+Comment81 on Post 256 Length After: 1
+Looking up Actor: sweetietooth
+Added new Comment to Post: 5babe282a57c83bc6708a5f7
+start REPLY for: 82
+BoTTom REPLY for: 82
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9275
+Looking up OP POST ID is : 5babe282a57c83bc6708a577
+Time is : 10:31
+NEW Time is : 37860000
+Comment82 on Post 78 Length before: 1
+Comment82 on Post 78 Length After: 2
+Looking up Actor: ayoitsayo
+Added new Comment to Post: 5babe282a57c83bc6708a577
+start REPLY for: 83
+BoTTom REPLY for: 83
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9275
+Looking up OP POST ID is : 5babe282a57c83bc6708a57c
+Time is : 04:02
+NEW Time is : 14520000
+Comment83 on Post 103 Length before: 0
+Comment83 on Post 103 Length After: 1
+Looking up Actor: ayoitsayo
+Added new Comment to Post: 5babe282a57c83bc6708a57c
+start REPLY for: 84
+BoTTom REPLY for: 84
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9275
+Looking up OP POST ID is : 5babe282a57c83bc6708a5f5
+Time is : 32:43
+NEW Time is : 117780000
+Comment84 on Post 246 Length before: 1
+Comment84 on Post 246 Length After: 2
+Looking up Actor: ayoitsayo
+Added new Comment to Post: 5babe282a57c83bc6708a5f5
+start REPLY for: 85
+BoTTom REPLY for: 85
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9257
+Looking up OP POST ID is : 5babe282a57c83bc6708a59a
+Time is : 35:03
+NEW Time is : 126180000
+Comment85 on Post 253 Length before: 0
+Comment85 on Post 253 Length After: 1
+Looking up Actor: cavsforever
+Added new Comment to Post: 5babe282a57c83bc6708a59a
+start REPLY for: 86
+BoTTom REPLY for: 86
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9257
+Looking up OP POST ID is : 5babe282a57c83bc6708a5f6
+Time is : 54:17
+NEW Time is : 195420000
+Comment86 on Post 251 Length before: 0
+Comment86 on Post 251 Length After: 1
+Looking up Actor: cavsforever
+Added new Comment to Post: 5babe282a57c83bc6708a5f6
+start REPLY for: 87
+BoTTom REPLY for: 87
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9257
+Looking up OP POST ID is : 5babe282a57c83bc6708a519
+Time is : 10:22
+NEW Time is : 37320000
+Comment87 on Post 14 Length before: 1
+Comment87 on Post 14 Length After: 2
+Looking up Actor: cavsforever
+Added new Comment to Post: 5babe282a57c83bc6708a519
+start REPLY for: 88
+BoTTom REPLY for: 88
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9257
+Looking up OP POST ID is : 5babe282a57c83bc6708a5c9
+Time is : 21:11
+NEW Time is : 76260000
+Comment88 on Post 257 Length before: 0
+Comment88 on Post 257 Length After: 1
+Looking up Actor: cavsforever
+Added new Comment to Post: 5babe282a57c83bc6708a5c9
+start REPLY for: 89
+BoTTom REPLY for: 89
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9257
+Looking up OP POST ID is : 5babe282a57c83bc6708a625
+Time is : 68:13
+NEW Time is : 245580000
+Comment89 on Post 259 Length before: 0
+Comment89 on Post 259 Length After: 1
+Looking up Actor: cavsforever
+Added new Comment to Post: 5babe282a57c83bc6708a625
+start REPLY for: 90
+BoTTom REPLY for: 90
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9257
+Looking up OP POST ID is : 5babe282a57c83bc6708a60d
+Time is : 1:12
+NEW Time is : 4320000
+Comment90 on Post 139 Length before: 1
+Comment90 on Post 139 Length After: 2
+Looking up Actor: cavsforever
+Added new Comment to Post: 5babe282a57c83bc6708a60d
+start REPLY for: 91
+BoTTom REPLY for: 91
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9257
+Looking up OP POST ID is : 5babe282a57c83bc6708a5de
+Time is : 48:22
+NEW Time is : 174120000
+Comment91 on Post 131 Length before: 0
+Comment91 on Post 131 Length After: 1
+Looking up Actor: cavsforever
+Added new Comment to Post: 5babe282a57c83bc6708a5de
+start REPLY for: 92
+BoTTom REPLY for: 92
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9257
+Looking up OP POST ID is : 5babe282a57c83bc6708a5af
+Time is : 53:46
+NEW Time is : 193560000
+Comment92 on Post 127 Length before: 0
+Comment92 on Post 127 Length After: 1
+Looking up Actor: cavsforever
+Added new Comment to Post: 5babe282a57c83bc6708a5af
+start REPLY for: 93
+BoTTom REPLY for: 93
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa925b
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b2
+Time is : 70:31
+NEW Time is : 253860000
+Comment93 on Post 142 Length before: 0
+Comment93 on Post 142 Length After: 1
+Looking up Actor: karenM
+Added new Comment to Post: 5babe282a57c83bc6708a5b2
+start REPLY for: 94
+BoTTom REPLY for: 94
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa925b
+Looking up OP POST ID is : 5babe282a57c83bc6708a583
+Time is : 69:43
+NEW Time is : 250980000
+Comment94 on Post 138 Length before: 0
+Comment94 on Post 138 Length After: 1
+Looking up Actor: karenM
+Added new Comment to Post: 5babe282a57c83bc6708a583
+start REPLY for: 95
+BoTTom REPLY for: 95
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa925b
+Looking up OP POST ID is : 5babe282a57c83bc6708a60d
+Time is : 11:11
+NEW Time is : 40260000
+Comment95 on Post 139 Length before: 2
+Comment95 on Post 139 Length After: 3
+Looking up Actor: karenM
+Added new Comment to Post: 5babe282a57c83bc6708a60d
+start REPLY for: 96
+BoTTom REPLY for: 96
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa925b
+Looking up OP POST ID is : 5babe282a57c83bc6708a612
+Time is : -2:45
+NEW Time is : -9900000
+Comment96 on Post 164 Length before: 0
+Comment96 on Post 164 Length After: 1
+Looking up Actor: karenM
+Added new Comment to Post: 5babe282a57c83bc6708a612
+start REPLY for: 97
+BoTTom REPLY for: 97
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa925b
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a7
+Time is : 15:10
+NEW Time is : 54600000
+Comment97 on Post 87 Length before: 1
+Comment97 on Post 87 Length After: 2
+Looking up Actor: karenM
+Added new Comment to Post: 5babe282a57c83bc6708a5a7
+start REPLY for: 98
+BoTTom REPLY for: 98
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa925b
+Looking up OP POST ID is : 5babe282a57c83bc6708a5f3
+Time is : 21:34
+NEW Time is : 77640000
+Comment98 on Post 236 Length before: 0
+Comment98 on Post 236 Length After: 1
+Looking up Actor: karenM
+Added new Comment to Post: 5babe282a57c83bc6708a5f3
+start REPLY for: 99
+BoTTom REPLY for: 99
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa925b
+Looking up OP POST ID is : 5babe282a57c83bc6708a5c9
+Time is : 29:13
+NEW Time is : 105180000
+Comment99 on Post 257 Length before: 1
+Comment99 on Post 257 Length After: 2
+Looking up Actor: karenM
+Added new Comment to Post: 5babe282a57c83bc6708a5c9
+start REPLY for: 100
+BoTTom REPLY for: 100
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924d
+Looking up OP POST ID is : 5babe282a57c83bc6708a622
+Time is : 1:13
+NEW Time is : 4380000
+Comment100 on Post 244 Length before: 0
+Comment100 on Post 244 Length After: 1
+Looking up Actor: casssssssssie
+Added new Comment to Post: 5babe282a57c83bc6708a622
+start REPLY for: 101
+BoTTom REPLY for: 101
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924d
+Looking up OP POST ID is : 5babe282a57c83bc6708a591
+Time is : 2:16
+NEW Time is : 8160000
+Comment101 on Post 208 Length before: 0
+Comment101 on Post 208 Length After: 1
+Looking up Actor: casssssssssie
+Added new Comment to Post: 5babe282a57c83bc6708a591
+start REPLY for: 102
+BoTTom REPLY for: 102
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924d
+Looking up OP POST ID is : 5babe282a57c83bc6708a58b
+Time is : 22:32
+NEW Time is : 81120000
+Comment102 on Post 178 Length before: 0
+Comment102 on Post 178 Length After: 1
+Looking up Actor: casssssssssie
+Added new Comment to Post: 5babe282a57c83bc6708a58b
+start REPLY for: 103
+BoTTom REPLY for: 103
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924d
+Looking up OP POST ID is : 5babe282a57c83bc6708a523
+Time is : -09:12
+NEW Time is : -33120000
+Comment103 on Post 22 Length before: 0
+Comment103 on Post 22 Length After: 1
+Looking up Actor: casssssssssie
+Added new Comment to Post: 5babe282a57c83bc6708a523
+start REPLY for: 104
+BoTTom REPLY for: 104
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9273
+Looking up OP POST ID is : 5babe282a57c83bc6708a573
+Time is : 15:10
+NEW Time is : 54600000
+Comment104 on Post 58 Length before: 2
+Comment104 on Post 58 Length After: 3
+Looking up Actor: TimBJenkins
+Added new Comment to Post: 5babe282a57c83bc6708a573
+start REPLY for: 105
+BoTTom REPLY for: 105
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9273
+Looking up OP POST ID is : 5babe282a57c83bc6708a5e3
+Time is : 30:32
+NEW Time is : 109920000
+Comment105 on Post 156 Length before: 1
+Comment105 on Post 156 Length After: 2
+Looking up Actor: TimBJenkins
+Added new Comment to Post: 5babe282a57c83bc6708a5e3
+start REPLY for: 106
+BoTTom REPLY for: 106
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9273
+Looking up OP POST ID is : 5babe282a57c83bc6708a5c1
+Time is : 38:02
+NEW Time is : 136920000
+Comment106 on Post 217 Length before: 0
+Comment106 on Post 217 Length After: 1
+Looking up Actor: TimBJenkins
+Added new Comment to Post: 5babe282a57c83bc6708a5c1
+start REPLY for: 107
+BoTTom REPLY for: 107
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9273
+Looking up OP POST ID is : 5babe282a57c83bc6708a5f0
+Time is : 3:10
+NEW Time is : 11400000
+Comment107 on Post 221 Length before: 0
+Comment107 on Post 221 Length After: 1
+Looking up Actor: TimBJenkins
+Added new Comment to Post: 5babe282a57c83bc6708a5f0
+start REPLY for: 108
+BoTTom REPLY for: 108
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9273
+Looking up OP POST ID is : 5babe282a57c83bc6708a5dc
+Time is : 34:17
+NEW Time is : 123420000
+Comment108 on Post 121 Length before: 0
+Comment108 on Post 121 Length After: 1
+Looking up Actor: TimBJenkins
+Added new Comment to Post: 5babe282a57c83bc6708a5dc
+start REPLY for: 109
+BoTTom REPLY for: 109
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d4
+Time is : -10:00
+NEW Time is : -36000000
+Comment109 on Post 81 Length before: 1
+Comment109 on Post 81 Length After: 2
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a5d4
+start REPLY for: 110
+BoTTom REPLY for: 110
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b1
+Time is : 20:31
+NEW Time is : 73860000
+Comment110 on Post 137 Length before: 2
+Comment110 on Post 137 Length After: 3
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a5b1
+start REPLY for: 111
+BoTTom REPLY for: 111
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b3
+Time is : 44:44
+NEW Time is : 161040000
+Comment111 on Post 147 Length before: 0
+Comment111 on Post 147 Length After: 1
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a5b3
+start REPLY for: 112
+BoTTom REPLY for: 112
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9268
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a6
+Time is : 10:26
+NEW Time is : 37560000
+Comment112 on Post 82 Length before: 0
+Comment112 on Post 82 Length After: 1
+Looking up Actor: BeardedMatt
+Added new Comment to Post: 5babe282a57c83bc6708a5a6
+start REPLY for: 113
+BoTTom REPLY for: 113
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9268
+Looking up OP POST ID is : 5babe282a57c83bc6708a583
+Time is : 68:33
+NEW Time is : 246780000
+Comment113 on Post 138 Length before: 1
+Comment113 on Post 138 Length After: 2
+Looking up Actor: BeardedMatt
+Added new Comment to Post: 5babe282a57c83bc6708a583
+start REPLY for: 114
+BoTTom REPLY for: 114
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9268
+Looking up OP POST ID is : 5babe282a57c83bc6708a585
+Time is : 59:88
+NEW Time is : 217680000
+Comment114 on Post 148 Length before: 0
+Comment114 on Post 148 Length After: 1
+Looking up Actor: BeardedMatt
+Added new Comment to Post: 5babe282a57c83bc6708a585
+start REPLY for: 115
+BoTTom REPLY for: 115
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926a
+Looking up OP POST ID is : 5babe282a57c83bc6708a578
+Time is : 65:00
+NEW Time is : 234000000
+Comment115 on Post 83 Length before: 2
+Comment115 on Post 83 Length After: 3
+Looking up Actor: Lisa181818
+Added new Comment to Post: 5babe282a57c83bc6708a578
+start REPLY for: 116
+BoTTom REPLY for: 116
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926a
+Looking up OP POST ID is : 5babe282a57c83bc6708a60f
+Time is : 44:44
+NEW Time is : 161040000
+Comment116 on Post 149 Length before: 0
+Comment116 on Post 149 Length After: 1
+Looking up Actor: Lisa181818
+Added new Comment to Post: 5babe282a57c83bc6708a60f
+start REPLY for: 117
+BoTTom REPLY for: 117
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926a
+Looking up OP POST ID is : 5babe282a57c83bc6708a556
+Time is : 66:45
+NEW Time is : 240300000
+Comment117 on Post 150 Length before: 0
+Comment117 on Post 150 Length After: 1
+Looking up Actor: Lisa181818
+Added new Comment to Post: 5babe282a57c83bc6708a556
+start REPLY for: 118
+BoTTom REPLY for: 118
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926a
+Looking up OP POST ID is : 5babe282a57c83bc6708a580
+Time is : 27:27
+NEW Time is : 98820000
+Comment118 on Post 123 Length before: 0
+Comment118 on Post 123 Length After: 1
+Looking up Actor: Lisa181818
+Added new Comment to Post: 5babe282a57c83bc6708a580
+start REPLY for: 119
+BoTTom REPLY for: 119
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926b
+Looking up OP POST ID is : 5babe282a57c83bc6708a602
+Time is : 56:23
+NEW Time is : 202980000
+Comment119 on Post 84 Length before: 0
+Comment119 on Post 84 Length After: 1
+Looking up Actor: this_jack
+Added new Comment to Post: 5babe282a57c83bc6708a602
+start REPLY for: 120
+BoTTom REPLY for: 120
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926b
+Looking up OP POST ID is : 5babe282a57c83bc6708a578
+Time is : 69:24
+NEW Time is : 249840000
+Comment120 on Post 83 Length before: 3
+Comment120 on Post 83 Length After: 4
+Looking up Actor: this_jack
+Added new Comment to Post: 5babe282a57c83bc6708a578
+start REPLY for: 121
+BoTTom REPLY for: 121
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926b
+Looking up OP POST ID is : 5babe282a57c83bc6708a60a
+Time is : 10:33
+NEW Time is : 37980000
+Comment121 on Post 124 Length before: 0
+Comment121 on Post 124 Length After: 1
+Looking up Actor: this_jack
+Added new Comment to Post: 5babe282a57c83bc6708a60a
+start REPLY for: 122
+BoTTom REPLY for: 122
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926b
+Looking up OP POST ID is : 5babe282a57c83bc6708a551
+Time is : 40:18
+NEW Time is : 145080000
+Comment122 on Post 125 Length before: 0
+Comment122 on Post 125 Length After: 1
+Looking up Actor: this_jack
+Added new Comment to Post: 5babe282a57c83bc6708a551
+start REPLY for: 123
+BoTTom REPLY for: 123
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926e
+Looking up OP POST ID is : 5babe282a57c83bc6708a549
+Time is : 64:38
+NEW Time is : 232680000
+Comment123 on Post 85 Length before: 0
+Comment123 on Post 85 Length After: 1
+Looking up Actor: EmmaSmith0214
+Added new Comment to Post: 5babe282a57c83bc6708a549
+start REPLY for: 124
+BoTTom REPLY for: 124
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926e
+Looking up OP POST ID is : 5babe282a57c83bc6708a5dd
+Time is : 70:00
+NEW Time is : 252000000
+Comment124 on Post 126 Length before: 1
+Comment124 on Post 126 Length After: 2
+Looking up Actor: EmmaSmith0214
+Added new Comment to Post: 5babe282a57c83bc6708a5dd
+start REPLY for: 125
+BoTTom REPLY for: 125
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926e
+Looking up OP POST ID is : 5babe282a57c83bc6708a5e2
+Time is : 00:15
+NEW Time is : 900000
+Comment125 on Post 151 Length before: 0
+Comment125 on Post 151 Length After: 1
+Looking up Actor: EmmaSmith0214
+Added new Comment to Post: 5babe282a57c83bc6708a5e2
+start REPLY for: 126
+BoTTom REPLY for: 126
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926e
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b4
+Time is : 20:00
+NEW Time is : 72000000
+Comment126 on Post 152 Length before: 0
+Comment126 on Post 152 Length After: 1
+Looking up Actor: EmmaSmith0214
+Added new Comment to Post: 5babe282a57c83bc6708a5b4
+start REPLY for: 127
+BoTTom REPLY for: 127
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926d
+Looking up OP POST ID is : 5babe282a57c83bc6708a5af
+Time is : 49:50
+NEW Time is : 179400000
+Comment127 on Post 127 Length before: 1
+Comment127 on Post 127 Length After: 2
+Looking up Actor: DonDonDonna
+Added new Comment to Post: 5babe282a57c83bc6708a5af
+start REPLY for: 128
+BoTTom REPLY for: 128
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926d
+Looking up OP POST ID is : 5babe282a57c83bc6708a586
+Time is : 66:02
+NEW Time is : 237720000
+Comment128 on Post 153 Length before: 0
+Comment128 on Post 153 Length After: 1
+Looking up Actor: DonDonDonna
+Added new Comment to Post: 5babe282a57c83bc6708a586
+start REPLY for: 129
+BoTTom REPLY for: 129
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926d
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d5
+Time is : 20:33
+NEW Time is : 73980000
+Comment129 on Post 86 Length before: 0
+Comment129 on Post 86 Length After: 1
+Looking up Actor: DonDonDonna
+Added new Comment to Post: 5babe282a57c83bc6708a5d5
+start REPLY for: 130
+BoTTom REPLY for: 130
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926d
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a7
+Time is : 10:44
+NEW Time is : 38640000
+Comment130 on Post 87 Length before: 2
+Comment130 on Post 87 Length After: 3
+Looking up Actor: DonDonDonna
+Added new Comment to Post: 5babe282a57c83bc6708a5a7
+start REPLY for: 131
+BoTTom REPLY for: 131
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926f
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b4
+Time is : 40:00
+NEW Time is : 144000000
+Comment131 on Post 152 Length before: 1
+Comment131 on Post 152 Length After: 2
+Looking up Actor: B.Mike
+Added new Comment to Post: 5babe282a57c83bc6708a5b4
+start REPLY for: 132
+BoTTom REPLY for: 132
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926f
+Looking up OP POST ID is : 5babe282a57c83bc6708a579
+Time is : 44:22
+NEW Time is : 159720000
+Comment132 on Post 88 Length before: 0
+Comment132 on Post 88 Length After: 1
+Looking up Actor: B.Mike
+Added new Comment to Post: 5babe282a57c83bc6708a579
+start REPLY for: 133
+BoTTom REPLY for: 133
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926f
+Looking up OP POST ID is : 5babe282a57c83bc6708a586
+Time is : 00:44
+NEW Time is : 2640000
+Comment133 on Post 153 Length before: 1
+Comment133 on Post 153 Length After: 2
+Looking up Actor: B.Mike
+Added new Comment to Post: 5babe282a57c83bc6708a586
+start REPLY for: 134
+BoTTom REPLY for: 134
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926f
+Looking up OP POST ID is : 5babe282a57c83bc6708a610
+Time is : 15:44
+NEW Time is : 56640000
+Comment134 on Post 154 Length before: 1
+Comment134 on Post 154 Length After: 2
+Looking up Actor: B.Mike
+Added new Comment to Post: 5babe282a57c83bc6708a610
+start REPLY for: 135
+BoTTom REPLY for: 135
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9268
+Looking up OP POST ID is : 5babe282a57c83bc6708a603
+Time is : 66:33
+NEW Time is : 239580000
+Comment135 on Post 89 Length before: 0
+Comment135 on Post 89 Length After: 1
+Looking up Actor: BeardedMatt
+Added new Comment to Post: 5babe282a57c83bc6708a603
+start REPLY for: 136
+BoTTom REPLY for: 136
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926c
+Looking up OP POST ID is : 5babe282a57c83bc6708a557
+Time is : 05:33
+NEW Time is : 19980000
+Comment136 on Post 155 Length before: 1
+Comment136 on Post 155 Length After: 2
+Looking up Actor: PatelS
+Added new Comment to Post: 5babe282a57c83bc6708a557
+start REPLY for: 137
+BoTTom REPLY for: 137
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926c
+Looking up OP POST ID is : 5babe282a57c83bc6708a579
+Time is : 66:33
+NEW Time is : 239580000
+Comment137 on Post 88 Length before: 1
+Comment137 on Post 88 Length After: 2
+Looking up Actor: PatelS
+Added new Comment to Post: 5babe282a57c83bc6708a579
+start REPLY for: 138
+BoTTom REPLY for: 138
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9268
+Looking up OP POST ID is : 5babe282a57c83bc6708a5e3
+Time is : 20:05
+NEW Time is : 72300000
+Comment138 on Post 156 Length before: 2
+Comment138 on Post 156 Length After: 3
+Looking up Actor: BeardedMatt
+Added new Comment to Post: 5babe282a57c83bc6708a5e3
+start REPLY for: 139
+BoTTom REPLY for: 139
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9268
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b5
+Time is : 44:07
+NEW Time is : 158820000
+Comment139 on Post 157 Length before: 1
+Comment139 on Post 157 Length After: 2
+Looking up Actor: BeardedMatt
+Added new Comment to Post: 5babe282a57c83bc6708a5b5
+start REPLY for: 140
+BoTTom REPLY for: 140
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926c
+Looking up OP POST ID is : 5babe282a57c83bc6708a587
+Time is : 44:33
+NEW Time is : 160380000
+Comment140 on Post 158 Length before: 0
+Comment140 on Post 158 Length After: 1
+Looking up Actor: PatelS
+Added new Comment to Post: 5babe282a57c83bc6708a587
+start REPLY for: 141
+BoTTom REPLY for: 141
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a611
+Time is : 70:00
+NEW Time is : 252000000
+Comment141 on Post 159 Length before: 0
+Comment141 on Post 159 Length After: 1
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a611
+start REPLY for: 142
+BoTTom REPLY for: 142
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926b
+Looking up OP POST ID is : 5babe282a57c83bc6708a558
+Time is : 66:22
+NEW Time is : 238920000
+Comment142 on Post 160 Length before: 0
+Comment142 on Post 160 Length After: 1
+Looking up Actor: this_jack
+Added new Comment to Post: 5babe282a57c83bc6708a558
+start REPLY for: 143
+BoTTom REPLY for: 143
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926b
+Looking up OP POST ID is : 5babe282a57c83bc6708a5e4
+Time is : 69:55
+NEW Time is : 251700000
+Comment143 on Post 161 Length before: 0
+Comment143 on Post 161 Length After: 1
+Looking up Actor: this_jack
+Added new Comment to Post: 5babe282a57c83bc6708a5e4
+start REPLY for: 144
+BoTTom REPLY for: 144
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926b
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b6
+Time is : 70:00
+NEW Time is : 252000000
+Comment144 on Post 162 Length before: 1
+Comment144 on Post 162 Length After: 2
+Looking up Actor: this_jack
+Added new Comment to Post: 5babe282a57c83bc6708a5b6
+start REPLY for: 145
+BoTTom REPLY for: 145
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926d
+Looking up OP POST ID is : 5babe282a57c83bc6708a588
+Time is : 69:00
+NEW Time is : 248400000
+Comment145 on Post 163 Length before: 0
+Comment145 on Post 163 Length After: 1
+Looking up Actor: DonDonDonna
+Added new Comment to Post: 5babe282a57c83bc6708a588
+start REPLY for: 146
+BoTTom REPLY for: 146
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923b
+Looking up OP POST ID is : 5babe282a57c83bc6708a51a
+Time is : 38:02
+NEW Time is : 136920000
+Comment146 on Post 18 Length before: 0
+Comment146 on Post 18 Length After: 1
+Looking up Actor: SnakeCharmer
+Added new Comment to Post: 5babe282a57c83bc6708a51a
+start REPLY for: 147
+BoTTom REPLY for: 147
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923b
+Looking up OP POST ID is : 5babe282a57c83bc6708a51c
+Time is : 38:56
+NEW Time is : 140160000
+Comment147 on Post 28 Length before: 0
+Comment147 on Post 28 Length After: 1
+Looking up Actor: SnakeCharmer
+Added new Comment to Post: 5babe282a57c83bc6708a51c
+start REPLY for: 148
+BoTTom REPLY for: 148
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923b
+Looking up OP POST ID is : 5babe282a57c83bc6708a538
+Time is : 59:17
+NEW Time is : 213420000
+Comment148 on Post 29 Length before: 0
+Comment148 on Post 29 Length After: 1
+Looking up Actor: SnakeCharmer
+Added new Comment to Post: 5babe282a57c83bc6708a538
+start REPLY for: 149
+BoTTom REPLY for: 149
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923b
+Looking up OP POST ID is : 5babe282a57c83bc6708a53f
+Time is : 42:01
+NEW Time is : 151260000
+Comment149 on Post 35 Length before: 0
+Comment149 on Post 35 Length After: 1
+Looking up Actor: SnakeCharmer
+Added new Comment to Post: 5babe282a57c83bc6708a53f
+start REPLY for: 150
+BoTTom REPLY for: 150
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923b
+Looking up OP POST ID is : 5babe282a57c83bc6708a531
+Time is : -10:23
+NEW Time is : -37380000
+Comment150 on Post 41 Length before: 0
+Comment150 on Post 41 Length After: 1
+Looking up Actor: SnakeCharmer
+Added new Comment to Post: 5babe282a57c83bc6708a531
+start REPLY for: 151
+BoTTom REPLY for: 151
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923b
+Looking up OP POST ID is : 5babe282a57c83bc6708a544
+Time is : 62:18
+NEW Time is : 224280000
+Comment151 on Post 60 Length before: 0
+Comment151 on Post 60 Length After: 1
+Looking up Actor: SnakeCharmer
+Added new Comment to Post: 5babe282a57c83bc6708a544
+start REPLY for: 152
+BoTTom REPLY for: 152
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923f
+Looking up OP POST ID is : 5babe282a57c83bc6708a575
+Time is : 69:02
+NEW Time is : 248520000
+Comment152 on Post 68 Length before: 0
+Comment152 on Post 68 Length After: 1
+Looking up Actor: john73
+Added new Comment to Post: 5babe282a57c83bc6708a575
+start REPLY for: 153
+BoTTom REPLY for: 153
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923f
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d3
+Time is : 64:37
+NEW Time is : 232620000
+Comment153 on Post 76 Length before: 2
+Comment153 on Post 76 Length After: 3
+Looking up Actor: john73
+Added new Comment to Post: 5babe282a57c83bc6708a5d3
+start REPLY for: 154
+BoTTom REPLY for: 154
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923f
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a5
+Time is : -05:21
+NEW Time is : -19260000
+Comment154 on Post 77 Length before: 0
+Comment154 on Post 77 Length After: 1
+Looking up Actor: john73
+Added new Comment to Post: 5babe282a57c83bc6708a5a5
+start REPLY for: 155
+BoTTom REPLY for: 155
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923f
+Looking up OP POST ID is : 5babe282a57c83bc6708a602
+Time is : 56:02
+NEW Time is : 201720000
+Comment155 on Post 84 Length before: 1
+Comment155 on Post 84 Length After: 2
+Looking up Actor: john73
+Added new Comment to Post: 5babe282a57c83bc6708a602
+start REPLY for: 156
+BoTTom REPLY for: 156
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923f
+Looking up OP POST ID is : 5babe282a57c83bc6708a54b
+Time is : 05:17
+NEW Time is : 19020000
+Comment156 on Post 95 Length before: 2
+Comment156 on Post 95 Length After: 3
+Looking up Actor: john73
+Added new Comment to Post: 5babe282a57c83bc6708a54b
+start REPLY for: 157
+BoTTom REPLY for: 157
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923f
+Looking up OP POST ID is : 5babe282a57c83bc6708a57d
+Time is : 28:56
+NEW Time is : 104160000
+Comment157 on Post 108 Length before: 1
+Comment157 on Post 108 Length After: 2
+Looking up Actor: john73
+Added new Comment to Post: 5babe282a57c83bc6708a57d
+start REPLY for: 158
+BoTTom REPLY for: 158
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923e
+Looking up OP POST ID is : 5babe282a57c83bc6708a57e
+Time is : 31:04
+NEW Time is : 111840000
+Comment158 on Post 113 Length before: 0
+Comment158 on Post 113 Length After: 1
+Looking up Actor: ancho-n-cayenne
+Added new Comment to Post: 5babe282a57c83bc6708a57e
+start REPLY for: 159
+BoTTom REPLY for: 159
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923e
+Looking up OP POST ID is : 5babe282a57c83bc6708a5ae
+Time is : 65:13
+NEW Time is : 234780000
+Comment159 on Post 122 Length before: 1
+Comment159 on Post 122 Length After: 2
+Looking up Actor: ancho-n-cayenne
+Added new Comment to Post: 5babe282a57c83bc6708a5ae
+start REPLY for: 160
+BoTTom REPLY for: 160
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923e
+Looking up OP POST ID is : 5babe282a57c83bc6708a60b
+Time is : -03:22
+NEW Time is : -12120000
+Comment160 on Post 129 Length before: 0
+Comment160 on Post 129 Length After: 1
+Looking up Actor: ancho-n-cayenne
+Added new Comment to Post: 5babe282a57c83bc6708a60b
+start REPLY for: 161
+BoTTom REPLY for: 161
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923c
+Looking up OP POST ID is : 5babe282a57c83bc6708a54f
+Time is : -12:37
+NEW Time is : -45420000
+Comment161 on Post 115 Length before: 2
+Comment161 on Post 115 Length After: 3
+Looking up Actor: livelaughlove
+Added new Comment to Post: 5babe282a57c83bc6708a54f
+start REPLY for: 162
+BoTTom REPLY for: 162
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923c
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b1
+Time is : 20:12
+NEW Time is : 72720000
+Comment162 on Post 137 Length before: 3
+Comment162 on Post 137 Length After: 4
+Looking up Actor: livelaughlove
+Added new Comment to Post: 5babe282a57c83bc6708a5b1
+start REPLY for: 163
+BoTTom REPLY for: 163
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923c
+Looking up OP POST ID is : 5babe282a57c83bc6708a585
+Time is : 20:56
+NEW Time is : 75360000
+Comment163 on Post 148 Length before: 1
+Comment163 on Post 148 Length After: 2
+Looking up Actor: livelaughlove
+Added new Comment to Post: 5babe282a57c83bc6708a585
+start REPLY for: 164
+BoTTom REPLY for: 164
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9241
+Looking up OP POST ID is : 5babe282a57c83bc6708a578
+Time is : 32:17
+NEW Time is : 116220000
+Comment164 on Post 83 Length before: 4
+Comment164 on Post 83 Length After: 5
+Looking up Actor: NoahM1121
+Added new Comment to Post: 5babe282a57c83bc6708a578
+start REPLY for: 165
+BoTTom REPLY for: 165
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9241
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d7
+Time is : 32:20
+NEW Time is : 116400000
+Comment165 on Post 96 Length before: 1
+Comment165 on Post 96 Length After: 2
+Looking up Actor: NoahM1121
+Added new Comment to Post: 5babe282a57c83bc6708a5d7
+start REPLY for: 166
+BoTTom REPLY for: 166
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9242
+Looking up OP POST ID is : 5babe282a57c83bc6708a54b
+Time is : 05:43
+NEW Time is : 20580000
+Comment166 on Post 95 Length before: 3
+Comment166 on Post 95 Length After: 4
+Looking up Actor: MannyDL34
+Added new Comment to Post: 5babe282a57c83bc6708a54b
+start REPLY for: 167
+BoTTom REPLY for: 167
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9242
+Looking up OP POST ID is : 5babe282a57c83bc6708a588
+Time is : -12:14
+NEW Time is : -44040000
+Comment167 on Post 163 Length before: 1
+Comment167 on Post 163 Length After: 2
+Looking up Actor: MannyDL34
+Added new Comment to Post: 5babe282a57c83bc6708a588
+start REPLY for: 168
+BoTTom REPLY for: 168
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9242
+Looking up OP POST ID is : 5babe282a57c83bc6708a58a
+Time is : 24:01
+NEW Time is : 86460000
+Comment168 on Post 173 Length before: 0
+Comment168 on Post 173 Length After: 1
+Looking up Actor: MannyDL34
+Added new Comment to Post: 5babe282a57c83bc6708a58a
+start REPLY for: 169
+BoTTom REPLY for: 169
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9242
+Looking up OP POST ID is : 5babe282a57c83bc6708a5bf
+Time is : 05:17
+NEW Time is : 19020000
+Comment169 on Post 207 Length before: 0
+Comment169 on Post 207 Length After: 1
+Looking up Actor: MannyDL34
+Added new Comment to Post: 5babe282a57c83bc6708a5bf
+start REPLY for: 170
+BoTTom REPLY for: 170
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d0
+Time is : 01:22
+NEW Time is : 4920000
+Comment170 on Post 61 Length before: 0
+Comment170 on Post 61 Length After: 1
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a5d0
+start REPLY for: 171
+BoTTom REPLY for: 171
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d9
+Time is : -05:33
+NEW Time is : -19980000
+Comment171 on Post 106 Length before: 1
+Comment171 on Post 106 Length After: 2
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a5d9
+start REPLY for: 172
+BoTTom REPLY for: 172
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a5ab
+Time is : 10:11
+NEW Time is : 36660000
+Comment172 on Post 107 Length before: 1
+Comment172 on Post 107 Length After: 2
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a5ab
+start REPLY for: 173
+BoTTom REPLY for: 173
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b5
+Time is : 55:44
+NEW Time is : 200640000
+Comment173 on Post 157 Length before: 2
+Comment173 on Post 157 Length After: 3
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a5b5
+start REPLY for: 174
+BoTTom REPLY for: 174
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a2
+Time is : 22:33
+NEW Time is : 81180000
+Comment174 on Post 62 Length before: 0
+Comment174 on Post 62 Length After: 1
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a5a2
+start REPLY for: 175
+BoTTom REPLY for: 175
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a57d
+Time is : 60:22
+NEW Time is : 217320000
+Comment175 on Post 108 Length before: 2
+Comment175 on Post 108 Length After: 3
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a57d
+start REPLY for: 176
+BoTTom REPLY for: 176
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a54b
+Time is : 10:13
+NEW Time is : 36780000
+Comment176 on Post 95 Length before: 4
+Comment176 on Post 95 Length After: 5
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a54b
+start REPLY for: 177
+BoTTom REPLY for: 177
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a574
+Time is : 36:17
+NEW Time is : 130620000
+Comment177 on Post 63 Length before: 0
+Comment177 on Post 63 Length After: 1
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a574
+start REPLY for: 178
+BoTTom REPLY for: 178
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a5fe
+Time is : 69:18
+NEW Time is : 249480000
+Comment178 on Post 64 Length before: 1
+Comment178 on Post 64 Length After: 2
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a5fe
+start REPLY for: 179
+BoTTom REPLY for: 179
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a607
+Time is : 50:03
+NEW Time is : 180180000
+Comment179 on Post 109 Length before: 1
+Comment179 on Post 109 Length After: 2
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a607
+start REPLY for: 180
+BoTTom REPLY for: 180
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a54e
+Time is : 69:12
+NEW Time is : 249120000
+Comment180 on Post 110 Length before: 0
+Comment180 on Post 110 Length After: 1
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a54e
+start REPLY for: 181
+BoTTom REPLY for: 181
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a54e
+Time is : 69:15
+NEW Time is : 249300000
+Comment181 on Post 110 Length before: 1
+Comment181 on Post 110 Length After: 2
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a54e
+start REPLY for: 182
+BoTTom REPLY for: 182
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a57b
+Time is : 01:00
+NEW Time is : 3600000
+Comment182 on Post 98 Length before: 0
+Comment182 on Post 98 Length After: 1
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a57b
+start REPLY for: 183
+BoTTom REPLY for: 183
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a605
+Time is : 03:00
+NEW Time is : 10800000
+Comment183 on Post 99 Length before: 0
+Comment183 on Post 99 Length After: 1
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a605
+start REPLY for: 184
+BoTTom REPLY for: 184
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a54c
+Time is : 36:33
+NEW Time is : 131580000
+Comment184 on Post 100 Length before: 0
+Comment184 on Post 100 Length After: 1
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a54c
+start REPLY for: 185
+BoTTom REPLY for: 185
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d8
+Time is : 60:22
+NEW Time is : 217320000
+Comment185 on Post 101 Length before: 4
+Comment185 on Post 101 Length After: 5
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a5d8
+start REPLY for: 186
+BoTTom REPLY for: 186
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9270
+Looking up OP POST ID is : 5babe282a57c83bc6708a60e
+Time is : 22:17
+NEW Time is : 80220000
+Comment186 on Post 144 Length before: 0
+Comment186 on Post 144 Length After: 1
+Looking up Actor: mariaann
+Added new Comment to Post: 5babe282a57c83bc6708a60e
+start REPLY for: 187
+BoTTom REPLY for: 187
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9270
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b1
+Time is : 24:07
+NEW Time is : 86820000
+Comment187 on Post 137 Length before: 4
+Comment187 on Post 137 Length After: 5
+Looking up Actor: mariaann
+Added new Comment to Post: 5babe282a57c83bc6708a5b1
+start REPLY for: 188
+BoTTom REPLY for: 188
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9270
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b4
+Time is : 20:46
+NEW Time is : 74760000
+Comment188 on Post 152 Length before: 2
+Comment188 on Post 152 Length After: 3
+Looking up Actor: mariaann
+Added new Comment to Post: 5babe282a57c83bc6708a5b4
+start REPLY for: 189
+BoTTom REPLY for: 189
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9271
+Looking up OP POST ID is : 5babe282a57c83bc6708a572
+Time is : 52:28
+NEW Time is : 188880000
+Comment189 on Post 53 Length before: 1
+Comment189 on Post 53 Length After: 2
+Looking up Actor: thisisalfie1998
+Added new Comment to Post: 5babe282a57c83bc6708a572
+start REPLY for: 190
+BoTTom REPLY for: 190
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9271
+Looking up OP POST ID is : 5babe282a57c83bc6708a576
+Time is : -02:12
+NEW Time is : -7920000
+Comment190 on Post 73 Length before: 1
+Comment190 on Post 73 Length After: 2
+Looking up Actor: thisisalfie1998
+Added new Comment to Post: 5babe282a57c83bc6708a576
+start REPLY for: 191
+BoTTom REPLY for: 191
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9271
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d4
+Time is : -13:02
+NEW Time is : -46920000
+Comment191 on Post 81 Length before: 2
+Comment191 on Post 81 Length After: 3
+Looking up Actor: thisisalfie1998
+Added new Comment to Post: 5babe282a57c83bc6708a5d4
+start REPLY for: 192
+BoTTom REPLY for: 192
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9271
+Looking up OP POST ID is : 5babe282a57c83bc6708a57c
+Time is : 08:23
+NEW Time is : 30180000
+Comment192 on Post 103 Length before: 1
+Comment192 on Post 103 Length After: 2
+Looking up Actor: thisisalfie1998
+Added new Comment to Post: 5babe282a57c83bc6708a57c
+start REPLY for: 193
+BoTTom REPLY for: 193
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9271
+Looking up OP POST ID is : 5babe282a57c83bc6708a60d
+Time is : -01:59
+NEW Time is : -7140000
+Comment193 on Post 139 Length before: 3
+Comment193 on Post 139 Length After: 4
+Looking up Actor: thisisalfie1998
+Added new Comment to Post: 5babe282a57c83bc6708a60d
+start REPLY for: 194
+BoTTom REPLY for: 194
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9271
+Looking up OP POST ID is : 5babe282a57c83bc6708a5ef
+Time is : 03:34
+NEW Time is : 12840000
+Comment194 on Post 216 Length before: 0
+Comment194 on Post 216 Length After: 1
+Looking up Actor: thisisalfie1998
+Added new Comment to Post: 5babe282a57c83bc6708a5ef
+start REPLY for: 195
+BoTTom REPLY for: 195
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9271
+Looking up OP POST ID is : 5babe282a57c83bc6708a5c1
+Time is : 38:39
+NEW Time is : 139140000
+Comment195 on Post 217 Length before: 1
+Comment195 on Post 217 Length After: 2
+Looking up Actor: thisisalfie1998
+Added new Comment to Post: 5babe282a57c83bc6708a5c1
+start REPLY for: 196
+BoTTom REPLY for: 196
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9272
+Looking up OP POST ID is : 5babe282a57c83bc6708a53c
+Time is : 56:17
+NEW Time is : 202620000
+Comment196 on Post 49 Length before: 0
+Comment196 on Post 49 Length After: 1
+Looking up Actor: KatieeeM
+Added new Comment to Post: 5babe282a57c83bc6708a53c
+start REPLY for: 197
+BoTTom REPLY for: 197
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9272
+Looking up OP POST ID is : 5babe282a57c83bc6708a59a
+Time is : 26:08
+NEW Time is : 94080000
+Comment197 on Post 253 Length before: 1
+Comment197 on Post 253 Length After: 2
+Looking up Actor: KatieeeM
+Added new Comment to Post: 5babe282a57c83bc6708a59a
+start REPLY for: 198
+BoTTom REPLY for: 198
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9273
+Looking up OP POST ID is : 5babe282a57c83bc6708a5f8
+Time is : 12:36
+NEW Time is : 45360000
+Comment198 on Post 261 Length before: 0
+Comment198 on Post 261 Length After: 1
+Looking up Actor: TimBJenkins
+Added new Comment to Post: 5babe282a57c83bc6708a5f8
+start REPLY for: 199
+BoTTom REPLY for: 199
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9273
+Looking up OP POST ID is : 5babe282a57c83bc6708a511
+Time is : 35:57
+NEW Time is : 129420000
+Comment199 on Post 7 Length before: 1
+Comment199 on Post 7 Length After: 2
+Looking up Actor: TimBJenkins
+Added new Comment to Post: 5babe282a57c83bc6708a511
+start REPLY for: 200
+BoTTom REPLY for: 200
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9273
+Looking up OP POST ID is : 5babe282a57c83bc6708a52c
+Time is : 21:14
+NEW Time is : 76440000
+Comment200 on Post 16 Length before: 0
+Comment200 on Post 16 Length After: 1
+Looking up Actor: TimBJenkins
+Added new Comment to Post: 5babe282a57c83bc6708a52c
+start REPLY for: 201
+BoTTom REPLY for: 201
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9273
+Looking up OP POST ID is : 5babe282a57c83bc6708a518
+Time is : 66:09
+NEW Time is : 238140000
+Comment201 on Post 30 Length before: 0
+Comment201 on Post 30 Length After: 1
+Looking up Actor: TimBJenkins
+Added new Comment to Post: 5babe282a57c83bc6708a518
+start REPLY for: 202
+BoTTom REPLY for: 202
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa927d
+Looking up OP POST ID is : 5babe282a57c83bc6708a51d
+Time is : 12:02
+NEW Time is : 43320000
+Comment202 on Post 33 Length before: 0
+Comment202 on Post 33 Length After: 1
+Looking up Actor: masterchefterry
+Added new Comment to Post: 5babe282a57c83bc6708a51d
+start REPLY for: 203
+BoTTom REPLY for: 203
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa927d
+Looking up OP POST ID is : 5babe282a57c83bc6708a577
+Time is : 09:14
+NEW Time is : 33240000
+Comment203 on Post 78 Length before: 2
+Comment203 on Post 78 Length After: 3
+Looking up Actor: masterchefterry
+Added new Comment to Post: 5babe282a57c83bc6708a577
+start REPLY for: 204
+BoTTom REPLY for: 204
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa927d
+Looking up OP POST ID is : 5babe282a57c83bc6708a583
+Time is : 67:56
+NEW Time is : 244560000
+Comment204 on Post 138 Length before: 2
+Comment204 on Post 138 Length After: 3
+Looking up Actor: masterchefterry
+Added new Comment to Post: 5babe282a57c83bc6708a583
+start REPLY for: 205
+BoTTom REPLY for: 205
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa927c
+Looking up OP POST ID is : 5babe282a57c83bc6708a578
+Time is : 35:12
+NEW Time is : 126720000
+Comment205 on Post 83 Length before: 5
+Comment205 on Post 83 Length After: 6
+Looking up Actor: mewranda
+Added new Comment to Post: 5babe282a57c83bc6708a578
+start REPLY for: 206
+BoTTom REPLY for: 206
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa927f
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b4
+Time is : 19:25
+NEW Time is : 69900000
+Comment206 on Post 152 Length before: 3
+Comment206 on Post 152 Length After: 4
+Looking up Actor: fgonzalez
+Added new Comment to Post: 5babe282a57c83bc6708a5b4
+start REPLY for: 207
+BoTTom REPLY for: 207
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa927f
+Looking up OP POST ID is : 5babe282a57c83bc6708a58c
+Time is : 30:56
+NEW Time is : 111360000
+Comment207 on Post 183 Length before: 0
+Comment207 on Post 183 Length After: 1
+Looking up Actor: fgonzalez
+Added new Comment to Post: 5babe282a57c83bc6708a58c
+start REPLY for: 208
+BoTTom REPLY for: 208
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa927f
+Looking up OP POST ID is : 5babe282a57c83bc6708a5bf
+Time is : 19:16
+NEW Time is : 69360000
+Comment208 on Post 207 Length before: 1
+Comment208 on Post 207 Length After: 2
+Looking up Actor: fgonzalez
+Added new Comment to Post: 5babe282a57c83bc6708a5bf
+start REPLY for: 209
+BoTTom REPLY for: 209
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa927f
+Looking up OP POST ID is : 5babe282a57c83bc6708a623
+Time is : 22:54
+NEW Time is : 82440000
+Comment209 on Post 249 Length before: 0
+Comment209 on Post 249 Length After: 1
+Looking up Actor: fgonzalez
+Added new Comment to Post: 5babe282a57c83bc6708a623
+start REPLY for: 212
+BoTTom REPLY for: 212
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9264
+Looking up OP POST ID is : 5babe282a57c83bc6708a50c
+Time is : 07:12
+NEW Time is : 25920000
+Comment212 on Post 1 Length before: 1
+Comment212 on Post 1 Length After: 2
+Looking up Actor: HP743
+Added new Comment to Post: 5babe282a57c83bc6708a50c
+start REPLY for: 213
+BoTTom REPLY for: 213
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9264
+Looking up OP POST ID is : 5babe282a57c83bc6708a512
+Time is : 54:53
+NEW Time is : 197580000
+Comment213 on Post 8 Length before: 1
+Comment213 on Post 8 Length After: 2
+Looking up Actor: HP743
+Added new Comment to Post: 5babe282a57c83bc6708a512
+start REPLY for: 214
+BoTTom REPLY for: 214
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9264
+Looking up OP POST ID is : 5babe282a57c83bc6708a521
+Time is : 13:21
+NEW Time is : 48060000
+Comment214 on Post 13 Length before: 1
+Comment214 on Post 13 Length After: 2
+Looking up Actor: HP743
+Added new Comment to Post: 5babe282a57c83bc6708a521
+start REPLY for: 215
+BoTTom REPLY for: 215
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9264
+Looking up OP POST ID is : 5babe282a57c83bc6708a522
+Time is : 43:12
+NEW Time is : 155520000
+Comment215 on Post 17 Length before: 0
+Comment215 on Post 17 Length After: 1
+Looking up Actor: HP743
+Added new Comment to Post: 5babe282a57c83bc6708a522
+start REPLY for: 216
+BoTTom REPLY for: 216
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9264
+Looking up OP POST ID is : 5babe282a57c83bc6708a52e
+Time is : 44:11
+NEW Time is : 159060000
+Comment216 on Post 26 Length before: 0
+Comment216 on Post 26 Length After: 1
+Looking up Actor: HP743
+Added new Comment to Post: 5babe282a57c83bc6708a52e
+start REPLY for: 217
+BoTTom REPLY for: 217
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9264
+Looking up OP POST ID is : 5babe282a57c83bc6708a548
+Time is : 71:21
+NEW Time is : 256860000
+Comment217 on Post 80 Length before: 0
+Comment217 on Post 80 Length After: 1
+Looking up Actor: HP743
+Added new Comment to Post: 5babe282a57c83bc6708a548
+start REPLY for: 218
+BoTTom REPLY for: 218
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9264
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d6
+Time is : 33:23
+NEW Time is : 120180000
+Comment218 on Post 91 Length before: 0
+Comment218 on Post 91 Length After: 1
+Looking up Actor: HP743
+Added new Comment to Post: 5babe282a57c83bc6708a5d6
+start REPLY for: 219
+BoTTom REPLY for: 219
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926c
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a8
+Time is : 39:47
+NEW Time is : 143220000
+Comment219 on Post 92 Length before: 1
+Comment219 on Post 92 Length After: 2
+Looking up Actor: PatelS
+Added new Comment to Post: 5babe282a57c83bc6708a5a8
+start REPLY for: 220
+BoTTom REPLY for: 220
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926c
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a9
+Time is : 60:22
+NEW Time is : 217320000
+Comment220 on Post 97 Length before: 1
+Comment220 on Post 97 Length After: 2
+Looking up Actor: PatelS
+Added new Comment to Post: 5babe282a57c83bc6708a5a9
+start REPLY for: 221
+BoTTom REPLY for: 221
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926c
+Looking up OP POST ID is : 5babe282a57c83bc6708a57c
+Time is : 43:55
+NEW Time is : 158100000
+Comment221 on Post 103 Length before: 2
+Comment221 on Post 103 Length After: 3
+Looking up Actor: PatelS
+Added new Comment to Post: 5babe282a57c83bc6708a57c
+start REPLY for: 222
+BoTTom REPLY for: 222
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926c
+Looking up OP POST ID is : 5babe282a57c83bc6708a5e5
+Time is : 34:12
+NEW Time is : 123120000
+Comment222 on Post 166 Length before: 1
+Comment222 on Post 166 Length After: 2
+Looking up Actor: PatelS
+Added new Comment to Post: 5babe282a57c83bc6708a5e5
+start REPLY for: 223
+BoTTom REPLY for: 223
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926c
+Looking up OP POST ID is : 5babe282a57c83bc6708a588
+Time is : 70:32
+NEW Time is : 253920000
+Comment223 on Post 163 Length before: 2
+Comment223 on Post 163 Length After: 3
+Looking up Actor: PatelS
+Added new Comment to Post: 5babe282a57c83bc6708a588
+start REPLY for: 224
+BoTTom REPLY for: 224
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9267
+Looking up OP POST ID is : 5babe282a57c83bc6708a58b
+Time is : 29:22
+NEW Time is : 105720000
+Comment224 on Post 178 Length before: 1
+Comment224 on Post 178 Length After: 2
+Looking up Actor: TomM41
+Added new Comment to Post: 5babe282a57c83bc6708a58b
+start REPLY for: 225
+BoTTom REPLY for: 225
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9267
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b6
+Time is : 69:11
+NEW Time is : 249060000
+Comment225 on Post 162 Length before: 2
+Comment225 on Post 162 Length After: 3
+Looking up Actor: TomM41
+Added new Comment to Post: 5babe282a57c83bc6708a5b6
+start REPLY for: 226
+BoTTom REPLY for: 226
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9267
+Looking up OP POST ID is : 5babe282a57c83bc6708a5ba
+Time is : 59:45
+NEW Time is : 215100000
+Comment226 on Post 182 Length before: 0
+Comment226 on Post 182 Length After: 1
+Looking up Actor: TomM41
+Added new Comment to Post: 5babe282a57c83bc6708a5ba
+start REPLY for: 227
+BoTTom REPLY for: 227
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9267
+Looking up OP POST ID is : 5babe282a57c83bc6708a59a
+Time is : 33:25
+NEW Time is : 120300000
+Comment227 on Post 253 Length before: 2
+Comment227 on Post 253 Length After: 3
+Looking up Actor: TomM41
+Added new Comment to Post: 5babe282a57c83bc6708a59a
+start REPLY for: 228
+BoTTom REPLY for: 228
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9267
+Looking up OP POST ID is : 5babe282a57c83bc6708a5cb
+Time is : 31:58
+NEW Time is : 115080000
+Comment228 on Post 267 Length before: 0
+Comment228 on Post 267 Length After: 1
+Looking up Actor: TomM41
+Added new Comment to Post: 5babe282a57c83bc6708a5cb
+start REPLY for: 229
+BoTTom REPLY for: 229
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9267
+Looking up OP POST ID is : 5babe282a57c83bc6708a531
+Time is : -02:11
+NEW Time is : -7860000
+Comment229 on Post 41 Length before: 1
+Comment229 on Post 41 Length After: 2
+Looking up Actor: TomM41
+Added new Comment to Post: 5babe282a57c83bc6708a531
+start REPLY for: 230
+BoTTom REPLY for: 230
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9267
+Looking up OP POST ID is : 5babe282a57c83bc6708a53a
+Time is : 12:59
+NEW Time is : 46740000
+Comment230 on Post 39 Length before: 0
+Comment230 on Post 39 Length After: 1
+Looking up Actor: TomM41
+Added new Comment to Post: 5babe282a57c83bc6708a53a
+start REPLY for: 231
+BoTTom REPLY for: 231
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9267
+Looking up OP POST ID is : 5babe282a57c83bc6708a520
+Time is : 39:19
+NEW Time is : 141540000
+Comment231 on Post 48 Length before: 1
+Comment231 on Post 48 Length After: 2
+Looking up Actor: TomM41
+Added new Comment to Post: 5babe282a57c83bc6708a520
+start REPLY for: 531
+BoTTom REPLY for: 531
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926f
+Looking up OP POST ID is : 5babe282a57c83bc6708a540
+Time is : 60:11
+NEW Time is : 216660000
+Comment531 on Post 40 Length before: 1
+Comment531 on Post 40 Length After: 2
+Looking up Actor: B.Mike
+Added new Comment to Post: 5babe282a57c83bc6708a540
+start REPLY for: 233
+BoTTom REPLY for: 233
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926f
+Looking up OP POST ID is : 5babe282a57c83bc6708a529
+Time is : 62:12
+NEW Time is : 223920000
+Comment233 on Post 52 Length before: 0
+Comment233 on Post 52 Length After: 1
+Looking up Actor: B.Mike
+Added new Comment to Post: 5babe282a57c83bc6708a529
+start REPLY for: 234
+BoTTom REPLY for: 234
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926f
+Looking up OP POST ID is : 5babe282a57c83bc6708a573
+Time is : 44:21
+NEW Time is : 159660000
+Comment234 on Post 58 Length before: 3
+Comment234 on Post 58 Length After: 4
+Looking up Actor: B.Mike
+Added new Comment to Post: 5babe282a57c83bc6708a573
+start REPLY for: 235
+BoTTom REPLY for: 235
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926f
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a7
+Time is : 52:11
+NEW Time is : 187860000
+Comment235 on Post 87 Length before: 3
+Comment235 on Post 87 Length After: 4
+Looking up Actor: B.Mike
+Added new Comment to Post: 5babe282a57c83bc6708a5a7
+start REPLY for: 236
+BoTTom REPLY for: 236
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926f
+Looking up OP POST ID is : 5babe282a57c83bc6708a604
+Time is : 01:13
+NEW Time is : 4380000
+Comment236 on Post 94 Length before: 0
+Comment236 on Post 94 Length After: 1
+Looking up Actor: B.Mike
+Added new Comment to Post: 5babe282a57c83bc6708a604
+start REPLY for: 237
+BoTTom REPLY for: 237
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9260
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d4
+Time is : 2:31
+NEW Time is : 9060000
+Comment237 on Post 81 Length before: 3
+Comment237 on Post 81 Length After: 4
+Looking up Actor: Smitty12
+Added new Comment to Post: 5babe282a57c83bc6708a5d4
+start REPLY for: 238
+BoTTom REPLY for: 238
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9260
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a5
+Time is : 43:12
+NEW Time is : 155520000
+Comment238 on Post 77 Length before: 1
+Comment238 on Post 77 Length After: 2
+Looking up Actor: Smitty12
+Added new Comment to Post: 5babe282a57c83bc6708a5a5
+start REPLY for: 239
+BoTTom REPLY for: 239
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9260
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a7
+Time is : 52:11
+NEW Time is : 187860000
+Comment239 on Post 87 Length before: 4
+Comment239 on Post 87 Length After: 5
+Looking up Actor: Smitty12
+Added new Comment to Post: 5babe282a57c83bc6708a5a7
+start REPLY for: 240
+BoTTom REPLY for: 240
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9260
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a8
+Time is : 37:43
+NEW Time is : 135780000
+Comment240 on Post 92 Length before: 2
+Comment240 on Post 92 Length After: 3
+Looking up Actor: Smitty12
+Added new Comment to Post: 5babe282a57c83bc6708a5a8
+start REPLY for: 241
+BoTTom REPLY for: 241
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9259
+Looking up OP POST ID is : 5babe282a57c83bc6708a602
+Time is : 67:21
+NEW Time is : 242460000
+Comment241 on Post 84 Length before: 2
+Comment241 on Post 84 Length After: 3
+Looking up Actor: Ataylor
+Added new Comment to Post: 5babe282a57c83bc6708a602
+start REPLY for: 242
+BoTTom REPLY for: 242
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9259
+Looking up OP POST ID is : 5babe282a57c83bc6708a5aa
+Time is : 17:31
+NEW Time is : 63060000
+Comment242 on Post 102 Length before: 1
+Comment242 on Post 102 Length After: 2
+Looking up Actor: Ataylor
+Added new Comment to Post: 5babe282a57c83bc6708a5aa
+start REPLY for: 243
+BoTTom REPLY for: 243
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9259
+Looking up OP POST ID is : 5babe282a57c83bc6708a54d
+Time is : 67:14
+NEW Time is : 242040000
+Comment243 on Post 105 Length before: 0
+Comment243 on Post 105 Length After: 1
+Looking up Actor: Ataylor
+Added new Comment to Post: 5babe282a57c83bc6708a54d
+start REPLY for: 244
+BoTTom REPLY for: 244
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9259
+Looking up OP POST ID is : 5babe282a57c83bc6708a57d
+Time is : 34:15
+NEW Time is : 123300000
+Comment244 on Post 108 Length before: 3
+Comment244 on Post 108 Length After: 4
+Looking up Actor: Ataylor
+Added new Comment to Post: 5babe282a57c83bc6708a57d
+start REPLY for: 245
+BoTTom REPLY for: 245
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9259
+Looking up OP POST ID is : 5babe282a57c83bc6708a54c
+Time is : 57:12
+NEW Time is : 205920000
+Comment245 on Post 100 Length before: 1
+Comment245 on Post 100 Length After: 2
+Looking up Actor: Ataylor
+Added new Comment to Post: 5babe282a57c83bc6708a54c
+start REPLY for: 246
+BoTTom REPLY for: 246
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa925c
+Looking up OP POST ID is : 5babe282a57c83bc6708a607
+Time is : 56:11
+NEW Time is : 202260000
+Comment246 on Post 109 Length before: 2
+Comment246 on Post 109 Length After: 3
+Looking up Actor: jake_turk
+Added new Comment to Post: 5babe282a57c83bc6708a607
+start REPLY for: 247
+BoTTom REPLY for: 247
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa925c
+Looking up OP POST ID is : 5babe282a57c83bc6708a5af
+Time is : 53:34
+NEW Time is : 192840000
+Comment247 on Post 127 Length before: 2
+Comment247 on Post 127 Length After: 3
+Looking up Actor: jake_turk
+Added new Comment to Post: 5babe282a57c83bc6708a5af
+start REPLY for: 248
+BoTTom REPLY for: 248
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa925c
+Looking up OP POST ID is : 5babe282a57c83bc6708a613
+Time is : 70:12
+NEW Time is : 252720000
+Comment248 on Post 169 Length before: 0
+Comment248 on Post 169 Length After: 1
+Looking up Actor: jake_turk
+Added new Comment to Post: 5babe282a57c83bc6708a613
+start REPLY for: 249
+BoTTom REPLY for: 249
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa925c
+Looking up OP POST ID is : 5babe282a57c83bc6708a615
+Time is : 46:21
+NEW Time is : 166860000
+Comment249 on Post 179 Length before: 0
+Comment249 on Post 179 Length After: 1
+Looking up Actor: jake_turk
+Added new Comment to Post: 5babe282a57c83bc6708a615
+start REPLY for: 250
+BoTTom REPLY for: 250
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa925c
+Looking up OP POST ID is : 5babe282a57c83bc6708a566
+Time is : 29:17
+NEW Time is : 105420000
+Comment250 on Post 230 Length before: 0
+Comment250 on Post 230 Length After: 1
+Looking up Actor: jake_turk
+Added new Comment to Post: 5babe282a57c83bc6708a566
+start REPLY for: 251
+BoTTom REPLY for: 251
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924c
+Looking up OP POST ID is : 5babe282a57c83bc6708a523
+Time is : -21:20
+NEW Time is : -76800000
+Comment251 on Post 22 Length before: 1
+Comment251 on Post 22 Length After: 2
+Looking up Actor: earthpulse
+Added new Comment to Post: 5babe282a57c83bc6708a523
+start REPLY for: 252
+BoTTom REPLY for: 252
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924c
+Looking up OP POST ID is : 5babe282a57c83bc6708a524
+Time is : 33:12
+NEW Time is : 119520000
+Comment252 on Post 27 Length before: 0
+Comment252 on Post 27 Length After: 1
+Looking up Actor: earthpulse
+Added new Comment to Post: 5babe282a57c83bc6708a524
+start REPLY for: 253
+BoTTom REPLY for: 253
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924e
+Looking up OP POST ID is : 5babe282a57c83bc6708a57e
+Time is : 25:13
+NEW Time is : 90780000
+Comment253 on Post 113 Length before: 1
+Comment253 on Post 113 Length After: 2
+Looking up Actor: breethebaker
+Added new Comment to Post: 5babe282a57c83bc6708a57e
+start REPLY for: 254
+BoTTom REPLY for: 254
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924e
+Looking up OP POST ID is : 5babe282a57c83bc6708a58f
+Time is : 25:20
+NEW Time is : 91200000
+Comment254 on Post 198 Length before: 0
+Comment254 on Post 198 Length After: 1
+Looking up Actor: breethebaker
+Added new Comment to Post: 5babe282a57c83bc6708a58f
+start REPLY for: 255
+BoTTom REPLY for: 255
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924e
+Looking up OP POST ID is : 5babe282a57c83bc6708a525
+Time is : 1:44
+NEW Time is : 6240000
+Comment255 on Post 32 Length before: 1
+Comment255 on Post 32 Length After: 2
+Looking up Actor: breethebaker
+Added new Comment to Post: 5babe282a57c83bc6708a525
+start REPLY for: 256
+BoTTom REPLY for: 256
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924e
+Looking up OP POST ID is : 5babe282a57c83bc6708a545
+Time is : -09:21
+NEW Time is : -33660000
+Comment256 on Post 65 Length before: 0
+Comment256 on Post 65 Length After: 1
+Looking up Actor: breethebaker
+Added new Comment to Post: 5babe282a57c83bc6708a545
+start REPLY for: 257
+BoTTom REPLY for: 257
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924e
+Looking up OP POST ID is : 5babe282a57c83bc6708a524
+Time is : 39:10
+NEW Time is : 141000000
+Comment257 on Post 27 Length before: 1
+Comment257 on Post 27 Length After: 2
+Looking up Actor: breethebaker
+Added new Comment to Post: 5babe282a57c83bc6708a524
+start REPLY for: 258
+BoTTom REPLY for: 258
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924e
+Looking up OP POST ID is : 5babe282a57c83bc6708a53a
+Time is : -12:53
+NEW Time is : -46380000
+Comment258 on Post 39 Length before: 1
+Comment258 on Post 39 Length After: 2
+Looking up Actor: breethebaker
+Added new Comment to Post: 5babe282a57c83bc6708a53a
+start REPLY for: 259
+BoTTom REPLY for: 259
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924f
+Looking up OP POST ID is : 5babe282a57c83bc6708a537
+Time is : 01:25
+NEW Time is : 5100000
+Comment259 on Post 24 Length before: 0
+Comment259 on Post 24 Length After: 1
+Looking up Actor: kittycatbakes
+Added new Comment to Post: 5babe282a57c83bc6708a537
+start REPLY for: 260
+BoTTom REPLY for: 260
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924f
+Looking up OP POST ID is : 5babe282a57c83bc6708a534
+Time is : 69:30
+NEW Time is : 250200000
+Comment260 on Post 56 Length before: 0
+Comment260 on Post 56 Length After: 1
+Looking up Actor: kittycatbakes
+Added new Comment to Post: 5babe282a57c83bc6708a534
+start REPLY for: 261
+BoTTom REPLY for: 261
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924f
+Looking up OP POST ID is : 5babe282a57c83bc6708a5e0
+Time is : 46:59
+NEW Time is : 169140000
+Comment261 on Post 141 Length before: 1
+Comment261 on Post 141 Length After: 2
+Looking up Actor: kittycatbakes
+Added new Comment to Post: 5babe282a57c83bc6708a5e0
+start REPLY for: 262
+BoTTom REPLY for: 262
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924f
+Looking up OP POST ID is : 5babe282a57c83bc6708a51c
+Time is : 40:39
+NEW Time is : 146340000
+Comment262 on Post 28 Length before: 1
+Comment262 on Post 28 Length After: 2
+Looking up Actor: kittycatbakes
+Added new Comment to Post: 5babe282a57c83bc6708a51c
+start REPLY for: 263
+BoTTom REPLY for: 263
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa924f
+Looking up OP POST ID is : 5babe282a57c83bc6708a531
+Time is : -16:19
+NEW Time is : -58740000
+Comment263 on Post 41 Length before: 2
+Comment263 on Post 41 Length After: 3
+Looking up Actor: kittycatbakes
+Added new Comment to Post: 5babe282a57c83bc6708a531
+start REPLY for: 264
+BoTTom REPLY for: 264
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9250
+Looking up OP POST ID is : 5babe282a57c83bc6708a532
+Time is : 05:05
+NEW Time is : 18300000
+Comment264 on Post 46 Length before: 0
+Comment264 on Post 46 Length After: 1
+Looking up Actor: localewis
+Added new Comment to Post: 5babe282a57c83bc6708a532
+start REPLY for: 265
+BoTTom REPLY for: 265
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9250
+Looking up OP POST ID is : 5babe282a57c83bc6708a573
+Time is : 14:08
+NEW Time is : 50880000
+Comment265 on Post 58 Length before: 4
+Comment265 on Post 58 Length After: 5
+Looking up Actor: localewis
+Added new Comment to Post: 5babe282a57c83bc6708a573
+start REPLY for: 266
+BoTTom REPLY for: 266
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9250
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d2
+Time is : 42:34
+NEW Time is : 153240000
+Comment266 on Post 71 Length before: 0
+Comment266 on Post 71 Length After: 1
+Looking up Actor: localewis
+Added new Comment to Post: 5babe282a57c83bc6708a5d2
+start REPLY for: 267
+BoTTom REPLY for: 267
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9250
+Looking up OP POST ID is : 5babe282a57c83bc6708a579
+Time is : 39:04
+NEW Time is : 140640000
+Comment267 on Post 88 Length before: 2
+Comment267 on Post 88 Length After: 3
+Looking up Actor: localewis
+Added new Comment to Post: 5babe282a57c83bc6708a579
+start REPLY for: 268
+BoTTom REPLY for: 268
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9251
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d5
+Time is : -10:21
+NEW Time is : -37260000
+Comment268 on Post 86 Length before: 1
+Comment268 on Post 86 Length After: 2
+Looking up Actor: jupiterpride
+Added new Comment to Post: 5babe282a57c83bc6708a5d5
+start REPLY for: 269
+BoTTom REPLY for: 269
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9251
+Looking up OP POST ID is : 5babe282a57c83bc6708a585
+Time is : 14:59
+NEW Time is : 53940000
+Comment269 on Post 148 Length before: 2
+Comment269 on Post 148 Length After: 3
+Looking up Actor: jupiterpride
+Added new Comment to Post: 5babe282a57c83bc6708a585
+start REPLY for: 270
+BoTTom REPLY for: 270
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9251
+Looking up OP POST ID is : 5babe282a57c83bc6708a55a
+Time is : 02:30
+NEW Time is : 9000000
+Comment270 on Post 170 Length before: 0
+Comment270 on Post 170 Length After: 1
+Looking up Actor: jupiterpride
+Added new Comment to Post: 5babe282a57c83bc6708a55a
+start REPLY for: 271
+BoTTom REPLY for: 271
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9251
+Looking up OP POST ID is : 5babe282a57c83bc6708a587
+Time is : 34:03
+NEW Time is : 122580000
+Comment271 on Post 158 Length before: 1
+Comment271 on Post 158 Length After: 2
+Looking up Actor: jupiterpride
+Added new Comment to Post: 5babe282a57c83bc6708a587
+start REPLY for: 272
+BoTTom REPLY for: 272
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9252
+Looking up OP POST ID is : 5babe282a57c83bc6708a58a
+Time is : 27:54
+NEW Time is : 100440000
+Comment272 on Post 173 Length before: 1
+Comment272 on Post 173 Length After: 2
+Looking up Actor: breathe_in
+Added new Comment to Post: 5babe282a57c83bc6708a58a
+start REPLY for: 273
+BoTTom REPLY for: 273
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9252
+Looking up OP POST ID is : 5babe282a57c83bc6708a54c
+Time is : 27:30
+NEW Time is : 99000000
+Comment273 on Post 100 Length before: 2
+Comment273 on Post 100 Length After: 3
+Looking up Actor: breathe_in
+Added new Comment to Post: 5babe282a57c83bc6708a54c
+start REPLY for: 274
+BoTTom REPLY for: 274
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9252
+Looking up OP POST ID is : 5babe282a57c83bc6708a549
+Time is : 60:12
+NEW Time is : 216720000
+Comment274 on Post 85 Length before: 1
+Comment274 on Post 85 Length After: 2
+Looking up Actor: breathe_in
+Added new Comment to Post: 5babe282a57c83bc6708a549
+start REPLY for: 275
+BoTTom REPLY for: 275
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9253
+Looking up OP POST ID is : 5babe282a57c83bc6708a58b
+Time is : 23:19
+NEW Time is : 83940000
+Comment275 on Post 178 Length before: 2
+Comment275 on Post 178 Length After: 3
+Looking up Actor: jackrussellmom
+Added new Comment to Post: 5babe282a57c83bc6708a58b
+start REPLY for: 276
+BoTTom REPLY for: 276
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9253
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b8
+Time is : 06:40
+NEW Time is : 24000000
+Comment276 on Post 172 Length before: 0
+Comment276 on Post 172 Length After: 1
+Looking up Actor: jackrussellmom
+Added new Comment to Post: 5babe282a57c83bc6708a5b8
+start REPLY for: 277
+BoTTom REPLY for: 277
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9253
+Looking up OP POST ID is : 5babe282a57c83bc6708a606
+Time is : 27:59
+NEW Time is : 100740000
+Comment277 on Post 104 Length before: 1
+Comment277 on Post 104 Length After: 2
+Looking up Actor: jackrussellmom
+Added new Comment to Post: 5babe282a57c83bc6708a606
+start REPLY for: 278
+BoTTom REPLY for: 278
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9253
+Looking up OP POST ID is : 5babe282a57c83bc6708a5bb
+Time is : 72:03
+NEW Time is : 259380000
+Comment278 on Post 187 Length before: 0
+Comment278 on Post 187 Length After: 1
+Looking up Actor: jackrussellmom
+Added new Comment to Post: 5babe282a57c83bc6708a5bb
+start REPLY for: 279
+BoTTom REPLY for: 279
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9253
+Looking up OP POST ID is : 5babe282a57c83bc6708a615
+Time is : 38:41
+NEW Time is : 139260000
+Comment279 on Post 179 Length before: 1
+Comment279 on Post 179 Length After: 2
+Looking up Actor: jackrussellmom
+Added new Comment to Post: 5babe282a57c83bc6708a615
+start REPLY for: 280
+BoTTom REPLY for: 280
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9254
+Looking up OP POST ID is : 5babe282a57c83bc6708a58c
+Time is : 30:02
+NEW Time is : 108120000
+Comment280 on Post 183 Length before: 1
+Comment280 on Post 183 Length After: 2
+Looking up Actor: lavenderrrrrr
+Added new Comment to Post: 5babe282a57c83bc6708a58c
+start REPLY for: 281
+BoTTom REPLY for: 281
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9255
+Looking up OP POST ID is : 5babe282a57c83bc6708a581
+Time is : -20:03
+NEW Time is : -72180000
+Comment281 on Post 128 Length before: 0
+Comment281 on Post 128 Length After: 1
+Looking up Actor: tastyrobot
+Added new Comment to Post: 5babe282a57c83bc6708a581
+start REPLY for: 282
+BoTTom REPLY for: 282
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9255
+Looking up OP POST ID is : 5babe282a57c83bc6708a576
+Time is : -12:35
+NEW Time is : -45300000
+Comment282 on Post 73 Length before: 2
+Comment282 on Post 73 Length After: 3
+Looking up Actor: tastyrobot
+Added new Comment to Post: 5babe282a57c83bc6708a576
+start REPLY for: 283
+BoTTom REPLY for: 283
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9255
+Looking up OP POST ID is : 5babe282a57c83bc6708a529
+Time is : 48:30
+NEW Time is : 174600000
+Comment283 on Post 52 Length before: 1
+Comment283 on Post 52 Length After: 2
+Looking up Actor: tastyrobot
+Added new Comment to Post: 5babe282a57c83bc6708a529
+start REPLY for: 284
+BoTTom REPLY for: 284
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9274
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b6
+Time is : 70:30
+NEW Time is : 253800000
+Comment284 on Post 162 Length before: 3
+Comment284 on Post 162 Length After: 4
+Looking up Actor: jiruletheworld
+Added new Comment to Post: 5babe282a57c83bc6708a5b6
+start REPLY for: 285
+BoTTom REPLY for: 285
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9274
+Looking up OP POST ID is : 5babe282a57c83bc6708a55b
+Time is : -03:30
+NEW Time is : -12600000
+Comment285 on Post 175 Length before: 0
+Comment285 on Post 175 Length After: 1
+Looking up Actor: jiruletheworld
+Added new Comment to Post: 5babe282a57c83bc6708a55b
+start REPLY for: 286
+BoTTom REPLY for: 286
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9274
+Looking up OP POST ID is : 5babe282a57c83bc6708a5f4
+Time is : 10:02
+NEW Time is : 36120000
+Comment286 on Post 241 Length before: 0
+Comment286 on Post 241 Length After: 1
+Looking up Actor: jiruletheworld
+Added new Comment to Post: 5babe282a57c83bc6708a5f4
+start REPLY for: 287
+BoTTom REPLY for: 287
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9274
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d4
+Time is : -14:29
+NEW Time is : -52140000
+Comment287 on Post 81 Length before: 4
+Comment287 on Post 81 Length After: 5
+Looking up Actor: jiruletheworld
+Added new Comment to Post: 5babe282a57c83bc6708a5d4
+start REPLY for: 289
+BoTTom REPLY for: 289
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9276
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d7
+Time is : 38:14
+NEW Time is : 137640000
+Comment289 on Post 96 Length before: 2
+Comment289 on Post 96 Length After: 3
+Looking up Actor: sweetietooth
+Added new Comment to Post: 5babe282a57c83bc6708a5d7
+start REPLY for: 290
+BoTTom REPLY for: 290
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9276
+Looking up OP POST ID is : 5babe282a57c83bc6708a57c
+Time is : 5:00
+NEW Time is : 18000000
+Comment290 on Post 103 Length before: 3
+Comment290 on Post 103 Length After: 4
+Looking up Actor: sweetietooth
+Added new Comment to Post: 5babe282a57c83bc6708a57c
+start REPLY for: 291
+BoTTom REPLY for: 291
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9276
+Looking up OP POST ID is : 5babe282a57c83bc6708a5aa
+Time is : -19:31
+NEW Time is : -70260000
+Comment291 on Post 102 Length before: 2
+Comment291 on Post 102 Length After: 3
+Looking up Actor: sweetietooth
+Added new Comment to Post: 5babe282a57c83bc6708a5aa
+start REPLY for: 292
+BoTTom REPLY for: 292
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9276
+Looking up OP POST ID is : 5babe282a57c83bc6708a5da
+Time is : -12:02
+NEW Time is : -43320000
+Comment292 on Post 111 Length before: 2
+Comment292 on Post 111 Length After: 3
+Looking up Actor: sweetietooth
+Added new Comment to Post: 5babe282a57c83bc6708a5da
+start REPLY for: 293
+BoTTom REPLY for: 293
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9276
+Looking up OP POST ID is : 5babe282a57c83bc6708a57b
+Time is : -05:12
+NEW Time is : -18720000
+Comment293 on Post 98 Length before: 1
+Comment293 on Post 98 Length After: 2
+Looking up Actor: sweetietooth
+Added new Comment to Post: 5babe282a57c83bc6708a57b
+start REPLY for: 294
+BoTTom REPLY for: 294
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9277
+Looking up OP POST ID is : 5babe282a57c83bc6708a608
+Time is : 52:01
+NEW Time is : 187260000
+Comment294 on Post 114 Length before: 0
+Comment294 on Post 114 Length After: 1
+Looking up Actor: dana84
+Added new Comment to Post: 5babe282a57c83bc6708a608
+start REPLY for: 295
+BoTTom REPLY for: 295
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9277
+Looking up OP POST ID is : 5babe282a57c83bc6708a5af
+Time is : 48:32
+NEW Time is : 174720000
+Comment295 on Post 127 Length before: 3
+Comment295 on Post 127 Length After: 4
+Looking up Actor: dana84
+Added new Comment to Post: 5babe282a57c83bc6708a5af
+start REPLY for: 296
+BoTTom REPLY for: 296
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9277
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b2
+Time is : 71:06
+NEW Time is : 255960000
+Comment296 on Post 142 Length before: 1
+Comment296 on Post 142 Length After: 2
+Looking up Actor: dana84
+Added new Comment to Post: 5babe282a57c83bc6708a5b2
+start REPLY for: 297
+BoTTom REPLY for: 297
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9277
+Looking up OP POST ID is : 5babe282a57c83bc6708a556
+Time is : 68:54
+NEW Time is : 248040000
+Comment297 on Post 150 Length before: 1
+Comment297 on Post 150 Length After: 2
+Looking up Actor: dana84
+Added new Comment to Post: 5babe282a57c83bc6708a556
+start REPLY for: 298
+BoTTom REPLY for: 298
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9277
+Looking up OP POST ID is : 5babe282a57c83bc6708a588
+Time is : -21:24
+NEW Time is : -77040000
+Comment298 on Post 163 Length before: 3
+Comment298 on Post 163 Length After: 4
+Looking up Actor: dana84
+Added new Comment to Post: 5babe282a57c83bc6708a588
+start REPLY for: 299
+BoTTom REPLY for: 299
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9278
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a5
+Time is : 16:51
+NEW Time is : 60660000
+Comment299 on Post 77 Length before: 2
+Comment299 on Post 77 Length After: 3
+Looking up Actor: lucyinurdreams
+Added new Comment to Post: 5babe282a57c83bc6708a5a5
+start REPLY for: 300
+BoTTom REPLY for: 300
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9278
+Looking up OP POST ID is : 5babe282a57c83bc6708a5ab
+Time is : 03:22
+NEW Time is : 12120000
+Comment300 on Post 107 Length before: 2
+Comment300 on Post 107 Length After: 3
+Looking up Actor: lucyinurdreams
+Added new Comment to Post: 5babe282a57c83bc6708a5ab
+start REPLY for: 301
+BoTTom REPLY for: 301
+BOTTOM OF SAVE
+Looking up Actor ID is : 5ba82f5f764050dd45036335
+Looking up OP POST ID is : 5babe282a57c83bc6708a53a
+Time is : -15:23
+NEW Time is : -55380000
+Comment301 on Post 39 Length before: 2
+Comment301 on Post 39 Length After: 3
+Looking up Actor: csmbx1
+Added new Comment to Post: 5babe282a57c83bc6708a53a
+start REPLY for: 302
+BoTTom REPLY for: 302
+BOTTOM OF SAVE
+Looking up Actor ID is : 5ba82f5f764050dd45036333
+Looking up OP POST ID is : 5babe282a57c83bc6708a57e
+Time is : 24:26
+NEW Time is : 87960000
+Comment302 on Post 113 Length before: 2
+Comment302 on Post 113 Length After: 3
+Looking up Actor: MrShazam
+Added new Comment to Post: 5babe282a57c83bc6708a57e
+start REPLY for: 303
+BoTTom REPLY for: 303
+BOTTOM OF SAVE
+Looking up Actor ID is : 5ba82f5f764050dd45036335
+Looking up OP POST ID is : 5babe282a57c83bc6708a607
+Time is : 48:05
+NEW Time is : 173100000
+Comment303 on Post 109 Length before: 3
+Comment303 on Post 109 Length After: 4
+Looking up Actor: csmbx1
+Added new Comment to Post: 5babe282a57c83bc6708a607
+start REPLY for: 304
+BoTTom REPLY for: 304
+BOTTOM OF SAVE
+Looking up Actor ID is : 5ba82f5f764050dd45036334
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d3
+Time is : 58:53
+NEW Time is : 211980000
+Comment304 on Post 76 Length before: 3
+Comment304 on Post 76 Length After: 4
+Looking up Actor: JuniperQ
+Added new Comment to Post: 5babe282a57c83bc6708a5d3
+start REPLY for: 310
+BoTTom REPLY for: 310
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa923e
+Looking up OP POST ID is : 5babe282a57c83bc6708a616
+Time is : 12:57
+NEW Time is : 46620000
+Comment310 on Post 184 Length before: 0
+Comment310 on Post 184 Length After: 1
+Looking up Actor: ancho-n-cayenne
+Added new Comment to Post: 5babe282a57c83bc6708a616
+start REPLY for: 311
+BoTTom REPLY for: 311
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9260
+Looking up OP POST ID is : 5babe282a57c83bc6708a59d
+Time is : 13:05
+NEW Time is : 47100000
+Comment311 on Post 268 Length before: 0
+Comment311 on Post 268 Length After: 1
+Looking up Actor: Smitty12
+Added new Comment to Post: 5babe282a57c83bc6708a59d
+start REPLY for: 312
+BoTTom REPLY for: 312
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9261
+Looking up OP POST ID is : 5babe282a57c83bc6708a5c9
+Time is : 14:00
+NEW Time is : 50400000
+Comment312 on Post 257 Length before: 2
+Comment312 on Post 257 Length After: 3
+Looking up Actor: hockeymom101
+Added new Comment to Post: 5babe282a57c83bc6708a5c9
+start REPLY for: 313
+BoTTom REPLY for: 313
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9262
+Looking up OP POST ID is : 5babe282a57c83bc6708a623
+Time is : 14:30
+NEW Time is : 52200000
+Comment313 on Post 249 Length before: 1
+Comment313 on Post 249 Length After: 2
+Looking up Actor: SamTHEMAN
+Added new Comment to Post: 5babe282a57c83bc6708a623
+start REPLY for: 314
+BoTTom REPLY for: 314
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9263
+Looking up OP POST ID is : 5babe282a57c83bc6708a623
+Time is : 14:31
+NEW Time is : 52260000
+Comment314 on Post 249 Length before: 2
+Comment314 on Post 249 Length After: 3
+Looking up Actor: Marcymaniac
+Added new Comment to Post: 5babe282a57c83bc6708a623
+start REPLY for: 315
+BoTTom REPLY for: 315
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9264
+Looking up OP POST ID is : 5babe282a57c83bc6708a623
+Time is : 14:56
+NEW Time is : 53760000
+Comment315 on Post 249 Length before: 3
+Comment315 on Post 249 Length After: 4
+Looking up Actor: HP743
+Added new Comment to Post: 5babe282a57c83bc6708a623
+start REPLY for: 316
+BoTTom REPLY for: 316
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9265
+Looking up OP POST ID is : 5babe282a57c83bc6708a5bd
+Time is : 14:40
+NEW Time is : 52800000
+Comment316 on Post 197 Length before: 0
+Comment316 on Post 197 Length After: 1
+Looking up Actor: southerngirlCel
+Added new Comment to Post: 5babe282a57c83bc6708a5bd
+start REPLY for: 317
+BoTTom REPLY for: 317
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9266
+Looking up OP POST ID is : 5babe282a57c83bc6708a61c
+Time is : 15:26
+NEW Time is : 55560000
+Comment317 on Post 214 Length before: 0
+Comment317 on Post 214 Length After: 1
+Looking up Actor: BossmanRy
+Added new Comment to Post: 5babe282a57c83bc6708a61c
+start REPLY for: 318
+BoTTom REPLY for: 318
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9267
+Looking up OP POST ID is : 5babe282a57c83bc6708a5e3
+Time is : 15:30
+NEW Time is : 55800000
+Comment318 on Post 156 Length before: 3
+Comment318 on Post 156 Length After: 4
+Looking up Actor: TomM41
+Added new Comment to Post: 5babe282a57c83bc6708a5e3
+start REPLY for: 319
+BoTTom REPLY for: 319
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9268
+Looking up OP POST ID is : 5babe282a57c83bc6708a61c
+Time is : 16:03
+NEW Time is : 57780000
+Comment319 on Post 214 Length before: 1
+Comment319 on Post 214 Length After: 2
+Looking up Actor: BeardedMatt
+Added new Comment to Post: 5babe282a57c83bc6708a61c
+start REPLY for: 320
+BoTTom REPLY for: 320
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a60e
+Time is : 15:55
+NEW Time is : 57300000
+Comment320 on Post 144 Length before: 1
+Comment320 on Post 144 Length After: 2
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a60e
+start REPLY for: 321
+BoTTom REPLY for: 321
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926a
+Looking up OP POST ID is : 5babe282a57c83bc6708a60e
+Time is : 16:29
+NEW Time is : 59340000
+Comment321 on Post 144 Length before: 2
+Comment321 on Post 144 Length After: 3
+Looking up Actor: Lisa181818
+Added new Comment to Post: 5babe282a57c83bc6708a60e
+start REPLY for: 322
+BoTTom REPLY for: 322
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926b
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b1
+Time is : 17:40
+NEW Time is : 63600000
+Comment322 on Post 137 Length before: 5
+Comment322 on Post 137 Length After: 6
+Looking up Actor: this_jack
+Added new Comment to Post: 5babe282a57c83bc6708a5b1
+start REPLY for: 323
+BoTTom REPLY for: 323
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926c
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b1
+Time is : 17:41
+NEW Time is : 63660000
+Comment323 on Post 137 Length before: 6
+Comment323 on Post 137 Length After: 7
+Looking up Actor: PatelS
+Added new Comment to Post: 5babe282a57c83bc6708a5b1
+start REPLY for: 324
+BoTTom REPLY for: 324
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926d
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b1
+Time is : 17:43
+NEW Time is : 63780000
+Comment324 on Post 137 Length before: 7
+Comment324 on Post 137 Length After: 8
+Looking up Actor: DonDonDonna
+Added new Comment to Post: 5babe282a57c83bc6708a5b1
+start REPLY for: 325
+BoTTom REPLY for: 325
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926f
+Looking up OP POST ID is : 5babe282a57c83bc6708a628
+Time is : 18:26
+NEW Time is : 66360000
+Comment325 on Post 274 Length before: 0
+Comment325 on Post 274 Length After: 1
+Looking up Actor: B.Mike
+Added new Comment to Post: 5babe282a57c83bc6708a628
+start REPLY for: 326
+BoTTom REPLY for: 326
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9270
+Looking up OP POST ID is : 5babe282a57c83bc6708a539
+Time is : 19:07
+NEW Time is : 68820000
+Comment326 on Post 34 Length before: 0
+Comment326 on Post 34 Length After: 1
+Looking up Actor: mariaann
+Added new Comment to Post: 5babe282a57c83bc6708a539
+start REPLY for: 327
+BoTTom REPLY for: 327
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9271
+Looking up OP POST ID is : 5babe282a57c83bc6708a58b
+Time is : 19:23
+NEW Time is : 69780000
+Comment327 on Post 178 Length before: 3
+Comment327 on Post 178 Length After: 4
+Looking up Actor: thisisalfie1998
+Added new Comment to Post: 5babe282a57c83bc6708a58b
+start REPLY for: 328
+BoTTom REPLY for: 328
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9272
+Looking up OP POST ID is : 5babe282a57c83bc6708a52c
+Time is : 19:40
+NEW Time is : 70800000
+Comment328 on Post 16 Length before: 1
+Comment328 on Post 16 Length After: 2
+Looking up Actor: KatieeeM
+Added new Comment to Post: 5babe282a57c83bc6708a52c
+start REPLY for: 329
+BoTTom REPLY for: 329
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9273
+Looking up OP POST ID is : 5babe282a57c83bc6708a52c
+Time is : 19:58
+NEW Time is : 71880000
+Comment329 on Post 16 Length before: 2
+Comment329 on Post 16 Length After: 3
+Looking up Actor: TimBJenkins
+Added new Comment to Post: 5babe282a57c83bc6708a52c
+start REPLY for: 330
+BoTTom REPLY for: 330
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9274
+Looking up OP POST ID is : 5babe282a57c83bc6708a552
+Time is : 19:55
+NEW Time is : 71700000
+Comment330 on Post 130 Length before: 0
+Comment330 on Post 130 Length After: 1
+Looking up Actor: jiruletheworld
+Added new Comment to Post: 5babe282a57c83bc6708a552
+start REPLY for: 331
+BoTTom REPLY for: 331
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9275
+Looking up OP POST ID is : 5babe282a57c83bc6708a552
+Time is : 20:00
+NEW Time is : 72000000
+Comment331 on Post 130 Length before: 1
+Comment331 on Post 130 Length After: 2
+Looking up Actor: ayoitsayo
+Added new Comment to Post: 5babe282a57c83bc6708a552
+start REPLY for: 332
+BoTTom REPLY for: 332
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9276
+Looking up OP POST ID is : 5babe282a57c83bc6708a58a
+Time is : 20:23
+NEW Time is : 73380000
+Comment332 on Post 173 Length before: 2
+Comment332 on Post 173 Length After: 3
+Looking up Actor: sweetietooth
+Added new Comment to Post: 5babe282a57c83bc6708a58a
+start REPLY for: 333
+BoTTom REPLY for: 333
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9277
+Looking up OP POST ID is : 5babe282a57c83bc6708a58a
+Time is : 20:41
+NEW Time is : 74460000
+Comment333 on Post 173 Length before: 3
+Comment333 on Post 173 Length After: 4
+Looking up Actor: dana84
+Added new Comment to Post: 5babe282a57c83bc6708a58a
+start REPLY for: 334
+BoTTom REPLY for: 334
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9278
+Looking up OP POST ID is : 5babe282a57c83bc6708a61d
+Time is : 20:30
+NEW Time is : 73800000
+Comment334 on Post 219 Length before: 0
+Comment334 on Post 219 Length After: 1
+Looking up Actor: lucyinurdreams
+Added new Comment to Post: 5babe282a57c83bc6708a61d
+start REPLY for: 335
+BoTTom REPLY for: 335
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9279
+Looking up OP POST ID is : 5babe282a57c83bc6708a61d
+Time is : 20:33
+NEW Time is : 73980000
+Comment335 on Post 219 Length before: 1
+Comment335 on Post 219 Length After: 2
+Looking up Actor: chefricky
+Added new Comment to Post: 5babe282a57c83bc6708a61d
+start REPLY for: 336
+BoTTom REPLY for: 336
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa927a
+Looking up OP POST ID is : 5babe282a57c83bc6708a61d
+Time is : 21:26
+NEW Time is : 77160000
+Comment336 on Post 219 Length before: 2
+Comment336 on Post 219 Length After: 3
+Looking up Actor: clayton.myers
+Added new Comment to Post: 5babe282a57c83bc6708a61d
+start REPLY for: 337
+BoTTom REPLY for: 337
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa927b
+Looking up OP POST ID is : 5babe282a57c83bc6708a5dd
+Time is : 20:56
+NEW Time is : 75360000
+Comment337 on Post 126 Length before: 2
+Comment337 on Post 126 Length After: 3
+Looking up Actor: aleeboi
+Added new Comment to Post: 5babe282a57c83bc6708a5dd
+start REPLY for: 338
+BoTTom REPLY for: 338
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa927c
+Looking up OP POST ID is : 5babe282a57c83bc6708a5cc
+Time is : 21:28
+NEW Time is : 77280000
+Comment338 on Post 272 Length before: 0
+Comment338 on Post 272 Length After: 1
+Looking up Actor: mewranda
+Added new Comment to Post: 5babe282a57c83bc6708a5cc
+start REPLY for: 339
+BoTTom REPLY for: 339
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9279
+Looking up OP POST ID is : 5babe282a57c83bc6708a56a
+Time is : 29:22
+NEW Time is : 105720000
+Comment339 on Post 250 Length before: 0
+Comment339 on Post 250 Length After: 1
+Looking up Actor: chefricky
+Added new Comment to Post: 5babe282a57c83bc6708a56a
+start REPLY for: 340
+BoTTom REPLY for: 340
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa927e
+Looking up OP POST ID is : 5babe282a57c83bc6708a56a
+Time is : 29:54
+NEW Time is : 107640000
+Comment340 on Post 250 Length before: 1
+Comment340 on Post 250 Length After: 2
+Looking up Actor: gwenfromtheblock
+Added new Comment to Post: 5babe282a57c83bc6708a56a
+start REPLY for: 341
+BoTTom REPLY for: 341
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa927f
+Looking up OP POST ID is : 5babe282a57c83bc6708a5a1
+Time is : 30:20
+NEW Time is : 109200000
+Comment341 on Post 288 Length before: 0
+Comment341 on Post 288 Length After: 1
+Looking up Actor: fgonzalez
+Added new Comment to Post: 5babe282a57c83bc6708a5a1
+start REPLY for: 342
+BoTTom REPLY for: 342
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9260
+Looking up OP POST ID is : 5babe282a57c83bc6708a5c1
+Time is : 38:02
+NEW Time is : 136920000
+Comment342 on Post 217 Length before: 2
+Comment342 on Post 217 Length After: 3
+Looking up Actor: Smitty12
+Added new Comment to Post: 5babe282a57c83bc6708a5c1
+start REPLY for: 343
+BoTTom REPLY for: 343
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9246
+Looking up OP POST ID is : 5babe282a57c83bc6708a50b
+Time is : -0:32
+NEW Time is : -1920000
+Comment343 on Post 2 Length before: 0
+Comment343 on Post 2 Length After: 1
+Looking up Actor: Jcole9
+Added new Comment to Post: 5babe282a57c83bc6708a50b
+start REPLY for: 543
+BoTTom REPLY for: 543
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9262
+Looking up OP POST ID is : 5babe282a57c83bc6708a5d2
+Time is : 33:40
+NEW Time is : 121200000
+Comment543 on Post 71 Length before: 1
+Comment543 on Post 71 Length After: 2
+Looking up Actor: SamTHEMAN
+Added new Comment to Post: 5babe282a57c83bc6708a5d2
+start REPLY for: 544
+BoTTom REPLY for: 544
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9247
+Looking up OP POST ID is : 5babe282a57c83bc6708a50b
+Time is : -0:27
+NEW Time is : -1620000
+Comment544 on Post 2 Length before: 1
+Comment544 on Post 2 Length After: 2
+Looking up Actor: _aikira_
+Added new Comment to Post: 5babe282a57c83bc6708a50b
+start REPLY for: 344
+BoTTom REPLY for: 344
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9263
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b7
+Time is : 35:45
+NEW Time is : 128700000
+Comment344 on Post 167 Length before: 0
+Comment344 on Post 167 Length After: 1
+Looking up Actor: Marcymaniac
+Added new Comment to Post: 5babe282a57c83bc6708a5b7
+start REPLY for: 345
+BoTTom REPLY for: 345
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9248
+Looking up OP POST ID is : 5babe282a57c83bc6708a5ac
+Time is : -0:45
+NEW Time is : -2700000
+Comment345 on Post 112 Length before: 0
+Comment345 on Post 112 Length After: 1
+Looking up Actor: fusionfeast
+Added new Comment to Post: 5babe282a57c83bc6708a5ac
+start REPLY for: 545
+BoTTom REPLY for: 545
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa925c
+Looking up OP POST ID is : 5babe282a57c83bc6708a5b7
+Time is : 35:47
+NEW Time is : 128820000
+Comment545 on Post 167 Length before: 1
+Comment545 on Post 167 Length After: 2
+Looking up Actor: jake_turk
+Added new Comment to Post: 5babe282a57c83bc6708a5b7
+start REPLY for: 346
+BoTTom REPLY for: 346
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9249
+Looking up OP POST ID is : 5babe282a57c83bc6708a5db
+Time is : -0:10
+NEW Time is : -600000
+Comment346 on Post 116 Length before: 0
+Comment346 on Post 116 Length After: 1
+Looking up Actor: lee.alexa
+Added new Comment to Post: 5babe282a57c83bc6708a5db
+start REPLY for: 546
+BoTTom REPLY for: 546
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9265
+Looking up OP POST ID is : 5babe282a57c83bc6708a574
+Time is : 35:20
+NEW Time is : 127200000
+Comment546 on Post 63 Length before: 1
+Comment546 on Post 63 Length After: 2
+Looking up Actor: southerngirlCel
+Added new Comment to Post: 5babe282a57c83bc6708a574
+start REPLY for: 347
+BoTTom REPLY for: 347
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9266
+Looking up OP POST ID is : 5babe282a57c83bc6708a574
+Time is : 35:32
+NEW Time is : 127920000
+Comment347 on Post 63 Length before: 2
+Comment347 on Post 63 Length After: 3
+Looking up Actor: BossmanRy
+Added new Comment to Post: 5babe282a57c83bc6708a574
+start REPLY for: 348
+BoTTom REPLY for: 348
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9267
+Looking up OP POST ID is : 5babe282a57c83bc6708a53e
+Time is : 36:12
+NEW Time is : 130320000
+Comment348 on Post 59 Length before: 0
+Comment348 on Post 59 Length After: 1
+Looking up Actor: TomM41
+Added new Comment to Post: 5babe282a57c83bc6708a53e
+start REPLY for: 349
+BoTTom REPLY for: 349
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9268
+Looking up OP POST ID is : 5babe282a57c83bc6708a53e
+Time is : 36:20
+NEW Time is : 130800000
+Comment349 on Post 59 Length before: 1
+Comment349 on Post 59 Length After: 2
+Looking up Actor: BeardedMatt
+Added new Comment to Post: 5babe282a57c83bc6708a53e
+start REPLY for: 350
+BoTTom REPLY for: 350
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa9269
+Looking up OP POST ID is : 5babe282a57c83bc6708a51a
+Time is : 36:30
+NEW Time is : 131400000
+Comment350 on Post 18 Length before: 1
+Comment350 on Post 18 Length After: 2
+Looking up Actor: MedicalRyan
+Added new Comment to Post: 5babe282a57c83bc6708a51a
+start REPLY for: 351
+BoTTom REPLY for: 351
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926a
+Looking up OP POST ID is : 5babe282a57c83bc6708a5ab
+Time is : -0:02
+NEW Time is : -120000
+Comment351 on Post 107 Length before: 3
+Comment351 on Post 107 Length After: 4
+Looking up Actor: Lisa181818
+Added new Comment to Post: 5babe282a57c83bc6708a5ab
+start REPLY for: 352
+BoTTom REPLY for: 352
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207917c6a93896fa926b
+Looking up OP POST ID is : 5babe282a57c83bc6708a565
+Time is : -0:10
+NEW Time is : -600000
+Comment352 on Post 225 Length before: 0
+Comment352 on Post 225 Length After: 1
+Looking up Actor: this_jack
+Added new Comment to Post: 5babe282a57c83bc6708a565
+start REPLY for: 353
+BoTTom REPLY for: 353
+BOTTOM OF SAVE
+Looking up Actor ID is : 5b4e207817c6a93896fa9245
+Looking up OP POST ID is : 5babe282a57c83bc6708a565
+Time is : -0:13
+NEW Time is : -780000
+Comment353 on Post 225 Length before: 1
+Comment353 on Post 225 Length After: 2
+Looking up Actor: artisanalways
+Added new Comment to Post: 5babe282a57c83bc6708a565
+All DONE WITH REPLIES/Comments!!!

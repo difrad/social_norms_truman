@@ -521,7 +521,7 @@ var sendReminderEmail = function(user){
     const mailOptions = {
       to: user.email,
       from: 'do-not-reply@eatsnap.love',
-      subject: 'Remember to Checkout 🍴📷.❤️ Today',
+      subject: 'Remember to Check Out 🍴📷.❤️ Today',
       text: `Hey ${u_name},\n\n
       Just wanted to remind you to visit https://eatsnap.love today.\n
       Your participation in our study is a huge help in beta testing the app.
