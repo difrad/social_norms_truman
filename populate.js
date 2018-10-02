@@ -647,9 +647,9 @@ function(err, results) {
 
 //createActorInstances()
 //createPostInstances()
-//createPostRepliesInstances()
+createPostRepliesInstances()
 //actorNotifyCreate();
-NotifyCreate();
+//NotifyCreate();
 
 
 //PostReplyCreate(posts1[0]);
