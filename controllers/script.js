@@ -3,6 +3,25 @@ const User = require('../models/User');
 const Notification = require('../models/Notification');
 const _ = require('lodash');
 
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
 const profile_posts = 
 [ 
 
@@ -420,6 +439,8 @@ exports.getScript = (req, res, next) => {
       }//while loop
 
       
+      //shuffle up the list
+      finalfeed = shuffle(finalfeed);
 
       if (user.study_days[current_day] > 0 && bully_post)
       {
@@ -427,16 +448,6 @@ exports.getScript = (req, res, next) => {
         finalfeed.splice(bully_index, 0, bully_post);
         console.log("@@@@@@@@@@ Pushed a Bully Post to index "+bully_index);
       }
-
-      if (user.profile_perspective == 'yes')
-      {
-        if (current_day != -1)
-          profile_card = profile_posts[current_day];
-        else 
-          profile_card = -1;
-      }
-      else
-        profile_card = -1;
 
 
       user.save((err) => {
@@ -448,7 +459,7 @@ exports.getScript = (req, res, next) => {
       });
 
       console.log("Script Size is now: "+finalfeed.length);
-      res.render('script', { script: finalfeed, profile_card:profile_card });
+      res.render('script', { script: finalfeed});
 
       });//end of Script.find()
 
