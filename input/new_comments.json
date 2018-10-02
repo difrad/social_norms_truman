@@ -40,14 +40,6 @@
     "time": "-14:47"
   },
   {
-    "id": 5,
-    "body": "Beautiful! What variety is it?",
-    "actor": "bblueberryy",
-    "reply": 139,
-    "class": "normal",
-    "time": "-08:11"
-  },
-  {
     "id": 6,
     "body": "yo this stuff is 💯",
     "actor": "wiz_khaleesi",
@@ -198,14 +190,6 @@
     "reply": 79,
     "class": "normal",
     "time": "37:04"
-  },
-  {
-    "id": 25,
-    "body": "this looks like an amazing healthy meal!",
-    "actor": "bblueberryy",
-    "reply": 141,
-    "class": "normal",
-    "time": "40:44"
   },
   {
     "id": 26,
@@ -416,14 +400,6 @@
     "time": "04:00"
   },
   {
-    "id": 52,
-    "body": "so many people doing ridiculous sugary sweet potato dishes on here. they're naturally sweet, people! you don't need all this sugar!",
-    "actor": "lavenderrrrrr",
-    "reply": 76,
-    "class": "marginal",
-    "time": "71:00"
-  },
-  {
     "id": 53,
     "body": "where do you even get something like that",
     "actor": "earthpulse",
@@ -453,7 +429,7 @@
     "actor": "bblueberryy",
     "reply": 42,
     "class": "bullying",
-    "time": "-12:00"
+    "time": "-12:39"
   },
   {
     "id": 57,
@@ -461,7 +437,7 @@
     "actor": "bblueberryy",
     "reply": 45,
     "class": "bullying",
-    "time": "12:00"
+    "time": "11:42"
   },
   {
     "id": 58,
@@ -469,7 +445,7 @@
     "actor": "bblueberryy",
     "reply": 48,
     "class": "bullying",
-    "time": "26:30"
+    "time": "25:43"
   },
   {
     "id": 59,
@@ -477,7 +453,7 @@
     "actor": "bblueberryy",
     "reply": 53,
     "class": "bullying",
-    "time": "50:59"
+    "time": "50:45"
   },
   {
     "id": 60,
@@ -526,14 +502,6 @@
     "reply": 50,
     "class": "normal",
     "time": "70:15"
-  },
-  {
-    "id": 66,
-    "body": "Wow, what a great idea. I wonder if my guys would try it...",
-    "actor": "hockeymom101",
-    "reply": 76,
-    "class": "normal",
-    "time": "68:02"
   },
   {
     "id": 67,
@@ -1512,14 +1480,6 @@
     "time": "20:46"
   },
   {
-    "id": 189,
-    "body": "go bears!!",
-    "actor": "thisisalfie1998",
-    "reply": 53,
-    "class": "normal",
-    "time": "52:28"
-  },
-  {
     "id": 190,
     "body": "reminds me of the good ole times at #chelseamarket !",
     "actor": "thisisalfie1998",
@@ -1832,22 +1792,6 @@
     "time": "12:59"
   },
   {
-    "id": 231,
-    "body": "I\\m a big fan of anything cheese related, definitely going to have give those a try",
-    "actor": "TomM41",
-    "reply": 48,
-    "class": "normal",
-    "time": "39:19"
-  },
-  {
-    "id": 531,
-    "body": "Chuncky all the way of course!",
-    "actor": "B.Mike",
-    "reply": 40,
-    "class": "normal",
-    "time": "60:11"
-  },
-  {
     "id": 233,
     "body": "looks a lot this creamy rosee sauce I used to get from Saclps....I might have to go back to my roots and start making some more creative pasta dishes again",
     "actor": "B.Mike",
@@ -2006,14 +1950,6 @@
     "reply": 27,
     "class": "normal",
     "time": "33:12"
-  },
-  {
-    "id": 253,
-    "body": "Ohmygooooodness! I've been meaning to tell me is that the korean bbq is a new fav in our house!",
-    "actor": "breethebaker",
-    "reply": 113,
-    "class": "normal",
-    "time": "25:13"
   },
   {
     "id": 254,
@@ -2688,22 +2624,6 @@
     "time": "-0:32"
   },
   {
-    "id": 543,
-    "body": "what the hell are funeral potatoes?",
-    "actor": "SamTHEMAN",
-    "reply": 71,
-    "class": "normal",
-    "time": "33:40"
-  },
-  {
-    "id": 544,
-    "body": "LOVE IT!!!!",
-    "actor": "_aikira_",
-    "reply": 2,
-    "class": "cohort",
-    "time": "-0:27"
-  },
-  {
     "id": 344,
     "body": "what type of pizza?",
     "actor": "Marcymaniac",
@@ -2720,28 +2640,12 @@
     "time": "-0:45"
   },
   {
-    "id": 545,
-    "body": "just like a fancy ass cheese pizza",
-    "actor": "jake_turk",
-    "reply": 167,
-    "class": "normal",
-    "time": "35:47"
-  },
-  {
     "id": 346,
     "body": "❤️❤️",
     "actor": "lee.alexa",
     "reply": 116,
     "class": "normal",
     "time": "-0:10"
-  },
-  {
-    "id": 546,
-    "body": "I WANT THIS CAKE",
-    "actor": "southerngirlCel",
-    "reply": 63,
-    "class": "normal",
-    "time": "35:20"
   },
   {
     "id": 347,
@@ -2798,5 +2702,45 @@
     "reply": 225,
     "class": "normal",
     "time": "-0:13"
+  },
+  {
+    "id": 531,
+    "body": "Chuncky all the way of course!",
+    "actor": "B.Mike",
+    "reply": 40,
+    "class": "normal",
+    "time": "60:11"
+  },
+  {
+    "id": 543,
+    "body": "what the hell are funeral potatoes?",
+    "actor": "SamTHEMAN",
+    "reply": 71,
+    "class": "normal",
+    "time": "33:40"
+  },
+  {
+    "id": 544,
+    "body": "LOVE IT!!!!",
+    "actor": "_aikira_",
+    "reply": 2,
+    "class": "cohort",
+    "time": "-0:27"
+  },
+  {
+    "id": 545,
+    "body": "just like a fancy ass cheese pizza",
+    "actor": "jake_turk",
+    "reply": 167,
+    "class": "normal",
+    "time": "35:47"
+  },
+  {
+    "id": 546,
+    "body": "I WANT THIS CAKE",
+    "actor": "southerngirlCel",
+    "reply": 63,
+    "class": "normal",
+    "time": "35:20"
   }
 ]
