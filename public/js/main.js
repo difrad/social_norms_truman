@@ -76,11 +76,6 @@ $(window).on("load", function() {
     let postID = parent.attr( "postID" );
 
     parent.find( "input.newcomment" ).focus();
-
-    //$('input[name=firstName]').focus();
-    //$('#replyInput').attr("value", postID);
-
-    //$(' .ui.small.reply.modal').modal('show');
 });
 
   //get add new feed post modal to work
@@ -221,7 +216,7 @@ $('.right.floated.time.meta, .date').each(function() {
   });
 
 
-  ////////////////////
+////////////////////
 $("input.newcomment").keyup(function(event) {
     //i.big.send.link.icon
     //$(this).siblings( "i.big.send.link.icon")
