@@ -12,11 +12,9 @@ const dotenv = require('dotenv');
 var mongoose = require('mongoose');
 var fs = require('fs')
 
-//var actors_list = require('./input/actors.json');
-var actors_list = require('./input/troll_user.json');
-var posts_list = require('./input/new_posts.json');
-//var comment_list = require('./input/comments.json');
-var comment_list = require('./input/new_comments.json');
+var actors_list = require('./input/actors.json');
+var posts_list = require('./input/posts.json');
+var comment_list = require('./input/comments.json');
 
 var replies_list = require('./input/replies.json');
 var notifications_list = require('./input/notifications.json');

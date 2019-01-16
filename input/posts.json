@@ -5,7 +5,12 @@
     "picture": "20170212_152905108_iOS.jpg",
     "actor": "coachmatthews",
     "time": "-20:35",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 1,
@@ -13,15 +18,25 @@
     "picture": "IMAG0003.jpg",
     "actor": "coachmatthews",
     "time": "-11:13",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 2,
-    "body": "These tilapia fillets are CRAZY easy and super healthy! Just a sprinkle of dried dill, a squeeze of lemon, and 15 minutes in the oven!",
+    "body": "These tilapia fillets are super easy and super healthy! Just a sprinkle of dried dill, a squeeze of lemon, and 15 minutes in the oven!",
     "picture": "IMG_20170105_192151.jpg",
     "actor": "coachmatthews",
     "time": "-00:45",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 3,
@@ -29,7 +44,12 @@
     "picture": "james-harris-228578.jpeg",
     "actor": "coachmatthews",
     "time": "03:16",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 4,
@@ -37,7 +57,12 @@
     "picture": "IMG_0440.JPG",
     "actor": "coachmatthews",
     "time": "07:00",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 5,
@@ -45,7 +70,12 @@
     "picture": "20130726_145708000_iOS.jpg",
     "actor": "coachmatthews",
     "time": "24:04",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 6,
@@ -53,15 +83,25 @@
     "picture": "20131118_154942000_iOS.jpg",
     "actor": "coachmatthews",
     "time": "27:17",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 7,
-    "body": "pizza\" on zucchini slices is actually amazing! Love these easy low carb dinners.",
+    "body": "honestly red velvet cake just tastes like cake, but this tastes like red velvet cake. I know that makes no sense but if you try it you'll get it!!",
     "picture": "20130721_000546845_iOS.jpg",
     "actor": "coachmatthews",
     "time": "29:20",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 8,
@@ -69,7 +109,12 @@
     "picture": "IMG_20141011_103027.jpg",
     "actor": "coachmatthews",
     "time": "49:45",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 9,
@@ -77,7 +122,12 @@
     "picture": "IMG_20140501_112920.jpg",
     "actor": "coachmatthews",
     "time": "52:44",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 10,
@@ -85,7 +135,12 @@
     "picture": "eaters-collective-172257.jpeg",
     "actor": "M.Kapadia92",
     "time": "-22:40",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 11,
@@ -93,7 +148,12 @@
     "picture": "IMG_1317.JPG",
     "actor": "M.Kapadia92",
     "time": "-19:20",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 12,
@@ -101,7 +161,12 @@
     "picture": "kowalewski-4.jpeg",
     "actor": "M.Kapadia92",
     "time": "-16:59",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 13,
@@ -109,7 +174,12 @@
     "picture": "krzysztof-112.jpeg",
     "actor": "M.Kapadia92",
     "time": "04:00",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 14,
@@ -117,7 +187,12 @@
     "picture": "krzysztof-113.jpeg",
     "actor": "M.Kapadia92",
     "time": "06:40",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 15,
@@ -125,7 +200,12 @@
     "picture": "petradr-748.jpeg",
     "actor": "M.Kapadia92",
     "time": "09:20",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 16,
@@ -133,7 +213,12 @@
     "picture": "zach-miles-229108.jpeg",
     "actor": "M.Kapadia92",
     "time": "19:20",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 17,
@@ -141,7 +226,12 @@
     "picture": "alex-munsell-18756.jpeg",
     "actor": "M.Kapadia92",
     "time": "22:45",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 18,
@@ -149,7 +239,12 @@
     "picture": "toa-heftiba-88630.jpeg",
     "actor": "M.Kapadia92",
     "time": "36:10",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 19,
@@ -157,7 +252,12 @@
     "picture": "stephanie-mccabe-92136.jpeg",
     "actor": "M.Kapadia92",
     "time": "39:25",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 20,
@@ -165,7 +265,12 @@
     "picture": "kowalewski-8.jpeg",
     "actor": "M.Kapadia92",
     "time": "56:34",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 21,
@@ -173,7 +278,12 @@
     "picture": "krzysztof-98.jpeg",
     "actor": "M.Kapadia92",
     "time": "60:00",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 22,
@@ -181,7 +291,12 @@
     "picture": "102_1402.JPG",
     "actor": "ancho-n-cayenne",
     "time": "-24:30",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 23,
@@ -189,7 +304,12 @@
     "picture": "brandon-morgan-19496.jpeg",
     "actor": "ancho-n-cayenne",
     "time": "-20:41",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 24,
@@ -197,7 +317,12 @@
     "picture": "IMG_0552.JPG",
     "actor": "ancho-n-cayenne",
     "time": "-01:40",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 25,
@@ -205,7 +330,12 @@
     "picture": "IMG_0315.jpg",
     "actor": "ancho-n-cayenne",
     "time": "02:45",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 26,
@@ -213,7 +343,12 @@
     "picture": "IMG_20170404_182858.jpg",
     "actor": "ancho-n-cayenne",
     "time": "25:39",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 27,
@@ -221,7 +356,12 @@
     "picture": "kowalewski-5.jpeg",
     "actor": "ancho-n-cayenne",
     "time": "29:55",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 28,
@@ -229,7 +369,12 @@
     "picture": "IMG_20170513_105531.jpg",
     "actor": "ancho-n-cayenne",
     "time": "38:41",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 29,
@@ -237,7 +382,12 @@
     "picture": "IMG_20170527_192058.jpg",
     "actor": "ancho-n-cayenne",
     "time": "40:04",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 30,
@@ -245,7 +395,12 @@
     "picture": "matthew-hamilton-160833.jpeg",
     "actor": "ancho-n-cayenne",
     "time": "59:03",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 31,
@@ -253,7 +408,12 @@
     "picture": "IMG_20170602_173837.jpg",
     "actor": "localewis",
     "time": "-09:08",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 32,
@@ -261,7 +421,12 @@
     "picture": "IMG_20170220_075706.jpg",
     "actor": "localewis",
     "time": "-04:09",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 33,
@@ -269,7 +434,12 @@
     "picture": "IMG_20170216_213349.jpg",
     "actor": "localewis",
     "time": "11:14",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 34,
@@ -277,7 +447,12 @@
     "picture": "IMG_20160711_220819.jpg",
     "actor": "localewis",
     "time": "19:02",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 35,
@@ -285,7 +460,12 @@
     "picture": "IMG_20170107_172633.jpg",
     "actor": "localewis",
     "time": "38:10",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 36,
@@ -293,7 +473,12 @@
     "picture": "IMG_20161230_213314.jpg",
     "actor": "localewis",
     "time": "39:11",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 37,
@@ -301,7 +486,12 @@
     "picture": "IMG_20160928_124145.jpg",
     "actor": "localewis",
     "time": "50:12",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 38,
@@ -309,7 +499,12 @@
     "picture": "IMG_20161231_215927.jpg",
     "actor": "localewis",
     "time": "53:13",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 39,
@@ -317,7 +512,12 @@
     "picture": "IMG_20160725_141010.jpg",
     "actor": "localewis",
     "time": "-18:04",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 40,
@@ -325,7 +525,12 @@
     "picture": "IMG_20160702_153102.jpg",
     "actor": "localewis",
     "time": "58:30",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 41,
@@ -333,7 +538,12 @@
     "picture": "IMG_20170204_225840.jpg",
     "actor": "casssssssssie",
     "time": "-24:11",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 42,
@@ -341,7 +551,12 @@
     "picture": "IMG_20170204_225828.jpg",
     "actor": "casssssssssie",
     "time": "-23:40",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 43,
@@ -349,7 +564,12 @@
     "picture": "IMG_20131025_104912.jpg",
     "actor": "casssssssssie",
     "time": "-10:25",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 44,
@@ -357,7 +577,12 @@
     "picture": "IMG_20150227_105547.jpg",
     "actor": "casssssssssie",
     "time": "-07:44",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 45,
@@ -365,7 +590,12 @@
     "picture": "IMG_20170128_184927.jpg",
     "actor": "casssssssssie",
     "time": "01:41",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 46,
@@ -373,7 +603,12 @@
     "picture": "IMG_20150515_200713219_HDR.jpg",
     "actor": "casssssssssie",
     "time": "02:20",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 47,
@@ -381,7 +616,12 @@
     "picture": "IMG_5065.JPG",
     "actor": "casssssssssie",
     "time": "23:43",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 48,
@@ -389,7 +629,12 @@
     "picture": "IMG_20170129_131732.jpg",
     "actor": "casssssssssie",
     "time": "25:42",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 49,
@@ -397,7 +642,12 @@
     "picture": "IMG_20131026_140112.jpg",
     "actor": "casssssssssie",
     "time": "38:41",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 50,
@@ -405,7 +655,12 @@
     "picture": "IMG_4416.JPG",
     "actor": "casssssssssie",
     "time": "38:43",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 51,
@@ -413,7 +668,12 @@
     "picture": "IMG_20170423_172105.jpg",
     "actor": "casssssssssie",
     "time": "48:14",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 52,
@@ -421,7 +681,12 @@
     "picture": "IMG_20170423_172819.jpg",
     "actor": "casssssssssie",
     "time": "48:43",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 53,
@@ -429,7 +694,12 @@
     "picture": "IMG_20131124_181633.jpg",
     "actor": "casssssssssie",
     "time": "50:44",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 54,
@@ -437,7 +707,12 @@
     "picture": "IMG_20170519_185706.jpg",
     "actor": "casssssssssie",
     "time": "61:05",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 55,
@@ -445,7 +720,12 @@
     "picture": "IMG_20170326_183029.jpg",
     "actor": "casssssssssie",
     "time": "66:41",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 56,
@@ -453,7 +733,12 @@
     "picture": "IMG_20170326_184102.jpg",
     "actor": "casssssssssie",
     "time": "66:44",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 57,
@@ -461,7 +746,12 @@
     "picture": "IMG_4490.JPG",
     "actor": "tastyrobot",
     "time": "-12:01",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 58,
@@ -469,7 +759,12 @@
     "picture": "20131220_202240000_iOS.jpg",
     "actor": "tastyrobot",
     "time": "12:02",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 59,
@@ -477,7 +772,12 @@
     "picture": "IMG_20130802_220459.jpg",
     "actor": "tastyrobot",
     "time": "36:03",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 60,
@@ -485,7 +785,12 @@
     "picture": "IMG_20141116_112139.jpg",
     "actor": "tastyrobot",
     "time": "60:04",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 61,
@@ -493,7 +798,12 @@
     "picture": "IMG_5107.JPG",
     "actor": "ria_camiii",
     "time": "-13:15",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 62,
@@ -501,7 +811,12 @@
     "picture": "IMG_20160528_142024253.jpg",
     "actor": "ria_camiii",
     "time": "11:16",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 63,
@@ -509,7 +824,12 @@
     "picture": "IMG_1240.JPG",
     "actor": "ria_camiii",
     "time": "35:17",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 64,
@@ -517,7 +837,12 @@
     "picture": "IMG_20160604_170347434.jpg",
     "actor": "ria_camiii",
     "time": "59:18",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 65,
@@ -525,7 +850,12 @@
     "picture": "1438450869408.jpg",
     "actor": "SnakeCharmer",
     "time": "-14:19",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 66,
@@ -533,7 +863,12 @@
     "picture": "20131102_235435945_iOS.jpg",
     "actor": "SnakeCharmer",
     "time": "10:20",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 67,
@@ -541,7 +876,12 @@
     "picture": "IMAG0038.jpg",
     "actor": "SnakeCharmer",
     "time": "34:21",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 68,
@@ -549,7 +889,12 @@
     "picture": "image-20170112_164632.jpg",
     "actor": "SnakeCharmer",
     "time": "58:22",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 69,
@@ -557,7 +902,12 @@
     "picture": "IMG_20170114_213521.jpg",
     "actor": "breethebaker",
     "time": "-15:23",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 70,
@@ -565,7 +915,12 @@
     "picture": "IMG_20170204_155808.jpg",
     "actor": "breethebaker",
     "time": "09:24",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 71,
@@ -573,7 +928,12 @@
     "picture": "20131212_011016090_iOS.jpg",
     "actor": "breethebaker",
     "time": "33:25",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 72,
@@ -581,7 +941,12 @@
     "picture": "IMG_20170218_205147.jpg",
     "actor": "breethebaker",
     "time": "57:26",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 73,
@@ -589,7 +954,12 @@
     "picture": "IMAG0055.jpg",
     "actor": "livelaughlove",
     "time": "-16:27",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 74,
@@ -597,7 +967,12 @@
     "picture": "IMAG0065.jpg",
     "actor": "livelaughlove",
     "time": "08:28",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 75,
@@ -605,7 +980,12 @@
     "picture": "IMAG0086.jpg",
     "actor": "livelaughlove",
     "time": "32:29",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 76,
@@ -613,7 +993,12 @@
     "picture": "IMG_0932.JPG",
     "actor": "livelaughlove",
     "time": "56:30",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 77,
@@ -621,7 +1006,12 @@
     "picture": "IMG_20160625_113114.jpg",
     "actor": "NoahM1121",
     "time": "-17:31",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 78,
@@ -629,7 +1019,12 @@
     "picture": "IMG_20170415_095155.jpg",
     "actor": "NoahM1121",
     "time": "07:32",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 79,
@@ -637,7 +1032,12 @@
     "picture": "IMG_20170519_184216.jpg",
     "actor": "NoahM1121",
     "time": "36:33",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 80,
@@ -645,7 +1045,12 @@
     "picture": "IMG_4266.JPG",
     "actor": "NoahM1121",
     "time": "58:34",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 81,
@@ -653,7 +1058,12 @@
     "picture": "IMG_20170519_184211.jpg",
     "actor": "sweetpea",
     "time": "-18:35",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 82,
@@ -661,7 +1071,12 @@
     "picture": "IMG_20170520_081116.jpg",
     "actor": "sweetpea",
     "time": "06:36",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 83,
@@ -669,7 +1084,12 @@
     "picture": "IMG_20170423_163934.jpg",
     "actor": "sweetpea",
     "time": "30:37",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 84,
@@ -677,7 +1097,12 @@
     "picture": "IMG_20170423_172139.jpg",
     "actor": "sweetpea",
     "time": "54:36",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 85,
@@ -685,7 +1110,12 @@
     "picture": "IMG_20170423_172856.jpg",
     "actor": "sweetpea",
     "time": "54:38",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 86,
@@ -693,7 +1123,12 @@
     "picture": "IMG_20160528_181547.jpg",
     "actor": "fusionfeast",
     "time": "-18:39",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 87,
@@ -701,7 +1136,12 @@
     "picture": "IMG_20160819_182920040.jpg",
     "actor": "fusionfeast",
     "time": "05:40",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 88,
@@ -709,7 +1149,12 @@
     "picture": "IMG_20160522_094535.jpg",
     "actor": "fusionfeast",
     "time": "29:41",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 89,
@@ -717,7 +1162,12 @@
     "picture": "IMG_20140118_120236.jpg",
     "actor": "fusionfeast",
     "time": "53:42",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 90,
@@ -725,7 +1175,12 @@
     "picture": "yvonne-lee-harijanto-41745.jpeg",
     "actor": "cavsforever",
     "time": "-19:43",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
   },
   {
     "id": 91,
@@ -733,7 +1188,12 @@
     "picture": "IMG_20170513_105523.jpg",
     "actor": "cavsforever",
     "time": "04:44",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 92,
@@ -741,7 +1201,12 @@
     "picture": "IMG_20170404_182054.jpg",
     "actor": "cavsforever",
     "time": "28:45",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 93,
@@ -749,7 +1214,12 @@
     "picture": "IMG_20170424_120657.jpg",
     "actor": "cavsforever",
     "time": "52:46",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 94,
@@ -757,7 +1227,12 @@
     "picture": "lluis-domingo-30992.jpeg",
     "actor": "lavenderrrrrr",
     "time": "-20:47",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 95,
@@ -765,7 +1240,12 @@
     "picture": "sebastian-lp-155047.jpeg",
     "actor": "lavenderrrrrr",
     "time": "03:48",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 96,
@@ -773,7 +1253,12 @@
     "picture": "monika-4.jpeg",
     "actor": "lavenderrrrrr",
     "time": "27:49",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 97,
@@ -781,7 +1266,12 @@
     "picture": "kowalewski-2.jpeg",
     "actor": "lavenderrrrrr",
     "time": "51:50",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 98,
@@ -789,7 +1279,12 @@
     "picture": "d-ng-tri-66959.jpeg",
     "actor": "earthpulse",
     "time": "-21:51",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 99,
@@ -797,7 +1292,12 @@
     "picture": "IMG_20140517_084619.jpg",
     "actor": "earthpulse",
     "time": "02:52",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 100,
@@ -805,7 +1305,12 @@
     "picture": "IMG_20141108_113638.jpg",
     "actor": "earthpulse",
     "time": "26:53",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 101,
@@ -813,7 +1318,12 @@
     "picture": "IMG_20140709_174852.jpg",
     "actor": "earthpulse",
     "time": "50:54",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 102,
@@ -821,7 +1331,12 @@
     "picture": "image-20160905_154811.jpg",
     "actor": "MannyDL34",
     "time": "-22:55",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 103,
@@ -829,7 +1344,12 @@
     "picture": "IMG_0638.JPG",
     "actor": "MannyDL34",
     "time": "01:56",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 104,
@@ -837,7 +1357,12 @@
     "picture": "IMG_20140725_192043063_HDR.jpg",
     "actor": "MannyDL34",
     "time": "25:57",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 105,
@@ -845,7 +1370,12 @@
     "picture": "IMG_20150530_150722.jpg",
     "actor": "MannyDL34",
     "time": "49:58",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 106,
@@ -853,7 +1383,12 @@
     "picture": "kowalewski-3.jpeg",
     "actor": "caffeinated",
     "time": "-23:59",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 107,
@@ -861,7 +1396,12 @@
     "picture": "20130727_155131000_iOS.jpg",
     "actor": "caffeinated",
     "time": "-00:01",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 108,
@@ -869,7 +1409,12 @@
     "picture": "IMG_5014.JPG",
     "actor": "caffeinated",
     "time": "24:02",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 109,
@@ -877,7 +1422,12 @@
     "picture": "IMG_20170312_093829.jpg",
     "actor": "caffeinated",
     "time": "48:03",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 110,
@@ -885,7 +1435,12 @@
     "picture": "IMG_20170312_134430930.jpg",
     "actor": "caffeinated",
     "time": "48:12",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 111,
@@ -893,7 +1448,12 @@
     "picture": "IMAG0052.jpg",
     "actor": "wiz_khaleesi",
     "time": "-24:05",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 112,
@@ -901,7 +1461,12 @@
     "picture": "IMAG0157.jpg",
     "actor": "wiz_khaleesi",
     "time": "-01:06",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 113,
@@ -909,7 +1474,12 @@
     "picture": "IMAG0160.jpg",
     "actor": "wiz_khaleesi",
     "time": "23:07",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 114,
@@ -917,7 +1487,12 @@
     "picture": "IMG_20131026_160645.jpg",
     "actor": "wiz_khaleesi",
     "time": "47:08",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 115,
@@ -925,7 +1500,12 @@
     "picture": "IMG_20150411_132000.jpg",
     "actor": "jackrussellmom",
     "time": "-25:09",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 116,
@@ -933,7 +1513,12 @@
     "picture": "IMG_20150731_182433.jpg",
     "actor": "jackrussellmom",
     "time": "-02:10",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 117,
@@ -941,7 +1526,12 @@
     "picture": "IMG_20151126_161749566.jpg",
     "actor": "jackrussellmom",
     "time": "22:11",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 118,
@@ -949,7 +1539,12 @@
     "picture": "IMG_20150510_091045970_HDR.jpg",
     "actor": "jackrussellmom",
     "time": "46:12",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 119,
@@ -957,7 +1552,12 @@
     "picture": "20131203_010020000_iOS.jpg",
     "actor": "john73",
     "time": "-26:13",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 120,
@@ -965,7 +1565,12 @@
     "picture": "IMAG0023.jpg",
     "actor": "john73",
     "time": "-03:14",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 121,
@@ -973,7 +1578,12 @@
     "picture": "IMAG0039.jpg",
     "actor": "john73",
     "time": "21:15",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 122,
@@ -981,7 +1591,12 @@
     "picture": "IMG_20160710_214258.jpg",
     "actor": "john73",
     "time": "45:16",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 123,
@@ -989,7 +1604,12 @@
     "picture": "IMG_20160821_070318145.jpg",
     "actor": "Jcole9",
     "time": "-27:17",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 124,
@@ -997,7 +1617,12 @@
     "picture": "IMG_20170323_183218.jpg",
     "actor": "Jcole9",
     "time": "-04:18",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 125,
@@ -1005,7 +1630,12 @@
     "picture": "IMG_20170305_133402.jpg",
     "actor": "Jcole9",
     "time": "20:19",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 126,
@@ -1013,7 +1643,12 @@
     "picture": "IMG_20170305_133410.jpg",
     "actor": "Jcole9",
     "time": "20:21",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 127,
@@ -1021,7 +1656,12 @@
     "picture": "IMG_20160806_120708.jpg",
     "actor": "Jcole9",
     "time": "44:20",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 128,
@@ -1029,7 +1669,12 @@
     "picture": "IMG_20170101_212355.jpg",
     "actor": "kittycatbakes",
     "time": "-28:21",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 129,
@@ -1037,7 +1682,12 @@
     "picture": "IMG_20161029_090816186_HDR.jpg",
     "actor": "kittycatbakes",
     "time": "-05:22",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 130,
@@ -1045,7 +1695,12 @@
     "picture": "IMG_20170305_194214.jpg",
     "actor": "kittycatbakes",
     "time": "19:23",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 131,
@@ -1053,7 +1708,12 @@
     "picture": "IMG_20160818_151848.jpg",
     "actor": "kittycatbakes",
     "time": "43:24",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 132,
@@ -1061,7 +1721,12 @@
     "picture": "IMG_20170121_233751.jpg",
     "actor": "kittycatbakes",
     "time": "67:25",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 133,
@@ -1069,7 +1734,12 @@
     "picture": "chris-lawton-165884.jpeg",
     "actor": "bblueberryy",
     "time": "-06:26",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 134,
@@ -1077,7 +1747,12 @@
     "picture": "IMG_1153.JPG",
     "actor": "bblueberryy",
     "time": "18:27",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 135,
@@ -1085,7 +1760,12 @@
     "picture": "vegan1.jpg",
     "actor": "bblueberryy",
     "time": "42:28",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 136,
@@ -1093,15 +1773,25 @@
     "picture": "vegan7.jpg",
     "actor": "bblueberryy",
     "time": "66:29",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 137,
-    "body": "this is the cake I got for my mom for her b-day. enjoy, other mturkers",
+    "body": "this is the cake I got for my mom for her b-day.",
     "picture": "IMG_20161009_190757.jpg",
     "actor": "mateoV",
     "time": "17:31",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 138,
@@ -1109,7 +1799,12 @@
     "picture": "IMG_20150907_005746.jpg",
     "actor": "mateoV",
     "time": "65:33",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 139,
@@ -1117,7 +1812,12 @@
     "picture": "IMG_20160819_120242814.jpg",
     "actor": "breathe_in",
     "time": "-08:34",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
   },
   {
     "id": 140,
@@ -1125,7 +1825,12 @@
     "picture": "vegan3.jpg",
     "actor": "breathe_in",
     "time": "16:35",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 141,
@@ -1133,7 +1838,12 @@
     "picture": "vegan6.jpg",
     "actor": "breathe_in",
     "time": "40:36",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 142,
@@ -1141,7 +1851,12 @@
     "picture": "IMG_0845.JPG",
     "actor": "breathe_in",
     "time": "64:37",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 143,
@@ -1149,7 +1864,12 @@
     "picture": "20130801_030411000_iOS.jpg",
     "actor": "jupiterpride",
     "time": "-09:38",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 144,
@@ -1157,7 +1877,12 @@
     "picture": "image-20161206_140042.jpg",
     "actor": "jupiterpride",
     "time": "15:39",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 145,
@@ -1165,7 +1890,12 @@
     "picture": "20131004_203557000_iOS.jpg",
     "actor": "jupiterpride",
     "time": "39:40",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 146,
@@ -1173,7 +1903,12 @@
     "picture": "IMG_20150531_131752440_HDR.jpg",
     "actor": "jupiterpride",
     "time": "63:41",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 147,
@@ -1181,7 +1916,12 @@
     "picture": "IMG_20141129_192628.jpg",
     "actor": "artisanalways",
     "time": "-10:42",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 148,
@@ -1189,7 +1929,12 @@
     "picture": "IMG_20141226_110500.jpg",
     "actor": "artisanalways",
     "time": "14:43",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 149,
@@ -1197,7 +1942,12 @@
     "picture": "IMG_20170125_175759.jpg",
     "actor": "artisanalways",
     "time": "38:44",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 150,
@@ -1205,7 +1955,12 @@
     "picture": "vegan2.jpg",
     "actor": "artisanalways",
     "time": "62:45",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 151,
@@ -1213,7 +1968,12 @@
     "picture": "zhifei-zhou-28092.jpeg",
     "actor": "_aikira_",
     "time": "-11:46",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
   },
   {
     "id": 152,
@@ -1221,7 +1981,12 @@
     "picture": "IMG_0133.JPG",
     "actor": "_aikira_",
     "time": "13:47",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 153,
@@ -1229,7 +1994,12 @@
     "picture": "20170503_012856000_iOS.jpg",
     "actor": "_aikira_",
     "time": "61:49",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 154,
@@ -1237,7 +2007,12 @@
     "picture": "20131116_001622291_iOS.jpg",
     "actor": "lee.alexa",
     "time": "-06:01",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 155,
@@ -1245,7 +2020,12 @@
     "picture": "20170515_214826603_iOS.jpg",
     "actor": "lee.alexa",
     "time": "00:31",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 156,
@@ -1253,7 +2033,12 @@
     "picture": "IMAG0035.jpg",
     "actor": "lee.alexa",
     "time": "15:05",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 157,
@@ -1261,7 +2046,12 @@
     "picture": "IMAG0075.jpg",
     "actor": "lee.alexa",
     "time": "17:08",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 158,
@@ -1269,7 +2059,12 @@
     "picture": "IMG_0410.JPG",
     "actor": "lee.alexa",
     "time": "31:49",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 159,
@@ -1277,7 +2072,12 @@
     "picture": "IMAG0147.jpg",
     "actor": "lee.alexa",
     "time": "46:50",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 160,
@@ -1285,7 +2085,12 @@
     "picture": "IMG_20160102_110021.jpg",
     "actor": "lee.alexa",
     "time": "62:30",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 161,
@@ -1293,7 +2098,12 @@
     "picture": "vegan4.jpg",
     "actor": "lee.alexa",
     "time": "64:33",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 162,
@@ -1301,7 +2111,12 @@
     "picture": "IMG_0059.JPG",
     "actor": "lee.alexa",
     "time": "65:10",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 163,
@@ -1309,7 +2124,12 @@
     "picture": "IMG_20170404_184643.jpg",
     "actor": "lee.alexa",
     "time": "-26:59",
-    "class": "cohort"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 164,
@@ -1317,7 +2137,12 @@
     "picture": "IMG_20140208_144331.jpg",
     "actor": "Ataylor",
     "time": "-10:12",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "no",
+    "study2_n80": "yes"
   },
   {
     "id": 165,
@@ -1325,7 +2150,12 @@
     "picture": "IMG_0925.JPG",
     "actor": "Sue_S",
     "time": "05:13",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 166,
@@ -1333,7 +2163,12 @@
     "picture": "20131224_235709000_iOS.jpg",
     "actor": "karenM",
     "time": "20:14",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 167,
@@ -1341,7 +2176,12 @@
     "picture": "IMG_20170125_175755.jpg",
     "actor": "jake_turk",
     "time": "35:15",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 168,
@@ -1349,7 +2189,12 @@
     "picture": "IMG_20150801_105206508.jpg",
     "actor": "snowbird",
     "time": "50:16",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 169,
@@ -1357,23 +2202,38 @@
     "picture": "vegan5.jpg",
     "actor": "youngcunningham",
     "time": "65:17",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 170,
     "body": "i loved this ramen (ft. my gf's hands)",
     "picture": "IMG_5241.JPG",
     "actor": "tacoguy",
-    "time": "-7:18",
-    "class": "normal"
+    "time": "-07:18",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 171,
     "body": "To this day nothing still beats my mom's good old meatloaf...so good",
     "picture": "51.jpg",
     "actor": "Smitty12",
-    "time": "-2:25",
-    "class": "normal"
+    "time": "-02:25",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 172,
@@ -1381,7 +2241,12 @@
     "picture": "54.jpg",
     "actor": "Smitty12",
     "time": "4:32",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 173,
@@ -1389,7 +2254,12 @@
     "picture": "57.jpg",
     "actor": "Smitty12",
     "time": "20:01",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 174,
@@ -1397,7 +2267,12 @@
     "picture": "50.png",
     "actor": "Smitty12",
     "time": "45:07",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 175,
@@ -1405,15 +2280,25 @@
     "picture": "vegan8.jpeg",
     "actor": "southerngirlCel",
     "time": "-10:30",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 176,
     "body": "who knew my water could look so artsy",
     "picture": "monika-5.jpeg",
     "actor": "southerngirlCel",
-    "time": "-1:12",
-    "class": "normal"
+    "time": "-01:12",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 177,
@@ -1421,7 +2306,12 @@
     "picture": "alicja-2.jpeg",
     "actor": "southerngirlCel",
     "time": "7:14",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 178,
@@ -1429,7 +2319,12 @@
     "picture": "53.jpg",
     "actor": "southerngirlCel",
     "time": "19:13",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 179,
@@ -1437,15 +2332,25 @@
     "picture": "59.jpg",
     "actor": "southerngirlCel",
     "time": "34:45",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 180,
     "body": "Tried something new for the boys tonight. Made a beef teriyaki stir-fry with broccoli....Ryan was a big fan, Sammy not so much. Oh well, I'll take 1 for 2 :)",
     "picture": "52.jpg",
     "actor": "hockeymom101",
-    "time": "-2:43",
-    "class": "normal"
+    "time": "-02:43",
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 181,
@@ -1453,7 +2358,12 @@
     "picture": "55.jpg",
     "actor": "hockeymom101",
     "time": "1:17",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 182,
@@ -1461,7 +2371,12 @@
     "picture": "56.jpg",
     "actor": "hockeymom101",
     "time": "2:86",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 183,
@@ -1469,7 +2384,12 @@
     "picture": "75.jpg",
     "actor": "hockeymom101",
     "time": "28:41",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 184,
@@ -1477,7 +2397,12 @@
     "picture": "73.png",
     "actor": "SamTHEMAN",
     "time": "12:53",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 185,
@@ -1485,7 +2410,12 @@
     "picture": "71.png",
     "actor": "SamTHEMAN",
     "time": "29:15",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 186,
@@ -1493,7 +2423,12 @@
     "picture": "70.jpg",
     "actor": "SamTHEMAN",
     "time": "56:13",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 187,
@@ -1501,7 +2436,12 @@
     "picture": "58.jpg",
     "actor": "SamTHEMAN",
     "time": "67:43",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 188,
@@ -1509,7 +2449,12 @@
     "picture": "180221-0.jpg",
     "actor": "BeardedMatt",
     "time": "37:23",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 189,
@@ -1517,15 +2462,25 @@
     "picture": "180221-1.JPG",
     "actor": "MedicalRyan",
     "time": "-20:33",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 190,
     "body": "Enjoying my favorite chicken parm! 🍝🍝🍝",
     "picture": "180221-7.JPG",
     "actor": "Lisa181818",
-    "time": "-2:30",
-    "class": "normal"
+    "time": "-02:30",
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 191,
@@ -1533,7 +2488,25 @@
     "picture": "180221-14.JPG",
     "actor": "this_jack",
     "time": "12:30",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 192,
+    "body": "When you want to be a pot plant but you're actually a dessert.",
+    "picture": "180221-6.JPG",
+    "actor": "PatelS",
+    "time": "43:33",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 193,
@@ -1541,7 +2514,12 @@
     "picture": "180221-10.JPG",
     "actor": "DonDonDonna",
     "time": "70:00",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 194,
@@ -1549,7 +2527,12 @@
     "picture": "180221-21.JPG",
     "actor": "EmmaSmith0214",
     "time": "-24:00",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
   },
   {
     "id": 195,
@@ -1557,7 +2540,12 @@
     "picture": "180221-2.jpg",
     "actor": "B.Mike",
     "time": "-12:35",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 196,
@@ -1565,7 +2553,12 @@
     "picture": "IMG_7554.JPG",
     "actor": "mariaann",
     "time": "-03:27",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 197,
@@ -1573,7 +2566,12 @@
     "picture": "IMG_20140214_212805.jpg",
     "actor": "mariaann",
     "time": "14:36",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 198,
@@ -1581,7 +2579,12 @@
     "picture": "IMG_0485.PNG",
     "actor": "mariaann",
     "time": "20:23",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 199,
@@ -1589,15 +2592,25 @@
     "picture": "IMG_20170427_181335.jpg",
     "actor": "mariaann",
     "time": "-10:12",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 200,
     "body": "Just my usual diet 🍗🍗",
     "picture": "IMG_8786.jpg",
     "actor": "thisisalfie1998",
-    "time": "-6:18",
-    "class": "normal"
+    "time": "-06:18",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 201,
@@ -1605,7 +2618,12 @@
     "picture": "IMG_6902.jpg",
     "actor": "thisisalfie1999",
     "time": "39:56",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 202,
@@ -1613,7 +2631,12 @@
     "picture": "IMG_6601.jpg",
     "actor": "thisisalfie2000",
     "time": "45:24",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 203,
@@ -1621,7 +2644,12 @@
     "picture": "IMG_20151126_173327.jpg",
     "actor": "thisisalfie2001",
     "time": "67:12",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 204,
@@ -1629,7 +2657,12 @@
     "picture": "IMG_2350.jpg",
     "actor": "KatieeeM",
     "time": "12:49",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 205,
@@ -1637,7 +2670,12 @@
     "picture": "IMG_7474.jpg",
     "actor": "KatieeeM",
     "time": "16:11",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 206,
@@ -1645,7 +2683,12 @@
     "picture": "IMG_6912.jpg",
     "actor": "KatieeeM",
     "time": "-03:25",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 207,
@@ -1653,7 +2696,12 @@
     "picture": "IMAG0040.jpg",
     "actor": "KatieeeM",
     "time": "03:35",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 208,
@@ -1661,7 +2709,12 @@
     "picture": "IMG_5132.jpg",
     "actor": "TimBJenkins",
     "time": "-08:16",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 209,
@@ -1669,7 +2722,12 @@
     "picture": "IMG_9155.jpg",
     "actor": "TimBJenkins",
     "time": "14:15",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 210,
@@ -1677,7 +2735,12 @@
     "picture": "IMG_5241.JPG",
     "actor": "TimBJenkins",
     "time": "39:57",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 211,
@@ -1685,7 +2748,12 @@
     "picture": "IMG_20161213_213224.jpg",
     "actor": "TimBJenkins",
     "time": "55:14",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 212,
@@ -1693,7 +2761,12 @@
     "picture": "180221-5.JPG",
     "actor": "BeardedMatt",
     "time": "69:22",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 213,
@@ -1701,7 +2774,12 @@
     "picture": "180221-8.JPG",
     "actor": "MedicalRyan",
     "time": "-20:33",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 214,
@@ -1709,7 +2787,12 @@
     "picture": "180221-24.JPG",
     "actor": "Lisa181818",
     "time": "15:15",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 215,
@@ -1717,7 +2800,12 @@
     "picture": "180221-17.JPG",
     "actor": "this_jack",
     "time": "50:00",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 216,
@@ -1725,7 +2813,12 @@
     "picture": "180221-15.JPG",
     "actor": "PatelS",
     "time": "-01:55",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 217,
@@ -1733,7 +2826,12 @@
     "picture": "180221-16.JPG",
     "actor": "DonDonDonna",
     "time": "32:00",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 218,
@@ -1741,7 +2839,12 @@
     "picture": "180221-3.JPG",
     "actor": "EmmaSmith0214",
     "time": "15:15",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 219,
@@ -1749,7 +2852,12 @@
     "picture": "180221-4.JPG",
     "actor": "B.Mike",
     "time": "20:20",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 220,
@@ -1757,7 +2865,12 @@
     "picture": "180221-20.JPG",
     "actor": "BeardedMatt",
     "time": "-32:44",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
   },
   {
     "id": 221,
@@ -1765,7 +2878,12 @@
     "picture": "180221-9.JPG",
     "actor": "MedicalRyan",
     "time": "-76:33",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 222,
@@ -1773,7 +2891,12 @@
     "picture": "180221-22.JPG",
     "actor": "Lisa181818",
     "time": "34:23",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 223,
@@ -1781,7 +2904,12 @@
     "picture": "180221-12.JPG",
     "actor": "this_jack",
     "time": "01:10",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 224,
@@ -1789,7 +2917,12 @@
     "picture": "180221-19.JPG",
     "actor": "PatelS",
     "time": "-15:55",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 225,
@@ -1797,7 +2930,12 @@
     "picture": "180222-01.jpg",
     "actor": "DonDonDonna",
     "time": "-00:23",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 226,
@@ -1805,7 +2943,12 @@
     "picture": "180221-18.JPG",
     "actor": "EmmaSmith0214",
     "time": "00:50",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 227,
@@ -1813,7 +2956,12 @@
     "picture": "180221-11.JPG",
     "actor": "B.Mike",
     "time": "-33:00",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 228,
@@ -1821,7 +2969,12 @@
     "picture": "0222-09.png",
     "actor": "jiruletheworld",
     "time": "02:10",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 229,
@@ -1829,7 +2982,12 @@
     "picture": "0222-10.png",
     "actor": "jiruletheworld",
     "time": "-16:31",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 230,
@@ -1837,7 +2995,12 @@
     "picture": "0222-11.png",
     "actor": "jiruletheworld",
     "time": "19:22",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 231,
@@ -1845,7 +3008,12 @@
     "picture": "0222-12.png",
     "actor": "jiruletheworld",
     "time": "-40:23",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 232,
@@ -1853,7 +3021,12 @@
     "picture": "IMG_0490.png",
     "actor": "ayoitsayo",
     "time": "-05:45",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
   },
   {
     "id": 233,
@@ -1861,7 +3034,12 @@
     "picture": "0222-14.png",
     "actor": "ayoitsayo",
     "time": "43:21",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 234,
@@ -1869,7 +3047,12 @@
     "picture": "0222-16.png",
     "actor": "ayoitsayo",
     "time": "62:32",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 235,
@@ -1877,7 +3060,12 @@
     "picture": "0222-17.png",
     "actor": "ayoitsayo",
     "time": "-35:18",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 236,
@@ -1885,7 +3073,12 @@
     "picture": "0222-20.png",
     "actor": "sweetietooth",
     "time": "14:23",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 237,
@@ -1893,7 +3086,12 @@
     "picture": "0222-21.png",
     "actor": "sweetietooth",
     "time": "32:16",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 238,
@@ -1901,7 +3099,12 @@
     "picture": "0222-22.png",
     "actor": "sweetietooth",
     "time": "59:10",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 239,
@@ -1909,7 +3112,12 @@
     "picture": "0222-23.png",
     "actor": "sweetietooth",
     "time": "-10:15",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
   },
   {
     "id": 240,
@@ -1917,7 +3125,12 @@
     "picture": "0222-13.png",
     "actor": "dana84",
     "time": "-23:00",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 241,
@@ -1925,7 +3138,12 @@
     "picture": "0222-15.png",
     "actor": "dana84",
     "time": "08:03",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 242,
@@ -1933,7 +3151,12 @@
     "picture": "0222-18.png",
     "actor": "dana84",
     "time": "37:39",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 243,
@@ -1941,7 +3164,12 @@
     "picture": "0222-19.png",
     "actor": "dana84",
     "time": "56:23",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 244,
@@ -1949,7 +3177,12 @@
     "picture": "0222-08.png",
     "actor": "lucyinurdreams",
     "time": "-21:11",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 245,
@@ -1957,7 +3190,12 @@
     "picture": "IMG_0814.jpg",
     "actor": "lucyinurdreams",
     "time": "02:24",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 246,
@@ -1965,7 +3203,12 @@
     "picture": "Screen Shot 2018-02-23 at 12.10.59 AM.png",
     "actor": "lucyinurdreams",
     "time": "30:21",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 247,
@@ -1973,7 +3216,12 @@
     "picture": "IMG_0468.jpg",
     "actor": "lucyinurdreams",
     "time": "45:30",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 248,
@@ -1981,7 +3229,12 @@
     "picture": "0222-07.png",
     "actor": "chefricky",
     "time": "-14:34",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 249,
@@ -1989,7 +3242,12 @@
     "picture": "0222-06.png",
     "actor": "chefricky",
     "time": "14:28",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 250,
@@ -1997,7 +3255,12 @@
     "picture": "0222-05.png",
     "actor": "chefricky",
     "time": "29:21",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 251,
@@ -2005,7 +3268,12 @@
     "picture": "0222-04.png",
     "actor": "chefricky",
     "time": "48:33",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 252,
@@ -2013,7 +3281,12 @@
     "picture": "IMG_0738.jpg",
     "actor": "clayton.myers",
     "time": "09:21",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 253,
@@ -2021,7 +3294,12 @@
     "picture": "IMG_0599.jpg",
     "actor": "clayton.myers",
     "time": "26:05",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 254,
@@ -2029,7 +3307,12 @@
     "picture": "IMG_0649.jpg",
     "actor": "clayton.myers",
     "time": "51:10",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 255,
@@ -2037,7 +3320,12 @@
     "picture": "0222-03.png",
     "actor": "clayton.myers",
     "time": "62:21",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 256,
@@ -2045,7 +3333,12 @@
     "picture": "0222-02.png",
     "actor": "aleeboi",
     "time": "-14:02",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
   },
   {
     "id": 257,
@@ -2053,7 +3346,12 @@
     "picture": "0222-01.png",
     "actor": "aleeboi",
     "time": "13:01",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 258,
@@ -2061,7 +3359,12 @@
     "picture": "IMG_0701.jpg",
     "actor": "aleeboi",
     "time": "26:08",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 259,
@@ -2069,7 +3372,12 @@
     "picture": "IMG_0717.jpg",
     "actor": "aleeboi",
     "time": "41:04",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 260,
@@ -2077,7 +3385,12 @@
     "picture": "Gulas.JPG",
     "actor": "masterchefterry",
     "time": "02:03",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 261,
@@ -2085,7 +3398,12 @@
     "picture": "chocolate-cake-with-whipped-cream.jpg",
     "actor": "masterchefterry",
     "time": "04:18",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 262,
@@ -2093,7 +3411,12 @@
     "picture": "Stir Fry.jpg",
     "actor": "masterchefterry",
     "time": "34:46",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 263,
@@ -2101,7 +3424,12 @@
     "picture": "Ice_Mountain_jk.jpg",
     "actor": "MomFiona",
     "time": "-05:12",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 264,
@@ -2109,7 +3437,12 @@
     "picture": "KFC.jpg",
     "actor": "MomFiona",
     "time": "01:48",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 265,
@@ -2117,7 +3450,12 @@
     "picture": "Organic.jpg",
     "actor": "MomFiona",
     "time": "08:24",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 266,
@@ -2125,7 +3463,12 @@
     "picture": "Catfood.jpeg",
     "actor": "mewranda",
     "time": "05:56",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 267,
@@ -2133,7 +3476,12 @@
     "picture": "coffee.jpg",
     "actor": "gwenfromtheblock",
     "time": "12:23",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 268,
@@ -2141,7 +3489,12 @@
     "picture": "Wine.jpg",
     "actor": "gwenfromtheblock",
     "time": "13:00",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 269,
@@ -2149,7 +3502,12 @@
     "picture": "meme2.jpg",
     "actor": "SnakeCharmer",
     "time": "-02:22",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 270,
@@ -2157,7 +3515,12 @@
     "picture": "meme3.jpg",
     "actor": "SnakeCharmer",
     "time": "45:32",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 271,
@@ -2165,7 +3528,12 @@
     "picture": "meme4.jpg",
     "actor": "earthpulse",
     "time": "12:10",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 272,
@@ -2173,7 +3541,12 @@
     "picture": "meme5.jpg",
     "actor": "B.Mike",
     "time": "21:10",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 273,
@@ -2181,7 +3554,12 @@
     "picture": "meme6.png",
     "actor": "southerngirlCel",
     "time": "58:31",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 274,
@@ -2189,7 +3567,12 @@
     "picture": "180228-0.JPG",
     "actor": "Lisa181818",
     "time": "18:18",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 275,
@@ -2197,7 +3580,12 @@
     "picture": "180228-6.JPG",
     "actor": "B.Mike",
     "time": "-15:55",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 276,
@@ -2205,7 +3593,12 @@
     "picture": "180228-9.jpeg",
     "actor": "B.Mike",
     "time": "50:10",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 277,
@@ -2213,7 +3606,12 @@
     "picture": "180228-2.jpg",
     "actor": "Lisa181818",
     "time": "-20:23",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 278,
@@ -2221,7 +3619,12 @@
     "picture": "180228-10.jpeg",
     "actor": "B.Mike",
     "time": "24:33",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 279,
@@ -2229,7 +3632,12 @@
     "picture": "180228-12.jpeg",
     "actor": "B.Mike",
     "time": "68:11",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 280,
@@ -2237,7 +3645,12 @@
     "picture": "VitaBOCA6.png",
     "actor": "this_jack",
     "time": "2:25",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 281,
@@ -2245,15 +3658,25 @@
     "picture": "VitaBOCA7.png",
     "actor": "this_jack",
     "time": "49:13",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 282,
     "body": "Wanna stop getting stressed about your weight? FOLLOW ME to learn about how you can get lean RIGHT NOW!",
     "picture": "VitaBOCA1.png",
     "actor": "VitaBOCA",
-    "time": "-5:31",
-    "class": "normal"
+    "time": "-05:31",
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
   },
   {
     "id": 283,
@@ -2261,7 +3684,12 @@
     "picture": "VitaBOCA2.png",
     "actor": "VitaBOCA",
     "time": "23:00",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 284,
@@ -2269,7 +3697,12 @@
     "picture": "VitaBOCA3.png",
     "actor": "VitaBOCA",
     "time": "35:32",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 285,
@@ -2277,7 +3710,12 @@
     "picture": "VitaBOCA4.png",
     "actor": "VitaBOCA",
     "time": "48:12",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 286,
@@ -2285,7 +3723,12 @@
     "picture": "VitaBOCA5.png",
     "actor": "VitaBOCA",
     "time": "67:10",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 287,
@@ -2293,7 +3736,12 @@
     "picture": "IMG_20170125_175750.jpg",
     "actor": "mateoV",
     "time": "-06:45",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
   },
   {
     "id": 288,
@@ -2301,7 +3749,12 @@
     "picture": "IMG_20120106_201555.jpg",
     "actor": "mateoV",
     "time": "30:15",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   },
   {
     "id": 289,
@@ -2309,6 +3762,3508 @@
     "picture": "20130907_233814649_iOS.jpg",
     "actor": "mateoV",
     "time": "50:00",
-    "class": "normal"
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 304,
+    "body": "And we have a winner! Lt. Cole smoked the competition today in our annual chili cookoff",
+    "picture": "chili-cookoff.png",
+    "actor": "firehousekitchen",
+    "time": "-20:14",
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
+  },
+  {
+    "id": 305,
+    "body": "Getting the boys ready for a long day ahead...",
+    "picture": "breakfst.png",
+    "actor": "firehousekitchen",
+    "time": "-10:15",
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
+  },
+  {
+    "id": 306,
+    "body": "Powering through those late nights at the station",
+    "picture": "snack.png",
+    "actor": "firehousekitchen",
+    "time": "01:02",
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 307,
+    "body": "Warm hearts and great food here at the 39th annual Firemen's Memorial Festival. Thank you to everyone who joined us!",
+    "picture": "festfood.png",
+    "actor": "firehousekitchen",
+    "time": "05:02",
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 308,
+    "body": "A big crew needs a big grill...",
+    "picture": "grilling.png",
+    "actor": "firehousekitchen",
+    "time": "25:05",
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 309,
+    "body": "Nothing like geting resh veggies from your Grandma's garden. Thanks Grandma!",
+    "picture": "rshd1.jpg",
+    "actor": "Ray_12",
+    "time": "-17:54",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
+  },
+  {
+    "id": 310,
+    "body": "Attempted to make some Salmon..came out well but wish I made more haha",
+    "picture": "rshd2.jpg",
+    "actor": "Ray_12",
+    "time": "-01:06",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
+  },
+  {
+    "id": 311,
+    "body": "A Birthday Cake from my buddies. Love these guys and love the cake!",
+    "picture": "rshd3.jpg",
+    "actor": "Ray_12",
+    "time": "00:01",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 312,
+    "body": "Chickpeas and Asparagus...interesting combo, pretty good!",
+    "picture": "rshd4.jpg",
+    "actor": "Ray_12",
+    "time": "00:04",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 313,
+    "body": "Some breakfast for the fam",
+    "picture": "rshd5.jpg",
+    "actor": "Ray_12",
+    "time": "05:04",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 314,
+    "body": "Breakfast and \"The Office",
+    "picture": "rshd6.jpg",
+    "actor": "Ray_12",
+    "time": "15:45",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 315,
+    "body": "Mushrooms anyone?",
+    "picture": "rshd7.jpg",
+    "actor": "Ray_12",
+    "time": "25:06",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 316,
+    "body": "Important Question: How do you like you steak?",
+    "picture": "rshd8.jpg",
+    "actor": "Ray_12",
+    "time": "45:33",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 317,
+    "body": "The meal for this evening..",
+    "picture": "rshd9.jpg",
+    "actor": "Ray_12",
+    "time": "55:12",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 322,
+    "body": "this will probably be the only picture you see of me. focus on the food.",
+    "picture": "wang1.jpg",
+    "actor": "creativEATS",
+    "time": "-12:38",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
+  },
+  {
+    "id": 323,
+    "body": "eggsluts. i am not ashamed.",
+    "picture": "jack3.jpg",
+    "actor": "creativEATS",
+    "time": "01:22",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 324,
+    "body": "blue fluff. cereal. ice cream.",
+    "picture": "jack4.jpg",
+    "actor": "creativEATS",
+    "time": "10:54",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 325,
+    "body": "sea pearls and oysters.",
+    "picture": "jack2.jpg",
+    "actor": "creativEATS",
+    "time": "26:43",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 326,
+    "body": "squish the green dough .",
+    "picture": "jack1.jpg",
+    "actor": "creativEATS",
+    "time": "30:21",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 327,
+    "body": "squish the other colored doughs.",
+    "picture": "jack7.jpg",
+    "actor": "creativEATS",
+    "time": "49:22",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2000,
+    "body": "First post! Who else can't stay away from boba!? 😍😍😍 #dailypost #daily #post #boba_tea #boba #bubbles #tapioca #tea #milk_tea #milktea #milk #first_post #firstpost #asian #cute #yum #yummy",
+    "picture": "bobaPP.jpg",
+    "actor": "EZpz",
+    "time": "-14:42",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2001,
+    "body": "Eat first, work later! 🍜💪🏻  #dailypost #daily #post #eat #ramen #broth #asian #cute #work #foodfirst #food_first #foodfirst #work_later #worklater",
+    "picture": "yum.jpg",
+    "actor": "EZpz",
+    "time": "-07:42",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2002,
+    "body": "🤔 How can you say \"no\" to free food!? 🤔  #dailypost #daily #post #free_food #freefood #free #food #fried_chicken #friedchicken #fried #chicken #mash #potatoes #corn #garlic_knots #garlic #knots #love #food",
+    "picture": "familydinner.jpg",
+    "actor": "EZpz",
+    "time": "13:23",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2003,
+    "body": "Why wouldn't you take pictures of your food? 🍣🥢  #dailypost #daily #post #sushi #fish #rice #cute #asian #splurge #yum #boat #sushi_boat",
+    "picture": "mesushi.jpg",
+    "actor": "EZpz",
+    "time": "36:36",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2004,
+    "body": "Food is more important :) 🍣🥢  #dailypost #daily #post #food_first #food #first #foodfirst #fade #sushi #sushi_boat #boat #sashimi",
+    "picture": "fadeshot.jpg",
+    "actor": "EZpz",
+    "time": "61:18",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2005,
+    "body": "Ofc my first post would be about donuts ;)",
+    "picture": "goldstein9.jpg",
+    "actor": "donuts4me",
+    "time": "-12:32",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2006,
+    "body": "Hello sweet donut and friend :)",
+    "picture": "goldstein5.jpg",
+    "actor": "donuts4me",
+    "time": "12:23",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2007,
+    "body": "Okay, okay. Ik it's not a donut... But stlll yummy 🤭",
+    "picture": "goldstein8.jpg",
+    "actor": "donuts4me",
+    "time": "35:36",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2008,
+    "body": "Bagels are just salty donuts 😂",
+    "picture": "heather10.jpg",
+    "actor": "donuts4me",
+    "time": "58:18",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2009,
+    "body": "With the chefs!",
+    "picture": "kong2.png",
+    "actor": "plate.it.up",
+    "time": "-09:42",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2010,
+    "body": "Best with buddies!",
+    "picture": "kong4.png",
+    "actor": "plate.it.up",
+    "time": "18:53",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2011,
+    "body": "Spending time with the gals!",
+    "picture": "kong3.png",
+    "actor": "plate.it.up",
+    "time": "40:21",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2012,
+    "body": "Sometimes you need a good drink!",
+    "picture": "jinny2.png",
+    "actor": "plate.it.up",
+    "time": "65:51",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2013,
+    "body": "Wanna watch me down 100 chicken nuggets? Subscribe to my YT channel!",
+    "picture": "chiu6.png",
+    "actor": "cantbeatme",
+    "time": "-12:23",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2014,
+    "body": "You think me and my buddy here can destroy this pizza challenge? Watch the full story on my Snapchat!",
+    "picture": "chiu2.png",
+    "actor": "cantbeatme",
+    "time": "13:51",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2015,
+    "body": "That pizza challenge defeated us! You can't win all of them I guess ¯\\_(ツ)_/¯",
+    "picture": "chiu3.png",
+    "actor": "cantbeatme",
+    "time": "37:35",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2016,
+    "body": "I'm in Japan! Watch me take on this giant gyoza on my IG story!!!",
+    "picture": "chiu1.png",
+    "actor": "cantbeatme",
+    "time": "63:42",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2017,
+    "body": "Nothing keeps me smiling like a caffe mocha on a cold day",
+    "picture": "trevor1.jpeg",
+    "actor": "itstrevor",
+    "time": "-02:10",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2018,
+    "body": "Snack break!",
+    "picture": "trevor2.jpeg",
+    "actor": "itstrevor",
+    "time": "26:40",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2019,
+    "body": "Keep your head down and no one will ask to try a bite...",
+    "picture": "trevor3.jpeg",
+    "actor": "itstrevor",
+    "time": "55:25",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2020,
+    "body": "Check this place out if you're in the area! Amazing ice cream!",
+    "picture": "cassie1.jpg",
+    "actor": "cassiechan",
+    "time": "4:18",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2021,
+    "body": "Amazing lunch with amazing friends! Can't wait to do it again",
+    "picture": "cassie2.jpg",
+    "actor": "cassiechan",
+    "time": "25:25",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2022,
+    "body": "We're inseparable! ❤️",
+    "picture": "cassie3.jpg",
+    "actor": "cassiechan",
+    "time": "49:34",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2023,
+    "body": "This cake was divine, and so was my company",
+    "picture": "robeats1.jpeg",
+    "actor": "robeats",
+    "time": "-08:20",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2024,
+    "body": "Hot food on a hot day",
+    "picture": "robeats2.jpeg",
+    "actor": "robeats",
+    "time": "9:10",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2025,
+    "body": "Catching up with old friends over a fabulous lunch",
+    "picture": "robeats3.jpeg",
+    "actor": "robeats",
+    "time": "47:26",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2026,
+    "body": "Weren't sure what it was but man we're glad we tried it!",
+    "picture": "robeats4.jpeg",
+    "actor": "robeats",
+    "time": "70:30",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2027,
+    "body": "One of the best burgers I had so far!",
+    "picture": "IMG_7686.jpg",
+    "actor": "jonsmith88",
+    "time": "-19:24",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
+  },
+  {
+    "id": 2028,
+    "body": "Currently making a bread... not very easy, I have to admit.",
+    "picture": "IMG_8168.jpg",
+    "actor": "jonsmith88",
+    "time": "-00:10",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
+  },
+  {
+    "id": 2029,
+    "body": "Check it out! Didn't turn out too bad, I think.",
+    "picture": "IMG_7634.jpg",
+    "actor": "jonsmith88",
+    "time": "00:14",
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2030,
+    "body": "Brunchtime.... :)",
+    "picture": "IMG_8171.jpg",
+    "actor": "jonsmith88",
+    "time": "32:22",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2031,
+    "body": "Taking the bus often lately.",
+    "picture": "IMG_7653.jpg",
+    "actor": "jonsmith88",
+    "time": "45:44",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2032,
+    "body": "So spicy!!!!!",
+    "picture": "IMG_7868.jpg",
+    "actor": "jonsmith88",
+    "time": "50:19",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2033,
+    "body": "Every had these fried onions? Yummy...",
+    "picture": "IMG_7617.jpg",
+    "actor": "jonsmith89",
+    "time": "60:12",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2034,
+    "body": "#tb to a great day in Summer! Just love New York!",
+    "picture": "IMG_7027.jpg",
+    "actor": "jonsmith89",
+    "time": "62:30",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2035,
+    "body": "I just love cupcakes. 😋",
+    "picture": "IMG_8057.jpg",
+    "actor": "honeylove",
+    "time": "-22:08",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2036,
+    "body": "Ever had these type of canoli??? 🤪Soooo gooooooooood.",
+    "picture": "IMG_8075.jpg",
+    "actor": "honeylove",
+    "time": "-22:44",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2037,
+    "body": "I was starving. You can tell that I am very happy here.",
+    "picture": "IMG_7685.jpg",
+    "actor": "honeylove",
+    "time": "-19:30",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2038,
+    "body": "Ramen-time!",
+    "picture": "IMG_8098.jpg",
+    "actor": "honeylove",
+    "time": "10:11",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2039,
+    "body": "So excited to try out this place in New York.",
+    "picture": "IMG_7710.jpg",
+    "actor": "honeylove",
+    "time": "23:44",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2040,
+    "body": "Yes, it was spicy. Having lunch... ❤",
+    "picture": "IMG_7867.jpg",
+    "actor": "honeylove",
+    "time": "50:20",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2041,
+    "body": "Donuts for desert...",
+    "picture": "IMG_7907.jpg",
+    "actor": "honeylove",
+    "time": "51:00",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2042,
+    "body": "You might wonder what this is: It is actually food. We were in this fancy restaurant and this is what I got as an appetizer... 😍",
+    "picture": "IMG_6359.jpg",
+    "actor": "honeylove",
+    "time": "12:30",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2043,
+    "body": "Mhmm. Nom nom.",
+    "picture": "IMG_7832.jpg",
+    "actor": "honeylove",
+    "time": "68:00",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2044,
+    "body": "Had an amazing birthday celebration with my family. Great day, great cake!",
+    "picture": "hannah1.PNG",
+    "actor": "hannah-foods",
+    "time": "20:01",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2045,
+    "body": "Silly pic my daughter took of me while we were eating lunch. Ha ha! Had great meal with her.",
+    "picture": "hannah2.PNG",
+    "actor": "hannah-foods",
+    "time": "30:14",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2046,
+    "body": "Can’t get enough of snow days",
+    "picture": "brad1.PNG",
+    "actor": "bradlee",
+    "time": "22:17",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2047,
+    "body": "Tried the new Mediterranean restaurant across the street. Awesome time lol",
+    "picture": "brad2.PNG",
+    "actor": "bradlee",
+    "time": "37:27",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2048,
+    "body": "Mojithoe",
+    "picture": "wedge1.jpeg",
+    "actor": "alisonwedge",
+    "time": "22:00",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2049,
+    "body": "Blasé blasé",
+    "picture": "wedge2.jpeg",
+    "actor": "alisonwedge",
+    "time": "50:20",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2050,
+    "body": "eating outside while the weather is still warm!",
+    "picture": "stella10.JPG",
+    "actor": "sarahstella",
+    "time": "-23:15",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2051,
+    "body": "blue apron meal: spiced chicken & cabbage slaw with jasmine rice & cucumber-yogurt sauce",
+    "picture": "stella1.jpeg",
+    "actor": "sarahstella",
+    "time": "-01:02",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2052,
+    "body": "coconut water in honduras >>>",
+    "picture": "stella6.jpg",
+    "actor": "sarahstella",
+    "time": "15:15",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2053,
+    "body": "love this french onion burger",
+    "picture": "stella7.jpeg",
+    "actor": "sarahstella",
+    "time": "26:33",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2054,
+    "body": "petting Gustave at the cat café in montréal",
+    "picture": "stella4.jpeg",
+    "actor": "sarahstella",
+    "time": "71:19",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2055,
+    "body": "My best birthday dinner yet at The Savoy",
+    "picture": "Amanda_1.jpg",
+    "actor": "juliag26",
+    "time": "26:40",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2056,
+    "body": "Fresh picked! Taken moments before we ate the whole basket...",
+    "picture": "Amanda_2.jpg",
+    "actor": "juliag26",
+    "time": "60:19",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2057,
+    "body": "The face you make when you see the waiter coming with your food",
+    "picture": "IMG_0012.jpeg",
+    "actor": "vdoonan",
+    "time": "-10:24",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "yes",
+    "study2_n80": "no"
+  },
+  {
+    "id": 2058,
+    "body": "Warm pho on a cold day",
+    "picture": "IMG_1220.jpeg",
+    "actor": "vdoonan",
+    "time": "26:39",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2059,
+    "body": "So many lovely people in my life ❤️",
+    "picture": "Daisy_1.jpg",
+    "actor": "dianalovesdesserts",
+    "time": "-20:10",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2060,
+    "body": "Mine tasted better ;)",
+    "picture": "Daisy_2bcc.jpg",
+    "actor": "dianalovesdesserts",
+    "time": "61:17",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2061,
+    "body": "All for me, none for you",
+    "picture": "Daisy_3.jpg",
+    "actor": "dianalovesdesserts",
+    "time": "28:43",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2062,
+    "body": "Sunday lunch date!",
+    "picture": "Joanna_1.jpeg",
+    "actor": "janielee",
+    "time": "-2:05",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2063,
+    "body": "I stole her raspberry...",
+    "picture": "Joanna_2.jpeg",
+    "actor": "janielee",
+    "time": "19:24",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2064,
+    "body": "Pretty food tastes better",
+    "picture": "Joanna_3.jpeg",
+    "actor": "janielee",
+    "time": "46:50",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2065,
+    "body": "Panera's green tea is 99% sugar and I could care less",
+    "picture": "Screenshot.png",
+    "actor": "peytonsnacks",
+    "time": "8:45",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2066,
+    "body": "What's more important: the waffle or the toppings?",
+    "picture": "Screenshot1.png",
+    "actor": "peytonsnacks",
+    "time": "25:15",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2067,
+    "body": "Everything tastes better at 2 am",
+    "picture": "Screenshot2.png",
+    "actor": "peytonsnacks",
+    "time": "57:34",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2068,
+    "body": "Wishing for warmer days",
+    "picture": "Sofia1.jpg",
+    "actor": "sofiaberger",
+    "time": "22:54",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2069,
+    "body": "No such thing as too much tea",
+    "picture": "Sofia2.jpg",
+    "actor": "sofiaberger",
+    "time": "46:23",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2070,
+    "body": "Ready for more warm days and cold treats",
+    "picture": "Sofia3.jpg",
+    "actor": "sofiaberger",
+    "time": "52:10",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2071,
+    "body": "you're never too old for rainbow sprinkles on your ice cream cone",
+    "picture": "Image-1.jpg",
+    "actor": "marvelousmia",
+    "time": "-02:32",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2072,
+    "body": "so many apples I never knew existed!",
+    "picture": "IMG_0079.jpeg",
+    "actor": "marvelousmia",
+    "time": "30:29",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2073,
+    "body": "protip: if you work the popcorn booth, you get to eat the popcorn",
+    "picture": "IMG_1309.jpeg",
+    "actor": "marvelousmia",
+    "time": "60:24",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2074,
+    "body": "Bananas, strawberries, blueberries oh my",
+    "picture": "raquel1.jpg",
+    "actor": "raqueldunn",
+    "time": "-13:24",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2075,
+    "body": "A perfectly timed photo of me looking skeptical",
+    "picture": "raquel2.jpg",
+    "actor": "raqueldunn",
+    "time": "3:45",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2076,
+    "body": "Right where I'm supposed to be",
+    "picture": "raquel3.jpg",
+    "actor": "raqueldunn",
+    "time": "29:12",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2077,
+    "body": "Coffee keeps me smiling through early mornings",
+    "picture": "raquel4.jpg",
+    "actor": "raqueldunn",
+    "time": "52:18",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2078,
+    "body": "Our monthly lunch date at Alessandro's",
+    "picture": "raquel6.jpg",
+    "actor": "raqueldunn",
+    "time": "18:03",
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2079,
+    "body": "Lazy days and fine wines",
+    "picture": "raquel7.jpg",
+    "actor": "raqueldunn",
+    "time": "39:43",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2080,
+    "body": "People watching on the plaza",
+    "picture": "raquel8.jpg",
+    "actor": "raqueldunn",
+    "time": "50:20",
+    "identifiable": "no",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2081,
+    "body": "Two peas in a pod",
+    "picture": "cassie4.jpg",
+    "actor": "cassiechan",
+    "time": "-10:56",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2082,
+    "body": "Breakfast of champs!",
+    "picture": "cassie5.jpg",
+    "actor": "cassiechan",
+    "time": "-21:23",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
+  },
+  {
+    "id": 2083,
+    "body": "Someone teach me how to do latte art",
+    "picture": "cassie6.jpg",
+    "actor": "cassiechan",
+    "time": "38:17",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2084,
+    "body": "Throwback to this cake cause I need these positive vibes right now",
+    "picture": "cassie7.jpg",
+    "actor": "cassiechan",
+    "time": "15:43",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2085,
+    "body": "KBBQ & friends. What more do you need? 🙃",
+    "picture": "bot12-2.jpeg",
+    "actor": "angelbao",
+    "time": "-12:22",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "yes",
+    "study2_n80": "no"
+  },
+  {
+    "id": 2086,
+    "body": "Great dinner with my bestie! 10 out of 10 would come again!",
+    "picture": "bot12-3.jpeg",
+    "actor": "angelbao",
+    "time": "18:14",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2087,
+    "body": "Who wouldn's smile when a pile of food is in front of them like this? 😍",
+    "picture": "bot12-4.jpeg",
+    "actor": "angelbao",
+    "time": "34:41",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2088,
+    "body": "Cheers! 🍻",
+    "picture": "bot12-5.jpeg",
+    "actor": "angelbao",
+    "time": "68:03",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2089,
+    "body": "Anyone else enjoy their wine white?",
+    "picture": "007.jpeg",
+    "actor": "karkarw",
+    "time": "16:53",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2090,
+    "body": "Homecooked meal from the hubby",
+    "picture": "marta1.jpeg",
+    "actor": "mommamarta",
+    "time": "23:56",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2091,
+    "body": "The bigger the cup, the brighter the morning",
+    "picture": "hanna1.jpg",
+    "actor": "veryhungryhanna",
+    "time": "-13:13",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2092,
+    "body": "Home cooking is the best way to unwind",
+    "picture": "hanna2.jpg",
+    "actor": "veryhungryhanna",
+    "time": "-03:23",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2093,
+    "body": "Buddies and brews",
+    "picture": "hanna3.jpg",
+    "actor": "veryhungryhanna",
+    "time": "19:45",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2094,
+    "body": "Spring cleaning just got better",
+    "picture": "hanna4.jpg",
+    "actor": "veryhungryhanna",
+    "time": "29:56",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2095,
+    "body": "Empty already?",
+    "picture": "hanna5.jpg",
+    "actor": "veryhungryhanna",
+    "time": "46:23",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2096,
+    "body": "Tonkatsu with friends",
+    "picture": "olivia1.jpeg",
+    "actor": "olivialiu",
+    "time": "-17:23",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2097,
+    "body": "Dining hall days",
+    "picture": "olivia2.jpeg",
+    "actor": "olivialiu",
+    "time": "29:23",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2098,
+    "body": "Delish!!!",
+    "picture": "olivia3.jpg",
+    "actor": "olivialiu",
+    "time": "50:51",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2099,
+    "body": "At this festival right now, hoping to grab some grub",
+    "picture": "ashab2.png",
+    "actor": "washabi",
+    "time": "13:34",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2100,
+    "body": "Enjoying a night out in Boston, any recommendations for good ice cream?",
+    "picture": "ashab1.png",
+    "actor": "washabi",
+    "time": "5:48",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2101,
+    "body": "I was very hungry in this pic lolol",
+    "picture": "ashab3.png",
+    "actor": "washabi",
+    "time": "-03:44",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
+  },
+  {
+    "id": 2102,
+    "body": "Happy Birthday to me...now who has the cake?",
+    "picture": "jteek1.png",
+    "actor": "jteek",
+    "time": "7:20",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2103,
+    "body": "Went to this wedding over the weekend, congrats to the bride and groom!",
+    "picture": "jteek2.png",
+    "actor": "jteek",
+    "time": "23:15",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2104,
+    "body": "At a Met's game, Ice cream, beer and a hot dog are a must!",
+    "picture": "jteek4.png",
+    "actor": "jteek",
+    "time": "38:38",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2105,
+    "body": "Trying out a new place, stay tuned for details..",
+    "picture": "jteek3.png",
+    "actor": "jteek",
+    "time": "44:21",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2106,
+    "body": "This weekend was great, thank you to everyone who made things possible!",
+    "picture": "nathar1.jpg",
+    "actor": "nathar",
+    "time": "6:07",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2107,
+    "body": "When you are at an event and you can't see the food",
+    "picture": "nathar2.png",
+    "actor": "nathar",
+    "time": "19:54",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2108,
+    "body": "Catching a baseball game with some day ones",
+    "picture": "nathar3.png",
+    "actor": "nathar",
+    "time": "37:33",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2109,
+    "body": "Living my best life",
+    "picture": "MoH1.png",
+    "actor": "MoH",
+    "time": "2:34",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2110,
+    "body": "Shoutout to my cousin for changing my life with this new Halal place",
+    "picture": "MoH2.png",
+    "actor": "MoH",
+    "time": "-06:34",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2111,
+    "body": "Keeton Dining Hall...we out here for bulking season",
+    "picture": "MoH3.png",
+    "actor": "MoH",
+    "time": "58:24",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2112,
+    "body": "A snow cone in this Florida heat was an Amazing idea",
+    "picture": "MoH4.png",
+    "actor": "MoH",
+    "time": "41:33",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2113,
+    "body": "Who would think I'd actually miss this place?",
+    "picture": "yungtung1.jpg",
+    "actor": "yungtung",
+    "time": "27:08",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2114,
+    "body": "On vacation, anyone know the destination?",
+    "picture": "yungtung3.jpg",
+    "actor": "yungtung",
+    "time": "15:23",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2115,
+    "body": "Who else was mostly tired and stuffed on Christmas???",
+    "picture": "yungtung2.png",
+    "actor": "yungtung",
+    "time": "-05:20",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2116,
+    "body": "Quite a feast!",
+    "picture": "nyugen.jpg",
+    "actor": "anyugen",
+    "time": "47:44",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2117,
+    "body": "Two beautiful girls and a fantastic meal",
+    "picture": "lukas.HEIC",
+    "actor": "lukas_m",
+    "time": "-14:56",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
+  },
+  {
+    "id": 2118,
+    "body": "Fueling up",
+    "picture": "lukas1.jpg",
+    "actor": "lukas_m",
+    "time": "04:23",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2119,
+    "body": "Cold beer on a cool day",
+    "picture": "lukas2.jpg",
+    "actor": "lukas_m",
+    "time": "25:16",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2120,
+    "body": "Outdoor cooking",
+    "picture": "lukas3.JPG",
+    "actor": "lukas_m",
+    "time": "39:32",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2121,
+    "body": "Cone in hand",
+    "picture": "lukas4.jpg",
+    "actor": "lukas_m",
+    "time": "54:12",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2122,
+    "body": "No peeping!",
+    "picture": "jo1.HEIC",
+    "actor": "littlejojo",
+    "time": "-08:12",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
+  },
+  {
+    "id": 2123,
+    "body": "That was a nice evening...",
+    "picture": "jo2.HEIC",
+    "actor": "littlejojo",
+    "time": "-13:26",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
+  },
+  {
+    "id": 2124,
+    "body": "Snacking with a view",
+    "picture": "jo3.jpg",
+    "actor": "littlejojo",
+    "time": "-21:24",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2125,
+    "body": "About to dig in",
+    "picture": "jo4.CR2",
+    "actor": "littlejojo",
+    "time": "13:13",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2126,
+    "body": "No really, you can have the last bite!",
+    "picture": "jo5.jpg",
+    "actor": "littlejojo",
+    "time": "19:23",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2127,
+    "body": "Soaking up some rays...",
+    "picture": "jo6.jpg",
+    "actor": "littlejojo",
+    "time": "22:45",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2128,
+    "body": "Waffles and strawberry jam...  looking real tired in this one though.",
+    "picture": "jo7.jpg",
+    "actor": "littlejojo",
+    "time": "26:57",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2129,
+    "body": "A happy morning in summer...",
+    "picture": "jo8.jpg",
+    "actor": "littlejojo",
+    "time": "31:21",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2130,
+    "body": "I keep on posting pictures from last summer. sorry. No other food pictures at the moment.",
+    "picture": "jo9.jpg",
+    "actor": "littlejojo",
+    "time": "46:10",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2131,
+    "body": "Wine, cheese and netflix. haha",
+    "picture": "jo10.jpg",
+    "actor": "littlejojo",
+    "time": "51:24",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2132,
+    "body": "Hiding from the seagulls",
+    "picture": "jo11.jpg",
+    "actor": "littlejojo",
+    "time": "57:45",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2133,
+    "body": "candid",
+    "picture": "johnson1.JPG",
+    "actor": "ededdneddy",
+    "time": "00:02",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2134,
+    "body": "grocery shopping",
+    "picture": "johnson2.jpg",
+    "actor": "ededdneddy",
+    "time": "61:03",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2135,
+    "body": "back at mango mango again",
+    "picture": "brad5.PNG",
+    "actor": "bradlee",
+    "time": "61:00",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2136,
+    "body": "the new bubble tea place has board games :0 nice",
+    "picture": "brad3.PNG",
+    "actor": "bradlee",
+    "time": "48:31",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2137,
+    "body": "idk why I was so fascinated by cheesecake tbh",
+    "picture": "brad4.PNG",
+    "actor": "bradlee",
+    "time": "12:55",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2138,
+    "body": "having a nice meal with my family :)",
+    "picture": "hannah3.PNG",
+    "actor": "hannah-foods",
+    "time": "60:23",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2139,
+    "body": "Dark shades with a dark dessert",
+    "picture": "IMG_0963.jpg",
+    "actor": "itsbracybaby",
+    "time": "-08:23",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2140,
+    "body": "I scream you scream",
+    "picture": "IMG_0964.jpg",
+    "actor": "itsbracybaby",
+    "time": "-19:18",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2141,
+    "body": "Straight from the source #tb",
+    "picture": "IMG_1696.jpg",
+    "actor": "itsbracybaby",
+    "time": "14:32",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2142,
+    "body": "Proud parents of a beautiful ice cream",
+    "picture": "IMG_2247.jpg",
+    "actor": "itsbracybaby",
+    "time": "28:22",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2143,
+    "body": "Feeling fancy",
+    "picture": "IMG_8415.jpg",
+    "actor": "itsbracybaby",
+    "time": "39:45",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2144,
+    "body": "I know you're jealous",
+    "picture": "IMG_0720.jpeg",
+    "actor": "kingsaqueen",
+    "time": "12:53",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2145,
+    "body": "It's cute, don't you dare say otherwise :)",
+    "picture": "IMG_0719.jpeg",
+    "actor": "kingsaqueen",
+    "time": "36:21",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2146,
+    "body": "No boy could make me as happy as I am right not with this",
+    "picture": "1 (4).jpg",
+    "actor": "crystaling",
+    "time": "15:32",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2147,
+    "body": "Are you a boba manic like I am?",
+    "picture": "3.pic_hd.jpg",
+    "actor": "crystaling",
+    "time": "38:47",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2148,
+    "body": "More tea for me and you!",
+    "picture": "4.pic_hd.jpg",
+    "actor": "crystaling",
+    "time": "63:34",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2149,
+    "body": "I know what you're thinking. How can something so dirty taste so great?",
+    "picture": "jack3.jpg",
+    "actor": "creativEATS",
+    "time": "-12:54",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "yes",
+    "study2_n20": "yes",
+    "study2_n80": "no"
+  },
+  {
+    "id": 2150,
+    "body": "Woah, who ever thought of this combination is a genius",
+    "picture": "jack4.jpg",
+    "actor": "creativEATS",
+    "time": "14:24",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2151,
+    "body": "You better know that I'm enjoying this :p",
+    "picture": "wang1.jpg",
+    "actor": "creativEATS",
+    "time": "14:25",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2152,
+    "body": "Can't get my eyes off of this platter",
+    "picture": "jack2.jpg",
+    "actor": "creativEATS",
+    "time": "36:45",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2153,
+    "body": "No, you cannot take my seat",
+    "picture": "jack6.jpg",
+    "actor": "creativEATS",
+    "time": "65:23",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "no",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2154,
+    "body": "I wish you can smell the yuminess 🤭",
+    "picture": "cupcakess.png",
+    "actor": "sweetcakers",
+    "time": "11:36",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2155,
+    "body": "Out having the best smoothies with my best buddy!",
+    "picture": "smoothie.png",
+    "actor": "sweetcakers",
+    "time": "28:55",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2156,
+    "body": "Sometimes I can't get enough of this!",
+    "picture": "piesapie.png",
+    "actor": "PIEorPI",
+    "time": "16:21",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2157,
+    "body": "Classic vibes",
+    "picture": "gatorades.png",
+    "actor": "PIEorPI",
+    "time": "39:56",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2158,
+    "body": "It's a feast!",
+    "picture": "lunchmeal.jpg",
+    "actor": "ChriWon",
+    "time": "15:43",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2159,
+    "body": "Had a special camera take this awesome photo!",
+    "picture": "1003.jpg",
+    "actor": "KamiT",
+    "time": "-07:25",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2160,
+    "body": "Boba boba boba!",
+    "picture": "1002.jpg",
+    "actor": "KamiT",
+    "time": "-18:14",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2161,
+    "body": "Ready, set, eat!!!",
+    "picture": "1005.jpg",
+    "actor": "KamiT",
+    "time": "11:43",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2162,
+    "body": "Family dinners are the best :)",
+    "picture": "1001.jpg",
+    "actor": "KamiT",
+    "time": "18:32",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2163,
+    "body": "Had a reunion with my bestie and she took this cute picture of me and this amazing food! Had to share ;)",
+    "picture": "1004.jpg",
+    "actor": "KamiT",
+    "time": "34:21",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2164,
+    "body": "#throwback Tell me one person that doesn't like burgers! You can count us out of that list!",
+    "picture": "1006.jpg",
+    "actor": "KamiT",
+    "time": "38:42",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2165,
+    "body": "Nice lunch with these girls!",
+    "picture": "1008.jpg",
+    "actor": "KamiT",
+    "time": "59:21",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2166,
+    "body": "Rainbow foods? :DD We wanted desserts!",
+    "picture": "1009.jpg",
+    "actor": "KamiT",
+    "time": "60:14",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2167,
+    "body": "#throwback I love this cutieee @julimuli",
+    "picture": "1007.jpg",
+    "actor": "KamiT",
+    "time": "65:33",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2168,
+    "body": "Fresh, yummy foods and desserts!",
+    "picture": "pasadena.jpg",
+    "actor": "pomipomi",
+    "time": "14:11",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2169,
+    "body": "A wholesome meal be getting me full!",
+    "picture": "12345.jpg",
+    "actor": "shirokuro",
+    "time": "13:24",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2170,
+    "body": "@KamiT I wish the other girls were here to tag this wonderful moment of ours!",
+    "picture": "23456.jpg",
+    "actor": "shirokuro",
+    "time": "40:16",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2171,
+    "body": "This is seriously the best thing I had all day ;)",
+    "picture": "0001.jpg",
+    "actor": "julimuli",
+    "time": "16:54",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2172,
+    "body": "Drinks were on me :)",
+    "picture": "678.jpg",
+    "actor": "daharms",
+    "time": "22:24",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2173,
+    "body": "I know I look dangerous, but I'm really not haha :D",
+    "picture": "789.jpg",
+    "actor": "daharms",
+    "time": "44:15",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2174,
+    "body": "Not your typical rainbow bagel",
+    "picture": "Emily_1.JPG",
+    "actor": "emily_quispe",
+    "time": "-13:13",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2175,
+    "body": "Dessert is hands down the best part of a meal",
+    "picture": "Emily_2.JPG",
+    "actor": "emily_quispe",
+    "time": "22:61",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2176,
+    "body": "Some homemade shrimp pasta!!",
+    "picture": "Emily_3.JPG",
+    "actor": "emily_quispe",
+    "time": "55:21",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2177,
+    "body": "Good friends and good wine are always a good time",
+    "picture": "Katy_1.JPG",
+    "actor": "katrose",
+    "time": "-10:15",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2178,
+    "body": "this day couldn't get any better",
+    "picture": "Katy_2.JPG",
+    "actor": "katrose",
+    "time": "00:06",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2179,
+    "body": "Classic",
+    "picture": "Katy_3.JPG",
+    "actor": "katrose",
+    "time": "20:20",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2180,
+    "body": "Dream big, sparkle bright, shine more (or something like that)",
+    "picture": "Katy_4.JPG",
+    "actor": "katrose",
+    "time": "41:40",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2181,
+    "body": "Not sure what this is exactly but it's delicious",
+    "picture": "Katy_5.JPG",
+    "actor": "katrose",
+    "time": "50:51",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2182,
+    "body": "Fav cousin",
+    "picture": "Katy_6.JPG",
+    "actor": "katrose",
+    "time": "66:03",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2183,
+    "body": "in da club with my bestest bud",
+    "picture": "drinks.png",
+    "actor": "janeross",
+    "time": "3:03",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2184,
+    "body": "seriously, why hasn't anyone told me about this sooner??",
+    "picture": "pokepoke.jpeg",
+    "actor": "janeross",
+    "time": "14:24",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2185,
+    "body": "nothing like a nice homecooked meal",
+    "picture": "mmcooking.png",
+    "actor": "kaykay027",
+    "time": "-05:22",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2186,
+    "body": "brunch time people! sorry about the blurry pic haha",
+    "picture": "blur.png",
+    "actor": "kaykay027",
+    "time": "11:28",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2187,
+    "body": "anddd sip!",
+    "picture": "drinking.png",
+    "actor": "kaykay027",
+    "time": "27:11",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2188,
+    "body": "look at these lovely people!",
+    "picture": "grouppic.png",
+    "actor": "kaykay027",
+    "time": "38:21",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2189,
+    "body": "sorry, i know you're jelly",
+    "picture": "whitedessert.png",
+    "actor": "kaykay027",
+    "time": "42:03",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2190,
+    "body": "she holds the record for this amazing pull haha",
+    "picture": "stretchhh.png",
+    "actor": "kaykay027",
+    "time": "61:34",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2191,
+    "body": "sharing this amazing moment with this girl here🍷",
+    "picture": "sharedrinks.jpg",
+    "actor": "bluejonie",
+    "time": "-05:11",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2192,
+    "body": "i was still hungry so i called up some people for late night pizza  😍 🍕",
+    "picture": "homemadepizza.jpg",
+    "actor": "bluejonie",
+    "time": "2:34",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2193,
+    "body": "i changed my hair color! do you love it, or do you love it? 💙",
+    "picture": "muchlove.jpg",
+    "actor": "bluejonie",
+    "time": "13:44",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2194,
+    "body": "chomping on these sandwiches here, with my pops! 🤣",
+    "picture": "chomp.jpg",
+    "actor": "bluejonie",
+    "time": "36:12",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2195,
+    "body": "cheers!",
+    "picture": "clanks.jpg",
+    "actor": "bluejonie",
+    "time": "62:01",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2196,
+    "body": "ignore the pasta. i look good here ;)",
+    "picture": "dave3.JPG",
+    "actor": "notdave",
+    "time": "-12:03",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
+  },
+  {
+    "id": 2197,
+    "body": "i know it's just water, but it was hella good water",
+    "picture": "dave1.JPG",
+    "actor": "notdave",
+    "time": "13:22",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2198,
+    "body": "smile bishes",
+    "picture": "dave4.JPG",
+    "actor": "notdave",
+    "time": "40:11",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2199,
+    "body": "this cake aint as sweet as moi",
+    "picture": "dave2.JPG",
+    "actor": "notdave",
+    "time": "64:33",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2200,
+    "body": "hello Cheddar's!",
+    "picture": "tracy1.JPG",
+    "actor": "tracybracy",
+    "time": "18:16",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2201,
+    "body": "look how thin!",
+    "picture": "tracy2.JPG",
+    "actor": "tracybracy",
+    "time": "36:44",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2202,
+    "body": "ikr, the water looks great! ;)",
+    "picture": "tracy3.JPG",
+    "actor": "tracybracy",
+    "time": "60:10",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2203,
+    "body": "#tb fully enjoyed myself here 😎",
+    "picture": "icescream.jpeg",
+    "actor": "sayarawring",
+    "time": "15:33",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2204,
+    "body": "eat, snap, love is right!",
+    "picture": "sayah.jpg",
+    "actor": "sayarawring",
+    "time": "36:45",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2205,
+    "body": "#tb couldn't have this day any other way 😬🍔",
+    "picture": "yummyburger.jpg",
+    "actor": "sayarawring",
+    "time": "62:22",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2206,
+    "body": "Beach food, best food #tb",
+    "picture": "beatrice1.JPG",
+    "actor": "BeatDaTrice",
+    "time": "16:01",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2207,
+    "body": "I scream to go",
+    "picture": "beatrice2.JPG",
+    "actor": "BeatDaTrice",
+    "time": "38:22",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2208,
+    "body": "Honestly, wish I knew what I was doing here too",
+    "picture": "beatrice3.JPG",
+    "actor": "BeatDaTrice",
+    "time": "67:21",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2209,
+    "body": "street food is soooo good!",
+    "picture": "yuri4.PNG",
+    "actor": "yurisings",
+    "time": "-36:01",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2210,
+    "body": "do stupid things, just don't hurt yourself",
+    "picture": "yuri2.jpeg",
+    "actor": "yurisings",
+    "time": "-18:22",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2211,
+    "body": "NOM OM NOM",
+    "picture": "yuri1.JPG",
+    "actor": "yurisings",
+    "time": "13:21",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2212,
+    "body": "so we had a competition, and i think i won muahaha",
+    "picture": "yuri3.HEIC",
+    "actor": "yurisings",
+    "time": "36:52",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2213,
+    "body": "prepping for a yummy dinner tonight!",
+    "picture": "yuri5.JPG",
+    "actor": "yurisings",
+    "time": "66:24",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2214,
+    "body": "soul food everyone",
+    "picture": "ng1.png",
+    "actor": "ashiNG",
+    "time": "-12:32",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2215,
+    "body": "peaceful night out",
+    "picture": "ng2.png",
+    "actor": "ashiNG",
+    "time": "23:11",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2216,
+    "body": "fancy round 2",
+    "picture": "ng3.png",
+    "actor": "ashiNG",
+    "time": "37:21",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2217,
+    "body": "happy in a cup",
+    "picture": "ng4.png",
+    "actor": "ashiNG",
+    "time": "68:38",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2218,
+    "body": "having an evening drink with these cuties",
+    "picture": "jason16.jpeg",
+    "actor": "drinksonyou",
+    "time": "-30:32",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2219,
+    "body": "happy birthday granny!",
+    "picture": "jason12.jpeg",
+    "actor": "drinksonyou",
+    "time": "-04:52",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2220,
+    "body": "never too early to drink!",
+    "picture": "jason17.jpeg",
+    "actor": "drinksonyou",
+    "time": "12:34",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2221,
+    "body": "never too late to drink!",
+    "picture": "jason14.jpeg",
+    "actor": "drinksonyou",
+    "time": "22:43",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2222,
+    "body": "soul food lunch with these dudes :D",
+    "picture": "jason15.jpeg",
+    "actor": "drinksonyou",
+    "time": "36:02",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2223,
+    "body": "having a drink with this cutie ;)",
+    "picture": "jason18.jpeg",
+    "actor": "drinksonyou",
+    "time": "46:33",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2224,
+    "body": "brunch time!!!",
+    "picture": "jason13.jpeg",
+    "actor": "drinksonyou",
+    "time": "58:22",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2225,
+    "body": "this is huge!",
+    "picture": "ra1.JPG",
+    "actor": "chaelson",
+    "time": "-04:55",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "yes",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2226,
+    "body": "it's mine! all mine!",
+    "picture": "ra2.JPG",
+    "actor": "chaelson",
+    "time": "20:12",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2227,
+    "body": "donut drinks??",
+    "picture": "ra3.JPG",
+    "actor": "chaelson",
+    "time": "42:56",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2228,
+    "body": "coffee breakkk",
+    "picture": "ra4.JPG",
+    "actor": "chaelson",
+    "time": "60:44",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2229,
+    "body": "Taking a break 😍",
+    "picture": "IMG_8955.jpg",
+    "actor": "honeylove",
+    "time": "30:02",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2230,
+    "body": "🍜soba noodle! 😍",
+    "picture": "IMG_9028.jpg",
+    "actor": "honeylove",
+    "time": "05:00",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2231,
+    "body": "A bit early..... but the oatmeal was not too bad.",
+    "picture": "IMG_9032.jpg",
+    "actor": "honeylove",
+    "time": "06:00",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2232,
+    "body": "❤️",
+    "picture": "hannah3.PNG",
+    "actor": "hannah-foods",
+    "time": "35:32",
+    "identifiable": "no",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2233,
+    "body": "hahaaaa 😹",
+    "picture": "brad4.PNG",
+    "actor": "bradlee",
+    "time": "40:00",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2234,
+    "body": "Blurry.... but whateva",
+    "picture": "wedge4.jpeg",
+    "actor": "alisonwedge",
+    "time": "51:01",
+    "identifiable": "yes",
+    "study3_n20": "yes",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2235,
+    "body": "just coffee",
+    "picture": "IMG_20171218_090206.jpg",
+    "actor": "james_c",
+    "time": "-15:11",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2236,
+    "body": "Made a pizza.",
+    "picture": "IMG_20181107_183356749_HDR.jpg",
+    "actor": "james_c",
+    "time": "-01:02",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2237,
+    "body": "Don't really have much food pictures.... So here is a #tb to a younger me eating cake",
+    "picture": "IMG_20180106_210600913_LL.jpg",
+    "actor": "james_c",
+    "time": "05:07",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2238,
+    "body": "😁 Fun with @zhang_x89",
+    "picture": "IMG_20170519_185912.jpg",
+    "actor": "james_c",
+    "time": "17:00",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2239,
+    "body": "Random photo of me.",
+    "picture": "IMG_20181020_141438039_BURST000_COVER_TOP.jpg",
+    "actor": "james_c",
+    "time": "50:05",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2240,
+    "body": "😋",
+    "picture": "IMG_20170519_185718.jpg",
+    "actor": "xin",
+    "time": "17:01",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2241,
+    "body": "Any questions??? 🤩",
+    "picture": "IMG_20161226_164537.jpg",
+    "actor": "xin",
+    "time": "-23:15",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "no"
+  },
+  {
+    "id": 2242,
+    "body": "#tb to good summer times!",
+    "picture": "IMG_20180616_093809255_BURST000_COVER.jpg",
+    "actor": "xin",
+    "time": "-17:23",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2243,
+    "body": "I know, but sometimes they just sooo good.",
+    "picture": "IMG_20180908_182100516_HDR.jpg",
+    "actor": "xin",
+    "time": "-01:45",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "no",
+    "study2_n20": "no",
+    "study2_n80": "yes"
+  },
+  {
+    "id": 2244,
+    "body": "This is happy me! 😂",
+    "picture": "IMG_20181028_181537445.jpg",
+    "actor": "xin",
+    "time": "04:12",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2245,
+    "body": "ANother photo of me eating....",
+    "picture": "IMG_20181107_183349480_HDR.jpg",
+    "actor": "xin",
+    "time": "10:45",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2246,
+    "body": "I cant have enough pepper and salt!",
+    "picture": "IMG_20181020_144920701.jpg",
+    "actor": "xin",
+    "time": "22:22",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2247,
+    "body": "Wish I would be back here....",
+    "picture": "IMG_20180530_213755098_HDR.jpg",
+    "actor": "xin",
+    "time": "34:21",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
+  },
+  {
+    "id": 2248,
+    "body": "Where is my food???",
+    "picture": "raquel5.jpg",
+    "actor": "raqueldunn",
+    "time": "40:12",
+    "identifiable": "yes",
+    "study3_n20": "no",
+    "study3_n80": "yes",
+    "study2_n0": "",
+    "study2_n20": "",
+    "study2_n80": ""
   }
 ]
