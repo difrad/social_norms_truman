@@ -71,8 +71,8 @@ block content
                   
                 .comment(commentID=comment.id)
                   a.avatar(href='#')
-                    if val.actor[namefilter] == "yes"
-                      img(src='/profile_pictures/'+val.actor.profile.picture)
+                    if comment.actor[namefilter] == "yes"
+                      img(src='/profile_pictures/'+comment.actor.profile.picture)
                     else
                       img(src='/public/user-profile.svg')
                   .content
