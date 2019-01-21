@@ -352,6 +352,75 @@ exports.getScriptPost = (req, res) => {
 	});
 };
 
+/**
+ * GET /
+ * List of Script posts for Feed
+*/
+exports.getScriptFeed = (req, res, next) => {
+
+
+  console.log("$#$#$#$#$#$#$START GET FEED$#$#$$#$#$#$#$#$#$#$#$#$#");
+  //console.log("time_diff  is now "+time_diff);
+  //console.log("time_limit  is now "+time_limit);
+  var scriptFilter = "";
+
+  if (req.params.modId == "study2_n0_p0" || req.params.modId == "study2_n0_p20" || req.params.modId == "study2_n0_p80")
+  {
+    scriptFilter = "study2_n0"
+  }
+  else if (req.params.modId == "study2_n20_p0" || req.params.modId == "study2_n20_p20" || req.params.modId == "study2_n20_p80")
+  {
+    scriptFilter = "study2_n20"
+  }
+  else 
+  {
+    scriptFilter = "study2_n80"
+  }
+
+  //req.params.modId
+  
+  //{
+  
+    Script.find()
+      .where('time').lte(0)
+      .where(scriptFilter).equals("yes")
+      .sort('-time')
+      .populate('actor')
+      .populate({ 
+       path: 'comments.actor',
+       populate: {
+         path: 'actor',
+         model: 'Actor'
+       } 
+    })
+      .exec(function (err, script_feed) {
+        if (err) { return next(err); }
+        //Successful, so render
+
+        //update script feed to see if reading and posts has already happened
+        var finalfeed = [];
+        finalfeed = script_feed;
+
+      
+      //shuffle up the list
+      //finalfeed = shuffle(finalfeed);
+
+
+      console.log("Script Size is now: "+finalfeed.length);
+      res.render('feed', { script: finalfeed, namefilter:req.params.modId});
+
+      });//end of Script.find()
+
+};//end of .getScript
+
+exports.getScriptPost = (req, res) => {
+
+  Script.findOne({ _id: req.params.id}, (err, post) => {
+    console.log(post);
+    res.render('script_post', { post: post });
+  });
+};
+
 /*
 ##############
 NEW POST

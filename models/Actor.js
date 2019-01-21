@@ -10,7 +10,17 @@ const actorSchema = new mongoose.Schema({
     location: String,
     bio: String,
     picture: String
-  }
+  },
+  
+  study2_n0_p0: String,
+  study2_n0_p20: String,
+  study2_n0_p80: String,
+  study2_n20_p0: String,
+  study2_n20_p20: String,
+  study2_n20_p80: String,
+  study2_n80_p0: String,
+  study2_n80_p20: String,
+  study2_n80_p80: String
 }, { timestamps: true });
 
 //Pretty sure this is dead code

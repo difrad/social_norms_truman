@@ -251,7 +251,7 @@ app.use('/profile_pictures',express.static(path.join(__dirname, 'profile_picture
  */
 app.get('/', passportConfig.isAuthenticated, scriptController.getScript);
 
-app.get('/newsfeed', scriptController.getScriptFeed);
+app.get('/newsfeed/:caseId', scriptController.getScriptFeed);
 
 app.post('/post/new', userpostupload.single('picinput'), check, csrf, scriptController.newPost);
 

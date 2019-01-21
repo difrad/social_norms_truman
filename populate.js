@@ -96,6 +96,17 @@ function createActorInstances() {
     actordetail.profile.age = actor_raw.age;
     actordetail.class = actor_raw.class;
     actordetail.username = actor_raw.username;
+
+    actordetail.study2_n0_p0 = actor_raw.study2_n0_p0;
+    actordetail.study2_n0_p20 = actor_raw.study2_n0_p20;
+    actordetail.study2_n0_p80 = actor_raw.study2_n0_p80;
+    actordetail.study2_n20_p0 = actor_raw.study2_n20_p0;
+    actordetail.study2_n20_p20 = actor_raw.study2_n20_p20;
+    actordetail.study2_n20_p80 = actor_raw.study2_n20_p80;
+    actordetail.study2_n80_p0 = actor_raw.study2_n80_p0;
+    actordetail.study2_n80_p20 = actor_raw.study2_n80_p20;
+    actordetail.study2_n80_p80 = actor_raw.study2_n80_p80;
+
     
     var actor = new Actor(actordetail);
          
@@ -145,6 +156,12 @@ function createPostInstances() {
           postdetail.highread = getReads(145,203);
           postdetail.actor = act;
           postdetail.time = timeStringToNum(new_post.time);
+
+          postdetail.study3_n20 = new_post.study3_n20;
+          postdetail.study3_n80 = new_post.study3_n80;
+          postdetail.study2_n0 = new_post.study2_n0;
+          postdetail.study2_n20 = new_post.study2_n20;
+          postdetail.study2_n80 = new_post.study2_n80;
 
           //console.log('Looking up Actor: ' + act.username); 
           //console.log(mongoose.Types.ObjectId.isValid(postdetail.actor.$oid));

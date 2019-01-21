@@ -16,6 +16,13 @@ const scriptSchema = new mongoose.Schema({
   likes: Number,
   actor: {type: Schema.ObjectId, ref: 'Actor'},
   reply: {type: Schema.ObjectId, ref: 'Script'},
+
+  study3_n20: String,
+  study3_n80: String,
+  study2_n0: String,
+  study2_n20: String,
+  study2_n80: String,
+
   time: Number, //in millisecons
 
   comments: [new Schema({
