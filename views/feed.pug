@@ -30,7 +30,7 @@ block content
         .content
           .right.floated.time.meta= (1547752372994 + val.time)
           |  
-          a(href='/user/'+val.actor.username)
+          a(href='#')
             if val.actor[namefilter] == "yes"
               img.ui.avatar.image(src=cdn+'/profile_pictures/'+val.actor.profile.picture)
             else
@@ -70,10 +70,13 @@ block content
                 
                   
                 .comment(commentID=comment.id)
-                  a.avatar(href='/user/'+comment.actor.username)
-                    img(src=cdn+'/profile_pictures/'+comment.actor.profile.picture)
+                  a.avatar(href='#')
+                    if val.actor[namefilter] == "yes"
+                      img(src='/profile_pictures/'+val.actor.profile.picture)
+                    else
+                      img(src='/public/user-profile.svg')
                   .content
-                    a.author(href='/user/'+comment.actor.username)=comment.actor.profile.name
+                    a.author(href='#')=comment.actor.profile.name
                     .metadata
                       span.date=(1547752372994 + val.time +comment.time)
                       .rating
@@ -92,7 +95,7 @@ block content
         .extra.content
           .ui.fluid.left.labeled.right.icon.input
             .ui.label
-              img.ui.avatar.image(src='/profile_pictures/3.jpg', name="Nick Johnson")           
+              img.ui.avatar.image(src='/public/user-profile.svg', name="Nick Johnson")           
             input.newcomment(type='text', placeholder='Write a Comment')
             i.big.send.link.icon
 
