@@ -493,7 +493,7 @@ setTimeout(function() {
 
   //Dimm cards as user scrolls - send Post to update DB on timing of events .image
   //$('.ui.fluid.card.dim') img.post $('.ui.fluid.card.dim .image'
-  $('img.post, .content.pro')
+  $('img.post.s3, .content.pro.s3')
   .visibility({
     once       : false,
     continuous : false,
