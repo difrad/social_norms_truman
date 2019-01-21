@@ -322,8 +322,8 @@ function createPostRepliesInstances() {
 
             if(pr){    
         
-              console.log('Looking up Actor ID is : ' + act._id); 
-              console.log('Looking up OP POST ID is : ' + pr._id); 
+              //console.log('Looking up Actor ID is : ' + act._id); 
+              //console.log('Looking up OP POST ID is : ' + pr._id); 
               var comment_detail = new Object();
               //postdetail.actor = {};
               comment_detail.body = new_replies.body
@@ -341,26 +341,26 @@ function createPostRepliesInstances() {
                 console.log('NEW Bully Time is : ' + comment_detail.time);
               }
               else{
-                console.log('####NORMAL COMMENT!');
+                //console.log('####NORMAL COMMENT!');
                 comment_detail.likes = getLikesComment();
                 //1 hr is 3600000
-                console.log('Time is of POST is: ' + pr.time); 
+                //console.log('Time is of POST is: ' + pr.time); 
                 let comment_time = pr.time + randomIntFromInterval(300000,3600000)
-                console.log('New Comment time is: ' + comment_time); 
+                //console.log('New Comment time is: ' + comment_time); 
                 comment_detail.time = comment_time;
-                console.log('NEW NON BULLY Time is : ' + comment_detail.time);
+                //console.log('NEW NON BULLY Time is : ' + comment_detail.time);
                 
-                console.log('NEW Time is : ' + comment_detail.time);
+                //console.log('NEW Time is : ' + comment_detail.time);
               }
 
-              console.log('Adding in Actor: ' + act.username);
+              //console.log('Adding in Actor: ' + act.username);
               comment_detail.actor = act;
 
               //pr.comments = insert_order(comment_detail, pr.comments);
-              console.log('Comment'+comment_detail.commentID+' on Post '+pr.post_id+' Length before: ' + pr.comments.length); 
+              //console.log('Comment'+comment_detail.commentID+' on Post '+pr.post_id+' Length before: ' + pr.comments.length); 
               pr.comments.push(comment_detail);
               pr.comments.sort(function(a, b) {return a.time - b.time;});
-              console.log('Comment'+comment_detail.commentID+' on Post '+pr.post_id+' Length After: ' + pr.comments.length); 
+              //console.log('Comment'+comment_detail.commentID+' on Post '+pr.post_id+' Length After: ' + pr.comments.length); 
               
 
                
@@ -399,6 +399,7 @@ function createPostRepliesInstances() {
         //Else no ACTOR Found
         console.log("****************Error IN: "+new_replies.id);
         console.log("No Actor Found!!!");
+        console.log("Can't find "+new_replies.actor)
         callback();
       }
       console.log("BoTTom REPLY for: "+new_replies.id);

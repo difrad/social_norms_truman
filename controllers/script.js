@@ -362,13 +362,15 @@ exports.getScriptFeed = (req, res, next) => {
   console.log("$#$#$#$#$#$#$START GET FEED$#$#$$#$#$#$#$#$#$#$#$#$#");
   //console.log("time_diff  is now "+time_diff);
   //console.log("time_limit  is now "+time_limit);
+  //study2_n0_p0
+  console.log("$#$#$#$#$#$#$START GET FEED$#$#$$#$#$#$#$#$#$#$#$#$#");
   var scriptFilter = "";
 
-  if (req.params.modId == "study2_n0_p0" || req.params.modId == "study2_n0_p20" || req.params.modId == "study2_n0_p80")
+  if (req.params.caseId == "study2_n0_p0" || req.params.caseId == "study2_n0_p20" || req.params.caseId == "study2_n0_p80")
   {
     scriptFilter = "study2_n0"
   }
-  else if (req.params.modId == "study2_n20_p0" || req.params.modId == "study2_n20_p20" || req.params.modId == "study2_n20_p80")
+  else if (req.params.caseId == "study2_n20_p0" || req.params.caseId == "study2_n20_p20" || req.params.caseId == "study2_n20_p80")
   {
     scriptFilter = "study2_n20"
   }
@@ -378,12 +380,13 @@ exports.getScriptFeed = (req, res, next) => {
   }
 
   //req.params.modId
+  console.log("#############SCRIPT FILTER IS NOW " + scriptFilter);
   
   //{
   
     Script.find()
-      .where('time').lte(0)
       .where(scriptFilter).equals("yes")
+      .where('time').lte(0)
       .sort('-time')
       .populate('actor')
       .populate({ 
@@ -407,7 +410,7 @@ exports.getScriptFeed = (req, res, next) => {
 
 
       console.log("Script Size is now: "+finalfeed.length);
-      res.render('feed', { script: finalfeed, namefilter:req.params.modId});
+      res.render('feed', { script: finalfeed, namefilter:req.params.caseId});
 
       });//end of Script.find()
 
