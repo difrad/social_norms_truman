@@ -203,7 +203,9 @@ app.use((req, res, next) => {
   }
 });
 
-app.use(lusca.xframe('SAMEORIGIN'));
+//app.use(lusca.xframe('SAMEORIGIN'));
+//allow-from https://example.com/
+app.use(lusca.xframe('allow-from https://cornell.qualtrics.com/'));
 app.use(lusca.xssProtection(true));
 
 app.use((req, res, next) => {
