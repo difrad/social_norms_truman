@@ -205,6 +205,7 @@ app.use((req, res, next) => {
 
 //app.use(lusca.xframe('SAMEORIGIN'));
 //allow-from https://example.com/
+//add_header X-Frame-Options "allow-from https://cornell.qualtrics.com/";
 app.use(lusca.xframe('allow-from https://cornell.qualtrics.com/'));
 app.use(lusca.xssProtection(true));
 
