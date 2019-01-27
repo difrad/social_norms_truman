@@ -34,7 +34,7 @@ block content
             if val.actor[namefilter] == "yes"
               img.ui.avatar.image(src=cdn+'/profile_pictures/'+val.actor.profile.picture)
             else
-              img.ui.avatar.image(src='/public/user-profile.svg')
+              img.ui.avatar.image(src=val.actor.profile.fakepic)
             span=val.actor.profile.name
         //-div(style="position: relative; z-index: 1;")
           img(src="image.png" style="position: absolute; z-index: 2;")
@@ -74,7 +74,7 @@ block content
                     if comment.actor[namefilter] == "yes"
                       img(src='/profile_pictures/'+comment.actor.profile.picture)
                     else
-                      img(src='/public/user-profile.svg')
+                      img(src=comment.actor.profile.fakepic)
                   .content
                     a.author(href='#')=comment.actor.profile.name
                     .metadata

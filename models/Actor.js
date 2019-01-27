@@ -9,7 +9,9 @@ const actorSchema = new mongoose.Schema({
     age: Number,
     location: String,
     bio: String,
+    fakepic: String,
     picture: String
+
   },
   
   study2_n0_p0: String,

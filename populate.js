@@ -2,7 +2,8 @@
 
 console.log('This script is running!!!!');
 
-
+const bcrypt = require('bcrypt-nodejs');
+const crypto = require('crypto');
 var async = require('async')
 var Actor = require('./models/Actor.js');
 var Script = require('./models/Script.js');
@@ -106,6 +107,9 @@ function createActorInstances() {
     actordetail.study2_n80_p0 = actor_raw.study2_n80_p0;
     actordetail.study2_n80_p20 = actor_raw.study2_n80_p20;
     actordetail.study2_n80_p80 = actor_raw.study2_n80_p80;
+
+    var md5 = crypto.createHash('md5').update(actor_raw.username).digest('hex');
+    actordetail.profile.fakepic = `https://gravatar.com/avatar/${md5}?s=200&d=retro`;
 
     
     var actor = new Actor(actordetail);
@@ -313,7 +317,7 @@ function actorNotifyCreate() {
 function createPostRepliesInstances() {
   async.eachSeries(comment_list, function(new_replies, callback) {
 
-    console.log("start REPLY for: "+new_replies.id);
+    //console.log("start REPLY for: "+new_replies.id);
     Actor.findOne({ username: new_replies.actor}, (err, act) => {
 
       if(act)
@@ -373,13 +377,13 @@ function createPostRepliesInstances() {
                 console.log("@@@@@@@@@@@@@@@@Something went wrong in Saving COMMENT!!!");
                 console.log("Error IN: "+new_replies.id);
                 console.log('Looking up Actor: ' + act.username);
-                 console.log('Looking up OP POST ID: ' + pr._id); 
+                console.log('Looking up OP POST ID: ' + pr._id); 
                 console.log('Time is : ' + new_replies.time); 
                 console.log('NEW Time is : ' + comment_detail.time);
                 console.log(err);
                 callback(err);
               }
-              console.log('Added new Comment to Post: ' + pr.id);
+              //console.log('Added new Comment to Post: ' + pr.id);
               callback();
             });
             }// if PR
@@ -397,7 +401,7 @@ function createPostRepliesInstances() {
       else
       {
         //Else no ACTOR Found
-        console.log("****************Error IN: "+new_replies.id);
+        console.log("****************Error IN Comment: "+new_replies.id);
         console.log("No Actor Found!!!");
         console.log("Can't find "+new_replies.actor)
         callback();
