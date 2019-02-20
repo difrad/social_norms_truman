@@ -99,7 +99,11 @@ html
 
     //include partials/ui_footer
     //- New Post Modal
-    .ui.tiny.post.modal
+    //-
+      var nudge = "no";
+      if (user.post_nudge) 
+        {nudge = user.post_nudge}
+    //-.ui.tiny.post.modal(nudge=nudge)
       i.close.icon
       .header Add a New Post
       .content
@@ -116,6 +120,14 @@ html
           .ui.error.message
       .actions
         input.ui.green.button(type='submit', name="foo", value='Submit', form='postform')
+
+    //-.ui.tiny.nudge.modal
+      .header Are you sure?
+      .content
+        p Do you really want to submit this post?
+      .actions
+        .ui.approve.button Yes
+        .ui.cancel.button No
 
     //-script(src='/js/lib/jquery-3.1.1.min.js')
 

@@ -4,6 +4,7 @@ block content
 
   
   -var cdn = "https://eatsnaplove.nyc3.cdn.digitaloceanspaces.com";
+  -var cdn = "";
   .computer.only.tablet.only.four.wide.column 
     .ui.card
       .image
@@ -37,30 +38,6 @@ block content
           img.ui.avatar.image(src=user.gravatar(60))
       input(type='text', placeholder='Share your meal')
       i.big.photo.link.icon
-
-    // if profile_card != -1
-      .ui.raised.fluid.card.profile_card(postID=profile_card.username, transparency='no', profile="yes") 
-        //-h3.ui.center.aligned.header(style="background-image: url('/public/checkered4.png');background-size: contain;")
-          br
-          a.pro_name_link(href='/user/'+profile_card.username)
-            img.ui.centered.tiny.circular.image.pro_name_image(src='/profile_pictures/'+profile_card.pro_image)
-          br
-        .content.pro(style="background-image: url('/public/checkered6.png');background-size: cover;")
-          .center.aligned
-            a.pro_name_link(href='/user/'+profile_card.username)
-              img.ui.centered.small.circular.image.pro_name_image(src='/profile_pictures/'+profile_card.pro_image)
-        .content(style="white-space:nowrap;")
-          span(style="font-size:150%;font-weight: bold;")="What's on "
-          a.pro_name_link(href='/user/'+profile_card.username)
-            span(style="font-size:150%;").pro_name=profile_card.name
-          span(style="font-size:150%;")="'s plate? "
-          br
-          span(style="white-space:normal;")=(user.profile.name || user.username)+", we care about helping you connect with others. Browse through "+profile_card.name+"'s posts. Imagine how "+profile_card.name+" feels and what is going on in " +profile_card.pronoun+" life."
-        .content()
-          .ui.three.column.grid.pro
-            each post in profile_card.posts
-              .column.profile(body=post.body, time=post.time)
-                img.ui.fluid.image(src="/post_pictures/"+post.picture)
   
     each val in script
       //- create a card for each post in val (if by user make the card a little different)
@@ -138,9 +115,11 @@ block content
                       else
                         .comment(commentID=comment.commentID)
                           a.avatar(href='/user/'+comment.actor.username)
-                            //-https://eatsnaplove.nyc3.digitaloceanspaces.com/profile_pictures/343kol.png
-                            //-https://eatsnaplove.nyc3.cdn.digitaloceanspaces.com/post_pictures/krzysztof-114.jpeg
-                            img(src=cdn+'/profile_pictures/'+comment.actor.profile.picture)
+                            //-img(src=cdn+'/profile_pictures/'+comment.actor.profile.picture)
+                            if comment.actor[profileFilter] == "yes"
+                              img(src='/profile_pictures/'+comment.actor.profile.picture)
+                            else
+                              img(src=comment.actor.profile.fakepic)
                           .content
                             a.author(href='/user/'+comment.actor.username)=comment.actor.profile.name
                             .metadata
@@ -198,29 +177,20 @@ block content
           .content
             .right.floated.time.meta= (user.createdAt.getTime() + val.time)
             |  
-            a(href='/user/'+val.actor.username)
+            //-a(href='/user/'+val.actor.username)
               img.ui.avatar.image(src=cdn+'/profile_pictures/'+val.actor.profile.picture)
               span=val.actor.profile.name
+            a(href='/user/'+val.actor.username)
+              if val.actor[profileFilter] == "yes"
+                img.ui.avatar.image(src=cdn+'/profile_pictures/'+val.actor.profile.picture)
+              else
+                img.ui.avatar.image(src=val.actor.profile.fakepic)
+            span=val.actor.profile.name
           //-div(style="position: relative; z-index: 1;")
             img(src="image.png" style="position: absolute; z-index: 2;")
             span#overlay_text(style="position: relative; top: -10px; z-index: 3;") OVERLAY
           .image
             img.post(src=cdn+"/post_pictures/"+val.picture)
-            if user.transparency == "yes"
-              if val.read
-                .read(style="text-align:center;background:#b5bfce;position: absolute;bottom: 0;width:100%;height: auto")
-                      p="You've read this!"
-                      a(href='/user/'+val.actor.username)
-                        img.ui.avatar.image(src=cdn+'/profile_pictures/'+val.actor.profile.picture)
-                        span=val.actor.profile.name
-                      |  has been notified.
-              else
-                .read(style="text-align:center;background:#b5bfce;display: none;position: absolute;bottom: 0;width:100%;height: auto")
-                      p="You've read this!"
-                      a(href='/user/'+val.actor.username)
-                        img.ui.avatar.image(src=cdn+'/profile_pictures/'+val.actor.profile.picture)
-                        span=val.actor.profile.name
-                      |  has been notified.
           .content
             .description=val.body
           .three.ui.bottom.attached.icon.buttons
@@ -272,7 +242,11 @@ block content
                     else
                       .comment(commentID=comment.id)
                         a.avatar(href='/user/'+comment.actor.username)
-                          img(src=cdn+'/profile_pictures/'+comment.actor.profile.picture)
+                          //-img(src=cdn+'/profile_pictures/'+comment.actor.profile.picture)
+                          if comment.actor[profileFilter] == "yes"
+                            img(src='/profile_pictures/'+comment.actor.profile.picture)
+                          else
+                            img(src=comment.actor.profile.fakepic)
                         .content
                           a.author(href='/user/'+comment.actor.username)=comment.actor.profile.name
                           .metadata
@@ -354,44 +328,28 @@ block content
     br
     br
     br
-    .ui.small.modal.pro
-      .image.content
-        .ui.fluid.card.dim
-          //- Normal Base Post
-          .content
-            .right.floated.meta.pro_time= "2 Days Ago"
-            //-.right.floated.time.meta= (user.createdAt.getTime() + val.time)
-            |  
-            a.mod_pro_name_link(href='/user/NoahM1121')
-              img.ui.avatar.image.mod_pro(src='/picture.svg')
-              span.mod_name="Noah Marshall"
-          .image
-            //-img.post.mod_photo(src="")
-            img(src='/picture.svg', data-src="val.picture")
-          .content
-            .description.mod_body="Totes my Goats"
-          .three.ui.bottom.attached.icon.buttons
-            .ui.reply.button(tabindex='0')
-              i.reply.icon
-              |  Reply
-            .ui.flag.button(tabindex='0')
-              i.flag.icon
-              |  Flag
-            .ui.labeled.button(tabindex='0')
-              .ui.like.button
-                i.heart.icon
-                |  Like
-              a.ui.basic.red.left.pointing.label.count=5
-    //- New Reply Modal
-    .ui.small.reply.modal
+    .ui.tiny.post.modal(nudge=user.post_nudge)
       i.close.icon
-      .header Reply to Post
+      .header Add a New Post
       .content
-        form#replyform.ui.reply.form(action='/post/new', method='POST', enctype='multipart/form-data')
+        form#postform.ui.feed.form(action='/post/new', method='POST', enctype='multipart/form-data')
           input(type='hidden', name='_csrf', value=_csrf)
-          input#replyInput(type='hidden', name='reply', value='a')
           .field
-            textarea(rows='2', placeholder='Add your Reply', name='body')
+            textarea(rows='2', placeholder='Share your meal', name='body')
+          .field.image-upload
+            label(for='picinput')
+              .image.content
+                img#imgInp.ui.fluid.image(src='/public/photo-camera.svg')
+            //-input#picinput(type='file', accept='image/*', capture='camera', name='picinput')
+            input#picinput(type='file', accept='image/*', name='picinput')
           .ui.error.message
       .actions
-        input.ui.green.button(type='submit', value='Submit', form='replyform')
+        input.ui.green.button(type='submit', name="foo", value='Submit', form='postform')
+
+    .ui.tiny.nudge.modal
+      .header Are you sure?
+      .content
+        p Do you really want to submit this post?
+      .actions
+        .ui.approve.button Yes
+        .ui.cancel.button No

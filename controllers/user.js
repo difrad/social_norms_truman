@@ -174,9 +174,11 @@ exports.postSignup = (req, res, next) => {
 
   //random assignment of experimental group
   //var result = ['no:no:no', 'no:yes:no','yes:no:no', 'yes:yes:no','no:no:yes', 'no:yes:yes', 'yes:no:yes', 'yes:yes:yes'][Math.floor(Math.random() * 8)]
-  var result = ['no:no', 'no:yes','yes:no', 'yes:yes'][Math.floor(Math.random() * 4)]
+  //var result = ['no:no', 'no:yes','yes:no', 'yes:yes'][Math.floor(Math.random() * 4)]
+  //study3_n20 or study3_n80
+  var result = ['study3_n20:no', 'study3_n20:yes','study3_n80:no', 'study3_n80:yes'][Math.floor(Math.random() * 4)]
   var resultArray = result.split(':');
-  //[0] is Social Transparency, [1] is Profile Perspective Taking, [2] Comment Prompt
+  //[0] is script_type, [1] is post_nudge
   const user = new User({
     email: req.body.email,
     password: req.body.password,
@@ -186,9 +188,11 @@ exports.postSignup = (req, res, next) => {
     active: true,
     ui: 'no', //ui or no
     notify: "no", //no, low or high (not used anymore)
-    transparency: resultArray[0], //yes or no
+    transparency: 'no',
     profile_perspective: "no", //yes or no
-    comment_prompt: resultArray[1], //yes or no
+    comment_prompt: 'no', //yes or no
+    script_type: resultArray[0], //type of script they are running in
+    post_nudge: resultArray[1],
     lastNotifyVisit : Date.now()
   });
 

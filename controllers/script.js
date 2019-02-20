@@ -42,6 +42,8 @@ exports.getScript = (req, res, next) => {
   var bully_post;
   var bully_count = 0;
 
+  var scriptFilter;
+  var profileFilter;
 
   console.log("$#$#$#$#$#$#$START GET SCRIPT$#$#$$#$#$#$#$#$#$#$#$#$#");
   //console.log("time_diff  is now "+time_diff);
@@ -65,7 +67,18 @@ exports.getScript = (req, res, next) => {
        model: 'Actor'
     })
   .exec(function (err, user) {
-  //User.findById(req.user.id, (err, user) => {
+  
+    if (user.script_type == "study3_n20")
+    {
+      scriptFilter = "study3_n20";
+      profileFilter = "study3_n20_p60";
+    }
+    else if (user.script_type == "study3_n80")
+    {
+      scriptFilter = "study3_n80";
+      profileFilter = "study_n80_p60";
+    }
+    
 
     //User is no longer active - study is over
     if (!user.active)
@@ -117,6 +130,7 @@ exports.getScript = (req, res, next) => {
   
 
     Script.find()
+      .where(scriptFilter).equals("yes")
       .where('time').lte(time_diff).gte(time_limit)
       .sort('-time')
       .populate('actor')
@@ -269,16 +283,6 @@ exports.getScript = (req, res, next) => {
                 script_feed.splice(0,1);
               }
 
-              //if bully post && firt viewing of the day
-              //&& ((req.user.createdAt + script_feed[0].comments[0].time) < time_now))
-              else if ( script_feed[0].class == "bullying" && user.study_days[current_day] > 0 && bully_count == 0 && !script_feed[0].read)
-              {
-                //console.log("!@!@!@!@!Found a bully post and will push it");
-                bully_post = script_feed[0];
-                bully_count = 1;
-                script_feed.splice(0,1);
-              }
-
               else
               {
                 //console.log("Post is NOT FLAGGED, ADDED TO FINAL FEED");
@@ -296,15 +300,6 @@ exports.getScript = (req, res, next) => {
                 script_feed.splice(0,1);
               }
 
-              //if bully post && firt viewing of the day
-              else if ( script_feed[0].class == "bullying" && user.study_days[current_day] > 0 && bully_count == 0)
-              {
-                //console.log("%$%$%$%$%$%$%$Found a bully post and will push it ^2");
-                bully_post = script_feed[0];
-                bully_count = 1;
-                script_feed.splice(0,1);
-              }
-
               else
               {
                 finalfeed.push(script_feed[0]);
@@ -316,14 +311,7 @@ exports.getScript = (req, res, next) => {
 
       
       //shuffle up the list
-      finalfeed = shuffle(finalfeed);
-
-      if (user.study_days[current_day] > 0 && bully_post)
-      {
-        var bully_index = Math.floor(Math.random() * 4) + 1 
-        finalfeed.splice(bully_index, 0, bully_post);
-        console.log("@@@@@@@@@@ Pushed a Bully Post to index "+bully_index);
-      }
+      //finalfeed = shuffle(finalfeed);
 
 
       user.save((err) => {
@@ -335,7 +323,7 @@ exports.getScript = (req, res, next) => {
       });
 
       console.log("Script Size is now: "+finalfeed.length);
-      res.render('script', { script: finalfeed});
+      res.render('script', { script: finalfeed, profileFilter: profileFilter});
 
       });//end of Script.find()
 

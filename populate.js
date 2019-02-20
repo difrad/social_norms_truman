@@ -108,6 +108,9 @@ function createActorInstances() {
     actordetail.study2_n80_p20 = actor_raw.study2_n80_p20;
     actordetail.study2_n80_p80 = actor_raw.study2_n80_p80;
 
+    actordetail.study3_n20_p60 = actor_raw.study3_n20_p60;
+    actordetail.study_n80_p60 = actor_raw.study_n80_p60;
+
     var md5 = crypto.createHash('md5').update(actor_raw.username).digest('hex');
     actordetail.profile.fakepic = `https://gravatar.com/avatar/${md5}?s=200&d=retro`;
 
@@ -166,6 +169,9 @@ function createPostInstances() {
           postdetail.study2_n0 = new_post.study2_n0;
           postdetail.study2_n20 = new_post.study2_n20;
           postdetail.study2_n80 = new_post.study2_n80;
+
+          postdetail.study3_n20 = new_post.study3_n20;
+          postdetail.study3_n80 = new_post.study3_n80;
 
           //console.log('Looking up Actor: ' + act.username); 
           //console.log(mongoose.Types.ObjectId.isValid(postdetail.actor.$oid));

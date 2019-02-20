@@ -80,8 +80,6 @@ $(window).on("load", function() {
 
   //get add new feed post modal to work
   $("#newpost, a.item.newpost").click(function () {
-    //$(' .ui.small.post.modal').modal('show'); 
-    //tiny
     $(' .ui.tiny.post.modal').modal('show'); 
 });
 
@@ -95,7 +93,7 @@ $(window).on("load", function() {
         rules: [
           {
             type   : 'empty',
-            prompt : 'Please add some text about what you ate'
+            prompt : 'Please add some text about your meal'
           }
         ]
       },
@@ -103,13 +101,49 @@ $(window).on("load", function() {
         identifier  : 'picinput',
         rules: [
           {
-            type: 'empty',
+            type: 'notExactly[/public/photo-camera.svg]',
             prompt : 'Please click on Camera Icon to add a photo'
           }
         ]
       }
+    },
+
+    onSuccess:function(event, fields){
+      console.log("Event is :");
+      //console.log(event);
+      console.log("fields is :");
+      //console.log(fields);
+      if($('.ui.tiny.post.modal').attr( "nudge" ) == "yes")
+        $('.ui.tiny.nudge.modal').modal('show');
+      else
+        $(".ui.feed.form")[0].submit();
     }
+
   });
+
+  $('.ui.feed.form').submit(function(e) {
+        e.preventDefault();
+        console.log("Submit the junks!!!!")
+        //$('.ui.tiny.nudge.modal').modal('show'); 
+        //return true;
+        });
+
+  $('.ui.tiny.nudge.modal')
+    .modal({
+      closable  : false,
+      onDeny    : function(){
+        //window.alert('Wait not yet!');
+        $(".ui.feed.form").trigger('reset');
+        $('#imgInp').attr('src', '/public/photo-camera.svg');
+        $('.ui.tiny.nudge.modal').modal('hide');
+        return false;
+      },
+      onApprove : function() {
+        //window.alert('Approved!');
+         $(".ui.feed.form")[0].submit();
+      }
+    })
+  ;
 
   $('.ui.reply.form')
   .form({

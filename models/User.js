@@ -25,6 +25,8 @@ const userSchema = new mongoose.Schema({
   group: String, //full group type
   ui: String,    //just UI type (no or ui)
   notify: String, //notification type (no, low or high)
+  script_type: String, //type of script they are running in
+  post_nudge: String, //yes/no on post nudge
 
   transparency: String,    //just UI type (no or yes)
   profile_perspective: String, //notification type (no, low or high)
