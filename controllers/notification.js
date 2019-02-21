@@ -94,7 +94,7 @@ exports.getNotifications = (req, res) => {
             if (notification_feed[i].userPost >= 0)
             {
               var userPostID = notification_feed[i].userPost;
-
+              //console.log("Looking at user post number: "+ userPostID)
               var user_post = user.getUserPostByID(userPostID);
               
               //!!!!!!!!@@@@@@@@@@@@@@@This needs to change ()

@@ -141,25 +141,14 @@ block content
                                 a.like.comment Like
                               a.flag.comment Flag
           .extra.content
-            if user.comment_prompt == "yes"
-              .description(style="text-align:center;background:#E8E8E8")="How is "+(user.profile.name || user.username || user.id)+" Feeling?"
-              .ui.fluid.left.labeled.right.icon.input
-                .ui.label            
-                  if user.profile.picture
-                    img.ui.avatar.image(src='/user_post/'+user.profile.picture, name=user.profile.name || user.username || user.id)
-                  else
-                    img.ui.avatar.image(src=user.gravatar(60), name=user.profile.name || user.username || user.id)
-                input.newcomment(type='text', placeholder='Write a Comment')
-                i.big.send.link.icon
-            else
-              .ui.fluid.left.labeled.right.icon.input
-                .ui.label
-                  if user.profile.picture
-                    img.ui.avatar.image(src='/user_post/'+user.profile.picture, name=user.profile.name || user.username || user.id)
-                  else
-                    img.ui.avatar.image(src=user.gravatar(60), name=user.profile.name || user.username || user.id)            
-                input.newcomment(type='text', placeholder='Write a Comment')
-                i.big.send.link.icon
+            .ui.fluid.left.labeled.right.icon.input
+              .ui.label
+                if user.profile.picture
+                  img.ui.avatar.image(src='/user_post/'+user.profile.picture, name=user.profile.name || user.username || user.id)
+                else
+                  img.ui.avatar.image(src=user.gravatar(60), name=user.profile.name || user.username || user.id)            
+              input.newcomment(type='text', placeholder='Write a Comment')
+              i.big.send.link.icon
 
       //-THIS is for posts by Actors, not the USER
       else
@@ -185,7 +174,7 @@ block content
                 img.ui.avatar.image(src=cdn+'/profile_pictures/'+val.actor.profile.picture)
               else
                 img.ui.avatar.image(src=val.actor.profile.fakepic)
-            span=val.actor.profile.name
+              span=val.actor.profile.name
           //-div(style="position: relative; z-index: 1;")
             img(src="image.png" style="position: absolute; z-index: 2;")
             span#overlay_text(style="position: relative; top: -10px; z-index: 3;") OVERLAY

@@ -516,7 +516,7 @@ $("i.big.send.link.icon").click(function() {
 
 
 //////TESTING
-setTimeout(function() {
+/*setTimeout(function() {
   //.ui.fluid.card.test
     $('.ui.fluid.card.test .content.read')
       .transition({
@@ -527,6 +527,7 @@ setTimeout(function() {
 
   //Dimm cards as user scrolls - send Post to update DB on timing of events .image
   //$('.ui.fluid.card.dim') img.post $('.ui.fluid.card.dim .image'
+  /*
   $('img.post.s3, .content.pro.s3')
   .visibility({
     once       : false,
@@ -608,7 +609,7 @@ setTimeout(function() {
 
         }
   })
-;//WTF!!!
+;//WTF!!!*/
 
 
 
