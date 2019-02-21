@@ -336,9 +336,19 @@ block content
         input.ui.green.button(type='submit', name="foo", value='Submit', form='postform')
 
     .ui.tiny.nudge.modal
-      .header Are you sure?
-      .content
-        p Do you really want to submit this post?
+      .header Checkup
+      //-.content
+        .image
+          img.image(src='/public/Nudge_final.png')
+        .description
+          p Do you really want to share this image?
+      .image.content
+        .ui.tiny.image
+          img(src='/public/Nudge_final.png')
+        .description
+          p
+            | Do you really want to share this image? Everyone on EatSnap.Love could potentially see this.
+          
       .actions
-        .ui.approve.button Yes
-        .ui.cancel.button No
+        .ui.green.approve.button Yes, share it
+        .ui.red.cancel.button No, don't share it
