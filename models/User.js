@@ -16,6 +16,7 @@ const userSchema = new mongoose.Schema({
 
   numPosts: { type: Number, default: -1 }, //not including replys
   numReplies: { type: Number, default: -1 }, //not including posts
+  numComments: { type: Number, default: -1 }, //not including posts
   numActorReplies: { type: Number, default: -1 }, //not including posts
 
   lastNotifyVisit: Date,
