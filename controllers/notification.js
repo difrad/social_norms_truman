@@ -37,6 +37,17 @@ exports.getNotifications = (req, res) => {
     //does not have COMMENTS in it yet - maybe have no likes or reads on USER made Comments
     var user_posts = user.getPosts();
 
+    if (user.script_type == "study3_n20")
+    {
+      scriptFilter = "study3_n20";
+      profileFilter = "study3_n20_p60";
+    }
+    else if (user.script_type == "study3_n80")
+    {
+      scriptFilter = "study3_n80";
+      profileFilter = "study_n80_p60";
+    }
+
     //Log our visit to Notifications
     user.logPage(Date.now(), "Notifications");
     user.lastNotifyVisit = Date.now();
@@ -538,7 +549,7 @@ exports.getNotifications = (req, res) => {
             }
             //req.flash('success', { msg: 'Profile information has been updated.' });
           });
-          res.render('notification', { notification_feed: final_notify });
+          res.render('notification', { notification_feed: final_notify, profileFilter: profileFilter });
 
 
 
