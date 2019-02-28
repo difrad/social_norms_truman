@@ -121,7 +121,9 @@ exports.postLogin = (req, res, next) => {
     }
     if (!(user.active)) {
       console.log("FINAL");
-      req.flash('final', { msg: '' });
+      var post_url = 'https://cornell.qualtrics.com/jfe/form/SV_0dK6TRfe3HfC6ax?id='+user.mturkID;
+      console.log("last url is "+post_url)
+      req.flash('final', { msg: post_url });
       return res.redirect('/login');
     }
     req.logIn(user, (err) => {
@@ -193,7 +195,8 @@ exports.postSignup = (req, res, next) => {
     comment_prompt: 'no', //yes or no
     script_type: resultArray[0], //type of script they are running in
     post_nudge: resultArray[1],
-    lastNotifyVisit : Date.now()
+    lastNotifyVisit : (Date.now() - 86400000),
+    createdAt: (Date.now() - 86400000)
   });
 
   User.findOne({ email: req.body.email }, (err, existingUser) => {
@@ -574,7 +577,7 @@ var sendFinalEmail = function(user){
       text: `Hey ${u_name},\n\n
       Thank you so much for participating in our study!\n
       Your participation has been a huge help in beta testing our app.
-      You have one last task to finish the study, and that is to take the final survey here at  https://cornell.qualtrics.com/jfe/form/SV_9BUHxhFPE5BiQpT\n\n
+      You have one last task to finish the study, and that is to take the final survey here at  https://cornell.qualtrics.com/jfe/form/SV_0dK6TRfe3HfC6ax?id=`+user.mturkID+`\n\n
       Thanks again for all your help and participation!\n
       Keep Eating, Snapping and Loving!\n 
       🍴📷.❤️ Team

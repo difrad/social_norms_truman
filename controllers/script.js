@@ -34,7 +34,8 @@ exports.getScript = (req, res, next) => {
   var time_diff = time_now - req.user.createdAt;
   //var today = moment();
   //var tomorrow = moment(today).add(1, 'days');
-  var time_limit = time_diff - 86400000; //one day in milliseconds
+  var two_days = 86400000 * 2; //two days in milliseconds
+  var time_limit = time_diff - two_days; 
 
   var user_ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
   var userAgent = req.headers['user-agent']; 
@@ -46,8 +47,8 @@ exports.getScript = (req, res, next) => {
   var profileFilter;
 
   console.log("$#$#$#$#$#$#$START GET SCRIPT$#$#$$#$#$#$#$#$#$#$#$#$#");
-  //console.log("time_diff  is now "+time_diff);
-  //console.log("time_limit  is now "+time_limit);
+  console.log("time_diff  is now "+time_diff);
+  console.log("time_limit  is now "+time_limit);
   
   User.findById(req.user.id)
   .populate({ 

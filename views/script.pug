@@ -178,8 +178,9 @@ block content
           //-div(style="position: relative; z-index: 1;")
             img(src="image.png" style="position: absolute; z-index: 2;")
             span#overlay_text(style="position: relative; top: -10px; z-index: 3;") OVERLAY
-          .image
-            img.post(src=cdn+"/post_pictures/"+val.picture)
+          .img.post
+            //-img.post(src="/"+val.picture)
+            img(src='/public/picture.svg', data-src="/post_pictures/"+val.picture, style="max-width:100%;width:100%;")
           .content
             .description=val.body
           .three.ui.bottom.attached.icon.buttons
@@ -280,7 +281,7 @@ block content
     .ui.fluid.card
       .content
         .description
-        |  End of Posts for the last 24 hours.
+        |  End of Posts for the last 48 hours.
     br
     br
     br

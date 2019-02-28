@@ -18,7 +18,7 @@ const util = require('util');
 
 var csvWriter = require('csv-write-stream');
 var mlm_writer = csvWriter();
-//var s_writer = csvWriter();
+var s_writer = csvWriter();
 var summary_writer = csvWriter();
 //5bb3a93ad9fd14471bf3977d
 //5bb3a93ad9fd14471bf39791
@@ -29,16 +29,13 @@ var bully_messages = ["5bb3a93ad9fd14471bf3977d",
 "5bb3a93ad9fd14471bf39792",
 "5bb3a93ad9fd14471bf397c8"];
 var bully_stats = [];
+var sur_array = [];
 
 Array.prototype.sum = function() {
     return this.reduce(function(a,b){return a+b;});
 };
 
 
-
-var victim = "5b4e207817c6a93896fa924d";
-var bully = "5b4e207817c6a93896fa923d";
-var bully_name = "bblueberryy";
 
 var mlm_array = [];
 
@@ -87,7 +84,7 @@ User.find()
     function(err, users){
 
       mlm_writer.pipe(fs.createWriteStream('results/mlm_eatsnaplove.csv'));
-      //s_writer.pipe(fs.createWriteStream('results/sur_eatsnaplove.csv'));
+      s_writer.pipe(fs.createWriteStream('results/posts_eatsnaplove.csv'));
       summary_writer.pipe(fs.createWriteStream('results/sum_eatsnaplove.csv'));
 
       for (var i = users.length - 1; i >= 0; i--) 
@@ -97,16 +94,16 @@ User.find()
         var sur = {};
         var sums = {};
         mlm.id = users[i].mturkID;
-        //sur.id = users[i].mturkID;
+        sur.id = users[i].mturkID;
         sums.id = users[i].mturkID;
 
 
         mlm.email = users[i].email;
-        //sur.email = users[i].email;
+        sur.email = users[i].email;
         sums.email = users[i].email;
 
         mlm.StartDate = users[i].createdAt;
-        //sur.StartDate = users[i].createdAt;
+        sur.StartDate = users[i].createdAt;
         sums.StartDate = users[i].createdAt;
 
         console.log("In User "+ users[i].email);
@@ -245,6 +242,24 @@ User.find()
         mlm.GeneralLikeNumber = 0;
         mlm.GeneralFlagNumber = 0;
 
+        sur.postID = -1;
+        sur.body = "";
+        sur.picture = "";
+        sur.absTime = "";
+
+        for (var pp = users[i].posts.length - 1; pp >= 0; pp--) 
+        { 
+          var temp_post = {};
+          temp_post = JSON.parse(JSON.stringify(sur));
+
+          //console.log("Checking User made post"+ users[i].posts[pp].postID)
+          temp_post.postID = users[i].posts[pp].postID;
+          temp_post.body = users[i].posts[pp].body;
+          temp_post.picture = users[i].posts[pp].picture;
+          temp_post.absTime = users[i].posts[pp].absTime;
+
+          sur_array.push(temp_post);
+        }
         
         //per feedAction
         for (var k = users[i].feedAction.length - 1; k >= 0; k--) 
@@ -293,6 +308,13 @@ User.find()
 
 
       mlm_writer.write(mlm);
+      s_writer.write(sur);
+
+      for (var zz = 0; zz < sur_array.length; zz++) {
+      //console.log("writing user "+ mlm_array[zz].email);
+      //console.log("writing Bully Post "+ mlm_array[zz].BullyingPost);
+      s_writer.write(sur_array[zz]);
+    }
 
     }//for each user
 
@@ -306,6 +328,7 @@ User.find()
       
     mlm_writer.end();
     summary_writer.end();
+    s_writer.end();
     console.log('Wrote MLM!');
     mongoose.connection.close();
 
