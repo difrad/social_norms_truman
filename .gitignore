@@ -19,6 +19,10 @@ public/css/main.css
 #user_uploads
 uploads/user_post
 
+#photos
+post_pictures
+profile_pictures
+
 # API keys and secrets
 .env
 
