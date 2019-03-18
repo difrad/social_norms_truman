@@ -613,20 +613,12 @@ $("i.big.send.link.icon").click(function() {
 //lazy loading of images
   $('.img.post img')
   .visibility({
-    type       : 'image',
-    offset: 350,
+    type       : 'image'
+    //offset: 450,
     //transition : 'fade in',
     //duration   : 1000,
 
-    onLoad:function(calculations) {
-        console.log("@@@@@@@ Real Image @@@@@@@@@");
-        //var data_src = $(this).attr( "data-src" );
-        //$(this).attr( "src",  data_src);
-        //style="color: inherit; display: inline;"
-        //$(this).attr( "style",  "max-width:100%;");
-        $('.img.post img').visibility('refresh');
-
-        }
+    
   })
 ;
 
