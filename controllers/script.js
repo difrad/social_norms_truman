@@ -378,7 +378,7 @@ exports.getScriptFeed = (req, res, next) => {
   //{
   
     Script.find()
-      .where(scriptFilter).equals("yes")
+      //.where(scriptFilter).equals("yes")
       //.where('time').lte(0)
       .sort('-time')
       .populate('actor')
