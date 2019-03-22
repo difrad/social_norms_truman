@@ -312,7 +312,7 @@ exports.getScript = (req, res, next) => {
 
       
       //shuffle up the list
-      //finalfeed = shuffle(finalfeed);
+      finalfeed = shuffle(finalfeed);
 
 
       user.save((err) => {
@@ -368,6 +368,10 @@ exports.getScriptFeed = (req, res, next) => {
     scriptFilter = "study2_n80"
   }
 
+  var profileFilter = "study_n80_p60";
+  var scriptFilter = "study3_n20";
+  //study3_n80
+
   //req.params.modId
   console.log("#############SCRIPT FILTER IS NOW " + scriptFilter);
   
@@ -375,7 +379,7 @@ exports.getScriptFeed = (req, res, next) => {
   
     Script.find()
       .where(scriptFilter).equals("yes")
-      .where('time').lte(0)
+      //.where('time').lte(0)
       .sort('-time')
       .populate('actor')
       .populate({ 
@@ -399,7 +403,7 @@ exports.getScriptFeed = (req, res, next) => {
 
 
       console.log("Script Size is now: "+finalfeed.length);
-      res.render('feed', { script: finalfeed, namefilter:req.params.caseId});
+      res.render('feed', { script: finalfeed, namefilter:profileFilter});
 
       });//end of Script.find()
 
