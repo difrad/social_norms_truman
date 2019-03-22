@@ -312,7 +312,7 @@ exports.getScript = (req, res, next) => {
 
       
       //shuffle up the list
-      finalfeed = shuffle(finalfeed);
+      //finalfeed = shuffle(finalfeed);
 
 
       user.save((err) => {
