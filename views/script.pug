@@ -1,10 +1,9 @@
-extends ui_layout
+extends ui_layout_no
   
 block content
 
   
   -var cdn = "https://eatsnaplove.nyc3.cdn.digitaloceanspaces.com";
-  -var cdn = "";
   .computer.only.tablet.only.four.wide.column 
     .ui.card
       .image
@@ -117,7 +116,8 @@ block content
                           a.avatar(href='/user/'+comment.actor.username)
                             //-img(src=cdn+'/profile_pictures/'+comment.actor.profile.picture)
                             if comment.actor[profileFilter] == "yes"
-                              img(src='/profile_pictures/'+comment.actor.profile.picture)
+                              //img(src=cdn+'/profile_pictures/'+comment.actor.profile.picture)
+                              img.lazyload(data-src=cdn+"/profile_pictures/"+comment.actor.profile.picture)
                             else
                               img(src=comment.actor.profile.fakepic)
                           .content
@@ -171,7 +171,8 @@ block content
               span=val.actor.profile.name
             a(href='/user/'+val.actor.username)
               if val.actor[profileFilter] == "yes"
-                img.ui.avatar.image(src=cdn+'/profile_pictures/'+val.actor.profile.picture)
+                //img.ui.avatar.image(src=cdn+'/profile_pictures/'+val.actor.profile.picture)
+                img.ui.avatar.image.lazyload(data-src=cdn+"/profile_pictures/"+val.actor.profile.picture)
               else
                 img.ui.avatar.image(src=val.actor.profile.fakepic)
               span=val.actor.profile.name
@@ -180,7 +181,8 @@ block content
             span#overlay_text(style="position: relative; top: -10px; z-index: 3;") OVERLAY
           .img.post
             //-img.post(src="/"+val.picture)
-            img(src='/public/picture.svg', data-src="/post_pictures/"+val.picture, style="max-width:100%;width:100%;")
+            //img(src='/public/picture.svg', data-src="/post_pictures/"+val.picture, style="max-width:100%;width:100%;")
+            img.lazyload(data-src=cdn+"/post_pictures/"+val.picture, style="max-width:100%;width:100%;")
           .content
             .description=val.body
           .three.ui.bottom.attached.icon.buttons
@@ -234,7 +236,8 @@ block content
                         a.avatar(href='/user/'+comment.actor.username)
                           //-img(src=cdn+'/profile_pictures/'+comment.actor.profile.picture)
                           if comment.actor[profileFilter] == "yes"
-                            img(src='/profile_pictures/'+comment.actor.profile.picture)
+                            //img(src=cdn+'/profile_pictures/'+comment.actor.profile.picture)
+                            img.lazyload(data-src=cdn+"/profile_pictures/"+comment.actor.profile.picture)
                           else
                             img(src=comment.actor.profile.fakepic)
                         .content

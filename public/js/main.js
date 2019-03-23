@@ -78,6 +78,11 @@ $(window).on("load", function() {
     parent.find( "input.newcomment" ).focus();
 });
 
+  $(' .ui.tiny.post.modal').modal({
+      observeChanges  : true
+    })
+  ;
+
   //get add new feed post modal to work
   $("#newpost, a.item.newpost").click(function () {
     $(' .ui.tiny.post.modal').modal('show'); 
@@ -609,7 +614,7 @@ $("i.big.send.link.icon").click(function() {
 
         }
   })
-;//WTF!!!*/
+;//WTF!!!
 //lazy loading of images
   $('.img.post img')
   .visibility({
@@ -621,6 +626,7 @@ $("i.big.send.link.icon").click(function() {
     
   })
 ;
+*/
 
 
 

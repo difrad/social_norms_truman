@@ -302,7 +302,7 @@ exports.getMe = (req, res) => {
 
     var allPosts = user.getPostsAndReplies();
 
-    res.render('me', { posts: allPosts });
+    res.render('me', { posts: allPosts.reverse() });
 
   });
 

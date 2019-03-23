@@ -83,13 +83,15 @@ html
     console.log("No it didn't. This happened: ", err)
     });
     }
-  //script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
-  script(src='/public/js/lib/jquery-3.1.1.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+  //script(src='/public/js/lib/jquery-3.1.1.min.js')
   script(src='/public/js/lib/humanized_time_span.js')
   //script(src='/js/lib/lazyload.transpiled.min.js')
   //script(src='/js/lib/bootstrap.min.js') humanized_time_span.js
+  //<script src="lazysizes.min.js" async=""></script>
+  script(src='/public/js/lib/lazysizes.min.js')
   script(src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js')
-  script(src='/public/js/main_no.js')
+  script(src='/public/js/main.js')
 
   body
     .ui.vertically.padded.grid.container
@@ -99,7 +101,11 @@ html
 
     //include partials/ui_footer
     //- New Post Modal
-    .ui.tiny.post.modal
+    //-
+      var nudge = "no";
+      if (user.post_nudge) 
+        {nudge = user.post_nudge}
+    //-.ui.tiny.post.modal(nudge=nudge)
       i.close.icon
       .header Add a New Post
       .content
@@ -116,6 +122,14 @@ html
           .ui.error.message
       .actions
         input.ui.green.button(type='submit', name="foo", value='Submit', form='postform')
+
+    //-.ui.tiny.nudge.modal
+      .header Are you sure?
+      .content
+        p Do you really want to submit this post?
+      .actions
+        .ui.approve.button Yes
+        .ui.cancel.button No
 
     //-script(src='/js/lib/jquery-3.1.1.min.js')
 
