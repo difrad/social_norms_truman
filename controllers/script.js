@@ -369,8 +369,10 @@ exports.getScriptFeed = (req, res, next) => {
   }
 
   var profileFilter = "study_n80_p60";
-  var scriptFilter = "study3_n80";
-  //study3_n80
+  var scriptFilter;
+  //study3_n20, study3_n80
+
+  scriptFilter = req.params.caseId;
 
   //req.params.modId
   console.log("#############SCRIPT FILTER IS NOW " + scriptFilter);
