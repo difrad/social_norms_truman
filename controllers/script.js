@@ -355,22 +355,21 @@ exports.getScriptFeed = (req, res, next) => {
   console.log("$#$#$#$#$#$#$START GET FEED$#$#$$#$#$#$#$#$#$#$#$#$#");
   var scriptFilter = "";
 
-  if (req.params.caseId == "study2_n0_p0" || req.params.caseId == "study2_n0_p20" || req.params.caseId == "study2_n0_p80")
-  {
-    scriptFilter = "study2_n0"
-  }
-  else if (req.params.caseId == "study2_n20_p0" || req.params.caseId == "study2_n20_p20" || req.params.caseId == "study2_n20_p80")
-  {
-    scriptFilter = "study2_n20"
-  }
-  else 
-  {
-    scriptFilter = "study2_n80"
-  }
+  
 
-  var profileFilter = "study_n80_p60";
-  var scriptFilter;
+  var profileFilter = "";
   //study3_n20, study3_n80
+
+  if (req.params.caseId == "study3_n20")
+    {
+      scriptFilter = "study3_n20";
+      profileFilter = "study3_n20_p60";
+    }
+    else if (req.params.caseId == "study3_n80")
+    {
+      scriptFilter = "study3_n80";
+      profileFilter = "study_n80_p60";
+    }
 
   scriptFilter = req.params.caseId;
 
