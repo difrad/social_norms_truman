@@ -92,6 +92,19 @@ const userSchema = new mongoose.Schema({
     page: String
     })],
 
+  postStats: [new Schema({
+    postID: Number,
+    citevisits: Number,
+    generalpagevisit: Number,
+    DayOneVists: Number,
+    DayTwoVists: Number,
+    DayThreeVists: Number,
+    GeneralLikeNumber: Number,
+    GeneralFlagNumber: Number,
+    GeneralPostNumber: Number,
+    GeneralCommentNumber: Number
+    })],
+
   blockAndReportLog: [new Schema({
     time: Date,
     action: String,
@@ -205,6 +218,45 @@ userSchema.methods.logPage = function logPage(time, page) {
     log.time = time;
     log.page = page;
     this.pageLog.push(log);
+};
+
+userSchema.methods.logPostStats = function logPage(postID) {
+
+    let log = {};
+    log.postID = postID;
+    log.citevisits = this.log.length;
+    log.generalpagevisit = this.pageLog.length;
+
+    if (this.study_days.length > 0)
+        {
+          log.DayOneVists = this.study_days[0];
+          log.DayTwoVists = this.study_days[1];
+          log.DayThreeVists = this.study_days[2];
+        }
+
+    log.GeneralLikeNumber = 0;
+    log.GeneralFlagNumber = 0;
+
+    for (var k = this.feedAction.length - 1; k >= 0; k--) 
+    {    
+      if(this.feedAction[k].post != null)
+      {
+        if(this.feedAction[k].liked)
+        {
+          log.GeneralLikeNumber++;
+        }
+        //total number of flags
+        if(this.feedAction[k].flagTime[0])
+        {
+          log.GeneralFlagNumber++;
+        }
+      }
+    }
+
+    log.GeneralPostNumber = this.numPosts + 1;
+    log.GeneralCommentNumber = this.numComments + 1;
+
+    this.postStats.push(log);
 };
 
 /**

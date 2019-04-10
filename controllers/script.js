@@ -90,6 +90,7 @@ exports.getScript = (req, res, next) => {
     }
 
     user.logUser(time_now, userAgent, user_ip);
+    user.logPage(Date.now(), "script");
 
     //what day in the study are we in???
   var one_day = 86400000; //303,695,677 259,200,000
@@ -510,6 +511,7 @@ exports.newPost = (req, res) => {
 
           //console.log("numPost is now "+user.numPosts);
           user.posts.unshift(post);
+          user.logPostStats(post.postID);
           //console.log("CREATING NEW POST!!!");
 
           user.save((err) => {
@@ -574,7 +576,7 @@ exports.postUpdateFeedAction = (req, res, next) => {
     if(feedIndex==-1)
     {
       //Post does not exist yet in User DB, so we have to add it now
-      //console.log("$$$$$Making new feedAction Object! at post ", req.body.postID);
+      console.log("$$$$$Making new feedAction Object! at post ", req.body.postID);
       var cat = new Object();
       cat.post = req.body.postID;
       if(!(req.body.start))
@@ -585,192 +587,169 @@ exports.postUpdateFeedAction = (req, res, next) => {
       cat.rereadTimes = 0;
       //add new post into feedAction
       user.feedAction.push(cat);
+      feedIndex = user.feedAction.length - 1;
 
     }
-    else
+
+    //we found the right post, and feedIndex is the right index for it
+    console.log("##### FOUND post "+req.body.postID+" at index "+ feedIndex);
+
+    //create a new Comment
+    if(req.body.new_comment)
     {
-      //we found the right post, and feedIndex is the right index for it
-      console.log("##### FOUND post "+req.body.postID+" at index "+ feedIndex);
+       
+        var cat = new Object();
+        cat.new_comment = true;
+        user.numReplies = user.numReplies + 1;
+        cat.new_comment_id = user.numReplies; 
+        cat.comment_body = req.body.comment_text;
+        //console.log("Start Time is: "+user.feedAction[feedIndex].startTime);
+        //console.log("DATE Time is: "+req.body.new_comment);
+        cat.commentTime = req.body.new_comment - user.feedAction[feedIndex].startTime;
+        //console.log("Comment Time is: "+cat.commentTime);
 
-      //create a new Comment
-      if(req.body.new_comment)
+        //create a new cat.comment id for USER replies here to do actions on them. Empty now
+
+        cat.absTime = Date.now();
+        cat.time = cat.absTime - user.createdAt;
+        user.feedAction[feedIndex].comments.push(cat);
+        user.feedAction[feedIndex].replyTime = [cat.time];
+        user.numComments = user.numComments + 1;
+      
+        //console.log("$#$#$#$#$#$$New  USER COMMENT Time: ", cat.commentTime);
+    }
+
+    //Are we doing anything with a comment?
+    else if(req.body.commentID)
+    {
+      console.log("We have a comment action");
+      var commentIndex = _.findIndex(user.feedAction[feedIndex].comments, function(o) { return o.comment == req.body.commentID; });
+
+      //no comment in this post-actions yet
+      if(commentIndex==-1)
       {
-         
-          var cat = new Object();
-          cat.new_comment = true;
-          user.numReplies = user.numReplies + 1;
-          cat.new_comment_id = user.numReplies; 
-          cat.comment_body = req.body.comment_text;
-          //console.log("Start Time is: "+user.feedAction[feedIndex].startTime);
-          //console.log("DATE Time is: "+req.body.new_comment);
-          cat.commentTime = req.body.new_comment - user.feedAction[feedIndex].startTime;
-          //console.log("Comment Time is: "+cat.commentTime);
-
-          //create a new cat.comment id for USER replies here to do actions on them. Empty now
-
-          cat.absTime = Date.now();
-          cat.time = cat.absTime - user.createdAt;
-          user.feedAction[feedIndex].comments.push(cat);
-          user.feedAction[feedIndex].replyTime = [cat.time];
-          user.numComments = user.numComments + 1;
-        
-          //console.log("$#$#$#$#$#$$New  USER COMMENT Time: ", cat.commentTime);
+        console.log("@@@@@@@@@@ COMMENT new feedAction Object! at commentID ", req.body.commentID);
+        var cat = new Object();
+        cat.comment = req.body.commentID;
+        user.feedAction[feedIndex].comments.push(cat);
+        //commentIndex = 0;
+        commentIndex = user.feedAction[feedIndex].comments.length - 1;
       }
 
-      //Are we doing anything with a comment?
-      else if(req.body.commentID)
+      //LIKE A COMMENT
+      if(req.body.like)
       {
-        var commentIndex = _.findIndex(user.feedAction[feedIndex].comments, function(o) { return o.comment == req.body.commentID; });
-
-        //no comment in this post-actions yet
-        if(commentIndex==-1)
+        console.log("Comment ID is  ", commentIndex);
+        let like = req.body.like - user.feedAction[feedIndex].startTime
+        console.log("!!!!!!New FIRST COMMENT LIKE Time: ", like);
+        if (user.feedAction[feedIndex].comments[commentIndex].likeTime)
         {
-          var cat = new Object();
-          cat.comment = req.body.commentID;
-          user.feedAction[feedIndex].comments.push(cat);
-          commentIndex = 0;
-        }
-
-        //LIKE A COMMENT
-        if(req.body.like)
-        {
-          let like = req.body.like - user.feedAction[feedIndex].startTime
-          //console.log("!!!!!!New FIRST COMMENT LIKE Time: ", like);
-          if (user.feedAction[feedIndex].comments[commentIndex].likeTime)
-          {
-            user.feedAction[feedIndex].comments[commentIndex].likeTime.push(like);
-
-          }
-          else
-          {
-            user.feedAction[feedIndex].comments[commentIndex].likeTime = [like];
-            //console.log("!!!!!!!adding FIRST COMMENT LIKE time [0] now which is  ", user.feedAction[feedIndex].likeTime[0]);
-          }
-          user.feedAction[feedIndex].comments[commentIndex].liked = true;
-          
-        }
-
-        //FLAG A COMMENT
-        else if(req.body.flag)
-        {
-          let flag = req.body.flag - user.feedAction[feedIndex].startTime
-          //console.log("!!!!!!New FIRST COMMENT flag Time: ", flag);
-          if (user.feedAction[feedIndex].comments[commentIndex].flagTime)
-          {
-            user.feedAction[feedIndex].comments[commentIndex].flagTime.push(flag);
-
-          }
-          else
-          {
-            user.feedAction[feedIndex].comments[commentIndex].flagTime = [flag];
-            //console.log("!!!!!!!adding FIRST COMMENT flag time [0] now which is  ", user.feedAction[feedIndex].flagTime[0]);
-          }
-          user.feedAction[feedIndex].comments[commentIndex].flagged = true;
-          
-        }
-
-      }//end of all comment junk
-
-      //not a comment - its a post action
-      else
-      {
-        //update to new StartTime
-        if (req.body.start && (req.body.start > user.feedAction[feedIndex].startTime))
-        { 
-          //console.log("%%%%%% USER.feedAction.startTime  ", user.feedAction[feedIndex].startTime);
-          user.feedAction[feedIndex].startTime = req.body.start;
-          user.feedAction[feedIndex].rereadTimes++;
-          //console.log("%%%%%% NEW START time is now  ", user.feedAction[feedIndex].startTime);
-          //console.log("%%%%%% reRead counter is now  ", user.feedAction[feedIndex].rereadTimes); 
+          user.feedAction[feedIndex].comments[commentIndex].likeTime.push(like);
 
         }
-
-        //array of readTimes is empty and we have a new READ event
-        else if ((!user.feedAction[feedIndex].readTime)&&req.body.read && (req.body.read > user.feedAction[feedIndex].startTime))
-        { 
-          let read = req.body.read - user.feedAction[feedIndex].startTime
-          //console.log("!!!!!New FIRST READ Time: ", read);
-          user.feedAction[feedIndex].readTime = [read];
-          //console.log("!!!!!adding FIRST READ time [0] now which is  ", user.feedAction[feedIndex].readTime[0]);
-        }
-
-        //Already have a readTime Array, New READ event, need to add this to readTime array
-        else if ((user.feedAction[feedIndex].readTime)&&req.body.read && (req.body.read > user.feedAction[feedIndex].startTime))
-        { 
-          let read = req.body.read - user.feedAction[feedIndex].startTime
-          //console.log("%%%%%Add new Read Time: ", read);
-          user.feedAction[feedIndex].readTime.push(read);
-        }
-
-        //array of flagTime is empty and we have a new (first) Flag event
-        else if ((!user.feedAction[feedIndex].flagTime)&&req.body.flag && (req.body.flag > user.feedAction[feedIndex].startTime))
-        { 
-          let flag = req.body.flag - user.feedAction[feedIndex].startTime
-          //console.log("!!!!!New FIRST FLAG Time: ", flag);
-          user.feedAction[feedIndex].flagTime = [flag];
-          //console.log("!!!!!adding FIRST FLAG time [0] now which is  ", user.feedAction[feedIndex].flagTime[0]);
-        }
-
-        //Already have a flagTime Array, New FLAG event, need to add this to flagTime array
-        else if ((user.feedAction[feedIndex].flagTime)&&req.body.flag && (req.body.flag > user.feedAction[feedIndex].startTime))
-        { 
-          let flag = req.body.flag - user.feedAction[feedIndex].startTime
-          //console.log("%%%%%Add new FLAG Time: ", flag);
-          user.feedAction[feedIndex].flagTime.push(flag);
-        }
-
-        //array of likeTime is empty and we have a new (first) LIKE event
-        else if ((!user.feedAction[feedIndex].likeTime)&&req.body.like && (req.body.like > user.feedAction[feedIndex].startTime))
-        { 
-          let like = req.body.like - user.feedAction[feedIndex].startTime
-          //console.log("!!!!!!New FIRST LIKE Time: ", like);
-          user.feedAction[feedIndex].likeTime = [like];
-          user.feedAction[feedIndex].liked = true;
-          //console.log("!!!!!!!adding FIRST LIKE time [0] now which is  ", user.feedAction[feedIndex].likeTime[0]);
-        }
-
-        //Already have a likeTime Array, New LIKE event, need to add this to likeTime array
-        else if ((user.feedAction[feedIndex].likeTime)&&req.body.like && (req.body.like > user.feedAction[feedIndex].startTime))
-        { 
-          let like = req.body.like - user.feedAction[feedIndex].startTime
-          //console.log("%%%%%Add new LIKE Time: ", like);
-          user.feedAction[feedIndex].likeTime.push(like);
-          if(user.feedAction[feedIndex].liked)
-          {
-            user.feedAction[feedIndex].liked = false;
-          }
-          else
-          {
-            user.feedAction[feedIndex].liked = true;
-          }
-        }
-
-        //array of replyTime is empty and we have a new (first) REPLY event
-        else if ((!user.feedAction[feedIndex].replyTime)&&req.body.reply && (req.body.reply > user.feedAction[feedIndex].startTime))
-        { 
-          let reply = req.body.reply - user.feedAction[feedIndex].startTime
-          //console.log("!!!!!!!New FIRST REPLY Time: ", reply);
-          user.feedAction[feedIndex].replyTime = [reply];
-          //console.log("!!!!!!!adding FIRST REPLY time [0] now which is  ", user.feedAction[feedIndex].replyTime[0]);
-        }
-
-        //Already have a replyTime Array, New REPLY event, need to add this to replyTime array
-        else if ((user.feedAction[feedIndex].replyTime)&&req.body.reply && (req.body.reply > user.feedAction[feedIndex].startTime))
-        { 
-          let reply = req.body.reply - user.feedAction[feedIndex].startTime
-          //console.log("%%%%%Add new REPLY Time: ", reply);
-          user.feedAction[feedIndex].replyTime.push(reply);
-        }
-
         else
         {
-          //console.log("Got a POST that did not fit anything. Possible Error.")
+          user.feedAction[feedIndex].comments[commentIndex].likeTime = [like];
+          console.log("!!!!!!!adding FIRST COMMENT LIKE time [0] now which is  ", user.feedAction[feedIndex].likeTime[0]);
         }
-      }//else ALL POST ACTIONS IF/ELSES
+        user.feedAction[feedIndex].comments[commentIndex].liked = true;
+        
+      }
+
+      //FLAG A COMMENT
+      else if(req.body.flag)
+      {
+        let flag = req.body.flag - user.feedAction[feedIndex].startTime
+        console.log("!!!!!!New FIRST COMMENT flag Time: ", flag);
+        if (user.feedAction[feedIndex].comments[commentIndex].flagTime)
+        {
+          user.feedAction[feedIndex].comments[commentIndex].flagTime.push(flag);
+
+        }
+        else
+        {
+          user.feedAction[feedIndex].comments[commentIndex].flagTime = [flag];
+          //console.log("!!!!!!!adding FIRST COMMENT flag time [0] now which is  ", user.feedAction[feedIndex].flagTime[0]);
+        }
+        user.feedAction[feedIndex].comments[commentIndex].flagged = true;
+        
+      }
+
+    }//end of all comment junk
+
+    //not a comment - its a post action
+    else
+    {
+
+      //array of flagTime is empty and we have a new (first) Flag event
+      if ((!user.feedAction[feedIndex].flagTime)&&req.body.flag && (req.body.flag > user.feedAction[feedIndex].startTime))
+      { 
+        let flag = req.body.flag - user.feedAction[feedIndex].startTime
+        console.log("!!!!!New FIRST FLAG Time: ", flag);
+        user.feedAction[feedIndex].flagTime = [flag]; 
+        //console.log("!!!!!adding FIRST FLAG time [0] now which is  ", user.feedAction[feedIndex].flagTime[0]);
+      }
+
+      //Already have a flagTime Array, New FLAG event, need to add this to flagTime array
+      else if ((user.feedAction[feedIndex].flagTime)&&req.body.flag && (req.body.flag > user.feedAction[feedIndex].startTime))
+      { 
+        let flag = req.body.flag - user.feedAction[feedIndex].startTime
+        console.log("%%%%%Add new FLAG Time: ", flag);
+        user.feedAction[feedIndex].flagTime.push(flag);
+      }
+
+      //array of likeTime is empty and we have a new (first) LIKE event
+      else if ((!user.feedAction[feedIndex].likeTime)&&req.body.like && (req.body.like > user.feedAction[feedIndex].startTime))
+      { 
+        let like = req.body.like - user.feedAction[feedIndex].startTime
+        console.log("!!!!!!New FIRST LIKE Time: ", like);
+        user.feedAction[feedIndex].likeTime = [like];
+        user.feedAction[feedIndex].liked = true;
+        //console.log("!!!!!!!adding FIRST LIKE time [0] now which is  ", user.feedAction[feedIndex].likeTime[0]);
+      }
+
+      //Already have a likeTime Array, New LIKE event, need to add this to likeTime array
+      else if ((user.feedAction[feedIndex].likeTime)&&req.body.like && (req.body.like > user.feedAction[feedIndex].startTime))
+      { 
+        let like = req.body.like - user.feedAction[feedIndex].startTime
+        console.log("%%%%%Add new LIKE Time: ", like);
+        user.feedAction[feedIndex].likeTime.push(like);
+        if(user.feedAction[feedIndex].liked)
+        {
+          user.feedAction[feedIndex].liked = false;
+        }
+        else
+        {
+          user.feedAction[feedIndex].liked = true;
+        }
+      }
+
+      //array of replyTime is empty and we have a new (first) REPLY event
+      else if ((!user.feedAction[feedIndex].replyTime)&&req.body.reply && (req.body.reply > user.feedAction[feedIndex].startTime))
+      { 
+        let reply = req.body.reply - user.feedAction[feedIndex].startTime
+        //console.log("!!!!!!!New FIRST REPLY Time: ", reply);
+        user.feedAction[feedIndex].replyTime = [reply];
+        //console.log("!!!!!!!adding FIRST REPLY time [0] now which is  ", user.feedAction[feedIndex].replyTime[0]);
+      }
+
+      //Already have a replyTime Array, New REPLY event, need to add this to replyTime array
+      else if ((user.feedAction[feedIndex].replyTime)&&req.body.reply && (req.body.reply > user.feedAction[feedIndex].startTime))
+      { 
+        let reply = req.body.reply - user.feedAction[feedIndex].startTime
+        //console.log("%%%%%Add new REPLY Time: ", reply);
+        user.feedAction[feedIndex].replyTime.push(reply);
+      }
+
+      else
+      {
+        console.log("Got a POST that did not fit anything. Possible Error.")
+      }
+    }//else ALL POST ACTIONS IF/ELSES
 
        //console.log("####### END OF ELSE post at index "+ feedIndex);
 
-    }
+    //}//end of else
     //console.log("@@@@@@@@@@@ ABOUT TO SAVE TO DB on Post ", req.body.postID);
     user.save((err) => {
       if (err) {
@@ -786,7 +765,7 @@ exports.postUpdateFeedAction = (req, res, next) => {
       }
       //req.flash('success', { msg: 'Profile information has been updated.' });
       //res.redirect('/account');
-      //console.log("@@@@@@@@@@@ SAVED TO DB!!!!!!!!! ");
+      console.log("@@@@@@@@@@@ SAVED TO DB!!!!!!!!! ");
       res.send({result:"success"});
     });
   });
@@ -803,7 +782,7 @@ exports.postUpdateProFeedAction = (req, res, next) => {
     //somehow user does not exist here
     if (err) { return next(err); }
 
-    console.log("@@@@@@@@@@@ TOP profile is  ", req.body.postID);
+    console.log("@@@@@@@@@@@ TOP profile of PRO FEED  ", req.body.postID);
 
     //find the object from the right post in feed 
     var feedIndex = _.findIndex(user.profile_feed, function(o) { return o.profile == req.body.postID; });
