@@ -246,17 +246,43 @@ User.find()
         sur.body = "";
         sur.picture = "";
         sur.absTime = "";
+        sur.citevisits = -1;
+        sur.generalpagevisit = -1;
+        sur.DayOneVists = -1;
+        sur.DayTwoVists = -1;
+        sur.DayThreeVists = -1;
+        sur.GeneralLikeNumber = -1;
+        sur.GeneralFlagNumber = -1;
+        sur.GeneralPostNumber = -1;
+        sur.GeneralCommentNumber = -1;
 
+        console.log("User has "+ users[i].posts.length+" Posts");
         for (var pp = users[i].posts.length - 1; pp >= 0; pp--) 
         { 
           var temp_post = {};
           temp_post = JSON.parse(JSON.stringify(sur));
+
 
           //console.log("Checking User made post"+ users[i].posts[pp].postID)
           temp_post.postID = users[i].posts[pp].postID;
           temp_post.body = users[i].posts[pp].body;
           temp_post.picture = users[i].posts[pp].picture;
           temp_post.absTime = users[i].posts[pp].absTime;
+
+          var postStatsIndex = _.findIndex(users[i].postStats, function(o) { return o.postID == users[i].posts[pp].postID; });
+          if(postStatsIndex!=-1)
+          {
+              console.log("Check post LOG!!!!!!");
+              temp_post.citevisits = users[i].postStats[postStatsIndex].citevisits;
+              temp_post.generalpagevisit = users[i].postStats[postStatsIndex].generalpagevisit;
+              temp_post.DayOneVists = users[i].postStats[postStatsIndex].DayOneVists;
+              temp_post.DayTwoVists = users[i].postStats[postStatsIndex].DayTwoVists;
+              temp_post.DayThreeVists = users[i].postStats[postStatsIndex].DayThreeVists;
+              temp_post.GeneralLikeNumber = users[i].postStats[postStatsIndex].GeneralLikeNumber;
+              temp_post.GeneralFlagNumber = users[i].postStats[postStatsIndex].GeneralFlagNumber;
+              temp_post.GeneralPostNumber = users[i].postStats[postStatsIndex].GeneralPostNumber;
+              temp_post.GeneralCommentNumber = users[i].postStats[postStatsIndex].GeneralCommentNumber;
+          }
 
           sur_array.push(temp_post);
         }
@@ -308,13 +334,8 @@ User.find()
 
 
       mlm_writer.write(mlm);
-      s_writer.write(sur);
+      //s_writer.write(sur);
 
-      for (var zz = 0; zz < sur_array.length; zz++) {
-      //console.log("writing user "+ mlm_array[zz].email);
-      //console.log("writing Bully Post "+ mlm_array[zz].BullyingPost);
-      s_writer.write(sur_array[zz]);
-    }
 
     }//for each user
 
@@ -325,6 +346,12 @@ User.find()
       mlm_writer.write(mlm_array[zz]);
     }
     */
+    console.log("Post Table should be "+ sur_array.length);
+      for (var zz = 0; zz < sur_array.length; zz++) {
+      //console.log("writing user "+ mlm_array[zz].email);
+      console.log("writing Post for user "+ zz);
+      s_writer.write(sur_array[zz]);
+    }
       
     mlm_writer.end();
     summary_writer.end();
