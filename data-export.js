@@ -279,6 +279,8 @@ User.find()
               temp_post.DayTwoVists = users[i].postStats[postStatsIndex].DayTwoVists;
               temp_post.DayThreeVists = users[i].postStats[postStatsIndex].DayThreeVists;
               temp_post.GeneralLikeNumber = users[i].postStats[postStatsIndex].GeneralLikeNumber;
+              temp_post.GeneralPostLikes = users[i].postStats[postStatsIndex].GeneralPostLikes;
+              temp_post.GeneralCommentLikes = users[i].postStats[postStatsIndex].GeneralCommentLikes;
               temp_post.GeneralFlagNumber = users[i].postStats[postStatsIndex].GeneralFlagNumber;
               temp_post.GeneralPostNumber = users[i].postStats[postStatsIndex].GeneralPostNumber;
               temp_post.GeneralCommentNumber = users[i].postStats[postStatsIndex].GeneralCommentNumber;

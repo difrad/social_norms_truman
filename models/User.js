@@ -19,6 +19,9 @@ const userSchema = new mongoose.Schema({
   numComments: { type: Number, default: -1 }, //not including posts
   numActorReplies: { type: Number, default: -1 }, //not including posts
 
+  numPostLikes: { type: Number, default: 0 }, 
+  numCommentLikes: { type: Number, default: 0 }, 
+
   lastNotifyVisit: Date,
 
   mturkID: String,
@@ -100,6 +103,8 @@ const userSchema = new mongoose.Schema({
     DayTwoVists: Number,
     DayThreeVists: Number,
     GeneralLikeNumber: Number,
+    GeneralPostLikes:Number,
+    GeneralCommentLikes:Number,
     GeneralFlagNumber: Number,
     GeneralPostNumber: Number,
     GeneralCommentNumber: Number
@@ -234,8 +239,11 @@ userSchema.methods.logPostStats = function logPage(postID) {
           log.DayThreeVists = this.study_days[2];
         }
 
-    log.GeneralLikeNumber = 0;
+    log.GeneralLikeNumber = this.numPostLikes + this.numCommentLikes;
+    log.GeneralPostLikes = this.numPostLikes;
+    log.GeneralCommentLikes = this.numCommentLikes;
     log.GeneralFlagNumber = 0;
+
 
     for (var k = this.feedAction.length - 1; k >= 0; k--) 
     {    
@@ -243,7 +251,7 @@ userSchema.methods.logPostStats = function logPage(postID) {
       {
         if(this.feedAction[k].liked)
         {
-          log.GeneralLikeNumber++;
+          //log.GeneralLikeNumber++;
         }
         //total number of flags
         if(this.feedAction[k].flagTime[0])

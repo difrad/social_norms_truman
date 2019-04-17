@@ -653,6 +653,7 @@ exports.postUpdateFeedAction = (req, res, next) => {
           console.log("!!!!!!!adding FIRST COMMENT LIKE time [0] now which is  ", user.feedAction[feedIndex].likeTime[0]);
         }
         user.feedAction[feedIndex].comments[commentIndex].liked = true;
+        user.numCommentLikes++
         
       }
 
@@ -705,6 +706,7 @@ exports.postUpdateFeedAction = (req, res, next) => {
         console.log("!!!!!!New FIRST LIKE Time: ", like);
         user.feedAction[feedIndex].likeTime = [like];
         user.feedAction[feedIndex].liked = true;
+        user.numPostLikes++;
         //console.log("!!!!!!!adding FIRST LIKE time [0] now which is  ", user.feedAction[feedIndex].likeTime[0]);
       }
 
@@ -717,10 +719,12 @@ exports.postUpdateFeedAction = (req, res, next) => {
         if(user.feedAction[feedIndex].liked)
         {
           user.feedAction[feedIndex].liked = false;
+          user.numPostLikes--;
         }
         else
         {
           user.feedAction[feedIndex].liked = true;
+          user.numPostLikes++;
         }
       }
 
