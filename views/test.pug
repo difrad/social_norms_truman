@@ -124,6 +124,17 @@ block content
                 a.reply Reply
                 a.like Like
                 a.flag Flag
+            .ui.bottom.attached.negative.message
+              i.close.icon
+              .header
+                i.icon.red.flag
+                | Is this Cyberbullying?
+              br
+              button.positive.ui.button Yes
+              button.negative.ui.button No
+
+
+
       .content
         //-.description(style="text-align:center;background:#E8E8E8")="How is Cassie Feeling?"
         .ui.fluid.left.labeled.right.icon.input
@@ -169,7 +180,7 @@ block content
           input.newcomment(type='text', placeholder='Write a Comment')
           i.big.send.link.icon
 
-
+    //-.ui.blurring.segment
     .ui.fluid.card(postID="1")
       .content
         .right.floated.meta= "Yesterday"
@@ -177,8 +188,16 @@ block content
         a(href='/user/NoahM1121')
           img.ui.avatar.image(src='/profile_pictures/image-51.png')
           span='Jamie Taggart'
-      .image
-        img.post(src="/post_pictures/"+"vegan6.jpg")
+      .image.blurring
+        .ui.inverted.active.read.dimmer
+              .content
+                .center
+                  h2.ui.icon.header
+                    i.hide.icon
+                    |  This photo may have graphic of violent content
+                  br
+                  button.ui.black.button.reread Reveal? 
+        img.post(src="/post_pictures/"+"vegan6.jpg", style="filter: blur(5px);")
       .content
         .description="a little ranbow salad! soooooooooo much chopping though :P #eatclean"
         //-.right.floated.meta
@@ -213,6 +232,10 @@ block content
                 a.reply Reply
                 a.like Like
                 a.flag Flag
+          .ui.info.message
+            .ui.header Is this Cyberbullying
+            a.ui.button(href='#') Yes
+            a.ui.button(href='#') No 
           //-.comment
             a.avatar
               img(src='/profile_pictures/165.jpg')
